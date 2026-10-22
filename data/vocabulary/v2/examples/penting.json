@@ -1,0 +1,120 @@
+{
+  "query_id": "penting",
+  "levels": {
+    "A1": [
+      {
+        "word": "important",
+        "pos": "adjective",
+        "sense_key": "necessary-valuable",
+        "cefr_level": "A1",
+        "meaning_id": "penting karena diperlukan atau bernilai",
+        "register": "general",
+        "pattern": "important to/for someone; important to do something",
+        "example_en": "It is important to make time for rest.",
+        "sense_id": "cambridge-2ee004885bff2333f106-necessary-valuable",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/important",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "penting"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-2ee004885bff2333f106"
+      }
+    ],
+    "A2": [],
+    "B1": [
+      {
+        "word": "important",
+        "pos": "adjective",
+        "sense_key": "influential",
+        "cefr_level": "B1",
+        "meaning_id": "penting karena mempunyai pengaruh atau dampak besar",
+        "register": "general",
+        "pattern": "an important person/decision/event",
+        "example_en": "Moving abroad was an important decision in my life.",
+        "sense_id": "cambridge-2ee004885bff2333f106-influential",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/important",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "penting",
+          "berpengaruh"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-2ee004885bff2333f106"
+      }
+    ],
+    "B2": [],
+    "C1": [],
+    "C2": [
+      {
+        "word": "indispensable",
+        "pos": "adjective",
+        "sense_key": "cannot-manage-without",
+        "cefr_level": "C2",
+        "meaning_id": "begitu penting sehingga sulit menjalankan sesuatu tanpanya",
+        "register": "general",
+        "pattern": "indispensable to/for someone",
+        "example_en": "Reliable internet has become indispensable to my work.",
+        "sense_id": "cambridge-bf83ff3f214989e80b5d-cannot-manage-without",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/indispensable",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "penting",
+          "sangat penting"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-bf83ff3f214989e80b5d"
+      },
+      {
+        "word": "imperative",
+        "pos": "adjective",
+        "sense_key": "urgent-essential",
+        "cefr_level": "C2",
+        "meaning_id": "sangat penting atau mendesak untuk dilakukan",
+        "register": "formal",
+        "pattern": "it is imperative to do something",
+        "example_en": "It is imperative to protect everyone's personal data.",
+        "sense_id": "cambridge-56b0c50be24694694506-urgent-essential",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/imperative",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "penting",
+          "mendesak"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-56b0c50be24694694506"
+      }
+    ]
+  },
+  "relation": "shared_Indonesian_lookup_term_preserve_individual_senses",
+  "empty_slot": "No reviewed candidate in this version; not proof that none exists",
+  "production_approved": false
+}

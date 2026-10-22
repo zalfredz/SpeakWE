@@ -1,0 +1,69 @@
+{
+  "query_id": "makan",
+  "levels": {
+    "A1": [
+      {
+        "word": "eat",
+        "pos": "verb",
+        "sense_key": "food",
+        "cefr_level": "A1",
+        "meaning_id": "makan atau menyantap makanan",
+        "register": "general",
+        "pattern": "eat + food; eat breakfast/lunch/dinner",
+        "example_en": "We eat dinner together after work.",
+        "sense_id": "cambridge-f03f27c63e3656ccd1ee-food",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/eat",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "makan",
+          "menyantap"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-f03f27c63e3656ccd1ee"
+      }
+    ],
+    "A2": [],
+    "B1": [],
+    "B2": [
+      {
+        "word": "consume",
+        "pos": "verb",
+        "sense_key": "food-drink",
+        "cefr_level": "B2",
+        "meaning_id": "mengonsumsi makanan atau minuman",
+        "register": "formal",
+        "pattern": "consume + food/drink",
+        "example_en": "I try to consume less sugar during the week.",
+        "sense_id": "cambridge-9c59497d6d8b44939066-food-drink",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/consume",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "makan",
+          "minum",
+          "mengonsumsi"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-9c59497d6d8b44939066"
+      }
+    ],
+    "C1": [],
+    "C2": []
+  },
+  "relation": "shared_Indonesian_lookup_term_preserve_individual_senses",
+  "empty_slot": "No reviewed candidate in this version; not proof that none exists",
+  "production_approved": false
+}

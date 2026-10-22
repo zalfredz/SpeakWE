@@ -1,0 +1,435 @@
+{
+  "achievements": {
+    "label_id": "Pencapaian",
+    "practice_question_en": "Describe an achievement you are proud of.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-18a420804f8779cf76f1",
+      "expression-7dbc1d34027652fb5961",
+      "expression-7fcb3faedee142c6104d"
+    ]
+  },
+  "communication": {
+    "label_id": "Komunikasi",
+    "practice_question_en": "Why do misunderstandings happen between people?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-fc6dbfb7bbf3da70153e",
+      "expression-38794cdc9418edf1129b",
+      "expression-738ff09ba7709ec49503",
+      "expression-e1c305326a9b08333d0c",
+      "expression-6546de1156563437c893"
+    ]
+  },
+  "community": {
+    "label_id": "Komunitas",
+    "practice_question_en": "How can neighbours help each other?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-1f74eff855f285ec8d08",
+      "expression-0796d772d1a0e8e8c23c"
+    ]
+  },
+  "daily_life": {
+    "label_id": "Kehidupan sehari-hari",
+    "practice_question_en": "What do you usually do in the evening?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-618603a2283a1d06c5d0",
+      "expression-58267ac2144613a46b1d",
+      "expression-d8c42c8d5b366143985b"
+    ]
+  },
+  "decisions": {
+    "label_id": "Keputusan",
+    "practice_question_en": "What helps people make difficult decisions?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-f1449166e30ef1108253",
+      "expression-4226ba0ee195818ae1ca",
+      "expression-a992d95f912333ba46c3",
+      "expression-38794cdc9418edf1129b",
+      "expression-131debbcfa7f8f8fc2b4"
+    ]
+  },
+  "education": {
+    "label_id": "Pendidikan",
+    "practice_question_en": "Describe a learning experience that was important to you.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-a35f5be4690a0258524b",
+      "expression-f25ef3873c2ecef7ecec",
+      "expression-65424b365bd8c7e673f9",
+      "expression-6c654557f69d6664d156",
+      "expression-37e849f748cfdc89a71d",
+      "expression-f1449166e30ef1108253",
+      "expression-344f1c90f085de1ce7f4",
+      "expression-e3ca057d719955faeeaa",
+      "expression-9c158f51deb5bfc5c708",
+      "expression-8a4db7881475e40d50b6",
+      "expression-147d1b3c07da0a482996",
+      "expression-cf163d0f222044455bad",
+      "expression-8dae932ed70eb66170b8",
+      "expression-50470c49fd7293cfe6ba",
+      "expression-0d6c14d8f3ae41ea677a",
+      "expression-c8acf97cdfbd43a2e8f9",
+      "expression-b530a6f6bf189b90dc65",
+      "expression-1a3146b226170e5e9451",
+      "expression-a992d95f912333ba46c3",
+      "expression-b2ecb3f179f88beefc47",
+      "expression-3f119c58ca56280cd8df",
+      "expression-e0d80824b2db2e5012f2",
+      "expression-0796d772d1a0e8e8c23c",
+      "expression-131debbcfa7f8f8fc2b4",
+      "expression-f7374a2c7852880abb98",
+      "expression-53c1232aaa468af75c8e"
+    ]
+  },
+  "emotions": {
+    "label_id": "Perasaan",
+    "practice_question_en": "Describe a time when you felt nervous or excited.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-65424b365bd8c7e673f9",
+      "expression-18a420804f8779cf76f1",
+      "expression-7dbc1d34027652fb5961",
+      "expression-37e849f748cfdc89a71d",
+      "expression-533388b40b303c92802d",
+      "expression-5adab76b41aec0c80bb3",
+      "expression-53c1232aaa468af75c8e"
+    ]
+  },
+  "entertainment": {
+    "label_id": "Hiburan",
+    "practice_question_en": "What kinds of films do you enjoy?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-840f0263486ce3806233",
+      "expression-f7374a2c7852880abb98",
+      "expression-d51b106b095035f8d541"
+    ]
+  },
+  "environment": {
+    "label_id": "Lingkungan",
+    "practice_question_en": "What can individuals do to reduce waste?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-7f95f92cf381810c81ff",
+      "expression-02d959f2d0befcd40f00",
+      "expression-c8acf97cdfbd43a2e8f9"
+    ]
+  },
+  "experiences": {
+    "label_id": "Pengalaman",
+    "practice_question_en": "Describe an unexpected event in your life.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-f44a9539b53fe5a30a8c",
+      "expression-6c654557f69d6664d156",
+      "expression-c4f888cf77193ae7faa2",
+      "expression-fcab2fada8ebc0774306",
+      "expression-6546de1156563437c893",
+      "expression-721e53e994a5c0fd8b50"
+    ]
+  },
+  "family": {
+    "label_id": "Keluarga",
+    "practice_question_en": "Who in your family has influenced you?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-533388b40b303c92802d",
+      "expression-05141ff9bfa54b85ea8c",
+      "expression-58267ac2144613a46b1d",
+      "expression-b2ecb3f179f88beefc47",
+      "expression-69761478cb5e125d80b3",
+      "expression-721e53e994a5c0fd8b50",
+      "expression-1d0fa49932a38f193537",
+      "expression-2cbfc774262bd74bc8d4"
+    ]
+  },
+  "food": {
+    "label_id": "Makanan",
+    "practice_question_en": "Do you prefer eating at home or eating out?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-840f0263486ce3806233",
+      "expression-d51b106b095035f8d541"
+    ]
+  },
+  "future": {
+    "label_id": "Masa depan",
+    "practice_question_en": "What would you like to achieve in the future?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-80fb65bc708dd3cd5b19",
+      "expression-c8acf97cdfbd43a2e8f9",
+      "expression-e0d80824b2db2e5012f2",
+      "expression-1d0fa49932a38f193537"
+    ]
+  },
+  "habits": {
+    "label_id": "Kebiasaan",
+    "practice_question_en": "Is there a habit you would like to change?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-840f0263486ce3806233",
+      "expression-80fb65bc708dd3cd5b19",
+      "expression-344f1c90f085de1ce7f4",
+      "expression-9c158f51deb5bfc5c708",
+      "expression-4178362f9d83e9046299",
+      "expression-188a0823bb969f91032e"
+    ]
+  },
+  "health": {
+    "label_id": "Kesehatan dan istirahat",
+    "practice_question_en": "What do you do when you need a rest?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-618603a2283a1d06c5d0",
+      "expression-e8e6eb4d64d46714cb94",
+      "expression-5adab76b41aec0c80bb3",
+      "expression-188a0823bb969f91032e",
+      "expression-721e53e994a5c0fd8b50"
+    ]
+  },
+  "hobbies": {
+    "label_id": "Hobi",
+    "practice_question_en": "What do you enjoy doing in your free time?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-f25ef3873c2ecef7ecec",
+      "expression-e09d5aff3ff694a5dd15",
+      "expression-e8e6eb4d64d46714cb94",
+      "expression-4178362f9d83e9046299",
+      "expression-c4f888cf77193ae7faa2",
+      "expression-d51b106b095035f8d541",
+      "expression-2cbfc774262bd74bc8d4"
+    ]
+  },
+  "home": {
+    "label_id": "Rumah dan tempat tinggal",
+    "practice_question_en": "What do you like about the area where you live?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-1f74eff855f285ec8d08",
+      "expression-9a678717bb6fab821591",
+      "expression-b530a6f6bf189b90dc65",
+      "expression-c0e70740c888c09f8f87"
+    ]
+  },
+  "media": {
+    "label_id": "Media dan informasi",
+    "practice_question_en": "How do you decide whether information online is reliable?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-0d6c14d8f3ae41ea677a",
+      "expression-738ff09ba7709ec49503",
+      "expression-e1c305326a9b08333d0c"
+    ]
+  },
+  "money": {
+    "label_id": "Uang dan pengeluaran",
+    "practice_question_en": "Why is saving money important for young people?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-7975e34478c6e146d15a",
+      "expression-b329e4e894a98c16bf46",
+      "expression-73c8fc02a561058eb6b0",
+      "expression-80fb65bc708dd3cd5b19",
+      "expression-59b8e898f855291fcd14",
+      "expression-02d959f2d0befcd40f00",
+      "expression-131debbcfa7f8f8fc2b4"
+    ]
+  },
+  "nature": {
+    "label_id": "Alam",
+    "practice_question_en": "Do you enjoy spending time in the countryside?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-4a4bd54f82321cd90b96"
+    ]
+  },
+  "opinions": {
+    "label_id": "Pendapat",
+    "practice_question_en": "What should people consider when choosing a course?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-4226ba0ee195818ae1ca"
+    ]
+  },
+  "people": {
+    "label_id": "Deskripsi orang",
+    "practice_question_en": "Describe a person you admire.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-69761478cb5e125d80b3",
+      "expression-2cbfc774262bd74bc8d4"
+    ]
+  },
+  "places": {
+    "label_id": "Tempat",
+    "practice_question_en": "Do you prefer busy places or quiet places?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-4a4bd54f82321cd90b96"
+    ]
+  },
+  "problems": {
+    "label_id": "Masalah dan solusi",
+    "practice_question_en": "Describe a difficult problem you managed to solve.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-8dae932ed70eb66170b8",
+      "expression-fc6dbfb7bbf3da70153e",
+      "expression-7f95f92cf381810c81ff",
+      "expression-3f119c58ca56280cd8df",
+      "expression-e0d80824b2db2e5012f2"
+    ]
+  },
+  "relationships": {
+    "label_id": "Hubungan dan pertemanan",
+    "practice_question_en": "Describe someone who has helped you.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-a35f5be4690a0258524b",
+      "expression-f44a9539b53fe5a30a8c",
+      "expression-7dbc1d34027652fb5961",
+      "expression-147d1b3c07da0a482996",
+      "expression-50470c49fd7293cfe6ba",
+      "expression-ef354d9f45d17ae008dc",
+      "expression-1f74eff855f285ec8d08",
+      "expression-533388b40b303c92802d",
+      "expression-05141ff9bfa54b85ea8c",
+      "expression-c4f888cf77193ae7faa2",
+      "expression-e1c305326a9b08333d0c",
+      "expression-72359574eed8f5b8bdc3",
+      "expression-6546de1156563437c893"
+    ]
+  },
+  "shopping": {
+    "label_id": "Belanja",
+    "practice_question_en": "How do you decide whether something is worth buying?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-59b8e898f855291fcd14"
+    ]
+  },
+  "skills": {
+    "label_id": "Keterampilan",
+    "practice_question_en": "Describe a skill that took you time to learn.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-e3ca057d719955faeeaa",
+      "expression-e09d5aff3ff694a5dd15",
+      "expression-d8c42c8d5b366143985b"
+    ]
+  },
+  "society": {
+    "label_id": "Masyarakat",
+    "practice_question_en": "What challenges do people face in large cities?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-7975e34478c6e146d15a",
+      "expression-73c8fc02a561058eb6b0",
+      "expression-cf163d0f222044455bad",
+      "expression-ef354d9f45d17ae008dc",
+      "expression-0d6c14d8f3ae41ea677a",
+      "expression-9a4816d05409dced7384",
+      "expression-7f95f92cf381810c81ff",
+      "expression-02d959f2d0befcd40f00",
+      "expression-72359574eed8f5b8bdc3"
+    ]
+  },
+  "sport": {
+    "label_id": "Olahraga",
+    "practice_question_en": "Do you enjoy taking part in sports?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-18a420804f8779cf76f1",
+      "expression-5adab76b41aec0c80bb3",
+      "expression-1a3146b226170e5e9451",
+      "expression-3f119c58ca56280cd8df"
+    ]
+  },
+  "technology": {
+    "label_id": "Teknologi",
+    "practice_question_en": "How has technology changed the way people work?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-f25ef3873c2ecef7ecec",
+      "expression-f1449166e30ef1108253",
+      "expression-b329e4e894a98c16bf46",
+      "expression-59b8e898f855291fcd14",
+      "expression-e09d5aff3ff694a5dd15",
+      "expression-8a4db7881475e40d50b6",
+      "expression-9a4816d05409dced7384",
+      "expression-4178362f9d83e9046299",
+      "expression-d8c42c8d5b366143985b",
+      "expression-738ff09ba7709ec49503"
+    ]
+  },
+  "travel": {
+    "label_id": "Perjalanan",
+    "practice_question_en": "Describe a place you enjoyed visiting.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-b329e4e894a98c16bf46",
+      "expression-9a678717bb6fab821591",
+      "expression-4a4bd54f82321cd90b96",
+      "expression-b530a6f6bf189b90dc65",
+      "expression-e8e6eb4d64d46714cb94",
+      "expression-58267ac2144613a46b1d",
+      "expression-fcab2fada8ebc0774306",
+      "expression-c0e70740c888c09f8f87",
+      "expression-7fcb3faedee142c6104d",
+      "expression-53c1232aaa468af75c8e"
+    ]
+  },
+  "weather": {
+    "label_id": "Cuaca",
+    "practice_question_en": "Does the weather affect your plans?",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-fcab2fada8ebc0774306"
+    ]
+  },
+  "work": {
+    "label_id": "Pekerjaan",
+    "practice_question_en": "Describe a challenging task you completed at work or in a group.",
+    "question_origin": "SpeakWE_original_practice_not_a_claim_about_current_test_questions",
+    "entry_ids": [
+      "expression-a35f5be4690a0258524b",
+      "expression-65424b365bd8c7e673f9",
+      "expression-f44a9539b53fe5a30a8c",
+      "expression-6c654557f69d6664d156",
+      "expression-37e849f748cfdc89a71d",
+      "expression-7975e34478c6e146d15a",
+      "expression-73c8fc02a561058eb6b0",
+      "expression-344f1c90f085de1ce7f4",
+      "expression-e3ca057d719955faeeaa",
+      "expression-8a4db7881475e40d50b6",
+      "expression-147d1b3c07da0a482996",
+      "expression-cf163d0f222044455bad",
+      "expression-8dae932ed70eb66170b8",
+      "expression-50470c49fd7293cfe6ba",
+      "expression-ef354d9f45d17ae008dc",
+      "expression-05141ff9bfa54b85ea8c",
+      "expression-fc6dbfb7bbf3da70153e",
+      "expression-9a4816d05409dced7384",
+      "expression-4226ba0ee195818ae1ca",
+      "expression-9a678717bb6fab821591",
+      "expression-1a3146b226170e5e9451",
+      "expression-a992d95f912333ba46c3",
+      "expression-b2ecb3f179f88beefc47",
+      "expression-188a0823bb969f91032e",
+      "expression-0796d772d1a0e8e8c23c",
+      "expression-38794cdc9418edf1129b",
+      "expression-72359574eed8f5b8bdc3",
+      "expression-f7374a2c7852880abb98",
+      "expression-c0e70740c888c09f8f87",
+      "expression-69761478cb5e125d80b3",
+      "expression-7fcb3faedee142c6104d",
+      "expression-1d0fa49932a38f193537"
+    ]
+  }
+}

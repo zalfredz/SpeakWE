@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "dataset_version": "1.0.0",
+  "built_for": "SpeakWE",
+  "source_rows": {
+    "cefrj-wordlist-1-5": 7799,
+    "octanove-c1c2-1-0": 2136
+  },
+  "total_source_rows": 9935,
+  "raw_source_level_counts": {
+    "A1": 1164,
+    "B1": 2446,
+    "B2": 2778,
+    "A2": 1411,
+    "C1": 1111,
+    "C2": 1025
+  },
+  "unique_word_pos_entries_including_listed_variants": 9984,
+  "distinct_normalized_cefr_headwords": 8845,
+  "single_uncontested_wordlist_level_counts": {
+    "A1": 1177,
+    "A2": 1425,
+    "B1": 2450,
+    "B2": 2757,
+    "C1": 1033,
+    "C2": 946
+  },
+  "entries_without_single_usable_level": 196,
+  "quality_flag_counts": {
+    "conflicting_wordlist_levels": 124,
+    "source_pos_not_found_in_wordnet_other_pos_exists": 70,
+    "missing_or_invalid_source_pos": 2
+  },
+  "coverage": {
+    "entries_with_english_senses": 9374,
+    "entries_with_indonesian_candidates": 8049
+  },
+  "wordnet_concepts": 117659,
+  "wordnet_english_word_pos_inventory": 155287,
+  "wordnet_distinct_normalized_english_lemmas": 147306,
+  "concept_matrices_with_cefr_candidates": 24401,
+  "indonesian_lookup_terms_with_cefr_concepts": 16355,
+  "indonesian_source_row_counts": {
+    "ind:lemma": 106688,
+    "ind:def": 12862
+  },
+  "indonesian_orphan_rows": 0,
+  "human_reviewed_recommendation_entries": 0,
+  "primary_check_reference": "Cambridge Dictionary (user preference)",
+  "cambridge_fully_verified_entries": 0,
+  "scope": "Broad source-imported vocabulary inventory; not all English and not sense-verified CEFR",
+  "license": "CC-BY-SA-4.0 for SpeakWE's combined adaptation; underlying source notices retained",
+  "source_lock_sha256": "5433d31b86072c835669ad02755a91a991f00df78fd012f71dfe0bc6dbc9228e",
+  "source_revisions": {
+    "cefrj-wordlist-1-5": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+    "octanove-c1c2-1-0": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+    "cefrj-and-octanove-terms": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+    "wordnet-bahasa-ind": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "wordnet-bahasa-license": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "wordnet-bahasa-readme": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "wordnet-bahasa-citation": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "princeton-wordnet-3-0": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a"
+  }
+}

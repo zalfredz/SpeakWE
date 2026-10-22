@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-22",
+  "status": "source_research_only_no_external_corpus_import",
+  "scope": "Grammar correction, context-preserving paraphrase, IELTS question sources, spoken chunks and collocation references; excludes audio/transcript collection",
+  "notes": [
+    "Reported counts are publisher figures, not locally counted imports.",
+    "Decisions are project recommendations, not additional permissions.",
+    "Data text, software licenses and model licenses are distinct.",
+    "No linked corpus has been downloaded or used to train a model in this task."
+  ],
+  "sources": [
+    {
+      "source_id": "wi-locness-bea2019",
+      "name": "W&I+LOCNESS / BEA-2019",
+      "group": "grammar_correction",
+      "kind": "parallel_learner_writing",
+      "url": "https://www.cl.cam.ac.uk/research/nl/bea2019st/",
+      "license_observed": "Non-commercial purposes only according to shared-task organizer",
+      "decision": "research_candidate_not_production_import",
+      "reported_size": {
+        "train_sentences": 34308
+      },
+      "use": "Minimal-edit references and error categories",
+      "limitations": [
+        "Writing domain, not IELTS speaking",
+        "Standardized error types include automatic ERRANT annotation",
+        "No Indonesian explanation layer"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "jfleg",
+      "name": "JFLEG",
+      "group": "grammar_correction",
+      "kind": "evaluation_parallel_text",
+      "url": "https://github.com/keisks/jfleg",
+      "license_observed": "CC BY-NC-SA 4.0",
+      "decision": "noncommercial_benchmark_candidate",
+      "reported_size": {
+        "dev_sentences": 754,
+        "test_sentences": 747,
+        "references_per_sentence": 4
+      },
+      "use": "Alternative acceptable corrections and written naturalness",
+      "limitations": [
+        "Fluency in this corpus is text naturalness, not spoken temporal fluency",
+        "Corrections may exceed minimal edits"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "coedit-public",
+      "name": "CoEdIT public release",
+      "group": "grammar_and_paraphrase",
+      "kind": "instruction_source_target",
+      "url": "https://huggingface.co/datasets/grammarly/coedit",
+      "evidence_urls": [
+        "https://github.com/vipulraheja/coedit",
+        "https://huggingface.co/datasets/grammarly/coedit/blob/main/README.md",
+        "https://huggingface.co/datasets/grammarly/coedit/discussions/2",
+        "https://aclanthology.org/2023.findings-emnlp.350/"
+      ],
+      "license_observed": "Dataset card: Apache-2.0; composite underlying-corpus provenance requires review",
+      "decision": "prototype_candidate_component_provenance_review_before_production",
+      "reported_size": {
+        "public_release_instances_approx": 69000,
+        "paper_instances_approx": 82000
+      },
+      "use": "Generate candidate GEC and paraphrase edits",
+      "limitations": [
+        "Writing-assistance domain",
+        "Public release omits some simplification/formality material for licensing reasons",
+        "No guarantee of minimal edits or preservation of tone/intensity",
+        "Do not assume card metadata resolves all underlying corpus rights"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "paws-wiki-final",
+      "name": "PAWS-Wiki Labeled Final",
+      "group": "paraphrase_validation",
+      "kind": "pairwise_paraphrase_identification",
+      "url": "https://github.com/google-research-datasets/paws",
+      "evidence_urls": [
+        "https://github.com/google-research-datasets/paws/blob/master/LICENSE"
+      ],
+      "license_observed": "Repository custom license permits any purpose; Google source acknowledgement appreciated",
+      "decision": "candidate_meaning_preservation_benchmark",
+      "reported_size": {
+        "train_pairs": 49401,
+        "dev_pairs": 8000,
+        "test_pairs": 8000
+      },
+      "use": "Detect high lexical overlap with changed meaning",
+      "limitations": [
+        "Label 0 is not a valid positive rewrite target",
+        "Wikipedia domain, not conversational learner feedback",
+        "Exclude PAWS-QQP from this decision; QQP has separate source restrictions",
+        "Not a measure of register, idiom suitability or IELTS band"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "cweb-gec",
+      "name": "CWEB",
+      "group": "grammar_correction",
+      "kind": "low_error_density_evaluation",
+      "url": "https://github.com/SimonHFL/CWEB",
+      "license_observed": "CC BY-NC-SA 4.0",
+      "decision": "optional_noncommercial_overcorrection_benchmark",
+      "use": "Check unnecessary edits in low-error text",
+      "limitations": [
+        "Website domain",
+        "No Indonesian explanations or speaking labels"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "c4-200m-corruption",
+      "name": "C4_200M synthetic GEC edits",
+      "group": "grammar_correction",
+      "kind": "synthetic_corruption_edits",
+      "url": "https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction",
+      "license_observed": "CC BY 4.0 specifically for corruption edits; C4 text acquired separately",
+      "decision": "defer_large_synthetic_data",
+      "use": "Potential future synthetic GEC scale-up",
+      "limitations": [
+        "Must reconstruct parallel data with C4",
+        "Edit license is not blanket clearance of source web text",
+        "Synthetic errors may not match Indonesian learner speech"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "errant-tool",
+      "name": "ERRANT",
+      "group": "grammar_correction",
+      "kind": "annotation_software_not_dataset",
+      "url": "https://github.com/chrisjbryant/errant",
+      "evidence_urls": [
+        "https://pypi.org/project/errant/"
+      ],
+      "license_observed": "MIT software license",
+      "decision": "candidate_edit_alignment_tool_not_installed",
+      "use": "Align existing original/corrected pairs and assign error types",
+      "limitations": [
+        "Does not establish whether the correction is correct",
+        "Does not supply Indonesian pedagogical explanations",
+        "Tool, not source learner corpus"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "ielts-official-speaking-samples",
+      "name": "IELTS.org Speaking Sample Tasks",
+      "group": "question_bank",
+      "kind": "official_reference_pdf",
+      "url": "https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf",
+      "evidence_urls": [
+        "https://ielts.org/legal/ielts-copyright-and-trade-mark-statement",
+        "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking"
+      ],
+      "license_observed": "Personal/noncommercial website material; permission required for other stated uses",
+      "decision": "official_format_reference_no_question_import",
+      "use": "Part 1/2/3 blueprint and linked Part 2-3 structure",
+      "limitations": [
+        "Sample questions, not an exhaustive public active-exam bank",
+        "No production republication permission established"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "british-council-speaking-practice",
+      "name": "British Council Speaking practice",
+      "group": "question_bank",
+      "kind": "official_reference_portal",
+      "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/academic/speaking",
+      "license_observed": "Public practice access; production question reuse permission not established",
+      "decision": "official_reference_no_question_import",
+      "use": "Official practice and links to further preparation",
+      "limitations": [
+        "Extra IELTS Ready access may depend on account/booking",
+        "Counts of practice tests across skills are not Speaking-only set counts"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "idp-speaking-practice",
+      "name": "IDP IELTS Speaking practice tests",
+      "group": "question_bank",
+      "kind": "official_reference_portal",
+      "url": "https://ielts.idp.com/prepare/all-test-types/speaking/practice-test",
+      "evidence_urls": [
+        "https://ielts.idp.com/legal-notices"
+      ],
+      "license_observed": "Website reproduction/storage restricted without appropriate permission or statutory basis",
+      "decision": "official_reference_no_question_import",
+      "use": "Part 1/2/3 sample materials",
+      "limitations": [
+        "Do not mix IELTS Life Skills A1/A2/B1 with IELTS Speaking Part 1-3"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "ielts-liz-part1",
+      "name": "IELTS Liz Part 1 Topics and Questions",
+      "group": "question_bank",
+      "kind": "independent_teacher_reference",
+      "url": "https://ieltsliz.com/ielts-speaking-part-1-topics/",
+      "license_observed": "No open bulk/product reuse license established",
+      "decision": "topic_reference_no_bulk_import",
+      "use": "Broader topic coverage and teacher examples",
+      "limitations": [
+        "Not an official IELTS question bank or prediction guarantee",
+        "Comments from test takers are separate unverified recall"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "ielts-advantage-questions",
+      "name": "IELTS Advantage question collection",
+      "group": "question_bank",
+      "kind": "independent_preparation_reference_pdf",
+      "url": "https://www.ieltsadvantage.com/wp-content/uploads/2025/07/IELTS-Speaking-Questions-A-Comprehensive-Guide.pdf",
+      "license_observed": "No open bulk/product reuse license established",
+      "decision": "question_variety_reference_no_bulk_import",
+      "use": "Reference for question variety",
+      "limitations": [
+        "Not an official active-exam bank",
+        "Public PDF access is not redistribution permission"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "cambridge-spoken-grammar",
+      "name": "Cambridge English Grammar Today: Spoken English",
+      "group": "spoken_chunks",
+      "kind": "pedagogical_reference",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/spoken-english",
+      "license_observed": "Reference only; no bulk extraction license established",
+      "decision": "reference_for_original_curation",
+      "use": "Chunks, ellipsis, hedges and spoken interaction",
+      "limitations": [
+        "Do not copy dictionary examples/definitions into a bulk bank"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "cambridge-discourse-markers",
+      "name": "Cambridge English Grammar Today: Discourse markers",
+      "group": "spoken_chunks",
+      "kind": "pedagogical_reference",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/discourse-",
+      "license_observed": "Reference only; no bulk extraction license established",
+      "decision": "reference_for_original_function_based_curation",
+      "use": "Function-based conversational markers",
+      "limitations": [
+        "Speaking and writing register differ",
+        "Marker counts are not a fluency score"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "opal-spoken-phrases",
+      "name": "Oxford OPAL spoken phrases",
+      "group": "spoken_chunks",
+      "kind": "academic_phrase_list_reference",
+      "url": "https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/opal/OPAL_spoken%20phrases.pdf",
+      "license_observed": "No product database extraction permission established",
+      "decision": "reference_only_not_conversation_default",
+      "reported_size": {
+        "phrases_approx": 250,
+        "functional_areas": 16
+      },
+      "use": "Academic speaking functional taxonomy",
+      "limitations": [
+        "Includes lecture signposting, not every phrase suits learner conversation/IELTS"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "cambridge-collocations-reference",
+      "name": "Cambridge English Grammar Today: Collocation",
+      "group": "collocations_phrasal_verbs",
+      "kind": "pedagogical_reference",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/collocation",
+      "license_observed": "Reference only; no bulk extraction license established",
+      "decision": "primary_reference_for_original_examples",
+      "use": "Check word combinations and common collocation problems",
+      "limitations": [
+        "Not a downloaded open collocation dataset"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "bc-phrasal-verbs",
+      "name": "British Council Phrasal verbs B1-B2",
+      "group": "collocations_phrasal_verbs",
+      "kind": "pedagogical_reference",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/phrasal-verbs",
+      "license_observed": "Reference only; no bulk lesson reuse permission established",
+      "decision": "reference_for_patterns_and_original_examples",
+      "use": "Separable/inseparable patterns and object placement",
+      "limitations": [
+        "Lesson level is not a verified CEFR label for every phrase"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    },
+    {
+      "source_id": "bc-phrasal-word-order",
+      "name": "British Council C1 Word order in phrasal verbs",
+      "group": "collocations_phrasal_verbs",
+      "kind": "pedagogical_reference",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/word-order-phrasal-verbs",
+      "license_observed": "Reference only; no bulk lesson reuse permission established",
+      "decision": "reference_for_patterns_and_original_examples",
+      "use": "More detailed phrasal-verb syntax",
+      "limitations": [
+        "Lesson level is not a verified CEFR label for every phrase"
+      ],
+      "reviewed_on": "2026-10-22",
+      "acquisition_status": "not_downloaded",
+      "artifact_sha256": null
+    }
+  ]
+}

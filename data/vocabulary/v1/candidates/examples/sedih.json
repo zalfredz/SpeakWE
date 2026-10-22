@@ -1,0 +1,893 @@
+{
+  "query_id": "sedih",
+  "concepts": [
+    {
+      "concept_id": "00364881-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "blue",
+        "dark",
+        "dingy",
+        "disconsolate",
+        "dismal",
+        "drab",
+        "drear",
+        "dreary",
+        "gloomy",
+        "grim",
+        "sorry"
+      ],
+      "definition_en": "causing dejection",
+      "gloss_en": "causing dejection; \"a blue day\"; \"the dark days of the war\"; \"a week of rainy depressing weather\"; \"a disconsolate winter landscape\"; \"the first dismal dispiriting days of November\"; \"a dark gloomy day\"; \"grim rainy weather\"",
+      "examples_en": [
+        "a blue day",
+        "the dark days of the war",
+        "a week of rainy depressing weather",
+        "a disconsolate winter landscape",
+        "the first dismal dispiriting days of November",
+        "a dark gloomy day",
+        "grim rainy weather"
+      ],
+      "indonesian_terms": [
+        "menderita",
+        "menyedihkan",
+        "muram",
+        "murung",
+        "perit",
+        "sayu",
+        "sedih",
+        "sugul",
+        "suram",
+        "susah"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-75db4b25009ee0924277",
+            "word": "blue",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-25fe185a624869ed1051",
+            "word": "dark",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-f3556eb6f0125a19b4e2",
+            "word": "sorry",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-8dc4831c22ef6e6c9b13",
+            "word": "gloomy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-81cb043faed9d2c0eec0",
+            "word": "grim",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [
+          {
+            "entry_id": "vocab-8a441a74c9c82410c397",
+            "word": "dismal",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00703615-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "blue",
+        "depressed",
+        "dispirited",
+        "down",
+        "down in the mouth",
+        "downcast",
+        "downhearted",
+        "gloomy",
+        "grim",
+        "low",
+        "low-spirited"
+      ],
+      "definition_en": "filled with melancholy and despondency ",
+      "gloss_en": "filled with melancholy and despondency ; \"gloomy at the thought of what he had to face\"; \"gloomy predictions\"; \"a gloomy silence\"; \"took a grim view of the economy\"; \"the darkening mood\"; \"lonely and blue in a strange city\"; \"depressed by the loss of his job\"; \"a dispirited and resigned expression on her face\"; \"downcast after his defeat\"; \"feeling discouraged and downhearted\"",
+      "examples_en": [
+        "gloomy at the thought of what he had to face",
+        "gloomy predictions",
+        "a gloomy silence",
+        "took a grim view of the economy",
+        "the darkening mood",
+        "lonely and blue in a strange city",
+        "depressed by the loss of his job",
+        "a dispirited and resigned expression on her face",
+        "downcast after his defeat",
+        "feeling discouraged and downhearted"
+      ],
+      "indonesian_terms": [
+        "berduka",
+        "bermuram",
+        "dingin hati",
+        "gelebah",
+        "gobar",
+        "gundah",
+        "kilan",
+        "kuyu",
+        "lemah semangat",
+        "muram",
+        "murung",
+        "sayu",
+        "sedih",
+        "sendu",
+        "sugul",
+        "suram"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-75db4b25009ee0924277",
+            "word": "blue",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-e8c9525d11675f1d0b4d",
+            "word": "low",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-cda2ed7c77fba4417dcd",
+            "word": "depressed",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-4652c099a79e97dd01d7",
+            "word": "down",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-8dc4831c22ef6e6c9b13",
+            "word": "gloomy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-81cb043faed9d2c0eec0",
+            "word": "grim",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00876204-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "dreamy",
+        "lackadaisical",
+        "languid",
+        "languorous"
+      ],
+      "definition_en": "lacking spirit or liveliness",
+      "gloss_en": "lacking spirit or liveliness; \"a lackadaisical attempt\"; \"a languid mood\"; \"a languid wave of the hand\"; \"a hot languorous afternoon\"",
+      "examples_en": [
+        "a lackadaisical attempt",
+        "a languid mood",
+        "a languid wave of the hand",
+        "a hot languorous afternoon"
+      ],
+      "indonesian_terms": [
+        "lesu",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-2831453b1237c26162b2",
+            "word": "dreamy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00909363-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "distressed",
+        "dysphoric",
+        "unhappy"
+      ],
+      "definition_en": "generalized feeling of distress",
+      "gloss_en": "generalized feeling of distress",
+      "examples_en": [],
+      "indonesian_terms": [
+        "benguk",
+        "pedih",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a2f754530657a945d072",
+            "word": "unhappy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01051814-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "infelicitous",
+        "unhappy"
+      ],
+      "definition_en": "marked by or producing unhappiness",
+      "gloss_en": "marked by or producing unhappiness; \"infelicitous circumstances\"; \"unhappy caravans, straggling afoot through swamps and canebrakes\"- American Guide Series",
+      "examples_en": [
+        "infelicitous circumstances"
+      ],
+      "indonesian_terms": [
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a2f754530657a945d072",
+            "word": "unhappy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01149494-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "unhappy"
+      ],
+      "definition_en": "experiencing or marked by or causing sadness or sorrow or discontent",
+      "gloss_en": "experiencing or marked by or causing sadness or sorrow or discontent; \"unhappy over her departure\"; \"unhappy with her raise\"; \"after the argument they lapsed into an unhappy silence\"; \"had an unhappy time at school\"; \"the unhappy (or sad) news\"; \"he looks so sad\"",
+      "examples_en": [
+        "unhappy over her departure",
+        "unhappy with her raise",
+        "after the argument they lapsed into an unhappy silence",
+        "had an unhappy time at school",
+        "the unhappy (or sad) news",
+        "he looks so sad"
+      ],
+      "indonesian_terms": [
+        "menyedihkan",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a2f754530657a945d072",
+            "word": "unhappy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01150205-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "miserable",
+        "suffering",
+        "wretched"
+      ],
+      "definition_en": "very unhappy; full of misery",
+      "gloss_en": "very unhappy; full of misery; \"he felt depressed and miserable\"; \"a message of hope for suffering humanity\"; \"wretched prisoners huddled in stinking cages\"",
+      "examples_en": [
+        "he felt depressed and miserable",
+        "a message of hope for suffering humanity",
+        "wretched prisoners huddled in stinking cages"
+      ],
+      "indonesian_terms": [
+        "dukacita",
+        "muram",
+        "penderitaan",
+        "sedih",
+        "sugul"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-7494a16273cc36622154",
+            "word": "miserable",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01188762-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "heavy"
+      ],
+      "definition_en": "marked by great psychological weight; weighted down especially with sadness or troubles or weariness",
+      "gloss_en": "marked by great psychological weight; weighted down especially with sadness or troubles or weariness; \"a heavy heart\"; \"a heavy schedule\"; \"heavy news\"; \"a heavy silence\"; \"heavy eyelids\"",
+      "examples_en": [
+        "a heavy heart",
+        "a heavy schedule",
+        "heavy news",
+        "a heavy silence",
+        "heavy eyelids"
+      ],
+      "indonesian_terms": [
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-5928b9173e86036a96ac",
+            "word": "heavy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01361863-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "sad"
+      ],
+      "definition_en": "experiencing or showing sorrow or unhappiness",
+      "gloss_en": "experiencing or showing sorrow or unhappiness; \"feeling sad because his dog had died\"; \"Better by far that you should forget and smile / Than that you should remember and be sad\"- Christina Rossetti",
+      "examples_en": [
+        "feeling sad because his dog had died"
+      ],
+      "indonesian_terms": [
+        "bengok",
+        "benguk",
+        "berdukacita",
+        "berhati pilu",
+        "bersedih",
+        "bersendu",
+        "dukacita",
+        "galaba",
+        "galabah",
+        "gelabah",
+        "gelebah",
+        "gobar",
+        "gundah",
+        "kuyu",
+        "lara",
+        "masgul",
+        "menyedihkan",
+        "muram",
+        "murung",
+        "nestapa",
+        "pilu",
+        "ripuh",
+        "sedih",
+        "sedu",
+        "sedu hati",
+        "sendu",
+        "sugul",
+        "sungkawa",
+        "terista",
+        "walang hati"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-8ce987868efc15344daf",
+            "word": "sad",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01362950-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "pensive",
+        "wistful"
+      ],
+      "definition_en": "showing pensive sadness",
+      "gloss_en": "showing pensive sadness; \"the sensitive and wistful response of a poet to the gentler phases of beauty\"",
+      "examples_en": [
+        "the sensitive and wistful response of a poet to the gentler phases of beauty"
+      ],
+      "indonesian_terms": [
+        "sayu",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": [
+          {
+            "entry_id": "vocab-35bd6221b6d29b48bef5",
+            "word": "wistful",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01366157-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "mournful",
+        "plaintive"
+      ],
+      "definition_en": "expressing sorrow",
+      "gloss_en": "expressing sorrow",
+      "examples_en": [],
+      "indonesian_terms": [
+        "dukacita",
+        "menyayukan",
+        "menyedihkan",
+        "murung",
+        "sayu",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-6f3663e96f2d35d1754d",
+            "word": "mournful",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01366277-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "sad"
+      ],
+      "definition_en": "of things that make you feel sad",
+      "gloss_en": "of things that make you feel sad; \"sad news\"; \"she doesn't like sad movies\"; \"it was a very sad story\"; \"When I am dead, my dearest, / Sing no sad songs for me\"- Christina Rossetti",
+      "examples_en": [
+        "sad news",
+        "she doesn't like sad movies",
+        "it was a very sad story"
+      ],
+      "indonesian_terms": [
+        "dukacita",
+        "sayu",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-8ce987868efc15344daf",
+            "word": "sad",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01972976-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "break"
+      ],
+      "definition_en": "curl over and fall apart in surf or foam, of waves",
+      "gloss_en": "curl over and fall apart in surf or foam, of waves; \"The surf broke\"",
+      "examples_en": [
+        "The surf broke"
+      ],
+      "indonesian_terms": [
+        "hancur",
+        "memecah",
+        "menghempas",
+        "pecah",
+        "sedih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d6db94fdc01305de62b5",
+            "word": "break",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02431320-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "break",
+        "break up",
+        "part",
+        "separate",
+        "split",
+        "split up"
+      ],
+      "definition_en": "discontinue an association or relation; go different ways",
+      "gloss_en": "discontinue an association or relation; go different ways; \"The business partners broke over a tax question\"; \"The couple separated after 25 years of marriage\"; \"My friend and I split up\"",
+      "examples_en": [
+        "The business partners broke over a tax question",
+        "The couple separated after 25 years of marriage",
+        "My friend and I split up"
+      ],
+      "indonesian_terms": [
+        "berasing",
+        "bercabang",
+        "bercabang-cabang",
+        "bercerai",
+        "berpecah",
+        "berpisah",
+        "hancur",
+        "mematahkan",
+        "membatasi",
+        "memberai-beraikan",
+        "membobolkan",
+        "membongkar",
+        "memecahkan",
+        "memisahkan",
+        "mencerai",
+        "menceraikan",
+        "mengantara",
+        "mengantarai",
+        "mengasingkan",
+        "menghentikan",
+        "menjarak",
+        "menyakukan",
+        "menyaring",
+        "meregah",
+        "merekah",
+        "merengat",
+        "pecah",
+        "pisah",
+        "putus",
+        "sedih",
+        "tercerai",
+        "terlepas",
+        "usai"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d6db94fdc01305de62b5",
+            "word": "break",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-01f41b8e3c93bc49b138",
+            "word": "part",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-60a256a43504beb27525",
+            "word": "separate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b16396311b5875f98278",
+            "word": "split",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02457167-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "disquieted",
+        "distressed",
+        "disturbed",
+        "upset",
+        "worried"
+      ],
+      "definition_en": "afflicted with or marked by anxious uneasiness or trouble or grief",
+      "gloss_en": "afflicted with or marked by anxious uneasiness or trouble or grief; \"too upset to say anything\"; \"spent many disquieted moments\"; \"distressed about her son's leaving home\"; \"lapsed into disturbed sleep\"; \"worried parents\"; \"a worried frown\"; \"one last worried check of the sleeping children\"",
+      "examples_en": [
+        "too upset to say anything",
+        "spent many disquieted moments",
+        "distressed about her son's leaving home",
+        "lapsed into disturbed sleep",
+        "worried parents",
+        "a worried frown",
+        "one last worried check of the sleeping children"
+      ],
+      "indonesian_terms": [
+        "cemas",
+        "sedih",
+        "susah hati",
+        "terharu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a40eddcca8c09e44c874",
+            "word": "upset",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-4e4e7b5369dc05fb2f51",
+            "word": "worried",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "14408646-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.state",
+      "english_lemmas": [
+        "plight",
+        "predicament",
+        "quandary"
+      ],
+      "definition_en": "a situation from which extrication is difficult especially an unpleasant or trying one",
+      "gloss_en": "a situation from which extrication is difficult especially an unpleasant or trying one; \"finds himself in a most awkward predicament\"; \"the woeful plight of homeless people\"",
+      "examples_en": [
+        "finds himself in a most awkward predicament",
+        "the woeful plight of homeless people"
+      ],
+      "indonesian_terms": [
+        "kesusahan",
+        "masalah",
+        "sedih"
+      ],
+      "definitions_id": [
+        "situasi di mana penguraian sulit terutama yang tak menyenangkan atau coba-coba"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-933e016f8e63aa7ac825",
+            "word": "predicament",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

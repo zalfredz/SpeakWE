@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-22",
+  "unittest_command": "python -m unittest discover -s tests -p test_vocabulary.py -v",
+  "unittests_passed": 6,
+  "generated_file_checksums_verified": 27,
+  "all_export_jsonl_parsed": true,
+  "source_rows_reconciled": true,
+  "local_document_links_valid": true,
+  "json_examples_valid": true,
+  "cli_smoke_queries": [
+    "eat",
+    "abundance",
+    "makan",
+    "C2",
+    "missing headword"
+  ],
+  "counts": {
+    "vocabulary_entries": 9984,
+    "held_for_review": 196
+  },
+  "limitations": [
+    "Technical validation does not certify every source level, translation, sense, or register.",
+    "Cambridge full-bank verification has not taken place."
+  ]
+}

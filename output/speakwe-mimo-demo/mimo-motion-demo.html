@@ -1,0 +1,158 @@
+<div id="mimo-motion-demo">
+  <style>
+    #mimo-motion-demo { color: var(--foreground); width: 100%; }
+    #mimo-motion-demo .mimo-stage { display: grid; place-items: center; padding: 8px 0 0; }
+    #mimo-motion-demo canvas { display: block; width: min(100%, 600px); height: auto; aspect-ratio: 600 / 345; }
+    #mimo-motion-demo .mimo-caption { text-align: center; min-height: 54px; padding: 0 10px; }
+    #mimo-motion-demo .mimo-caption strong { font-weight: 500; }
+    #mimo-motion-demo .mimo-caption p { margin: 6px 0 16px; color: var(--muted-foreground); }
+    #mimo-motion-demo .mimo-options { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+    #mimo-motion-demo .mimo-play { display: flex; justify-content: center; margin: 14px 0 4px; }
+    #mimo-motion-demo button { touch-action: manipulation; }
+    #mimo-motion-demo .mimo-progress { width: min(220px, 65%); height: 3px; background: var(--muted); margin: 18px auto 10px; overflow: hidden; border-radius: 4px; }
+    #mimo-motion-demo .mimo-progress span { display: block; height: 100%; width: 0; background: var(--muted-foreground); transform-origin: left; }
+    @media (prefers-reduced-motion: reduce) { #mimo-motion-demo .mimo-progress { display: none; } }
+  </style>
+  <div class="mimo-stage">
+    <canvas width="1200" height="690" role="img" aria-label="Mimo, axolotl lilac dengan insang peach, bergerak mengikuti ekspresi latihan speaking.">Demo animasi Mimo untuk latihan speaking.</canvas>
+  </div>
+  <div class="mimo-caption" aria-live="polite" aria-atomic="true">
+    <strong data-mimo-title>Siap latihan</strong>
+    <p data-mimo-line>Hai! Kita latihan ngobrol, yuk.</p>
+  </div>
+  <div class="mimo-options" role="group" aria-label="Pilih ekspresi Mimo">
+    <button class="btn" type="button" data-mimo-state="ready" aria-pressed="true">Siap latihan</button>
+    <button class="btn" type="button" data-mimo-state="listening" aria-pressed="false">Mendengarkan</button>
+    <button class="btn" type="button" data-mimo-state="speaking" aria-pressed="false">Berbicara</button>
+    <button class="btn" type="button" data-mimo-state="thinking" aria-pressed="false">Berpikir</button>
+    <button class="btn" type="button" data-mimo-state="encourage" aria-pressed="false">Coba lagi</button>
+    <button class="btn" type="button" data-mimo-state="success" aria-pressed="false">Berhasil</button>
+  </div>
+  <div class="mimo-progress" aria-hidden="true"><span data-mimo-progress></span></div>
+  <div class="mimo-play"><button class="btn btn-ghost" type="button" data-mimo-play aria-pressed="true">Jeda demo otomatis</button></div>
+  <script>
+  (() => {
+    const root = document.getElementById('mimo-motion-demo');
+    const canvas = root.querySelector('canvas');
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    const title = root.querySelector('[data-mimo-title]');
+    const line = root.querySelector('[data-mimo-line]');
+    const progress = root.querySelector('[data-mimo-progress]');
+    const play = root.querySelector('[data-mimo-play]');
+    const buttons = [...root.querySelectorAll('[data-mimo-state]')];
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const states = {
+      ready: ['Siap latihan', 'Hai! Kita latihan ngobrol, yuk.'],
+      listening: ['Mendengarkan', 'Aku mendengarkan. Sekarang giliranmu.'],
+      speaking: ['Berbicara', 'Giliran Mimo mencontohkan cara mengucapkannya.'],
+      thinking: ['Berpikir', 'Sebentar, aku siapkan masukan untukmu.'],
+      encourage: ['Coba lagi', 'Santai, pelan-pelan saja. Yuk, coba sekali lagi.'],
+      success: ['Berhasil', 'Yeay! Kamu sudah berani mencoba.']
+    };
+    const order = Object.keys(states);
+    const DURATION = 4400;
+    let state = 'ready', previous = 'ready', started = performance.now();
+    let transition = started, clock = 0, last = started, running = !reduced.matches;
+    let visible = true, raf = 0, lastSave = null;
+    const palette = { head:'#BDA0E5', highlight:'#CEB6EE', bottom:'#AC89D7', gill:'#F6AA93', gillTip:'#FFC2AB', ink:'#422849', peach:'#EFC0B6', mouth:'#422849', tongue:'#F4AA98' };
+    const clamp = (v,a=0,b=1) => Math.min(b, Math.max(a,v));
+    const ease = x => 1 - Math.pow(1-clamp(x),3);
+    const mix = (a,b,t) => a+(b-a)*t;
+    function persist() {
+      if (!window.openai || typeof window.openai.setWidgetState !== 'function') return;
+      const key = state + ':' + running;
+      if (key === lastSave) return;
+      lastSave = key;
+      Promise.resolve(window.openai.setWidgetState({modelContent:{mascot:'Mimo',expression:state},privateContent:{state,running}})).catch(()=>{});
+    }
+    function label() {
+      title.textContent = states[state][0]; line.textContent = states[state][1];
+      buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mimoState === state)));
+      play.setAttribute('aria-pressed', String(running));
+      play.textContent = running ? 'Jeda demo otomatis' : 'Putar demo otomatis';
+      canvas.setAttribute('aria-label', 'Mimo sedang ' + states[state][0].toLowerCase() + '. ' + states[state][1]);
+    }
+    function choose(next, manual=false) {
+      if (!states[next]) return;
+      previous=state; state=next; transition=clock; started=performance.now();
+      if (manual) running=false;
+      label(); if (manual) persist();
+    }
+    function ellipse(x,y,rx,ry,color) { ctx.fillStyle=color;ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fill(); }
+    function strokePath(draw,width=5,color=palette.ink) {ctx.beginPath();draw();ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke();}
+    function params(s,t) {
+      const p={tilt:Math.sin(t*1.25)*.015,y:Math.sin(t*1.8)*2,sx:1,sy:1,eyeX:0,eyeY:0,open:.14,smile:1,joy:0,wink:0,brow:0,gill:.025};
+      if(s==='ready'){p.open=.25;p.y=Math.sin(t*1.9)*3;}
+      if(s==='listening'){p.tilt=-.09+Math.sin(t*1.4)*.02;p.eyeX=-3;p.brow=.35;p.gill=.065;p.open=0;}
+      if(s==='speaking'){p.open=.25+.7*Math.pow(Math.sin(t*10.5),2)*(.6+.4*Math.sin(t*3.2)**2);p.y=Math.sin(t*4)*1.5;p.gill=.07;p.tilt=Math.sin(t*2)*.025;}
+      if(s==='thinking'){p.eyeX=5;p.eyeY=-8;p.brow=.8;p.open=0;p.tilt=.06;p.gill=.015;}
+      if(s==='encourage'){p.open=.05;p.wink=1;p.tilt=Math.sin(t*2.2)*.045;p.gill=.04;}
+      if(s==='success'){const bounce=Math.max(0,Math.sin(t*4.3));p.y=-bounce*13;p.sx=1+.025*(1-bounce);p.sy=1-.025*(1-bounce);p.open=.82;p.joy=1;p.gill=.095;}
+      return p;
+    }
+    function gill(side,index,t,p) {
+      const rootY=[-39,2,43][index], angle=[-.68,-.02,.55][index];
+      ctx.save();ctx.translate(side*104,rootY);ctx.scale(side,1);ctx.rotate(angle+Math.sin(t*3.1+index*.8)*p.gill);
+      const length=[72,85,69][index];
+      const gradient=ctx.createLinearGradient(0,10,length,-12);gradient.addColorStop(0,palette.gill);gradient.addColorStop(1,palette.gillTip);
+      ctx.fillStyle=gradient;ctx.beginPath();ctx.moveTo(-8,-12);ctx.bezierCurveTo(18,-16,length-20,-28,length-7,-16);ctx.bezierCurveTo(length+11,-1,length+1,18,length-17,19);ctx.bezierCurveTo(35,20,18,9,-8,13);ctx.closePath();ctx.fill();ctx.restore();
+    }
+    function eye(x,y,p,blink,which) {
+      const closed=Math.max(p.joy, which===1?p.wink:0,blink);
+      ctx.save();ctx.translate(x,y);
+      if(closed>.8){strokePath(()=>{ctx.moveTo(-12,4);ctx.quadraticCurveTo(0,-10,12,4);},6);}
+      else {ctx.scale(1,Math.max(.06,1-closed));ellipse(p.eyeX,p.eyeY,13,16,palette.ink);ellipse(p.eyeX-4,p.eyeY-5,3,3,'rgba(255,255,255,.8)');}
+      ctx.restore();
+    }
+    function sparkle(x,y,size,alpha) {
+      ctx.save();ctx.translate(x,y);ctx.globalAlpha=clamp(alpha);ctx.fillStyle=palette.gill;
+      ctx.beginPath();ctx.moveTo(0,-size);ctx.quadraticCurveTo(size*.18,-size*.18,size,0);ctx.quadraticCurveTo(size*.18,size*.18,0,size);ctx.quadraticCurveTo(-size*.18,size*.18,-size,0);ctx.quadraticCurveTo(-size*.18,-size*.18,0,-size);ctx.fill();ctx.restore();
+    }
+    function paint(t) {
+      ctx.setTransform(2,0,0,2,0,0);ctx.clearRect(0,0,600,345);
+      const f=reduced.matches?1:ease((clock-transition)/450), a=params(previous,t), b=params(state,t), p={};
+      for(const k of Object.keys(a))p[k]=mix(a[k],b[k],f);
+      ctx.save();ctx.translate(300,191+p.y);ctx.rotate(p.tilt);ctx.scale(p.sx,p.sy);
+      for(const side of [-1,1])for(let i=0;i<3;i++)gill(side,i,t,p);
+      const grad=ctx.createLinearGradient(-40,-110,60,115);grad.addColorStop(0,palette.highlight);grad.addColorStop(.52,palette.head);grad.addColorStop(1,palette.bottom);
+      ctx.fillStyle=grad;ctx.beginPath();ctx.moveTo(0,-111);ctx.bezierCurveTo(82,-111,120,-65,126,11);ctx.bezierCurveTo(135,65,134,92,85,101);ctx.bezierCurveTo(38,110,-38,110,-85,101);ctx.bezierCurveTo(-134,92,-135,65,-126,11);ctx.bezierCurveTo(-120,-65,-82,-111,0,-111);ctx.fill();
+      const blinkPhase=t%4.7;
+      const blink=blinkPhase>3.92&&blinkPhase<4.12?Math.sin((blinkPhase-3.92)/.20*Math.PI):0;
+      eye(-48,13,p,blink,-1);eye(48,13,p,blink,1);
+      ctx.globalAlpha=.25;ellipse(-77,49,18,8,palette.peach);ellipse(77,49,18,8,palette.peach);ctx.globalAlpha=1;
+      strokePath(()=>{ctx.moveTo(-60,-22-p.brow*7);ctx.quadraticCurveTo(-49,-30-p.brow*8,-39,-24-p.brow*3);},4.5);
+      strokePath(()=>{ctx.moveTo(39,-24+p.brow*2);ctx.quadraticCurveTo(49,-30+p.brow*2,60,-22);},4.5);
+      ctx.save();ctx.translate(0,48);
+      if(p.open>.16){const h=9+p.open*23,w=15+p.open*6;ctx.fillStyle=palette.mouth;ctx.beginPath();ctx.moveTo(-w,-3);ctx.quadraticCurveTo(0,3,w,-3);ctx.bezierCurveTo(w+2,h*.65,w*.5,h,-0,h);ctx.bezierCurveTo(-w*.5,h,-w-2,h*.65,-w,-3);ctx.fill();ctx.save();ctx.clip();ellipse(0,h,13,8,palette.tongue);ctx.restore();}
+      else strokePath(()=>{ctx.moveTo(-16,0);ctx.quadraticCurveTo(0,19,16,0);},5.5);
+      ctx.restore();
+      if(state==='listening'){const wave=.35+.65*(.5+.5*Math.sin(t*3));ctx.globalAlpha=wave;strokePath(()=>{ctx.moveTo(-185,-70);ctx.quadraticCurveTo(-199,-83,-185,-96);},4,palette.gill);strokePath(()=>{ctx.moveTo(-201,-63);ctx.quadraticCurveTo(-224,-83,-201,-104);},4,palette.gill);ctx.globalAlpha=1;}
+      if(state==='speaking'){for(let i=0;i<3;i++){let h=5+Math.abs(Math.sin(t*10-i))*15;strokePath(()=>{ctx.moveTo(163+i*11,-h/2);ctx.lineTo(163+i*11,h/2);},5,palette.gill);}}
+      if(state==='thinking'){for(let i=0;i<3;i++)ellipse(148+i*17,-91,3.5,3.5,`rgba(189,160,229,${.25+.65*(.5+.5*Math.sin(t*3-i*.8))})`);}
+      if(state==='success'){sparkle(-180,-96,10+Math.sin(t*4)*2,.8);sparkle(180,-113,14+Math.cos(t*4)*3,.85);sparkle(158,79,7+Math.sin(t*3)*2,.65);}
+      ctx.restore();
+    }
+    function frame(now) {
+      if(!root.isConnected){cancelAnimationFrame(raf);return;}
+      const dt=Math.min(80,Math.max(0,now-last));last=now;
+      if(visible){
+        if(!reduced.matches)clock+=dt;
+        if(running&&now-started>DURATION)choose(order[(order.indexOf(state)+1)%order.length]);
+        paint(reduced.matches?0:clock/1000);
+        progress.style.width=(running?clamp((now-started)/DURATION)*100:0)+'%';
+      }
+      raf=requestAnimationFrame(frame);
+    }
+    buttons.forEach(b=>b.addEventListener('click',()=>choose(b.dataset.mimoState,true)));
+    play.addEventListener('click',()=>{running=!running;started=performance.now();label();persist();});
+    const restore = saved => { const v=saved && (saved.privateContent||saved);if(v&&states[v.state]){state=v.state;previous=state;running=typeof v.running==='boolean'?v.running:!reduced.matches;started=performance.now();label();} };
+    restore(window.openai && window.openai.widgetState);
+    window.addEventListener('openai:set_globals',e=>restore(e.detail && e.detail.globals && e.detail.globals.widgetState));
+    if(typeof IntersectionObserver==='function')new IntersectionObserver(([e])=>{visible=e.isIntersecting;started=performance.now();}).observe(root);
+    document.addEventListener('visibilitychange',()=>{visible=!document.hidden;started=performance.now();});
+    reduced.addEventListener('change',()=>{running=!reduced.matches;started=performance.now();label();});
+    label();paint(0);raf=requestAnimationFrame(frame);
+  })();
+  </script>
+</div>

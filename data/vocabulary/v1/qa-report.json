@@ -1,0 +1,17 @@
+{
+  "source_hashes_match": true,
+  "all_source_rows_preserved": true,
+  "entry_ids_unique": true,
+  "level_values_valid": true,
+  "no_invented_cefr_levels": true,
+  "conflicts_not_auto_resolved": true,
+  "wordnet_expected_synsets": true,
+  "sqlite_integrity": "ok",
+  "sqlite_foreign_keys": "ok",
+  "indonesian_orphan_rows": [],
+  "limitations": [
+    "Checks validate import/structure, not every source claim or translation.",
+    "No human review of the complete vocabulary has taken place.",
+    "Source lemma/POS levels must not be treated as verified sense levels."
+  ]
+}

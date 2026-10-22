@@ -1,0 +1,2009 @@
+{
+  "schema_version": 1,
+  "levels": [
+    {
+      "word": "abolish",
+      "url": "https://dictionary.cambridge.org/dictionary/english/abolish?topic=legislation-and-law-making",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "abundance",
+      "url": "https://dictionary.cambridge.org/dictionary/english/abundance?q=abundance%5D",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "abundant",
+      "url": "https://dictionary.cambridge.org/dictionary/english/abundant?topic=plenty-and-abundant",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "accessibility",
+      "url": "https://dictionary.cambridge.org/dictionary/english/accessibility?topic=available-and-accessible",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "adverse",
+      "url": "https://dictionary.cambridge.org/dictionary/english/adverse",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "adversely",
+      "url": "https://dictionary.cambridge.org/dictionary/english/adversely",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "advantageous",
+      "url": "https://dictionary.cambridge.org/dictionary/english/advantageous",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "adorn",
+      "url": "https://dictionary.cambridge.org/dictionary/english/adorn",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "apprentice",
+      "url": "https://dictionary.cambridge.org/dictionary/english/apprentice",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "allegation",
+      "url": "https://dictionary.cambridge.org/dictionary/english/allegation",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "agency",
+      "url": "https://dictionary.cambridge.org/dictionary/english/agency",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1",
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "agonize",
+      "url": "https://dictionary.cambridge.org/dictionary/english/agonize",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "audit",
+      "url": "https://dictionary.cambridge.org/dictionary/english/audit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "automatically",
+      "url": "https://dictionary.cambridge.org/dictionary/english/automatically",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "barometer",
+      "url": "https://dictionary.cambridge.org/dictionary/english/barometer",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "attainment",
+      "url": "https://dictionary.cambridge.org/dictionary/english/attainment",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "battery",
+      "url": "https://dictionary.cambridge.org/dictionary/english/battery",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "behind",
+      "url": "https://dictionary.cambridge.org/dictionary/english/behind",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "calf",
+      "url": "https://dictionary.cambridge.org/dictionary/english/calf",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1",
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "cascade",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cascade",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "catastrophic",
+      "url": "https://dictionary.cambridge.org/dictionary/english/catastrophic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "circuit",
+      "url": "https://dictionary.cambridge.org/dictionary/english/circuit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "cast",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cast",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2",
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "chronological",
+      "url": "https://dictionary.cambridge.org/dictionary/english/chronological",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "complexity",
+      "url": "https://dictionary.cambridge.org/dictionary/english/complexity",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "conceivable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/conceivable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "commission",
+      "url": "https://dictionary.cambridge.org/dictionary/english/commission?q=commissions",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "conceive",
+      "url": "https://dictionary.cambridge.org/dictionary/english/conceive",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "contextual",
+      "url": "https://dictionary.cambridge.org/dictionary/english/contextual",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "converse",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/converse",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "contextually",
+      "url": "https://dictionary.cambridge.org/dictionary/english/contextually",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "crystallise",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "curriculum",
+      "url": "https://dictionary.cambridge.org/dictionary/english/curriculum",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "daunting",
+      "url": "https://dictionary.cambridge.org/dictionary/english/daunting",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "daunt",
+      "url": "https://dictionary.cambridge.org/dictionary/english/daunt",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "crystallize",
+      "url": "https://dictionary.cambridge.org/dictionary/english/crystallize",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "deprivation",
+      "url": "https://dictionary.cambridge.org/dictionary/english/deprivation",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "diligence",
+      "url": "https://dictionary.cambridge.org/dictionary/english/diligence",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "diligent",
+      "url": "https://dictionary.cambridge.org/dictionary/english/diligent",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "deficit",
+      "url": "https://dictionary.cambridge.org/dictionary/english/deficit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "dive",
+      "url": "https://dictionary.cambridge.org/dictionary/english/dive",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "drive",
+      "url": "https://dictionary.cambridge.org/dictionary/english/drive?topic=trying-and-making-an-effort",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B2",
+        "C2",
+        "B1",
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "dispensable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/dispensable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "drill",
+      "url": "https://dictionary.cambridge.org/dictionary/english/drill",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "ecstasy",
+      "url": "https://dictionary.cambridge.org/dictionary/english/ecstasy",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "ecstatic",
+      "url": "https://dictionary.cambridge.org/dictionary/english/ecstatic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "exhibitionist",
+      "url": "https://dictionary.cambridge.org/dictionary/english/exhibitionist",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "envisage",
+      "url": "https://dictionary.cambridge.org/dictionary/english/envisage",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "exotic",
+      "url": "https://dictionary.cambridge.org/dictionary/english/exotic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "familiarise",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "expedition",
+      "url": "https://dictionary.cambridge.org/dictionary/english/expedition",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "exploit",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/exploit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "figurative",
+      "url": "https://dictionary.cambridge.org/dictionary/english/figurative",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "formidable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/formidable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "familiarize",
+      "url": "https://dictionary.cambridge.org/dictionary/english/familiarize",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "fit",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/fit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1",
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "haven",
+      "url": "https://dictionary.cambridge.org/dictionary/english/haven?topic=safe-and-enclosed-spaces",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "glint",
+      "url": "https://dictionary.cambridge.org/dictionary/english/glint?q=glints",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "hover",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/hover",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "grumble",
+      "url": "https://dictionary.cambridge.org/dictionary/english/grumble",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "indispensable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/indispensable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "indulge",
+      "url": "https://dictionary.cambridge.org/dictionary/english/indulge?topic=treating-someone-well",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "imperative",
+      "url": "https://dictionary.cambridge.org/dictionary/english/imperative",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "humble",
+      "url": "https://dictionary.cambridge.org/dictionary/english/humble?q=humble_1",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "inert",
+      "url": "https://dictionary.cambridge.org/dictionary/english/inert",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "innovative",
+      "url": "https://dictionary.cambridge.org/dictionary/english/innovative",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "innovation",
+      "url": "https://dictionary.cambridge.org/dictionary/english/innovation",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "jog",
+      "url": "https://dictionary.cambridge.org/dictionary/english/jog?topic=remembering-reminding-and-reminders",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "lap",
+      "url": "https://dictionary.cambridge.org/dictionary/english/lap",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "maneuver",
+      "url": "https://dictionary.cambridge.org/dictionary/english/maneuver",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "manoeuvre",
+      "url": "https://dictionary.cambridge.org/dictionary/english/manoeuvre",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "lark",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/lark",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "merger",
+      "url": "https://dictionary.cambridge.org/dictionary/english/merger",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "mere",
+      "url": "https://dictionary.cambridge.org/dictionary/english/mere",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "nature",
+      "url": "https://dictionary.cambridge.org/dictionary/english/nature",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "march",
+      "url": "https://dictionary.cambridge.org/dictionary/english/march?topic=names-of-months",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "paralyse",
+      "url": "https://dictionary.cambridge.org/dictionary/english/paralyse",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "outpatient",
+      "url": "https://dictionary.cambridge.org/dictionary/english/outpatient",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "paralysis",
+      "url": "https://dictionary.cambridge.org/dictionary/english/paralysis",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "notorious",
+      "url": "https://dictionary.cambridge.org/dictionary/english/notorious",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "personification",
+      "url": "https://dictionary.cambridge.org/dictionary/english/personification",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "plane",
+      "url": "https://dictionary.cambridge.org/dictionary/english/plane",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "phase",
+      "url": "https://dictionary.cambridge.org/dictionary/english/phase",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "paralyze",
+      "url": "https://dictionary.cambridge.org/dictionary/english/paralyze",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "preoccupy",
+      "url": "https://dictionary.cambridge.org/dictionary/english/preoccupy",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "punctual",
+      "url": "https://dictionary.cambridge.org/dictionary/english/punctual",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "proliferate",
+      "url": "https://dictionary.cambridge.org/dictionary/english/proliferate",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "predecessor",
+      "url": "https://dictionary.cambridge.org/dictionary/english/predecessor",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "recite",
+      "url": "https://dictionary.cambridge.org/dictionary/english/recite",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "punctuality",
+      "url": "https://dictionary.cambridge.org/dictionary/english/punctuality",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "pupil",
+      "url": "https://dictionary.cambridge.org/dictionary/english/pupil",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "recollection",
+      "url": "https://dictionary.cambridge.org/dictionary/english/recollection",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "resin",
+      "url": "https://dictionary.cambridge.org/dictionary/english/resin",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "relinquish",
+      "url": "https://dictionary.cambridge.org/dictionary/english/relinquish",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "redundant",
+      "url": "https://dictionary.cambridge.org/dictionary/english/redundant?topic=too-much-and-unnecessary",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2",
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "resort",
+      "url": "https://dictionary.cambridge.org/dictionary/english/resort?q=RESORT",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "rich",
+      "url": "https://dictionary.cambridge.org/dictionary/english/rich",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "retrospect",
+      "url": "https://dictionary.cambridge.org/dictionary/english/retrospect",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "skim",
+      "url": "https://dictionary.cambridge.org/dictionary/english/skim",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "sedately",
+      "url": "https://dictionary.cambridge.org/dictionary/english/sedately",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "soliloquy",
+      "url": "https://dictionary.cambridge.org/dictionary/english/soliloquy",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "strait",
+      "url": "https://dictionary.cambridge.org/dictionary/english/strait",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "succeed",
+      "url": "https://dictionary.cambridge.org/dictionary/english/succeed",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "sulphur",
+      "url": "https://dictionary.cambridge.org/dictionary/english/sulphur",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "talkative",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/talkative",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "tactile",
+      "url": "https://dictionary.cambridge.org/dictionary/english/tactile",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "surge",
+      "url": "https://dictionary.cambridge.org/dictionary/english/surge",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "tantamount",
+      "url": "https://dictionary.cambridge.org/dictionary/english/tantamount",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "tomb",
+      "url": "https://dictionary.cambridge.org/dictionary/english/tomb",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "tedium",
+      "url": "https://dictionary.cambridge.org/dictionary/english/tedium",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "utilize",
+      "url": "https://dictionary.cambridge.org/dictionary/english/utilize",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "utility",
+      "url": "https://dictionary.cambridge.org/dictionary/english/utility",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "wax",
+      "url": "https://dictionary.cambridge.org/dictionary/english/wax",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "vocalist",
+      "url": "https://dictionary.cambridge.org/dictionary/english/vocalist",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "utter",
+      "url": "https://dictionary.cambridge.org/dictionary/english/utter",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "venture",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/venture",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "wither",
+      "url": "https://dictionary.cambridge.org/dictionary/english/wither",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "withdrawal",
+      "url": "https://dictionary.cambridge.org/dictionary/english/withdrawal?q=withdrawal_1",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "C2"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    },
+    {
+      "word": "wing",
+      "url": "https://dictionary.cambridge.org/dictionary/english/wing",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Visible level tokens may belong to different parts of speech or specific phrases; not a headword-wide approval."
+    }
+  ],
+  "parts_of_speech": [
+    {
+      "word": "anticancer",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "antipollution",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "ad lib",
+      "url": "https://dictionary.cambridge.org/dictionary/english/ad-lib?topic=foreign-words-and-phrases-used-in-english",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adverb",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "am",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/am",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb",
+        "adverb",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "automatic",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/automatic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "audio",
+      "url": "https://dictionary.cambridge.org/dictionary/english/audio",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "batter",
+      "url": "https://dictionary.cambridge.org/dictionary/english/batter",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "aqua",
+      "url": "https://dictionary.cambridge.org/dictionary/english/aqua",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "blurt",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "both",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/both",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "determiner",
+        "pronoun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "boiling",
+      "url": "https://dictionary.cambridge.org/dictionary/english/boiling",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "bookmark",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/bookmark",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "centigrade",
+      "url": "https://dictionary.cambridge.org/dictionary/english/centigrade",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "budget",
+      "url": "https://dictionary.cambridge.org/dictionary/english/budget",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "broadband",
+      "url": "https://dictionary.cambridge.org/dictionary/english/broadband",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "cordon",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cordon",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "curate",
+      "url": "https://dictionary.cambridge.org/dictionary/english/curate",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "cream",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cream",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "designer",
+      "url": "https://dictionary.cambridge.org/dictionary/english/designer?topic=modern-and-fashionable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "depressive",
+      "url": "https://dictionary.cambridge.org/dictionary/english/depressive",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "enviable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/enviable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "download",
+      "url": "https://dictionary.cambridge.org/dictionary/english/download",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "edit",
+      "url": "https://dictionary.cambridge.org/dictionary/english/edit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "durable",
+      "url": "https://dictionary.cambridge.org/dictionary/english/durable",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "exaggerate",
+      "url": "https://dictionary.cambridge.org/dictionary/english/exaggerate",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "freezing",
+      "url": "https://dictionary.cambridge.org/dictionary/english/freezing",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "extracurricular",
+      "url": "https://dictionary.cambridge.org/dictionary/english/extracurricular",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "fellow",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/fellow",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "half-price",
+      "url": "https://dictionary.cambridge.org/dictionary/english/half-price",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "adverb",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "gourmet",
+      "url": "https://dictionary.cambridge.org/dictionary/english/gourmet",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "fun",
+      "url": "https://dictionary.cambridge.org/dictionary/english/fun?q=fun_1",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "hanging",
+      "url": "https://dictionary.cambridge.org/dictionary/english/hanging",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "jersey",
+      "url": "https://dictionary.cambridge.org/dictionary/english/jersey",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "latter",
+      "url": "https://dictionary.cambridge.org/dictionary/english/latter",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "lead",
+      "url": "https://dictionary.cambridge.org/dictionary/english/lead?topic=describing-the-leading-position",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "lot",
+      "url": "https://dictionary.cambridge.org/dictionary/english/lot?topic=general-words-for-size-and-amount",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "micro",
+      "url": "https://dictionary.cambridge.org/dictionary/english/micro",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "prefix"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "luxury",
+      "url": "https://dictionary.cambridge.org/dictionary/english/luxury",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "minster",
+      "url": "https://dictionary.cambridge.org/dictionary/english/minster",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "navy blue",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "overall",
+      "url": "https://dictionary.cambridge.org/dictionary/english/overall",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adverb",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "overdraft",
+      "url": "https://dictionary.cambridge.org/dictionary/english/overdraft",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "online",
+      "url": "https://dictionary.cambridge.org/dictionary/english/online",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "neither",
+      "url": "https://dictionary.cambridge.org/dictionary/english/neither",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "determiner",
+        "pronoun",
+        "conjunction",
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "pm",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "pos_visible": [],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "preschool",
+      "url": "https://dictionary.cambridge.org/dictionary/english/preschool",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "plum",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/plum",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "paramedic",
+      "url": "https://dictionary.cambridge.org/dictionary/english/paramedic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "quirky",
+      "url": "https://dictionary.cambridge.org/dictionary/english/quirky?topic=unique-and-unusual",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "quit",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/quit",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "procedural",
+      "url": "https://dictionary.cambridge.org/dictionary/english/procedural",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "refresh",
+      "url": "https://dictionary.cambridge.org/dictionary/english/refresh",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "remonstrate",
+      "url": "https://dictionary.cambridge.org/dictionary/english/remonstrate",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "roam",
+      "url": "https://dictionary.cambridge.org/dictionary/english/roam",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "repaint",
+      "url": "https://dictionary.cambridge.org/dictionary/english/repaint",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "same",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/same?topic=also-extra-and-in-addition",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "state",
+      "url": "https://dictionary.cambridge.org/dictionary/english/state",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "soaking",
+      "url": "https://dictionary.cambridge.org/dictionary/english/soaking",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "statewide",
+      "url": "https://dictionary.cambridge.org/dictionary/english/statewide",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "tabloid",
+      "url": "https://dictionary.cambridge.org/dictionary/english/tabloid",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "text",
+      "url": "https://dictionary.cambridge.org/dictionary/english/text?q=text_2",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun",
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "terrorist",
+      "url": "https://dictionary.cambridge.org/dictionary/english/terrorist",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "underwater",
+      "url": "https://dictionary.cambridge.org/dictionary/english/underwater",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "upright",
+      "url": "https://dictionary.cambridge.org/dictionary/english/upright",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "vice",
+      "url": "https://dictionary.cambridge.org/dictionary/english/vice",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "prefix",
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "upside down",
+      "url": "https://dictionary.cambridge.org/dictionary/english/upside-down",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adverb",
+        "adjective"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "weep",
+      "url": "https://dictionary.cambridge.org/dictionary/english/weep",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "verb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "vegetarian",
+      "url": "https://dictionary.cambridge.org/dictionary/english/vegetarian?q=Vegetarian",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "workaholic",
+      "url": "https://dictionary.cambridge.org/dictionary/english/workaholic",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "noun"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "yes",
+      "url": "https://dictionary.cambridge.org/dictionary/english/yes",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "why",
+      "url": "https://dictionary.cambridge.org/dictionary/english/why",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    },
+    {
+      "word": "worldwide",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/worldwide",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "pos_visible": [
+        "adjective",
+        "adverb"
+      ],
+      "caveat": "Positive evidence only. An unobserved POS is not proof of invalidity."
+    }
+  ],
+  "notes": [
+    "Metadata and factual observations only; no bulk dictionary definitions/examples copied.",
+    "No Cambridge API credentials used.",
+    "Exact semantic decisions are maintained separately in editorial corrections."
+  ]
+}

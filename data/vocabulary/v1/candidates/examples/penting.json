@@ -1,0 +1,1549 @@
+{
+  "query_id": "penting",
+  "concepts": [
+    {
+      "concept_id": "00580805-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "outstanding",
+        "prominent",
+        "salient",
+        "spectacular",
+        "striking"
+      ],
+      "definition_en": "having a quality that thrusts itself into attention",
+      "gloss_en": "having a quality that thrusts itself into attention; \"an outstanding fact of our time is that nations poisoned by anti semitism proved less fortunate in regard to their own freedom\"; \"a new theory is the most prominent feature of the book\"; \"salient traits\"; \"a spectacular rise in prices\"; \"a striking thing about Picadilly Circus is the statue of Eros in the center\"; \"a striking resemblance between parent and child\"",
+      "examples_en": [
+        "an outstanding fact of our time is that nations poisoned by anti semitism proved less fortunate in regard to their own freedom",
+        "a new theory is the most prominent feature of the book",
+        "salient traits",
+        "a spectacular rise in prices",
+        "a striking thing about Picadilly Circus is the statue of Eros in the center",
+        "a striking resemblance between parent and child"
+      ],
+      "indonesian_terms": [
+        "menonjol",
+        "nyata",
+        "penting",
+        "terkemuka"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-de6fd9f8152d970158ed",
+            "word": "outstanding",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-985ee96461df41ff5801",
+            "word": "prominent",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-ba853e1ce7caa51abaef",
+            "word": "spectacular",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-7e2ed592836bacd3eb54",
+            "word": "striking",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00624026-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "considerable"
+      ],
+      "definition_en": "large or relatively large in number or amount or extent or degree",
+      "gloss_en": "large or relatively large in number or amount or extent or degree; \"a considerable quantity\"; \"the economy was a considerable issue in the campaign\"; \"went to considerable trouble for us\"; \"spent a considerable amount of time on the problem\"",
+      "examples_en": [
+        "a considerable quantity",
+        "the economy was a considerable issue in the campaign",
+        "went to considerable trouble for us",
+        "spent a considerable amount of time on the problem"
+      ],
+      "indonesian_terms": [
+        "banyak",
+        "besar",
+        "penting",
+        "ramai",
+        "tebal semangat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9fe36b22b1dc2f622a7a",
+            "word": "considerable",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00634586-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.act",
+      "english_lemmas": [
+        "count",
+        "counting",
+        "enumeration",
+        "numeration",
+        "reckoning",
+        "tally"
+      ],
+      "definition_en": "the act of counting; reciting numbers in ascending order",
+      "gloss_en": "the act of counting; reciting numbers in ascending order; \"the counting continued for several hours\"",
+      "examples_en": [
+        "the counting continued for several hours"
+      ],
+      "indonesian_terms": [
+        "bilangan",
+        "kira",
+        "kiraan",
+        "membilang",
+        "menghitung",
+        "mengira",
+        "pembilangan",
+        "pencacahan",
+        "penghitungan",
+        "pengiraan",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-3939da6306bd6a01133e",
+            "word": "count",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00655779-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "crucial",
+        "important"
+      ],
+      "definition_en": "of extreme importance; vital to the resolution of a crisis",
+      "gloss_en": "of extreme importance; vital to the resolution of a crisis; \"a crucial moment in his career\"; \"a crucial election\"; \"a crucial issue for women\"",
+      "examples_en": [
+        "a crucial moment in his career",
+        "a crucial election",
+        "a crucial issue for women"
+      ],
+      "indonesian_terms": [
+        "krusial",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2ee004885bff2333f106",
+            "word": "important",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-6e28ac5a08f2de71c8bc",
+            "word": "crucial",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00712419-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "imperative"
+      ],
+      "definition_en": "requiring attention or action",
+      "gloss_en": "requiring attention or action; \"as nuclear weapons proliferate, preventing war becomes imperative\"; \"requests that grew more and more imperative\"",
+      "examples_en": [
+        "as nuclear weapons proliferate, preventing war becomes imperative",
+        "requests that grew more and more imperative"
+      ],
+      "indonesian_terms": [
+        "imperatif",
+        "mustahak",
+        "penting",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-56b0c50be24694694506",
+            "word": "imperative",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00713558-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "pressing",
+        "urgent"
+      ],
+      "definition_en": "compelling immediate action",
+      "gloss_en": "compelling immediate action; \"too pressing to permit of longer delay\"; \"the urgent words `Hurry! Hurry!'\"; \"bridges in urgent need of repair\"",
+      "examples_en": [
+        "too pressing to permit of longer delay",
+        "the urgent words `Hurry! Hurry!'",
+        "bridges in urgent need of repair"
+      ],
+      "indonesian_terms": [
+        "darurat",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-33c9e17bb29516ae2870",
+            "word": "urgent",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00900616-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "essential"
+      ],
+      "definition_en": "basic and fundamental",
+      "gloss_en": "basic and fundamental; \"the essential feature\"",
+      "examples_en": [
+        "the essential feature"
+      ],
+      "indonesian_terms": [
+        "asas",
+        "penting",
+        "perlu",
+        "pokok",
+        "utama"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-4cab13fb4d8cf1fd13f4",
+            "word": "essential",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00902347-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "life-sustaining",
+        "vital"
+      ],
+      "definition_en": "performing an essential function in the living body",
+      "gloss_en": "performing an essential function in the living body; \"vital organs\"; \"blood and other vital fluids\"; \"the loss of vital heat in shock\"; \"a vital spot\"; \"life-giving love and praise\"",
+      "examples_en": [
+        "vital organs",
+        "blood and other vital fluids",
+        "the loss of vital heat in shock",
+        "a vital spot",
+        "life-giving love and praise"
+      ],
+      "indonesian_terms": [
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-05e6fc6eb410f9716515",
+            "word": "vital",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00903894-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "critical",
+        "vital"
+      ],
+      "definition_en": "urgently needed; absolutely necessary",
+      "gloss_en": "urgently needed; absolutely necessary; \"a critical element of the plan\"; \"critical medical supplies\"; \"vital for a healthy society\"; \"of vital interest\"",
+      "examples_en": [
+        "a critical element of the plan",
+        "critical medical supplies",
+        "vital for a healthy society",
+        "of vital interest"
+      ],
+      "indonesian_terms": [
+        "gawat",
+        "genting",
+        "kritis",
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-40b52ed45a4a65a217fe",
+            "word": "critical",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-05e6fc6eb410f9716515",
+            "word": "vital",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00947857-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "count"
+      ],
+      "definition_en": "name or recite the numbers in ascending order",
+      "gloss_en": "name or recite the numbers in ascending order; \"The toddler could count to 100\"",
+      "examples_en": [
+        "The toddler could count to 100"
+      ],
+      "indonesian_terms": [
+        "membilang",
+        "menghitung",
+        "mengira",
+        "penting"
+      ],
+      "definitions_id": [
+        "membilang dalam urutan membesar"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-46ed5d0cb45e6b4547f4",
+            "word": "count",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01275562-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "important",
+        "of import"
+      ],
+      "definition_en": "of great significance or value",
+      "gloss_en": "of great significance or value; \"important people\"; \"the important questions of the day\"",
+      "examples_en": [
+        "important people",
+        "the important questions of the day"
+      ],
+      "indonesian_terms": [
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2ee004885bff2333f106",
+            "word": "important",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01276150-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "all important",
+        "all-important",
+        "crucial",
+        "essential",
+        "of the essence"
+      ],
+      "definition_en": "of the greatest importance",
+      "gloss_en": "of the greatest importance; \"the all-important subject of disarmament\"; \"crucial information\"; \"in chess cool nerves are of the essence\"",
+      "examples_en": [
+        "the all-important subject of disarmament",
+        "crucial information",
+        "in chess cool nerves are of the essence"
+      ],
+      "indonesian_terms": [
+        "mustahak",
+        "penting",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-4cab13fb4d8cf1fd13f4",
+            "word": "essential",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-6e28ac5a08f2de71c8bc",
+            "word": "crucial",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01277097-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "cardinal",
+        "central",
+        "fundamental",
+        "key",
+        "primal"
+      ],
+      "definition_en": "serving as an essential component",
+      "gloss_en": "serving as an essential component; \"a cardinal rule\"; \"the central cause of the problem\"; \"an example that was fundamental to the argument\"; \"computers are fundamental to modern industrial structure\"",
+      "examples_en": [
+        "a cardinal rule",
+        "the central cause of the problem",
+        "an example that was fundamental to the argument",
+        "computers are fundamental to modern industrial structure"
+      ],
+      "indonesian_terms": [
+        "asas",
+        "dasar",
+        "penting",
+        "pokok",
+        "pusat",
+        "terutama",
+        "utama"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-bf79611b0977e4a39040",
+            "word": "key",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-33925ed9c7570d11cbfe",
+            "word": "central",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-ef49a7ffa83e370c66fd",
+            "word": "fundamental",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01278423-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "grave",
+        "grievous",
+        "heavy",
+        "weighty"
+      ],
+      "definition_en": "of great gravity or crucial import; requiring serious thought",
+      "gloss_en": "of great gravity or crucial import; requiring serious thought; \"grave responsibilities\"; \"faced a grave decision in a time of crisis\"; \"a grievous fault\"; \"heavy matters of state\"; \"the weighty matters to be discussed at the peace conference\"",
+      "examples_en": [
+        "grave responsibilities",
+        "faced a grave decision in a time of crisis",
+        "a grievous fault",
+        "heavy matters of state",
+        "the weighty matters to be discussed at the peace conference"
+      ],
+      "indonesian_terms": [
+        "berat",
+        "besar",
+        "parah",
+        "penting",
+        "serius",
+        "teruk"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-5928b9173e86036a96ac",
+            "word": "heavy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01278818-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "great",
+        "outstanding"
+      ],
+      "definition_en": "of major significance or importance",
+      "gloss_en": "of major significance or importance; \"a great work of art\"; \"Einstein was one of the outstanding figures of the 20th centurey\"",
+      "examples_en": [
+        "a great work of art",
+        "Einstein was one of the outstanding figures of the 20th centurey"
+      ],
+      "indonesian_terms": [
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-84e55e8c69d8f341ca2e",
+            "word": "great",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-de6fd9f8152d970158ed",
+            "word": "outstanding",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01348528-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "built-in",
+        "constitutional",
+        "inbuilt",
+        "inherent",
+        "integral"
+      ],
+      "definition_en": "existing as an essential constituent or characteristic",
+      "gloss_en": "existing as an essential constituent or characteristic; \"the Ptolemaic system with its built-in concept of periodicity\"; \"a constitutional inability to tell the truth\"",
+      "examples_en": [
+        "the Ptolemaic system with its built-in concept of periodicity",
+        "a constitutional inability to tell the truth"
+      ],
+      "indonesian_terms": [
+        "penting",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-e14dda824b23a54eaa3c",
+            "word": "inherent",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-0cab823b3c8a6aa0ac59",
+            "word": "integral",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01471538-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "major"
+      ],
+      "definition_en": "greater in scope or effect",
+      "gloss_en": "greater in scope or effect; \"a major contribution\"; \"a major improvement\"; \"a major break with tradition\"; \"a major misunderstanding\"",
+      "examples_en": [
+        "a major contribution",
+        "a major improvement",
+        "a major break with tradition",
+        "a major misunderstanding"
+      ],
+      "indonesian_terms": [
+        "penting",
+        "utama"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-e079046e12334e5db6df",
+            "word": "major",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01580050-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "necessary"
+      ],
+      "definition_en": "absolutely essential",
+      "gloss_en": "absolutely essential",
+      "examples_en": [],
+      "indonesian_terms": [
+        "keperluan",
+        "mesti",
+        "mustahak",
+        "penting",
+        "perlu",
+        "wajib"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-3444804f9b6bc682e170",
+            "word": "necessary",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01580306-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "essential",
+        "indispensable"
+      ],
+      "definition_en": "absolutely necessary; vitally necessary",
+      "gloss_en": "absolutely necessary; vitally necessary; \"essential tools and materials\"; \"funds essential to the completion of the project\"; \"an indispensable worker\"",
+      "examples_en": [
+        "essential tools and materials",
+        "funds essential to the completion of the project",
+        "an indispensable worker"
+      ],
+      "indonesian_terms": [
+        "mustahak",
+        "penting",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-4cab13fb4d8cf1fd13f4",
+            "word": "essential",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [
+        {
+          "entry_id": "vocab-bf83ff3f214989e80b5d",
+          "word": "indispensable",
+          "level_scope": "source_headword_pos_not_verified_sense",
+          "sense_level_verified": false,
+          "levels_claimed": [
+            "B2",
+            "C1"
+          ],
+          "quality_flags": [
+            "conflicting_wordlist_levels"
+          ]
+        }
+      ],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02161432-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "important",
+        "significant"
+      ],
+      "definition_en": "important in effect or meaning",
+      "gloss_en": "important in effect or meaning; \"a significant change in tax laws\"; \"a significant change in the Constitution\"; \"a significant contribution\"; \"significant details\"; \"statistically significant\"",
+      "examples_en": [
+        "a significant change in tax laws",
+        "a significant change in the Constitution",
+        "a significant contribution",
+        "significant details",
+        "statistically significant"
+      ],
+      "indonesian_terms": [
+        "bermakna",
+        "berpengaruh",
+        "mustahak",
+        "nyata",
+        "penting",
+        "signifikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2ee004885bff2333f106",
+            "word": "important",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-aa8f7887723ed3815776",
+            "word": "significant",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02165655-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "significant"
+      ],
+      "definition_en": "too closely correlated to be attributed to chance and therefore indicating a systematic relation",
+      "gloss_en": "too closely correlated to be attributed to chance and therefore indicating a systematic relation; \"the interaction effect is significant at the .01 level\"; \"no significant difference was found\"",
+      "examples_en": [
+        "the interaction effect is significant at the .01 level",
+        "no significant difference was found"
+      ],
+      "indonesian_terms": [
+        "penting",
+        "signifikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-aa8f7887723ed3815776",
+            "word": "significant",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02645839-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "count",
+        "matter",
+        "weigh"
+      ],
+      "definition_en": "have weight; have import, carry weight",
+      "gloss_en": "have weight; have import, carry weight; \"It does not matter much\"",
+      "examples_en": [
+        "It does not matter much"
+      ],
+      "indonesian_terms": [
+        "berat",
+        "menimbang",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-46ed5d0cb45e6b4547f4",
+            "word": "count",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-0d46b119b0ef56f81a5b",
+            "word": "matter",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-48848dc5e2777742747d",
+            "word": "weigh",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02722988-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.pert",
+      "english_lemmas": [
+        "essential"
+      ],
+      "definition_en": "being or relating to or containing the essence of a plant etc",
+      "gloss_en": "being or relating to or containing the essence of a plant etc; \"essential oil\"",
+      "examples_en": [
+        "essential oil"
+      ],
+      "indonesian_terms": [
+        "esensial",
+        "mustahak",
+        "penting",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-4cab13fb4d8cf1fd13f4",
+            "word": "essential",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "04586581-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.artifact",
+      "english_lemmas": [
+        "key",
+        "winder"
+      ],
+      "definition_en": "mechanical device used to wind another device that is driven by a spring (as a clock)",
+      "gloss_en": "mechanical device used to wind another device that is driven by a spring (as a clock)",
+      "examples_en": [],
+      "indonesian_terms": [
+        "anak kunci",
+        "kunci",
+        "mata",
+        "penting",
+        "punca"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-476e13341edf397afe03",
+            "word": "key",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05168261-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "importance"
+      ],
+      "definition_en": "the quality of being important and worthy of note",
+      "gloss_en": "the quality of being important and worthy of note; \"the importance of a well-balanced diet\"",
+      "examples_en": [
+        "the importance of a well-balanced diet"
+      ],
+      "indonesian_terms": [
+        "kepentingan",
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-732c598bdb9baef56c02",
+            "word": "importance",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05169037-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "account"
+      ],
+      "definition_en": "importance or value",
+      "gloss_en": "importance or value; \"a person of considerable account\"; \"he predicted that although it is of small account now it will rapidly increase in importance\"",
+      "examples_en": [
+        "a person of considerable account",
+        "he predicted that although it is of small account now it will rapidly increase in importance"
+      ],
+      "indonesian_terms": [
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-bdd10754b0849b9c1021",
+            "word": "account",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05169507-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "prominence"
+      ],
+      "definition_en": "relative importance",
+      "gloss_en": "relative importance",
+      "examples_en": [],
+      "indonesian_terms": [
+        "kemasyhuran",
+        "kemuliaan",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-8e3b369c5771c73c58bb",
+            "word": "prominence",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05169813-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "significance"
+      ],
+      "definition_en": "the quality of being significant",
+      "gloss_en": "the quality of being significant; \"do not underestimate the significance of nuclear power\"",
+      "examples_en": [
+        "do not underestimate the significance of nuclear power"
+      ],
+      "indonesian_terms": [
+        "arti",
+        "kekuatan",
+        "kepentingan",
+        "kesan",
+        "makna",
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-c6fe9fc5a218f419c24d",
+            "word": "significance",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05170574-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "consequence",
+        "import",
+        "moment"
+      ],
+      "definition_en": "having important effects or influence",
+      "gloss_en": "having important effects or influence; \"decisions of great consequence are made by the president himself\"; \"virtue is of more moment than security\"; \"that result is of no consequence\"",
+      "examples_en": [
+        "decisions of great consequence are made by the president himself",
+        "virtue is of more moment than security",
+        "that result is of no consequence"
+      ],
+      "indonesian_terms": [
+        "akibat",
+        "kepentingan",
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d78a122c8f2874e044f9",
+            "word": "moment",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-c8afeb1ba8cb81ec9fe1",
+            "word": "consequence",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "05794057-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.cognition",
+      "english_lemmas": [
+        "key"
+      ],
+      "definition_en": "something crucial for explaining",
+      "gloss_en": "something crucial for explaining; \"the key to development is economic integration\"",
+      "examples_en": [
+        "the key to development is economic integration"
+      ],
+      "indonesian_terms": [
+        "anak kunci",
+        "kunci",
+        "mata",
+        "penting",
+        "penunjuk",
+        "petunjuk",
+        "punca"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-476e13341edf397afe03",
+            "word": "key",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "11103104-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.person",
+      "english_lemmas": [
+        "Francis Scott Key",
+        "Key"
+      ],
+      "definition_en": "United States lawyer and poet who wrote a poem after witnessing the British attack on Baltimore during the War of 1812; the poem was later set to music and entitled `The Star-Spangled Banner' (1779-1843)",
+      "gloss_en": "United States lawyer and poet who wrote a poem after witnessing the British attack on Baltimore during the War of 1812; the poem was later set to music and entitled `The Star-Spangled Banner' (1779-1843)",
+      "examples_en": [],
+      "indonesian_terms": [
+        "anak kunci",
+        "Francis Scott Key",
+        "Key",
+        "ki",
+        "kunci",
+        "mata",
+        "penting",
+        "punca"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-476e13341edf397afe03",
+            "word": "Key",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "14433587-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.state",
+      "english_lemmas": [
+        "prominence"
+      ],
+      "definition_en": "the state of being prominent: widely known or eminent",
+      "gloss_en": "the state of being prominent: widely known or eminent",
+      "examples_en": [],
+      "indonesian_terms": [
+        "kemasyhuran",
+        "kemuliaan",
+        "keutamaan",
+        "penting"
+      ],
+      "definitions_id": [
+        "dikenal luas atau termasyhur"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-8e3b369c5771c73c58bb",
+            "word": "prominence",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "14434681-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.state",
+      "english_lemmas": [
+        "grandness",
+        "importance"
+      ],
+      "definition_en": "a prominent status",
+      "gloss_en": "a prominent status; \"a person of importance\"",
+      "examples_en": [
+        "a person of importance"
+      ],
+      "indonesian_terms": [
+        "kepentingan",
+        "mustahak",
+        "penting"
+      ],
+      "definitions_id": [
+        "suatu status penting/utama/terkemuka"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-732c598bdb9baef56c02",
+            "word": "importance",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

@@ -1,0 +1,32 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "by-level/A1.jsonl": "33a316349b732221c7f3e7ed9a9f06afd96a4974d904d0fde2a70155846c09e0",
+    "by-level/A2.jsonl": "c7f18a95d7619c57e3f63732a1d1d33438006e50f15debe7afb3e9164f6fccb7",
+    "by-level/B1.jsonl": "aa1bc7356515a49d2897dfed1225ae9d918cef00ab564d43f56533040eb21dd4",
+    "by-level/B2.jsonl": "716c1feebb9fdce94849f978e8fd08f65328108e971123f04fe8802b76e89ebc",
+    "by-level/C1.jsonl": "9c1849910f998b5a05549e6ade37df53d86310848e5aa7a34542cebe18213d4e",
+    "by-level/C2.jsonl": "de0a01b79cb9df6fc18eb0b7a454a8dcee99f85c0248dc1a223a8db68c2a73d0",
+    "cambridge-review-queue.jsonl": "432b2318dc93f6c0433b4408b80a8e44812699cb8f76a7f099c0b18e460aa254",
+    "candidates/concepts-by-level.jsonl": "d335b6adf1c7643e2687b454d6c592c72ba5cd116a977672ab8961f6d17477d2",
+    "candidates/examples/bekerja.json": "762c3c3895540cbcb6a8aa557d7ffaa4ce0b7c77030c437817c3f2dd7fe00bc3",
+    "candidates/examples/belajar.json": "d52b56a019bbb19ebcb9b7f50acbaa752b45a663c89fff19e3b4493f4edb53dd",
+    "candidates/examples/berbicara.json": "cd4275badda303ef622d95aaed122d8134ad04bb9f813e0e3fdb0b7c77969393",
+    "candidates/examples/berjalan.json": "2c0e144a97c997438f3ef928522b332317220a75b0235e8150cde42f8d4effd0",
+    "candidates/examples/makan.json": "cd4d605b116e431fa364aebce3946adaf6b201797c371c86e655b91d747950e6",
+    "candidates/examples/melihat.json": "dc1c991d5ca57bb308c78c85ad4c1a8d3d15c9366b6ed77e48ddf8ee976a19f2",
+    "candidates/examples/minum.json": "f4c406c6894639722f3a22057a7de040f4106bf6fd5443eb134da58af7fd4e57",
+    "candidates/examples/penting.json": "f25f04ca2a7c43f1bad95cbb3b9777d9ae009395f98ddc8ae8bd63fd37cf85e6",
+    "candidates/examples/sedih.json": "5242bd04f3325db29fd177a59d4ad66da02c87b475e743cb879d581eef333830",
+    "candidates/examples/senang.json": "fa3aade98e8e72d0c78349d9bc4dcdf06540414d4409ce7edd3e1651c62341e0",
+    "candidates/indonesian-index.jsonl": "27b0f7cdd0e8c6983b86e2bd3f506e3d24927c36e0dc5912a5e5a15a5e75d789",
+    "dataset-metadata.json": "cb757f3f1e7f9b4f5f26e4ac8f3066653b9865571415ca4cdcaeab35f260a3a6",
+    "english-inventory.jsonl": "b2ac1874bb7aaf3dbb7642f191e7c95faa85ab5b197d09cb763ce9973e385642",
+    "qa-report.json": "f1a47fc076734bd4801657434e106a3b1c7b5fcb662b407dc5228052048eba70",
+    "review-queue.jsonl": "ae10be6091c3536a6754b127c412b3c30148d34106ea9ee54c2142be05c51bc6",
+    "source-claims.jsonl": "aeb2ffceb82cb76c055594da1c4a93d739e869c05af0ddd88f8256b6a2d794a7",
+    "summary.json": "a07b3f4e26c6b7fb347b4bb0d4d8e007a4cfddf99a471282f9ef9e954d6d5dd0",
+    "vocabulary.jsonl": "a0787c327a65cb2f6b64947d4420b593e33cffe9ad09791a8b07b8e5ba553a28",
+    "vocabulary.sqlite": "ab33322d060307e5486092ba370294026534405954cf7c3b1ee8fcb8a1a88b62"
+  }
+}

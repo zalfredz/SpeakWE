@@ -1,0 +1,557 @@
+{
+  "query_id": "bekerja",
+  "concepts": [
+    {
+      "concept_id": "00100551-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.body",
+      "english_lemmas": [
+        "exercise",
+        "work",
+        "work out"
+      ],
+      "definition_en": "give a workout to",
+      "gloss_en": "give a workout to; \"Some parents exercise their infants\"; \"My personal trainer works me hard\"; \"work one's muscles\"; \"this puzzle will exercise your mind\"",
+      "examples_en": [
+        "Some parents exercise their infants",
+        "My personal trainer works me hard",
+        "work one's muscles",
+        "this puzzle will exercise your mind"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "berlatih",
+        "bersenam",
+        "kerja",
+        "latihan",
+        "mengakok",
+        "mengerjakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-017d9c33a91f338eaf1a",
+            "word": "exercise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01095218-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "serve"
+      ],
+      "definition_en": "do duty or hold offices; serve in a specific function",
+      "gloss_en": "do duty or hold offices; serve in a specific function; \"He served as head of the department for three years\"; \"She served in Congress for two terms\"",
+      "examples_en": [
+        "He served as head of the department for three years",
+        "She served in Congress for two terms"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berkhidmat",
+        "bertugas",
+        "meladeni",
+        "melayani",
+        "mengemaskan",
+        "menyajikan",
+        "menyediakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-691385001f1ec4e8222e",
+            "word": "serve",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01525666-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "function",
+        "go",
+        "operate",
+        "run",
+        "work"
+      ],
+      "definition_en": "perform as expected when applied",
+      "gloss_en": "perform as expected when applied; \"The washing machine won't go unless it's plugged in\"; \"Does this old car still run well?\"; \"This old radio doesn't work anymore\"",
+      "examples_en": [
+        "The washing machine won't go unless it's plugged in",
+        "Does this old car still run well?",
+        "This old radio doesn't work anymore"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "beralih",
+        "berangkat",
+        "berbunyi",
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "berjaya",
+        "beroperasi",
+        "buyar",
+        "hidup",
+        "jalan",
+        "kerja",
+        "lari",
+        "memasang",
+        "membedel",
+        "membuyarkan",
+        "mengakok",
+        "mengalir",
+        "mengendalikan",
+        "mengerjakan",
+        "mengoperasikan",
+        "menjalankan",
+        "menyelenggarakan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-8402fe8bd7e00da37d27",
+            "word": "function",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e2dfc38f43df7bb17dc4",
+            "word": "operate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01817574-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.emotion",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "gratify and charm, usually in order to influence",
+      "gloss_en": "gratify and charm, usually in order to influence; \"the political candidate worked the crowds\"",
+      "examples_en": [
+        "the political candidate worked the crowds"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "mengerjakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02373015-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "proceed towards a goal or along a path or through an activity",
+      "gloss_en": "proceed towards a goal or along a path or through an activity; \"work your way through every problem or task\"; \"She was working on her second martini when the guests arrived\"; \"Start from the bottom and work towards the top\"",
+      "examples_en": [
+        "work your way through every problem or task",
+        "She was working on her second martini when the guests arrived",
+        "Start from the bottom and work towards the top"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "bergerak",
+        "berjalan",
+        "berkesan",
+        "mengerjakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02410855-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "do work",
+        "work"
+      ],
+      "definition_en": "be employed",
+      "gloss_en": "be employed; \"Is your husband working again?\"; \"My wife never worked\"; \"Do you want to work after the age of 60?\"; \"She never did any work because she inherited a lot of money\"; \"She works as a waitress to put herself through college\"",
+      "examples_en": [
+        "Is your husband working again?",
+        "My wife never worked",
+        "Do you want to work after the age of 60?",
+        "She never did any work because she inherited a lot of money",
+        "She works as a waitress to put herself through college"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "berkhidmat",
+        "bertugas",
+        "kerja",
+        "mengakok",
+        "mengerjakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02413480-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "exert oneself by doing mental or physical work for a purpose or out of necessity",
+      "gloss_en": "exert oneself by doing mental or physical work for a purpose or out of necessity; \"I will work hard to improve my grades\"; \"she worked hard for better living conditions for the poor\"",
+      "examples_en": [
+        "I will work hard to improve my grades",
+        "she worked hard for better living conditions for the poor"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "bergerak",
+        "berjalan",
+        "berkarya",
+        "mengakok",
+        "mengerjakan"
+      ],
+      "definitions_id": [
+        "menggerakkan tulang yang delapan karat"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02525447-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "act",
+        "work"
+      ],
+      "definition_en": "have an effect or outcome; often the one desired or expected",
+      "gloss_en": "have an effect or outcome; often the one desired or expected; \"The voting process doesn't work as well as people thought\"; \"How does your idea work in practice?\"; \"This method doesn't work\"; \"The breaks of my new car act quickly\"; \"The medicine works only if you take it with a lot of water\"",
+      "examples_en": [
+        "The voting process doesn't work as well as people thought",
+        "How does your idea work in practice?",
+        "This method doesn't work",
+        "The breaks of my new car act quickly",
+        "The medicine works only if you take it with a lot of water"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "berbuat",
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "berkesan",
+        "beroperasi",
+        "bertindak",
+        "bertingkah",
+        "berulah",
+        "kerja",
+        "mengakok",
+        "terjadi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-ff6f088ffe097ba1f4b5",
+            "word": "act",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02540670-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "assist",
+        "attend",
+        "attend to",
+        "serve",
+        "wait on"
+      ],
+      "definition_en": "work for or be a servant to",
+      "gloss_en": "work for or be a servant to; \"May I serve you?\"; \"She attends the old lady in the wheelchair\"; \"Can you wait on our table, please?\"; \"Is a salesperson assisting you?\"; \"The minister served the King for many years\"",
+      "examples_en": [
+        "May I serve you?",
+        "She attends the old lady in the wheelchair",
+        "Can you wait on our table, please?",
+        "Is a salesperson assisting you?",
+        "The minister served the King for many years"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berkhidmat",
+        "meladeni",
+        "melayani",
+        "membantu",
+        "membela",
+        "menangani",
+        "mengembari",
+        "menolong",
+        "menyajikan",
+        "menyantuni",
+        "menyumbang"
+      ],
+      "definitions_id": [
+        "menguruskan sesuatu atau seseorang"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-691385001f1ec4e8222e",
+            "word": "serve",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-733539818326ebef217e",
+            "word": "assist",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-1dc4e18789dd45757c8e",
+            "word": "attend",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02593107-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "serve"
+      ],
+      "definition_en": "devote (part of) one's life or efforts to, as of countries, institutions, or ideas",
+      "gloss_en": "devote (part of) one's life or efforts to, as of countries, institutions, or ideas; \"She served the art of music\"; \"He served the church\"; \"serve the country\"",
+      "examples_en": [
+        "She served the art of music",
+        "He served the church",
+        "serve the country"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berkhidmat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-691385001f1ec4e8222e",
+            "word": "serve",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

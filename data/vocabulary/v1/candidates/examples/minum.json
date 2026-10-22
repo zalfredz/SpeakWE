@@ -1,0 +1,388 @@
+{
+  "query_id": "minum",
+  "concepts": [
+    {
+      "concept_id": "00748515-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.act",
+      "english_lemmas": [
+        "boozing",
+        "crapulence",
+        "drink",
+        "drinking",
+        "drunkenness"
+      ],
+      "definition_en": "the act of drinking alcoholic beverages to excess",
+      "gloss_en": "the act of drinking alcoholic beverages to excess; \"drink was his downfall\"",
+      "examples_en": [
+        "drink was his downfall"
+      ],
+      "indonesian_terms": [
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2e2cfbb57650129e4e1f",
+            "word": "drink",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01156834-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "have",
+        "ingest",
+        "take",
+        "take in"
+      ],
+      "definition_en": "serve oneself to, or consume regularly",
+      "gloss_en": "serve oneself to, or consume regularly; \"Have another bowl of chicken soup!\"; \"I don't take sugar in my coffee\"",
+      "examples_en": [
+        "Have another bowl of chicken soup!",
+        "I don't take sugar in my coffee"
+      ],
+      "indonesian_terms": [
+        "ada",
+        "ambil",
+        "berhasil",
+        "jadi",
+        "makan",
+        "melalap",
+        "meluwengkan",
+        "memakan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mempunyai",
+        "menampung",
+        "mencerna",
+        "mencernakan",
+        "menelan",
+        "mengadakan",
+        "mengalami",
+        "mengambil",
+        "mengarik",
+        "menggunakan",
+        "menghabiskan",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01170052-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "drink",
+        "imbibe"
+      ],
+      "definition_en": "take in liquids",
+      "gloss_en": "take in liquids; \"The patient must drink several liters each day\"; \"The children like to drink soda\"",
+      "examples_en": [
+        "The patient must drink several liters each day",
+        "The children like to drink soda"
+      ],
+      "indonesian_terms": [
+        "membasahi kerongkongan",
+        "meminum",
+        "mereguk",
+        "minum",
+        "reguk"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-04b1474cf6b901c89661",
+            "word": "drink",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01171183-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "booze",
+        "drink",
+        "fuddle"
+      ],
+      "definition_en": "consume alcohol",
+      "gloss_en": "consume alcohol; \"We were up drinking all night\"",
+      "examples_en": [
+        "We were up drinking all night"
+      ],
+      "indonesian_terms": [
+        "mereguk",
+        "minum",
+        "reguk",
+        "tunggang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-04b1474cf6b901c89661",
+            "word": "drink",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01172275-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "drink",
+        "tope"
+      ],
+      "definition_en": "drink excessive amounts of alcohol; be an alcoholic",
+      "gloss_en": "drink excessive amounts of alcohol; be an alcoholic; \"The husband drinks and beats his wife\"",
+      "examples_en": [
+        "The husband drinks and beats his wife"
+      ],
+      "indonesian_terms": [
+        "meminum",
+        "mereguk",
+        "minum",
+        "reguk",
+        "terminum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-04b1474cf6b901c89661",
+            "word": "drink",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01172701-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "partake",
+        "touch"
+      ],
+      "definition_en": "consume",
+      "gloss_en": "consume; \"She didn't touch her food all night\"",
+      "examples_en": [
+        "She didn't touch her food all night"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "menggoleng",
+        "menjamah",
+        "menyayukan",
+        "menyentuh",
+        "menyentuhkan",
+        "menyinggung",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-330cdff587fca5837b74",
+            "word": "touch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01197014-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "devour",
+        "down",
+        "go through"
+      ],
+      "definition_en": "eat immoderately",
+      "gloss_en": "eat immoderately; \"Some people can down a pound of meat in the course of one meal\"",
+      "examples_en": [
+        "Some people can down a pound of meat in the course of one meal"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melahap",
+        "melalap",
+        "memakan",
+        "membaham",
+        "menelan",
+        "mengalami",
+        "mengganyang",
+        "menggulingkan",
+        "menghabiskan",
+        "merodong",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "07885223-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.food",
+      "english_lemmas": [
+        "drink"
+      ],
+      "definition_en": "a single serving of a beverage",
+      "gloss_en": "a single serving of a beverage; \"I asked for a hot drink\"; \"likes a drink before dinner\"",
+      "examples_en": [
+        "I asked for a hot drink",
+        "likes a drink before dinner"
+      ],
+      "indonesian_terms": [
+        "minum",
+        "minuman"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2e2cfbb57650129e4e1f",
+            "word": "drink",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

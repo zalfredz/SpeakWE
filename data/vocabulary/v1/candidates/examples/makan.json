@@ -1,0 +1,3845 @@
+{
+  "query_id": "makan",
+  "concepts": [
+    {
+      "concept_id": "00021265-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.Tops",
+      "english_lemmas": [
+        "food",
+        "nutrient"
+      ],
+      "definition_en": "any substance that can be metabolized by an animal to give energy and build tissue",
+      "gloss_en": "any substance that can be metabolized by an animal to give energy and build tissue",
+      "examples_en": [],
+      "indonesian_terms": [
+        "gizi",
+        "makan",
+        "makanan",
+        "nutrisi",
+        "pangan",
+        "santapan",
+        "zat makanan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-6a206da14d6883e0a5d1",
+            "word": "food",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-7d501e62173a9bb8d954",
+            "word": "nutrient",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00087736-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.body",
+      "english_lemmas": [
+        "contract",
+        "get",
+        "take"
+      ],
+      "definition_en": "be stricken by an illness, fall victim to an illness",
+      "gloss_en": "be stricken by an illness, fall victim to an illness; \"He got AIDS\"; \"She came down with pneumonia\"; \"She took a chill\"",
+      "examples_en": [
+        "He got AIDS",
+        "She came down with pneumonia",
+        "She took a chill"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "berjangkit",
+        "beroleh",
+        "jadi",
+        "kena",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memperoleh",
+        "mendapat",
+        "mendapati",
+        "mendapatkan",
+        "mengambil",
+        "mengantongi",
+        "mengarik",
+        "mengecutkan",
+        "mengerut",
+        "menguncupkan",
+        "meregangkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-6eb4368fc8c94eebb2be",
+            "word": "get",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-120b4f6bd7230cc83290",
+            "word": "contract",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00173338-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "remove",
+        "take",
+        "take away",
+        "withdraw"
+      ],
+      "definition_en": "remove something concrete, as by lifting, pushing, or taking off, or remove something abstract",
+      "gloss_en": "remove something concrete, as by lifting, pushing, or taking off, or remove something abstract; \"remove a threat\"; \"remove a wrapper\"; \"Remove the dirty dishes from the table\"; \"take the gun from your pocket\"; \"This machine withdraws heat from the environment\"",
+      "examples_en": [
+        "remove a threat",
+        "remove a wrapper",
+        "Remove the dirty dishes from the table",
+        "take the gun from your pocket",
+        "This machine withdraws heat from the environment"
+      ],
+      "indonesian_terms": [
+        "berpindah",
+        "hengkang",
+        "makan",
+        "melepas",
+        "meluwengkan",
+        "memapas",
+        "memasukkan",
+        "membawa",
+        "membuka",
+        "membutuhkan",
+        "menanggalkan",
+        "menarik",
+        "menarik diri",
+        "mencopot",
+        "mengalihkan",
+        "mengambil",
+        "mengangkat",
+        "mengarik",
+        "mengeluarkan",
+        "mengganjur",
+        "menghilangkan",
+        "mengubah",
+        "mengundurkan",
+        "menyingkirkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-916aae9a86121f5a72c6",
+            "word": "remove",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-e2f8bcf2fd48d89afda7",
+            "word": "withdraw",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00347610-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "attack"
+      ],
+      "definition_en": "set to work upon; turn one's energies vigorously to a task",
+      "gloss_en": "set to work upon; turn one's energies vigorously to a task; \"I attacked the problem as soon as I got out of bed\"",
+      "examples_en": [
+        "I attacked the problem as soon as I got out of bed"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melajang",
+        "melejang",
+        "menempur",
+        "menerjang",
+        "mengerjakan",
+        "menggasak",
+        "menggeropyok",
+        "mengkritik",
+        "menyambar",
+        "menyerang",
+        "menyergap",
+        "merempuh"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-6a3d53bf68fd36a1b0c8",
+            "word": "attack",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00524682-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "acquire",
+        "adopt",
+        "assume",
+        "take",
+        "take on"
+      ],
+      "definition_en": "take on a certain form, attribute, or aspect",
+      "gloss_en": "take on a certain form, attribute, or aspect; \"His voice took on a sad tone\"; \"The story took a new turn\"; \"he adopted an air of superiority\"; \"She assumed strange manners\"; \"The gods assume human or animal form in these fables\"",
+      "examples_en": [
+        "His voice took on a sad tone",
+        "The story took a new turn",
+        "he adopted an air of superiority",
+        "She assumed strange manners",
+        "The gods assume human or animal form in these fables"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memahirkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memikul",
+        "meminjam",
+        "mengambil",
+        "mengandaikan",
+        "menganut",
+        "mengarik",
+        "mengira",
+        "mengumpamakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-952554743a632c78ea8c",
+            "word": "acquire",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c5bd17ccf9e29cef3e91",
+            "word": "adopt",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-11637fb782ce404748ec",
+            "word": "assume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00599992-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "learn",
+        "read",
+        "study",
+        "take"
+      ],
+      "definition_en": "be a student of a certain subject",
+      "gloss_en": "be a student of a certain subject; \"She is reading for the bar exam\"",
+      "examples_en": [
+        "She is reading for the bar exam"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "makan",
+        "meluwengkan",
+        "memasuki",
+        "memasukkan",
+        "membaca",
+        "membawa",
+        "membutuhkan",
+        "memeriksa",
+        "mempelajari",
+        "menelaah",
+        "meneliti",
+        "mengambil",
+        "menganalisis",
+        "mengarik",
+        "menghafal",
+        "mengkaji",
+        "menyelidik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e403cd5c6b344c09e928",
+            "word": "read",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00602255-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "absorb",
+        "assimilate",
+        "ingest",
+        "take in"
+      ],
+      "definition_en": "take up mentally",
+      "gloss_en": "take up mentally; \"he absorbed the knowledge or beliefs of his tribe\"",
+      "examples_en": [
+        "he absorbed the knowledge or beliefs of his tribe"
+      ],
+      "indonesian_terms": [
+        "berasimilasi",
+        "makan",
+        "menampung",
+        "mencerna",
+        "mencernakan",
+        "meresapi",
+        "serap"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-d788530b4c5a075da0cb",
+            "word": "absorb",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": [
+          {
+            "entry_id": "vocab-3eb509286dc0950b1096",
+            "word": "assimilate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00624476-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "read",
+        "take"
+      ],
+      "definition_en": "interpret something in a certain way; convey a particular meaning or impression",
+      "gloss_en": "interpret something in a certain way; convey a particular meaning or impression; \"I read this address as a satire\"; \"How should I take this message?\"; \"You can't take credit for this!\"",
+      "examples_en": [
+        "I read this address as a satire",
+        "How should I take this message?",
+        "You can't take credit for this!"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memahami",
+        "memasukkan",
+        "membaca",
+        "membawa",
+        "membutuhkan",
+        "mengambil",
+        "menganggap",
+        "mengarik",
+        "mengerti"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-e403cd5c6b344c09e928",
+            "word": "read",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00668805-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "accept",
+        "live with",
+        "swallow"
+      ],
+      "definition_en": "tolerate or accommodate oneself to",
+      "gloss_en": "tolerate or accommodate oneself to; \"I shall have to accept these unpleasant working conditions\"; \"I swallowed the insult\"; \"She has learned to live with her husband's little idiosyncrasies\"",
+      "examples_en": [
+        "I shall have to accept these unpleasant working conditions",
+        "I swallowed the insult",
+        "She has learned to live with her husband's little idiosyncrasies"
+      ],
+      "indonesian_terms": [
+        "bersetuju",
+        "iktiraf",
+        "makan",
+        "memakbulkan",
+        "memolok",
+        "meneguk",
+        "menelan",
+        "menenggak",
+        "menerima",
+        "menoleransi",
+        "menyetujui",
+        "mereguk",
+        "merelakan",
+        "reguk",
+        "terima"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-37a9af6de69746ee70f5",
+            "word": "accept",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b04218e3d5a1516650c3",
+            "word": "swallow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00669762-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "submit",
+        "take"
+      ],
+      "definition_en": "accept or undergo, often unwillingly",
+      "gloss_en": "accept or undergo, often unwillingly; \"We took a pay cut\"",
+      "examples_en": [
+        "We took a pay cut"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "menerima",
+        "mengambil",
+        "mengarik",
+        "menjalani"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-777205a864ce3b8d57b6",
+            "word": "submit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00674607-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "choose",
+        "pick out",
+        "select",
+        "take"
+      ],
+      "definition_en": "pick out, select, or choose from a number of alternatives",
+      "gloss_en": "pick out, select, or choose from a number of alternatives; \"Take any one of these cards\"; \"Choose a good husband for your daughter\"; \"She selected a pair of shoes from among the dozen the salesgirl had shown her\"",
+      "examples_en": [
+        "Take any one of these cards",
+        "Choose a good husband for your daughter",
+        "She selected a pair of shoes from among the dozen the salesgirl had shown her"
+      ],
+      "indonesian_terms": [
+        "ambil",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membutuhkan",
+        "memilih",
+        "mengambil",
+        "mengarik",
+        "menyaring",
+        "pilih"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-323d829f0d65a3b5e19b",
+            "word": "choose",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-5ef7bc2c5788e351477f",
+            "word": "select",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00734054-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "consider",
+        "deal",
+        "look at",
+        "take"
+      ],
+      "definition_en": "take into consideration for exemplifying purposes",
+      "gloss_en": "take into consideration for exemplifying purposes; \"Take the case of China\"; \"Consider the following case\"",
+      "examples_en": [
+        "Take the case of China",
+        "Consider the following case"
+      ],
+      "indonesian_terms": [
+        "berpikir-pikir",
+        "bertafakur",
+        "makan",
+        "melihat",
+        "meluwengkan",
+        "memandang",
+        "memasukkan",
+        "membawa",
+        "membilang",
+        "membilangkan",
+        "membutuhkan",
+        "memikirkan",
+        "mempertimbangkan",
+        "mengambil",
+        "menganggap",
+        "mengarik",
+        "menghinap-hinap",
+        "mengira",
+        "menimbang",
+        "menimbangkan",
+        "menyangkakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-892d9935112a23d4bc73",
+            "word": "deal",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00751567-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "command",
+        "require"
+      ],
+      "definition_en": "make someone do something",
+      "gloss_en": "make someone do something",
+      "examples_en": [],
+      "indonesian_terms": [
+        "makan",
+        "memaksa",
+        "memaksakan",
+        "membuat",
+        "membutuhkan",
+        "memerintah",
+        "memerintahkan",
+        "memerlukan",
+        "meminta",
+        "mengarah",
+        "menghendaki",
+        "menitahkan",
+        "mensyaratkan",
+        "menuntut",
+        "menyuruh",
+        "perintah",
+        "suruh"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-afb73afa04c6f356ffe0",
+            "word": "require",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00755745-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "ask",
+        "expect",
+        "require"
+      ],
+      "definition_en": "consider obligatory; request and expect",
+      "gloss_en": "consider obligatory; request and expect; \"We require our secretary to be on time\"; \"Aren't we asking too much of these children?\"; \"I expect my students to arrive in time for their lessons\"",
+      "examples_en": [
+        "We require our secretary to be on time",
+        "Aren't we asking too much of these children?",
+        "I expect my students to arrive in time for their lessons"
+      ],
+      "indonesian_terms": [
+        "bersangka",
+        "makan",
+        "membutuhkan",
+        "memerlukan",
+        "meminta",
+        "mempersilakan",
+        "menanyai",
+        "mengajak",
+        "mengasakan",
+        "mengharapkan",
+        "menghendaki",
+        "menjangka",
+        "menjangkakan",
+        "mensyaratkan",
+        "menuntut",
+        "menyilakan",
+        "minta",
+        "sangka"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-1d0a37db7a6d09c21b8e",
+            "word": "ask",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-22e2e23ff06eee8a6c2b",
+            "word": "expect",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-afb73afa04c6f356ffe0",
+            "word": "require",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00756076-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "claim",
+        "exact",
+        "take"
+      ],
+      "definition_en": "take as an undesirable consequence of some event or state of affairs",
+      "gloss_en": "take as an undesirable consequence of some event or state of affairs; \"the accident claimed three lives\"; \"The hard work took its toll on her\"",
+      "examples_en": [
+        "the accident claimed three lives",
+        "The hard work took its toll on her"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mendakwai",
+        "mengambil",
+        "mengangkat",
+        "mengarik",
+        "mengklaim"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-e12f010ccdb49a049470",
+            "word": "claim",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": [
+          {
+            "entry_id": "vocab-2b857797764222037c0d",
+            "word": "exact",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00758333-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "claim",
+        "take"
+      ],
+      "definition_en": "lay claim to; as of an idea",
+      "gloss_en": "lay claim to; as of an idea; \"She took credit for the whole idea\"",
+      "examples_en": [
+        "She took credit for the whole idea"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mendakwai",
+        "mengarik",
+        "menghendaki",
+        "mengklaim",
+        "menuntut"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-e12f010ccdb49a049470",
+            "word": "claim",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00799076-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "swallow",
+        "take back",
+        "unsay",
+        "withdraw"
+      ],
+      "definition_en": "take back what one has said",
+      "gloss_en": "take back what one has said; \"He swallowed his words\"",
+      "examples_en": [
+        "He swallowed his words"
+      ],
+      "indonesian_terms": [
+        "hengkang",
+        "makan",
+        "memolok",
+        "menarik diri",
+        "mencabut",
+        "meneguk",
+        "menenggak",
+        "mengambil",
+        "mengeluarkan",
+        "mengganjur",
+        "mengundurkan",
+        "mereguk",
+        "reguk"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-b04218e3d5a1516650c3",
+            "word": "swallow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-e2f8bcf2fd48d89afda7",
+            "word": "withdraw",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01002740-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "film",
+        "shoot",
+        "take"
+      ],
+      "definition_en": "make a film or photograph of something",
+      "gloss_en": "make a film or photograph of something; \"take a scene\"; \"shoot a movie\"",
+      "examples_en": [
+        "take a scene",
+        "shoot a movie"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membuat",
+        "membutuhkan",
+        "menangkap",
+        "menembak",
+        "mengambil",
+        "mengambil gambar",
+        "mengarik"
+      ],
+      "definitions_id": [
+        "membuat film atau foto"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-846ac419572028fb148b",
+            "word": "shoot",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-f7208217175e5ae97b54",
+            "word": "film",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01083373-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "demolish",
+        "destroy"
+      ],
+      "definition_en": "defeat soundly",
+      "gloss_en": "defeat soundly; \"The home team demolished the visitors\"",
+      "examples_en": [
+        "The home team demolished the visitors"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melalap",
+        "meleburkan",
+        "melenyapkan",
+        "melondong",
+        "melumatkan",
+        "melumpuhkan",
+        "memakan",
+        "membinasakan",
+        "membongkar",
+        "mempertiadakan",
+        "memusnahkan",
+        "menengkarapkan",
+        "mengubrak-abrik",
+        "mengurah",
+        "meniadakan",
+        "menjahanamkan",
+        "menumpas",
+        "menyirnakan",
+        "merobohkan",
+        "meruntuhkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a6aa142f894742db8a8c",
+            "word": "destroy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-c62f8acb6f00f0fcc140",
+            "word": "demolish",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01083769-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "swallow"
+      ],
+      "definition_en": "engulf and destroy",
+      "gloss_en": "engulf and destroy; \"The Nazis swallowed the Baltic countries\"",
+      "examples_en": [
+        "The Nazis swallowed the Baltic countries"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "memolok",
+        "meneguk",
+        "menelan",
+        "menenggak",
+        "mereguk",
+        "reguk"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-b04218e3d5a1516650c3",
+            "word": "swallow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01100830-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "take"
+      ],
+      "definition_en": "obtain by winning",
+      "gloss_en": "obtain by winning; \"Winner takes all\"; \"He took first prize\"",
+      "examples_en": [
+        "Winner takes all",
+        "He took first prize"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "memenangi",
+        "menawan",
+        "mengambil"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01151110-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "aim",
+        "direct",
+        "take",
+        "take aim",
+        "train"
+      ],
+      "definition_en": "point or cause to go (blows, weapons, or objects such as photographic equipment) towards",
+      "gloss_en": "point or cause to go (blows, weapons, or objects such as photographic equipment) towards; \"Please don't aim at your little brother!\"; \"He trained his gun on the burglar\"; \"Don't train your camera on the women\"; \"Take a swipe at one's opponent\"",
+      "examples_en": [
+        "Please don't aim at your little brother!",
+        "He trained his gun on the burglar",
+        "Don't train your camera on the women",
+        "Take a swipe at one's opponent"
+      ],
+      "indonesian_terms": [
+        "berlatih",
+        "makan",
+        "melatih",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membega",
+        "membidik",
+        "membidikkan",
+        "membimbing",
+        "membutuhkan",
+        "menenang",
+        "mengacu",
+        "mengacukan",
+        "mengajari",
+        "mengarahkan",
+        "mengarik",
+        "menggunakan",
+        "menghadapkan",
+        "menghalakan",
+        "menjuruskan",
+        "menujukan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-d43b755d29ade9c3c0eb",
+            "word": "train",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-897d93fb37ecb0d38f4d",
+            "word": "direct",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-3132d428b6a7d04eacfd",
+            "word": "aim",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01156834-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "have",
+        "ingest",
+        "take",
+        "take in"
+      ],
+      "definition_en": "serve oneself to, or consume regularly",
+      "gloss_en": "serve oneself to, or consume regularly; \"Have another bowl of chicken soup!\"; \"I don't take sugar in my coffee\"",
+      "examples_en": [
+        "Have another bowl of chicken soup!",
+        "I don't take sugar in my coffee"
+      ],
+      "indonesian_terms": [
+        "ada",
+        "ambil",
+        "berhasil",
+        "jadi",
+        "makan",
+        "melalap",
+        "meluwengkan",
+        "memakan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mempunyai",
+        "menampung",
+        "mencerna",
+        "mencernakan",
+        "menelan",
+        "mengadakan",
+        "mengalami",
+        "mengambil",
+        "mengarik",
+        "menggunakan",
+        "menghabiskan",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01157517-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "deplete",
+        "eat",
+        "eat up",
+        "exhaust",
+        "run through",
+        "use up",
+        "wipe out"
+      ],
+      "definition_en": "use up (resources or materials)",
+      "gloss_en": "use up (resources or materials); \"this car consumes a lot of gas\"; \"We exhausted our savings\"; \"They run through 20 bottles of wine a week\"",
+      "examples_en": [
+        "this car consumes a lot of gas",
+        "We exhausted our savings",
+        "They run through 20 bottles of wine a week"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melalap",
+        "meleburkan",
+        "melemahkan",
+        "meletihkan",
+        "melindangkan",
+        "melondong",
+        "memakan",
+        "membasmi",
+        "memenatkan",
+        "mengganyang",
+        "menggunakan",
+        "menghabisi",
+        "menghabiskan",
+        "menguras",
+        "menuntaskan",
+        "menyikat",
+        "pakai"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f03f27c63e3656ccd1ee",
+            "word": "eat",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-506ed3280bab872055e3",
+            "word": "exhaust",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01158181-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "squander",
+        "ware",
+        "waste"
+      ],
+      "definition_en": "spend extravagantly",
+      "gloss_en": "spend extravagantly; \"waste not, want not\"",
+      "examples_en": [
+        "waste not, want not"
+      ],
+      "indonesian_terms": [
+        "boros",
+        "makan",
+        "melalap",
+        "melindangkan",
+        "memakan",
+        "membelanjakan",
+        "memboroskan",
+        "membuang",
+        "mengabur",
+        "menghabiskan",
+        "menghamburkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-d697e7f0261ecc67c06b",
+            "word": "waste",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-66af9f5031935c2b3c0d",
+            "word": "squander",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01166351-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "eat"
+      ],
+      "definition_en": "eat a meal; take a meal",
+      "gloss_en": "eat a meal; take a meal; \"We did not eat until 10 P.M. because there were so many phone calls\"; \"I didn't eat yet, so I gladly accept your invitation\"",
+      "examples_en": [
+        "We did not eat until 10 P.M. because there were so many phone calls",
+        "I didn't eat yet, so I gladly accept your invitation"
+      ],
+      "indonesian_terms": [
+        "bersantap",
+        "makan",
+        "melahap",
+        "menyantap"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f03f27c63e3656ccd1ee",
+            "word": "eat",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01168468-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "eat"
+      ],
+      "definition_en": "take in solid food",
+      "gloss_en": "take in solid food; \"She was eating a banana\"; \"What did you eat for dinner last night?\"",
+      "examples_en": [
+        "She was eating a banana",
+        "What did you eat for dinner last night?"
+      ],
+      "indonesian_terms": [
+        "dahar",
+        "isi perut",
+        "makan",
+        "memakan",
+        "menangsel mulut",
+        "menangsel perut",
+        "mengganyang",
+        "menyantap",
+        "menyekang perut",
+        "santap"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f03f27c63e3656ccd1ee",
+            "word": "eat",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01172701-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "partake",
+        "touch"
+      ],
+      "definition_en": "consume",
+      "gloss_en": "consume; \"She didn't touch her food all night\"",
+      "examples_en": [
+        "She didn't touch her food all night"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "menggoleng",
+        "menjamah",
+        "menyayukan",
+        "menyentuh",
+        "menyentuhkan",
+        "menyinggung",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-330cdff587fca5837b74",
+            "word": "touch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01173933-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "bolt",
+        "gobble"
+      ],
+      "definition_en": "eat hastily without proper chewing",
+      "gloss_en": "eat hastily without proper chewing; \"Don't bolt your food!\"",
+      "examples_en": [
+        "Don't bolt your food!"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melahap",
+        "membaham",
+        "memolok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-98b188556791e51ff426",
+            "word": "bolt",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01179865-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "eat",
+        "feed"
+      ],
+      "definition_en": "take in food; used of animals only",
+      "gloss_en": "take in food; used of animals only; \"This dog doesn't eat certain kinds of meat\"; \"What do whales eat?\"",
+      "examples_en": [
+        "This dog doesn't eat certain kinds of meat",
+        "What do whales eat?"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "memakan",
+        "mengganyang",
+        "menyuap"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f03f27c63e3656ccd1ee",
+            "word": "eat",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-0c19431e0e9ec0f706d6",
+            "word": "feed",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01188725-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "need",
+        "require",
+        "want"
+      ],
+      "definition_en": "have need of",
+      "gloss_en": "have need of; \"This piano wants the attention of a competent tuner\"",
+      "examples_en": [
+        "This piano wants the attention of a competent tuner"
+      ],
+      "indonesian_terms": [
+        "berangan-angan",
+        "berhasrat",
+        "berkehendak",
+        "butuh",
+        "hendak",
+        "ingin",
+        "kasdu",
+        "kehendak",
+        "makan",
+        "mau",
+        "membutuhkan",
+        "memerlukan",
+        "meminta",
+        "mencita-citakan",
+        "menghendaki",
+        "mengingini",
+        "menginginkan",
+        "mensyaratkan",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-6cf36863741c8255b521",
+            "word": "want",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-49ae8bf24a73032950c8",
+            "word": "need",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-afb73afa04c6f356ffe0",
+            "word": "require",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01193099-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "binge",
+        "englut",
+        "engorge",
+        "glut",
+        "gorge",
+        "gormandise",
+        "gormandize",
+        "gourmandize",
+        "ingurgitate",
+        "overeat",
+        "overgorge",
+        "overindulge",
+        "pig out",
+        "satiate",
+        "scarf out",
+        "stuff"
+      ],
+      "definition_en": "overeat or eat immodestly; make a pig of oneself",
+      "gloss_en": "overeat or eat immodestly; make a pig of oneself; \"She stuffed herself at the dinner\"; \"The kids binged on ice cream\"",
+      "examples_en": [
+        "She stuffed herself at the dinner",
+        "The kids binged on ice cream"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melahap",
+        "memajuh",
+        "memolok",
+        "menelan",
+        "mengasak",
+        "mengendal",
+        "mengenyangkan",
+        "menjejal",
+        "menyendat",
+        "menyumbat",
+        "muak",
+        "pajuh",
+        "rakus",
+        "segah"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-2d3aada87f5b6f7316f6",
+            "word": "stuff",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01197014-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "consume",
+        "devour",
+        "down",
+        "go through"
+      ],
+      "definition_en": "eat immoderately",
+      "gloss_en": "eat immoderately; \"Some people can down a pound of meat in the course of one meal\"",
+      "examples_en": [
+        "Some people can down a pound of meat in the course of one meal"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melahap",
+        "melalap",
+        "memakan",
+        "membaham",
+        "menelan",
+        "mengalami",
+        "mengganyang",
+        "menggulingkan",
+        "menghabiskan",
+        "merodong",
+        "minum"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01201856-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "get down",
+        "swallow"
+      ],
+      "definition_en": "pass through the esophagus as part of eating or drinking",
+      "gloss_en": "pass through the esophagus as part of eating or drinking; \"Swallow the raw fish--it won't kill you!\"",
+      "examples_en": [
+        "Swallow the raw fish--it won't kill you!"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "memolok",
+        "meneguk",
+        "menelan",
+        "menenggak",
+        "mereguk",
+        "reguk",
+        "telan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-b04218e3d5a1516650c3",
+            "word": "swallow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01203893-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "fill",
+        "fill up"
+      ],
+      "definition_en": "eat until one is sated",
+      "gloss_en": "eat until one is sated; \"He filled up on turkey\"",
+      "examples_en": [
+        "He filled up on turkey"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "membelenting",
+        "membunting"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0758def04e0e78ac2465",
+            "word": "fill",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01214265-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "get hold of",
+        "take"
+      ],
+      "definition_en": "get into one's hands, take physically",
+      "gloss_en": "get into one's hands, take physically; \"Take a cookie!\"; \"Can you take this bag, please\"",
+      "examples_en": [
+        "Take a cookie!",
+        "Can you take this bag, please"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "memaut",
+        "membawa",
+        "membutuhkan",
+        "memegang",
+        "memeluk",
+        "mengambil",
+        "mengarik",
+        "menyepit",
+        "merangkul"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01326528-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "destroy",
+        "put down"
+      ],
+      "definition_en": "put (an animal) to death",
+      "gloss_en": "put (an animal) to death; \"The customs agents destroyed the dog that was found to be rabid\"; \"the sick cat had to be put down\"",
+      "examples_en": [
+        "The customs agents destroyed the dog that was found to be rabid",
+        "the sick cat had to be put down"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melalap",
+        "meleburkan",
+        "melenyapkan",
+        "melondong",
+        "melumatkan",
+        "memakan",
+        "membinasakan",
+        "mempertiadakan",
+        "memusnahkan",
+        "menengkarapkan",
+        "menghancurkan",
+        "menghapuskan",
+        "mengubrak-abrik",
+        "meniadakan",
+        "menjahanamkan",
+        "menumpas",
+        "menyirnakan",
+        "meruntuhkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a6aa142f894742db8a8c",
+            "word": "destroy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01427127-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "have",
+        "take"
+      ],
+      "definition_en": "have sex with; archaic use",
+      "gloss_en": "have sex with; archaic use; \"He had taken this woman when she was most vulnerable\"",
+      "examples_en": [
+        "He had taken this woman when she was most vulnerable"
+      ],
+      "indonesian_terms": [
+        "ada",
+        "ambil",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mempunyai",
+        "mengadakan",
+        "mengalami",
+        "mengarik",
+        "meniduri"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01564144-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "destroy",
+        "ruin"
+      ],
+      "definition_en": "destroy completely; damage irreparably",
+      "gloss_en": "destroy completely; damage irreparably; \"You have ruined my car by pouring sugar in the tank!\"; \"The tears ruined her make-up\"",
+      "examples_en": [
+        "You have ruined my car by pouring sugar in the tank!",
+        "The tears ruined her make-up"
+      ],
+      "indonesian_terms": [
+        "binasa",
+        "makan",
+        "melalap",
+        "meleburkan",
+        "melenyapkan",
+        "melondong",
+        "melumatkan",
+        "memakan",
+        "membinasakan",
+        "membumihanguskan",
+        "mempertiadakan",
+        "memuingkan",
+        "memusnahkan",
+        "menengkarapkan",
+        "menghancurkan",
+        "menghapuskan",
+        "mengubrak-abrik",
+        "meniadakan",
+        "menjahanamkan",
+        "menjatuhkan",
+        "menumpas",
+        "menyaraukan",
+        "menyirnakan",
+        "meruntuhkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a6aa142f894742db8a8c",
+            "word": "destroy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-20e03a95020591c1297d",
+            "word": "ruin",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01565921-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "consume"
+      ],
+      "definition_en": "destroy completely",
+      "gloss_en": "destroy completely; \"The fire consumed the building\"",
+      "examples_en": [
+        "The fire consumed the building"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melalap",
+        "memakan",
+        "menelan",
+        "menghabiskan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9c59497d6d8b44939066",
+            "word": "consume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01582409-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "bury",
+        "eat up",
+        "immerse",
+        "swallow",
+        "swallow up"
+      ],
+      "definition_en": "enclose or envelop completely, as if by swallowing",
+      "gloss_en": "enclose or envelop completely, as if by swallowing; \"The huge waves swallowed the small boat and it sank shortly thereafter\"",
+      "examples_en": [
+        "The huge waves swallowed the small boat and it sank shortly thereafter"
+      ],
+      "indonesian_terms": [
+        "berbenam",
+        "makan",
+        "melupakan",
+        "memakamkan",
+        "membenamkan",
+        "memolok",
+        "menanam",
+        "meneguk",
+        "menenggak",
+        "menenggelamkan",
+        "mengakhiri",
+        "mengubur",
+        "menimbus",
+        "mereguk",
+        "reguk",
+        "terendam"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-d6e1780cf7fd8dc45c9b",
+            "word": "bury",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b04218e3d5a1516650c3",
+            "word": "swallow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-755d0d8e979d86f1a29d",
+            "word": "immerse",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01619929-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.creation",
+      "english_lemmas": [
+        "destroy",
+        "destruct"
+      ],
+      "definition_en": "do away with, cause the destruction or undoing of",
+      "gloss_en": "do away with, cause the destruction or undoing of; \"The fire destroyed the house\"",
+      "examples_en": [
+        "The fire destroyed the house"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "melalap",
+        "meleburkan",
+        "melenyapkan",
+        "melondong",
+        "melumatkan",
+        "memakan",
+        "membinasakan",
+        "mempertiadakan",
+        "memusnahkan",
+        "menempur",
+        "menengkarapkan",
+        "menghancurkan",
+        "menghapuskan",
+        "mengubrak-abrik",
+        "meniadakan",
+        "menjahanamkan",
+        "menumpas",
+        "menyirnakan",
+        "meruntuhkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-a6aa142f894742db8a8c",
+            "word": "destroy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01930482-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "drive",
+        "take"
+      ],
+      "definition_en": "proceed along in a vehicle",
+      "gloss_en": "proceed along in a vehicle; \"We drive the turnpike to work\"",
+      "examples_en": [
+        "We drive the turnpike to work"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mengarik",
+        "menyetir"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [
+        {
+          "entry_id": "vocab-0e08b744d8c79aea2434",
+          "word": "drive",
+          "level_scope": "source_headword_pos_not_verified_sense",
+          "sense_level_verified": false,
+          "levels_claimed": [
+            "A2",
+            "C1"
+          ],
+          "quality_flags": [
+            "conflicting_wordlist_levels"
+          ]
+        }
+      ],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01982395-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "assume",
+        "strike",
+        "take",
+        "take up"
+      ],
+      "definition_en": "occupy or take on",
+      "gloss_en": "occupy or take on; \"He assumes the lotus position\"; \"She took her seat on the stage\"; \"We took our seats in the orchestra\"; \"She took up her position behind the tree\"; \"strike a pose\"",
+      "examples_en": [
+        "He assumes the lotus position",
+        "She took her seat on the stage",
+        "We took our seats in the orchestra",
+        "She took up her position behind the tree",
+        "strike a pose"
+      ],
+      "indonesian_terms": [
+        "berantuk",
+        "berhasil",
+        "demik",
+        "jadi",
+        "makan",
+        "melebas",
+        "meluwengkan",
+        "memasukkan",
+        "membajau",
+        "membawa",
+        "membutuhkan",
+        "memikul",
+        "memukul",
+        "menabrak",
+        "menakol",
+        "mencemuk",
+        "mencepol",
+        "mengambil",
+        "mengandaikan",
+        "mengarik",
+        "menggampar",
+        "menggenjot",
+        "menggetok",
+        "mengira",
+        "mengumpamakan",
+        "menoyor",
+        "menyambar",
+        "menyontok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-11637fb782ce404748ec",
+            "word": "assume",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-2aed30eb03016c80a4e1",
+            "word": "strike",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01999798-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "conduct",
+        "direct",
+        "guide",
+        "lead",
+        "take"
+      ],
+      "definition_en": "take somebody somewhere",
+      "gloss_en": "take somebody somewhere; \"We lead him to our chief\"; \"can you take me to the main entrance?\"; \"He conducted us to the palace\"",
+      "examples_en": [
+        "We lead him to our chief",
+        "can you take me to the main entrance?",
+        "He conducted us to the palace"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "berpimpin",
+        "berulah",
+        "jadi",
+        "ke",
+        "makan",
+        "meluwengkan",
+        "memandu",
+        "memasukkan",
+        "membawa",
+        "membentuk",
+        "membimbing",
+        "membutuhkan",
+        "memimpin",
+        "mengajak",
+        "mengambil",
+        "mengantar",
+        "mengarahkan",
+        "mengarik",
+        "mengemudikan",
+        "menghantar",
+        "menghulukan",
+        "mengiring",
+        "menjuruskan",
+        "menuju",
+        "menuntun",
+        "menyeret",
+        "tunjuk"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-897d93fb37ecb0d38f4d",
+            "word": "direct",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-53a1f6917c7010847ff8",
+            "word": "guide",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-9ea37bb340dab767df0a",
+            "word": "lead",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-3983878ca9aedd7e6199",
+            "word": "conduct",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02075857-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "make",
+        "take"
+      ],
+      "definition_en": "head into a specified direction",
+      "gloss_en": "head into a specified direction; \"The escaped convict took to the hills\"; \"We made for the mountains\"",
+      "examples_en": [
+        "The escaped convict took to the hills",
+        "We made for the mountains"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "melakukan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membelok",
+        "membentuk",
+        "membuatkan",
+        "membutuhkan",
+        "mengambil",
+        "mengarik",
+        "mengikut",
+        "menjadikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-1d7a5ca887cc506fd385",
+            "word": "make",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02077656-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "bring",
+        "convey",
+        "take"
+      ],
+      "definition_en": "take something or somebody with oneself somewhere",
+      "gloss_en": "take something or somebody with oneself somewhere; \"Bring me the box from the other room\"; \"Take these letters to the boss\"; \"This brings me to the main point\"",
+      "examples_en": [
+        "Bring me the box from the other room",
+        "Take these letters to the boss",
+        "This brings me to the main point"
+      ],
+      "indonesian_terms": [
+        "ambil",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membawakan",
+        "membutuhkan",
+        "mendapatkan",
+        "mengambil",
+        "mengarik",
+        "menyampaikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-09601c486c64c530ebba",
+            "word": "bring",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-05c9001de4d82ca92ffb",
+            "word": "convey",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02096167-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "turn"
+      ],
+      "definition_en": "move around an axis or a center",
+      "gloss_en": "move around an axis or a center; \"The wheels are turning\"",
+      "examples_en": [
+        "The wheels are turning"
+      ],
+      "indonesian_terms": [
+        "berpusing",
+        "berputar",
+        "gisar",
+        "makan",
+        "memusing",
+        "memutar",
+        "menyimpang",
+        "pusing",
+        "putar"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-45859499d1323722d801",
+            "word": "turn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02205272-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "take"
+      ],
+      "definition_en": "take into one's possession",
+      "gloss_en": "take into one's possession; \"We are taking an orphan from Romania\"; \"I'll take three salmon steaks\"",
+      "examples_en": [
+        "We are taking an orphan from Romania",
+        "I'll take three salmon steaks"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "memenangi",
+        "menawan",
+        "mengambil"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02206619-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "take"
+      ],
+      "definition_en": "take by force",
+      "gloss_en": "take by force; \"Hitler took the Baltic Republics\"; \"The army took the fort on the hill\"",
+      "examples_en": [
+        "Hitler took the Baltic Republics",
+        "The army took the fort on the hill"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "memenangi",
+        "menawan",
+        "merampas"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02208537-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "charter",
+        "engage",
+        "hire",
+        "lease",
+        "rent",
+        "take"
+      ],
+      "definition_en": "engage for service under a term of contract",
+      "gloss_en": "engage for service under a term of contract; \"We took an apartment on a quiet street\"; \"Let's rent a car\"; \"Shall we take a guide in Rome?\"",
+      "examples_en": [
+        "We took an apartment on a quiet street",
+        "Let's rent a car",
+        "Shall we take a guide in Rome?"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mencarter",
+        "mengambil",
+        "mengarik",
+        "menyewa",
+        "menyewakan",
+        "sewa"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-0a4ede66d6b0bd5796a4",
+            "word": "rent",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-6c7d4f401604dac8298e",
+            "word": "engage",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-53fa53b556c272de9804",
+            "word": "hire",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-77348f56d2076517c644",
+            "word": "charter",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02209745-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "subscribe",
+        "subscribe to",
+        "take"
+      ],
+      "definition_en": "receive or obtain regularly",
+      "gloss_en": "receive or obtain regularly; \"We take the Times every day\"",
+      "examples_en": [
+        "We take the Times every day"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mengambil",
+        "mengarik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02209936-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "accept",
+        "take"
+      ],
+      "definition_en": "make use of or accept for some purpose",
+      "gloss_en": "make use of or accept for some purpose; \"take a risk\"; \"take an opportunity\"",
+      "examples_en": [
+        "take a risk",
+        "take an opportunity"
+      ],
+      "indonesian_terms": [
+        "ambil",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "menerima",
+        "mengambil",
+        "mengarik",
+        "terima"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-37a9af6de69746ee70f5",
+            "word": "accept",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02236124-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "accept",
+        "have",
+        "take"
+      ],
+      "definition_en": "receive willingly something given or offered",
+      "gloss_en": "receive willingly something given or offered; \"The only girl who would have him was the miller's daughter\"; \"I won't have this dog in my house!\"; \"Please accept my present\"",
+      "examples_en": [
+        "The only girl who would have him was the miller's daughter",
+        "I won't have this dog in my house!",
+        "Please accept my present"
+      ],
+      "indonesian_terms": [
+        "ada",
+        "ambil",
+        "berhasil",
+        "bersetuju",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membeli",
+        "membutuhkan",
+        "memiliki",
+        "mempunyai",
+        "mendapat",
+        "menerima",
+        "mengadakan",
+        "mengalami",
+        "mengambil",
+        "mengarik",
+        "menjual",
+        "terima"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-37a9af6de69746ee70f5",
+            "word": "accept",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02236624-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "accept",
+        "admit",
+        "take",
+        "take on"
+      ],
+      "definition_en": "admit into a group or community",
+      "gloss_en": "admit into a group or community; \"accept students for graduate study\"; \"We'll have to vote on whether or not to admit a new member\"",
+      "examples_en": [
+        "accept students for graduate study",
+        "We'll have to vote on whether or not to admit a new member"
+      ],
+      "indonesian_terms": [
+        "bersetuju",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memikul",
+        "menerima",
+        "mengaku",
+        "mengakui",
+        "mengarik",
+        "terima"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-37a9af6de69746ee70f5",
+            "word": "accept",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e87ac9a9248906e8454c",
+            "word": "admit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02267989-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "occupy",
+        "take",
+        "use up"
+      ],
+      "definition_en": "require (time or space)",
+      "gloss_en": "require (time or space); \"It took three hours to get to work this morning\"; \"This event occupied a very short time\"",
+      "examples_en": [
+        "It took three hours to get to work this morning",
+        "This event occupied a very short time"
+      ],
+      "indonesian_terms": [
+        "makan",
+        "meluwengkan",
+        "memakan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memenuhi",
+        "memerlukan",
+        "mengambil",
+        "mengarik",
+        "menguras",
+        "menjajah"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-55a169c58766aacfaccd",
+            "word": "occupy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02394183-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "fill",
+        "occupy",
+        "take"
+      ],
+      "definition_en": "assume, as of positions or roles",
+      "gloss_en": "assume, as of positions or roles; \"She took the job as director of development\"; \"he occupies the position of manager\"; \"the young prince will soon occupy the throne\"",
+      "examples_en": [
+        "She took the job as director of development",
+        "he occupies the position of manager",
+        "the young prince will soon occupy the throne"
+      ],
+      "indonesian_terms": [
+        "ambil",
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memegang",
+        "memenuhi",
+        "mengambil",
+        "mengarik",
+        "mengisi",
+        "menimbuni",
+        "menjalankan",
+        "menyangka",
+        "menyumbat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0758def04e0e78ac2465",
+            "word": "fill",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-55a169c58766aacfaccd",
+            "word": "occupy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02599636-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "take"
+      ],
+      "definition_en": "carry out",
+      "gloss_en": "carry out; \"take action\"; \"take steps\"; \"take vengeance\"",
+      "examples_en": [
+        "take action",
+        "take steps",
+        "take vengeance"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "mengajak",
+        "mengambil",
+        "mengarik",
+        "mengetuai"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02627934-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "ask",
+        "call for",
+        "demand",
+        "involve",
+        "necessitate",
+        "need",
+        "postulate",
+        "require",
+        "take"
+      ],
+      "definition_en": "require as useful, just, or proper",
+      "gloss_en": "require as useful, just, or proper; \"It takes nerve to do what she did\"; \"success usually requires hard work\"; \"This job asks a lot of patience and skill\"; \"This position demands a lot of personal sacrifice\"; \"This dinner calls for a spectacular dessert\"; \"This intervention does not postulate a patient's consent\"",
+      "examples_en": [
+        "It takes nerve to do what she did",
+        "success usually requires hard work",
+        "This job asks a lot of patience and skill",
+        "This position demands a lot of personal sacrifice",
+        "This dinner calls for a spectacular dessert",
+        "This intervention does not postulate a patient's consent"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "butuh",
+        "jadi",
+        "makan",
+        "melibatkan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memerlukan",
+        "meminta",
+        "mempersilakan",
+        "menanyai",
+        "mengajak",
+        "mengambil",
+        "mengarik",
+        "mengharuskan",
+        "menghendaki",
+        "mensyaratkan",
+        "menuntut",
+        "menyangkut",
+        "menyilakan",
+        "perlu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-1d0a37db7a6d09c21b8e",
+            "word": "ask",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-49ae8bf24a73032950c8",
+            "word": "need",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-2acc8c1b6da7811b6b3c",
+            "word": "demand",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-a08c5312fa28efee2fe8",
+            "word": "involve",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-afb73afa04c6f356ffe0",
+            "word": "require",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02701210-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "contain",
+        "hold",
+        "take"
+      ],
+      "definition_en": "be capable of holding or containing",
+      "gloss_en": "be capable of holding or containing; \"This box won't take all the items\"; \"The flask holds one gallon\"",
+      "examples_en": [
+        "This box won't take all the items",
+        "The flask holds one gallon"
+      ],
+      "indonesian_terms": [
+        "berisi",
+        "bermuatan",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "memegang",
+        "memuat",
+        "memuatkan",
+        "menahan",
+        "menakung",
+        "mencengkeram",
+        "mengandung",
+        "mengandungi",
+        "mengarik",
+        "mengawai",
+        "mengawal",
+        "menggemak-gemak",
+        "mengisi",
+        "muat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-87f19bf9b94fc6fc0aa6",
+            "word": "hold",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-c29f9be6bad4acaa4b38",
+            "word": "contain",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02717102-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "carry",
+        "pack",
+        "take"
+      ],
+      "definition_en": "have with oneself; have on one's person",
+      "gloss_en": "have with oneself; have on one's person; \"She always takes an umbrella\"; \"I always carry money\"; \"She packs a gun when she goes into the mountains\"",
+      "examples_en": [
+        "She always takes an umbrella",
+        "I always carry money",
+        "She packs a gun when she goes into the mountains"
+      ],
+      "indonesian_terms": [
+        "ada",
+        "ambil",
+        "bawa",
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memadati",
+        "memasukkan",
+        "membawa",
+        "membebani",
+        "membimbit",
+        "membungkus",
+        "membutuhkan",
+        "memikul",
+        "memiliki",
+        "mempunyai",
+        "mendukung",
+        "mengajak",
+        "mengambil",
+        "mengangkat",
+        "mengangkut",
+        "mengarik",
+        "mengepak",
+        "menggendong",
+        "menghantar",
+        "mengusung",
+        "menjinjing"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-47776e10eb035ab686cb",
+            "word": "carry",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-9d2fe928001324c60ea0",
+            "word": "pack",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02741546-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "accept",
+        "take"
+      ],
+      "definition_en": "be designed to hold or take",
+      "gloss_en": "be designed to hold or take; \"This surface will not take the dye\"",
+      "examples_en": [
+        "This surface will not take the dye"
+      ],
+      "indonesian_terms": [
+        "berhasil",
+        "jadi",
+        "makan",
+        "meluwengkan",
+        "memasukkan",
+        "membawa",
+        "membutuhkan",
+        "menerima",
+        "mengambil",
+        "mengarik",
+        "muat",
+        "terima"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-37a9af6de69746ee70f5",
+            "word": "accept",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

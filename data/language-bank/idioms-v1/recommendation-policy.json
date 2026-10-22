@@ -1,0 +1,17 @@
+{
+  "scoring_rule": "No points or band bonus from idiom presence, count, CEFR label or phrase length.",
+  "recommendation_mode": "optional_post_session_candidate_requires_context_check",
+  "semantic_checks_required": [
+    "same_intended_meaning",
+    "intensity_preserved",
+    "speaker_attitude_preserved",
+    "tense_and_pronouns_correct",
+    "register_and_topic_fit",
+    "no_new_facts_added"
+  ],
+  "fluency_priority": "Do not interrupt speaking or require a target idiom. A clear natural plain answer is acceptable.",
+  "ranking": "Filter by meaning and local context before topic relevance; topic match alone does not justify a rewrite.",
+  "display_limit": "As a product design choice, show at most 1-2 optional idiom suggestions per completed session; this is not an IELTS rule.",
+  "automatic_replacement": false,
+  "frequency_claim": "Priority is an editorial learning order, not measured native-speaker frequency."
+}

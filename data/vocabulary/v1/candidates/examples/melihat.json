@@ -1,0 +1,2045 @@
+{
+  "query_id": "melihat",
+  "concepts": [
+    {
+      "concept_id": "00591115-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "realise",
+        "realize",
+        "see",
+        "understand"
+      ],
+      "definition_en": "perceive (an idea or situation) mentally",
+      "gloss_en": "perceive (an idea or situation) mentally; \"Now I see!\"; \"I just can't see your point\"; \"Does she realize how important this decision is?\"; \"I don't understand the idea\"",
+      "examples_en": [
+        "Now I see!",
+        "I just can't see your point",
+        "Does she realize how important this decision is?",
+        "I don't understand the idea"
+      ],
+      "indonesian_terms": [
+        "ingat",
+        "mafhum",
+        "maklum",
+        "melaksanakan",
+        "melihat",
+        "memafhumi",
+        "memahami",
+        "memaklumi",
+        "membayangkan",
+        "menerawang",
+        "mengarifi",
+        "mengarifkan",
+        "mengartikan",
+        "mengerti",
+        "menginsafi",
+        "menjelmakan",
+        "menyaba",
+        "menyadari",
+        "mewujudkan",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-a8e7716d761aea538636",
+            "word": "realise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-4a3d5fea179de948a473",
+            "word": "realize",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-391fb6ee1233f237ed93",
+            "word": "understand",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00591519-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "perceive"
+      ],
+      "definition_en": "become conscious of",
+      "gloss_en": "become conscious of; \"She finally perceived the futility of her protest\"",
+      "examples_en": [
+        "She finally perceived the futility of her protest"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "mencerap",
+        "menganggap",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-0c548bd5b168a0b66bf2",
+            "word": "perceive",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00598954-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "discover",
+        "find out",
+        "get a line",
+        "get wind",
+        "get word",
+        "hear",
+        "learn",
+        "pick up",
+        "see"
+      ],
+      "definition_en": "get to know or become aware of, usually accidentally",
+      "gloss_en": "get to know or become aware of, usually accidentally; \"I learned that she has two grown-up children\"; \"I see that you have been promoted\"",
+      "examples_en": [
+        "I learned that she has two grown-up children",
+        "I see that you have been promoted"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "melihat",
+        "mempelajari",
+        "mendapati",
+        "mendengar",
+        "menemukan",
+        "mengarik",
+        "mengetahui",
+        "menyaba"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-471f2814c1c78f2bc443",
+            "word": "hear",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-136611a937838afbe3fc",
+            "word": "discover",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00690614-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "consider",
+        "reckon",
+        "regard",
+        "see",
+        "view"
+      ],
+      "definition_en": "deem to be",
+      "gloss_en": "deem to be; \"She views this quite differently from me\"; \"I consider her to be shallow\"; \"I don't see the situation quite as negatively as you do\"",
+      "examples_en": [
+        "She views this quite differently from me",
+        "I consider her to be shallow",
+        "I don't see the situation quite as negatively as you do"
+      ],
+      "indonesian_terms": [
+        "anggap",
+        "berjumpa",
+        "berpikir-pikir",
+        "bertafakur",
+        "bertemu",
+        "melihat",
+        "memadan-madan",
+        "memandang",
+        "membilang",
+        "membilangkan",
+        "memeka",
+        "memikirkan",
+        "mempertenggangkan",
+        "mempertimbangkan",
+        "menamakan",
+        "menganggap",
+        "menganggarkan",
+        "menghinap-hinap",
+        "menghitung",
+        "menghormati",
+        "mengira",
+        "menimbang",
+        "menimbangkan",
+        "menyaba",
+        "menyangkakan",
+        "menyifatkan",
+        "merengkuh",
+        "tengok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-c6e86355d578b076cad8",
+            "word": "regard",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b1f434d0e7a0fca638e4",
+            "word": "view",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-f9d078111ac210f69315",
+            "word": "reckon",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00697062-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "audit",
+        "inspect",
+        "scrutinise",
+        "scrutinize"
+      ],
+      "definition_en": "examine carefully for accuracy with the intent of verification",
+      "gloss_en": "examine carefully for accuracy with the intent of verification; \"audit accounts and tax returns\"",
+      "examples_en": [
+        "audit accounts and tax returns"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "memeriksa",
+        "memeriksai",
+        "memindai",
+        "mengaudit",
+        "menyimak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-7e1e489d2e5d0e7578d5",
+            "word": "inspect",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [
+          {
+            "entry_id": "vocab-edc0f2647453ff9149ce",
+            "word": "scrutinise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7a107734714a286cef08",
+            "word": "scrutinize",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": [
+          {
+            "entry_id": "vocab-3f042e02449aa33ae04e",
+            "word": "audit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00703708-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "deliberate or decide",
+      "gloss_en": "deliberate or decide; \"See whether you can come tomorrow\"; \"let's see--which movie should we see tonight?\"",
+      "examples_en": [
+        "See whether you can come tomorrow",
+        "let's see--which movie should we see tonight?"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "memeriksa",
+        "memutuskan",
+        "menentukan",
+        "menyengaja"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00734054-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "consider",
+        "deal",
+        "look at",
+        "take"
+      ],
+      "definition_en": "take into consideration for exemplifying purposes",
+      "gloss_en": "take into consideration for exemplifying purposes; \"Take the case of China\"; \"Consider the following case\"",
+      "examples_en": [
+        "Take the case of China",
+        "Consider the following case"
+      ],
+      "indonesian_terms": [
+        "berpikir-pikir",
+        "bertafakur",
+        "makan",
+        "melihat",
+        "meluwengkan",
+        "memandang",
+        "memasukkan",
+        "membawa",
+        "membilang",
+        "membilangkan",
+        "membutuhkan",
+        "memikirkan",
+        "mempertimbangkan",
+        "mengambil",
+        "menganggap",
+        "mengarik",
+        "menghinap-hinap",
+        "mengira",
+        "menimbang",
+        "menimbangkan",
+        "menyangkakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-892d9935112a23d4bc73",
+            "word": "deal",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00920336-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "ascertain",
+        "check",
+        "determine",
+        "find out",
+        "learn",
+        "see",
+        "watch"
+      ],
+      "definition_en": "find out, learn, or determine with certainty, usually by making an inquiry or other effort",
+      "gloss_en": "find out, learn, or determine with certainty, usually by making an inquiry or other effort; \"I want to see whether she speaks French\"; \"See whether it works\"; \"find out if he speaks Russian\"; \"Check whether the train leaves on time\"",
+      "examples_en": [
+        "I want to see whether she speaks French",
+        "See whether it works",
+        "find out if he speaks Russian",
+        "Check whether the train leaves on time"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "memastikan",
+        "membaca",
+        "memeriksa",
+        "mempelajari",
+        "mencocokkan",
+        "mendapati",
+        "menemukan",
+        "menengok",
+        "menentukan",
+        "menetak",
+        "menetakkan",
+        "menetapkan",
+        "mengawasi",
+        "mengekol",
+        "mengetahui",
+        "mengintai",
+        "menonton",
+        "menyaba",
+        "menyelidik",
+        "menyemak",
+        "menyiasat",
+        "tengok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-1a16f1b163f2bacd23f3",
+            "word": "watch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-b2d6d7a818827140086b",
+            "word": "check",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-5142283860828a6100f1",
+            "word": "determine",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01058574-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "comment",
+        "notice",
+        "point out",
+        "remark"
+      ],
+      "definition_en": "make or write a comment on",
+      "gloss_en": "make or write a comment on; \"he commented the paper of his colleague\"",
+      "examples_en": [
+        "he commented the paper of his colleague"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "menegur",
+        "mengkritik",
+        "mengomentari",
+        "mengulas",
+        "mensinyalir",
+        "menunjukkan",
+        "menyatakan",
+        "ulas",
+        "ulasan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-cff65d8c972c5c5b35cb",
+            "word": "notice",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-4f091f79a842139a25a2",
+            "word": "remark",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-03891423d8a2dc4eef6f",
+            "word": "comment",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01059123-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "acknowledge",
+        "notice"
+      ],
+      "definition_en": "express recognition of the presence or existence of, or acquaintance with",
+      "gloss_en": "express recognition of the presence or existence of, or acquaintance with; \"He never acknowledges his colleagues when they run into him in the hallway\"; \"She acknowledged his complement with a smile\"; \"it is important to acknowledge the work of others in one's own writing\"",
+      "examples_en": [
+        "He never acknowledges his colleagues when they run into him in the hallway",
+        "She acknowledged his complement with a smile",
+        "it is important to acknowledge the work of others in one's own writing"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "membalas",
+        "membenarkan",
+        "menegur",
+        "menyambut",
+        "menyapa"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-21e5150f63fad30ac560",
+            "word": "acknowledge",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-cff65d8c972c5c5b35cb",
+            "word": "notice",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01635432-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.creation",
+      "english_lemmas": [
+        "envision",
+        "fancy",
+        "figure",
+        "image",
+        "picture",
+        "project",
+        "see",
+        "visualise",
+        "visualize"
+      ],
+      "definition_en": "imagine; conceive of; see in one's mind",
+      "gloss_en": "imagine; conceive of; see in one's mind; \"I can't see him on horseback!\"; \"I can see what will happen\"; \"I can see a risk in this strategy\"",
+      "examples_en": [
+        "I can't see him on horseback!",
+        "I can see what will happen",
+        "I can see a risk in this strategy"
+      ],
+      "indonesian_terms": [
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "membayang-bayangkan",
+        "membayangkan",
+        "memikirkan",
+        "memvisualisasikan",
+        "menerawang",
+        "mengangankan",
+        "menggambarkan",
+        "mengkhayalkan",
+        "mengunjurkan",
+        "menjorok",
+        "menyaba",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-eb6c8a28eacde14895dc",
+            "word": "figure",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-4a823bd4b0cc5affd5e7",
+            "word": "fancy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-736f423c7d480141bd5b",
+            "word": "picture",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-299864df3dc1746b191f",
+            "word": "project",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02106506-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "comprehend",
+        "perceive"
+      ],
+      "definition_en": "to become aware of through the senses",
+      "gloss_en": "to become aware of through the senses; \"I could perceive the ship coming over the horizon\"",
+      "examples_en": [
+        "I could perceive the ship coming over the horizon"
+      ],
+      "indonesian_terms": [
+        "mafhum",
+        "melihat",
+        "memafhumi",
+        "memahami",
+        "menangkap",
+        "mencerap",
+        "menganggap",
+        "mengarifi",
+        "mengarifkan",
+        "mengerti",
+        "merasa",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-0c548bd5b168a0b66bf2",
+            "word": "perceive",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02118476-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "mark",
+        "note",
+        "notice"
+      ],
+      "definition_en": "notice or perceive",
+      "gloss_en": "notice or perceive; \"She noted that someone was following her\"; \"mark my words\"",
+      "examples_en": [
+        "She noted that someone was following her",
+        "mark my words"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "memerhatikan",
+        "memonten",
+        "mencatatkan",
+        "mengangkakan",
+        "menghiraukan",
+        "perasan",
+        "tanda"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-9d806301ac0d29178cdf",
+            "word": "note",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-d9c2594aa8d932b2d348",
+            "word": "mark",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-cff65d8c972c5c5b35cb",
+            "word": "notice",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02118933-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "note",
+        "observe",
+        "take note"
+      ],
+      "definition_en": "observe with care or pay close attention to",
+      "gloss_en": "observe with care or pay close attention to; \"Take note of this chemical reaction\"",
+      "examples_en": [
+        "Take note of this chemical reaction"
+      ],
+      "indonesian_terms": [
+        "bertinjau-tinjauan",
+        "melihat",
+        "memantau",
+        "mematuhi",
+        "membelek",
+        "memerhatikan",
+        "mencamkan",
+        "mencatat",
+        "mencatatkan",
+        "mencerap",
+        "mengajuk",
+        "mengamati",
+        "mengawasi",
+        "menghiraukan",
+        "meninjau",
+        "menonton",
+        "tinjau-meninjau"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-9d806301ac0d29178cdf",
+            "word": "note",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-73eeb6abae5a871dda84",
+            "word": "observe",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02128653-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "look on",
+        "watch"
+      ],
+      "definition_en": "observe with attention",
+      "gloss_en": "observe with attention; \"They watched as the murderer was executed\"",
+      "examples_en": [
+        "They watched as the murderer was executed"
+      ],
+      "indonesian_terms": [
+        "intip",
+        "lihat",
+        "melihat",
+        "memandang",
+        "mencerap",
+        "mengamati",
+        "mengawasi",
+        "mengelih",
+        "menonton",
+        "tengok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-1a16f1b163f2bacd23f3",
+            "word": "watch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02129289-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "perceive by sight or have the power to perceive by sight",
+      "gloss_en": "perceive by sight or have the power to perceive by sight; \"You have to be a good observer to see all the details\"; \"Can you see the bird in that tree?\"; \"He is blind--he cannot see\"",
+      "examples_en": [
+        "You have to be a good observer to see all the details",
+        "Can you see the bird in that tree?",
+        "He is blind--he cannot see"
+      ],
+      "indonesian_terms": [
+        "lihat",
+        "melihat",
+        "mengamati",
+        "mengelih",
+        "menyaba",
+        "nampak",
+        "perhati"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02129709-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "see and understand, have a good eye",
+      "gloss_en": "see and understand, have a good eye; \"The artist must first learn to see\"",
+      "examples_en": [
+        "The artist must first learn to see"
+      ],
+      "indonesian_terms": [
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "memahami",
+        "mengetahui",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02130300-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "consider",
+        "look at",
+        "view"
+      ],
+      "definition_en": "look at carefully; study mentally",
+      "gloss_en": "look at carefully; study mentally; \"view a problem\"",
+      "examples_en": [
+        "view a problem"
+      ],
+      "indonesian_terms": [
+        "berpikir-pikir",
+        "bertafakur",
+        "melihat",
+        "memandang",
+        "membilang",
+        "membilangkan",
+        "memelototi",
+        "mengamati",
+        "menganggap",
+        "menghinap-hinap",
+        "menimbang",
+        "menyangkakan",
+        "merenung"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-b1f434d0e7a0fca638e4",
+            "word": "view",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02130524-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "look"
+      ],
+      "definition_en": "perceive with attention; direct one's gaze towards",
+      "gloss_en": "perceive with attention; direct one's gaze towards; \"She looked over the expanse of land\"; \"Look at your child!\"; \"Look--a deer in the backyard!\"",
+      "examples_en": [
+        "She looked over the expanse of land",
+        "Look at your child!",
+        "Look--a deer in the backyard!"
+      ],
+      "indonesian_terms": [
+        "kelihatan",
+        "melihat",
+        "memandang",
+        "menengok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f3dd1a7d944e3e7e25f6",
+            "word": "look",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02131279-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "examine",
+        "see"
+      ],
+      "definition_en": "observe, check out, and look over carefully or inspect",
+      "gloss_en": "observe, check out, and look over carefully or inspect; \"The customs agent examined the baggage\"; \"I must see your passport before you can enter the country\"",
+      "examples_en": [
+        "The customs agent examined the baggage",
+        "I must see your passport before you can enter the country"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "memantau",
+        "memasuki",
+        "membelek",
+        "memeriksa",
+        "mengecek",
+        "mengekol",
+        "mengobservasi",
+        "menguji",
+        "menyaba",
+        "menyelidik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-6aaba2c48f4467c9096b",
+            "word": "examine",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02132745-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "gaze",
+        "stare"
+      ],
+      "definition_en": "look at with fixed eyes",
+      "gloss_en": "look at with fixed eyes; \"The students stared at the teacher with amazement\"",
+      "examples_en": [
+        "The students stared at the teacher with amazement"
+      ],
+      "indonesian_terms": [
+        "celang",
+        "melihat",
+        "menatap",
+        "menentang",
+        "menenung",
+        "merenung",
+        "renung",
+        "tilikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-0ddee6e61a6434798b8c",
+            "word": "stare",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02150948-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "catch",
+        "see",
+        "take in",
+        "view",
+        "watch"
+      ],
+      "definition_en": "see or watch",
+      "gloss_en": "see or watch; \"view a show on television\"; \"This program will be seen all over the world\"; \"view an exhibition\"; \"Catch a show on Broadway\"; \"see a movie\"",
+      "examples_en": [
+        "view a show on television",
+        "This program will be seen all over the world",
+        "view an exhibition",
+        "Catch a show on Broadway",
+        "see a movie"
+      ],
+      "indonesian_terms": [
+        "lihat",
+        "melihat",
+        "memandang",
+        "menampung",
+        "mencerap",
+        "mencerna",
+        "mencernakan",
+        "menengok",
+        "mengawasi",
+        "menonton",
+        "menyaba",
+        "menyaksikan",
+        "meringkus",
+        "tengok"
+      ],
+      "definitions_id": [
+        "melihat seseorang dengan teliti"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2f5e1abbfe1d7e2eec0e",
+            "word": "catch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-1a16f1b163f2bacd23f3",
+            "word": "watch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-b1f434d0e7a0fca638e4",
+            "word": "view",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02153387-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "scrutinise",
+        "scrutinize",
+        "size up",
+        "take stock"
+      ],
+      "definition_en": "to look at critically or searchingly, or in minute detail",
+      "gloss_en": "to look at critically or searchingly, or in minute detail; \"he scrutinized his likeness in the mirror\"",
+      "examples_en": [
+        "he scrutinized his likeness in the mirror"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "memeriksa",
+        "memindai",
+        "meneliti",
+        "menilai",
+        "menyimak",
+        "merenung"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-edc0f2647453ff9149ce",
+            "word": "scrutinise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7a107734714a286cef08",
+            "word": "scrutinize",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02154312-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "descry",
+        "espy",
+        "spot",
+        "spy"
+      ],
+      "definition_en": "catch sight of",
+      "gloss_en": "catch sight of",
+      "examples_en": [],
+      "indonesian_terms": [
+        "melihat",
+        "menelik",
+        "menyelidiki",
+        "nampak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-073d20ada865e91ab07f",
+            "word": "spot",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02154508-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "detect",
+        "discover",
+        "find",
+        "notice",
+        "observe"
+      ],
+      "definition_en": "discover or determine the existence, presence, or fact of",
+      "gloss_en": "discover or determine the existence, presence, or fact of; \"She detected high levels of lead in her drinking water\"; \"We found traces of lead in the paint\"",
+      "examples_en": [
+        "She detected high levels of lead in her drinking water",
+        "We found traces of lead in the paint"
+      ],
+      "indonesian_terms": [
+        "bertinjau-tinjauan",
+        "melihat",
+        "memantau",
+        "membelek",
+        "membongkar",
+        "mencamkan",
+        "mencari",
+        "mendapati",
+        "mendapatkan",
+        "menemui",
+        "menemukan",
+        "mengajuk",
+        "mengamati",
+        "mengawasi",
+        "mengesan",
+        "mengobservasi",
+        "meninjau",
+        "menjumpai",
+        "menonton",
+        "merasa",
+        "terdapat",
+        "tinjau-meninjau"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-2ebd818c094bc642f674",
+            "word": "find",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-136611a937838afbe3fc",
+            "word": "discover",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-cff65d8c972c5c5b35cb",
+            "word": "notice",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-73eeb6abae5a871dda84",
+            "word": "observe",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-db3ef49b149669520212",
+            "word": "detect",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02156225-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "observe as if with an eye",
+      "gloss_en": "observe as if with an eye; \"The camera saw the burglary and recorded it\"",
+      "examples_en": [
+        "The camera saw the burglary and recorded it"
+      ],
+      "indonesian_terms": [
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "mengobservasi",
+        "nampak",
+        "tahu"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02166460-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "consider",
+        "study"
+      ],
+      "definition_en": "give careful consideration to",
+      "gloss_en": "give careful consideration to; \"consider the possibility of moving\"",
+      "examples_en": [
+        "consider the possibility of moving"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "berpikir-pikir",
+        "bertafakur",
+        "melihat",
+        "memandang",
+        "membayangkan",
+        "membilang",
+        "membilangkan",
+        "memikirkan",
+        "mempelajari",
+        "mempertimbangkan",
+        "menelaah",
+        "meneliti",
+        "mengamati",
+        "menganggap",
+        "menghinap-hinap",
+        "mengira",
+        "mengkaji",
+        "menimbang",
+        "menimbangkan",
+        "menjangkakan",
+        "menyangkakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02193194-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "discern",
+        "distinguish",
+        "make out",
+        "pick out",
+        "recognise",
+        "recognize",
+        "spot",
+        "tell apart"
+      ],
+      "definition_en": "detect with the senses",
+      "gloss_en": "detect with the senses; \"The fleeing convicts were picked out of the darkness by the watchful prison guards\"; \"I can't make out the faces in this photograph\"",
+      "examples_en": [
+        "The fleeing convicts were picked out of the darkness by the watchful prison guards",
+        "I can't make out the faces in this photograph"
+      ],
+      "indonesian_terms": [
+        "melihat",
+        "menanggap",
+        "menangkap",
+        "mencerap",
+        "mendengar",
+        "mengakui",
+        "mengecam",
+        "mengenali",
+        "menikmati",
+        "merasakan",
+        "nampak",
+        "terdengar"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-f6dc634e7436786c7ecf",
+            "word": "distinguish",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3574ff331058c9bf3fd3",
+            "word": "recognise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-fc3d99fedea220046aa9",
+            "word": "recognize",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-073d20ada865e91ab07f",
+            "word": "spot",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02455407-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "follow",
+        "keep an eye on",
+        "observe",
+        "watch",
+        "watch over"
+      ],
+      "definition_en": "follow with the eyes or the mind",
+      "gloss_en": "follow with the eyes or the mind; \"Keep an eye on the baby, please!\"; \"The world is watching Sarajevo\"; \"She followed the men with the binoculars\"",
+      "examples_en": [
+        "Keep an eye on the baby, please!",
+        "The world is watching Sarajevo",
+        "She followed the men with the binoculars"
+      ],
+      "indonesian_terms": [
+        "bertinjau-tinjauan",
+        "ikut",
+        "ikut serta",
+        "jaga",
+        "melihat",
+        "memantau",
+        "mematuhi",
+        "membelek",
+        "membuntuti",
+        "mencamkan",
+        "mencatat",
+        "mencerap",
+        "mencontoh",
+        "menelusuri",
+        "mengajuk",
+        "mengamati",
+        "menganut",
+        "mengawasi",
+        "mengikuti",
+        "mengintai",
+        "menguntit",
+        "menguntiti",
+        "meninjau",
+        "menjaga",
+        "menonton",
+        "menyusul",
+        "menyusuri",
+        "merunut",
+        "merunuti",
+        "nampak",
+        "tinjau-meninjau"
+      ],
+      "definitions_id": [
+        "melihat seseorang dengan teliti"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-1a16f1b163f2bacd23f3",
+            "word": "watch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-a0a995f3ac96ca369eb1",
+            "word": "follow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-73eeb6abae5a871dda84",
+            "word": "observe",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02488304-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "go to see for professional or business reasons",
+      "gloss_en": "go to see for professional or business reasons; \"You should see a lawyer\"; \"We had to see a psychiatrist\"",
+      "examples_en": [
+        "You should see a lawyer",
+        "We had to see a psychiatrist"
+      ],
+      "indonesian_terms": [
+        "bertemu",
+        "melihat",
+        "menemui"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02488488-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "see"
+      ],
+      "definition_en": "go to see for a social visit",
+      "gloss_en": "go to see for a social visit; \"I went to see my friend Mary the other day\"",
+      "examples_en": [
+        "I went to see my friend Mary the other day"
+      ],
+      "indonesian_terms": [
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "mengunjungi",
+        "menziarahi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02493030-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "see",
+        "visit"
+      ],
+      "definition_en": "go to see a place, as for entertainment",
+      "gloss_en": "go to see a place, as for entertainment; \"We went to see the Eiffel Tower in the morning\"",
+      "examples_en": [
+        "We went to see the Eiffel Tower in the morning"
+      ],
+      "indonesian_terms": [
+        "bercemar kaki",
+        "berjumpa",
+        "berkunjung",
+        "bertamu",
+        "bertandang",
+        "bertandang duduk",
+        "bertemu",
+        "lawat",
+        "melawat",
+        "melihat",
+        "membuang langkah",
+        "menamu",
+        "mendatangi",
+        "menengok",
+        "menengoki",
+        "menginjak",
+        "mengunjungi",
+        "menjelau",
+        "menjenguk",
+        "menjingap",
+        "menyaba",
+        "menyambangi",
+        "sowan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-f7bad6e5879ca32cd129",
+            "word": "visit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02869563-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.pert",
+      "english_lemmas": [
+        "ocular",
+        "optic",
+        "optical",
+        "visual"
+      ],
+      "definition_en": "relating to or using sight",
+      "gloss_en": "relating to or using sight; \"ocular inspection\"; \"an optical illusion\"; \"visual powers\"; \"visual navigation\"",
+      "examples_en": [
+        "ocular inspection",
+        "an optical illusion",
+        "visual powers",
+        "visual navigation"
+      ],
+      "indonesian_terms": [
+        "mata",
+        "melihat",
+        "optik",
+        "optis",
+        "visual"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-a1916c741ffa82997e28",
+            "word": "visual",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

@@ -1,0 +1,3167 @@
+{
+  "query_id": "berjalan",
+  "concepts": [
+    {
+      "concept_id": "00149583-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "become",
+        "get",
+        "go"
+      ],
+      "definition_en": "enter or assume a certain state or condition",
+      "gloss_en": "enter or assume a certain state or condition; \"He became annoyed when he heard the bad news\"; \"It must be getting more serious\"; \"her face went red with anger\"; \"She went into ecstasy\"; \"Get going!\"",
+      "examples_en": [
+        "He became annoyed when he heard the bad news",
+        "It must be getting more serious",
+        "her face went red with anger",
+        "She went into ecstasy",
+        "Get going!"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "beroleh",
+        "hidup",
+        "jadi",
+        "membawa",
+        "memperoleh",
+        "mendapat",
+        "mendapati",
+        "mendapatkan",
+        "mengambil",
+        "mengantongi",
+        "menjadi",
+        "pantai",
+        "pesisir"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-5ac9531ba4da7daca64c",
+            "word": "become",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-6eb4368fc8c94eebb2be",
+            "word": "get",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00283568-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.act",
+      "english_lemmas": [
+        "walk",
+        "walking"
+      ],
+      "definition_en": "the act of traveling by foot",
+      "gloss_en": "the act of traveling by foot; \"walking is a healthy form of exercise\"",
+      "examples_en": [
+        "walking is a healthy form of exercise"
+      ],
+      "indonesian_terms": [
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-bb7710167814233cdd97",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-081f920b9bb24564bdfe",
+            "word": "walking",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00341285-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "operate"
+      ],
+      "definition_en": "happen",
+      "gloss_en": "happen; \"What is going on in the minds of the people?\"",
+      "examples_en": [
+        "What is going on in the minds of the people?"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "hidup",
+        "membedah",
+        "membedel",
+        "mengoperasikan",
+        "menjalankan",
+        "menyelenggarakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-e2dfc38f43df7bb17dc4",
+            "word": "operate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00341560-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "go",
+        "proceed"
+      ],
+      "definition_en": "follow a certain course",
+      "gloss_en": "follow a certain course; \"The inauguration went well\"; \"how did your interview go?\"",
+      "examples_en": [
+        "The inauguration went well",
+        "how did your interview go?"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "hidup",
+        "melalui",
+        "menemui",
+        "terjadi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-8144d4b37de602d3d0ce",
+            "word": "proceed",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00358431-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "buy the farm",
+        "cash in one's chips",
+        "choke",
+        "conk",
+        "croak",
+        "decease",
+        "die",
+        "drop dead",
+        "exit",
+        "expire",
+        "give-up the ghost",
+        "go",
+        "kick the bucket",
+        "pass",
+        "pass away",
+        "perish",
+        "pop off",
+        "snuff it"
+      ],
+      "definition_en": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+      "gloss_en": "pass from physical life and lose all bodily attributes and functions necessary to sustain life; \"She died from cancer\"; \"The children perished in the fire\"; \"The patient went peacefully\"; \"The old guy kicked the bucket at the age of 102\"",
+      "examples_en": [
+        "She died from cancer",
+        "The children perished in the fire",
+        "The patient went peacefully",
+        "The old guy kicked the bucket at the age of 102"
+      ],
+      "indonesian_terms": [
+        "almarhum",
+        "arwah",
+        "bablas",
+        "berjalan",
+        "berlalu",
+        "berpulang",
+        "gugur",
+        "hidup",
+        "hilang hayat",
+        "hilang nyawa",
+        "kojol",
+        "lenyap",
+        "mampus",
+        "mangkat",
+        "mati",
+        "maut",
+        "melampaui",
+        "menarik napas penghabisan",
+        "mencekik",
+        "mendiang",
+        "menemui ajal",
+        "mengangsurkan",
+        "mengoper",
+        "mengoperkan",
+        "menguak",
+        "meninggal",
+        "meninggal dunia",
+        "menutup mata",
+        "menyalip",
+        "modar",
+        "pergi",
+        "pulang ke rahmatullah",
+        "putus nyawa",
+        "sampai ajal",
+        "sampai janjinya",
+        "sampai umur",
+        "sempurna usia",
+        "tamat riwayatnya",
+        "tersedak",
+        "wafat"
+      ],
+      "definitions_id": [
+        "meninggalkan dunia yang fana"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-ba9daecc7dfea0d0c586",
+            "word": "die",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-ba78d2d5d4953a78376d",
+            "word": "pass",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-03553e76a6f089ee955a",
+            "word": "choke",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-a2c9edba627abed4a608",
+            "word": "exit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-70ed9d5b7ab42beae15e",
+            "word": "expire",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00359916-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "go"
+      ],
+      "definition_en": "be abolished or discarded",
+      "gloss_en": "be abolished or discarded; \"These ugly billboards have to go!\"; \"These luxuries all had to go under the Khmer Rouge\"",
+      "examples_en": [
+        "These ugly billboards have to go!",
+        "These luxuries all had to go under the Khmer Rouge"
+      ],
+      "indonesian_terms": [
+        "angkat kaki",
+        "balik",
+        "berjalan",
+        "hidup",
+        "hilang",
+        "pergi",
+        "pulang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00434374-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "break",
+        "break down",
+        "conk out",
+        "die",
+        "fail",
+        "give out",
+        "give way",
+        "go",
+        "go bad"
+      ],
+      "definition_en": "stop operating or functioning",
+      "gloss_en": "stop operating or functioning; \"The engine finally went\"; \"The car died on the road\"; \"The bus we travelled in broke down on the way to town\"; \"The coffee maker broke\"; \"The engine failed on the way to town\"; \"her eyesight went after the accident\"",
+      "examples_en": [
+        "The engine finally went",
+        "The car died on the road",
+        "The bus we travelled in broke down on the way to town",
+        "The coffee maker broke",
+        "The engine failed on the way to town",
+        "her eyesight went after the accident"
+      ],
+      "indonesian_terms": [
+        "ambrol",
+        "berjalan",
+        "berkurang",
+        "berpulang",
+        "gagal",
+        "hidup",
+        "jatuh",
+        "kandas",
+        "lemah",
+        "mangkat",
+        "mati",
+        "membagi",
+        "membobolkan",
+        "membongkar",
+        "menemui ajal",
+        "mengurang",
+        "meninggal",
+        "meninggal dunia",
+        "menutup mata",
+        "merosot",
+        "mogok",
+        "mundur",
+        "sampai ajal",
+        "sampai janjinya",
+        "sampai umur",
+        "sempurna usia",
+        "terbentur",
+        "urung",
+        "wafat"
+      ],
+      "definitions_id": [
+        "berjalan dari dunia yang fana"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d6db94fdc01305de62b5",
+            "word": "break",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-ba9daecc7dfea0d0c586",
+            "word": "die",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-fd59ea50988553967ab8",
+            "word": "fail",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00517529-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "run"
+      ],
+      "definition_en": "cause to perform",
+      "gloss_en": "cause to perform; \"run a subject\"; \"run a process\"",
+      "examples_en": [
+        "run a subject",
+        "run a process"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "menghidupkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00539110-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.change",
+      "english_lemmas": [
+        "go",
+        "move",
+        "run"
+      ],
+      "definition_en": "progress by being changed",
+      "gloss_en": "progress by being changed; \"The speech has to go through several more drafts\"; \"run through your presentation before the meeting\"",
+      "examples_en": [
+        "The speech has to go through several more drafts",
+        "run through your presentation before the meeting"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berganjak",
+        "bergerak",
+        "bergeser",
+        "bergulir",
+        "berjalan",
+        "berpindah",
+        "buyar",
+        "gerak",
+        "hidup",
+        "jalan",
+        "lari",
+        "memasang",
+        "membuyarkan",
+        "memindahkan",
+        "mengalir",
+        "menggerakkan",
+        "menggulir",
+        "mengisarkan",
+        "menjadi",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-1dd7d36aca6536efdbdd",
+            "word": "move",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00676267-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "go",
+        "plump"
+      ],
+      "definition_en": "give support (to) or make a choice (of) one out of a group or number",
+      "gloss_en": "give support (to) or make a choice (of) one out of a group or number; \"I plumped for the losing candidates\"",
+      "examples_en": [
+        "I plumped for the losing candidates"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "hidup"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00969873-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "circulate",
+        "go around",
+        "spread"
+      ],
+      "definition_en": "become widely known and passed on",
+      "gloss_en": "become widely known and passed on; \"the rumor spread\"; \"the story went around in the office\"",
+      "examples_en": [
+        "the rumor spread",
+        "the story went around in the office"
+      ],
+      "indonesian_terms": [
+        "berbebar",
+        "beredar",
+        "berjalan",
+        "berjalar-jalar",
+        "berjalaran",
+        "berjangkit",
+        "berputar",
+        "buyar",
+        "melansir",
+        "meluas",
+        "membabar",
+        "membabarkan",
+        "membuyarkan",
+        "memindahi",
+        "memindahkan",
+        "memperedarkan",
+        "memutar",
+        "mengedarkan",
+        "menghamburkan",
+        "menjangkit",
+        "menjelajah",
+        "menjelajahi",
+        "menular",
+        "menyebarkan",
+        "menyebarluaskan",
+        "menyemaikan",
+        "merentangkan",
+        "meruak",
+        "meruyak",
+        "ruyak",
+        "terbebar",
+        "tersebar",
+        "tersiar"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-487cc722d50ddcbd0667",
+            "word": "spread",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [
+          {
+            "entry_id": "vocab-6a8cfcd3a893973cbebe",
+            "word": "circulate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01076615-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.competition",
+      "english_lemmas": [
+        "go",
+        "move"
+      ],
+      "definition_en": "have a turn; make one's move in a game",
+      "gloss_en": "have a turn; make one's move in a game; \"Can I go now?\"",
+      "examples_en": [
+        "Can I go now?"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berganjak",
+        "bergerak",
+        "bergeser",
+        "bergulir",
+        "berjalan",
+        "berpindah",
+        "giliran",
+        "hidup",
+        "memindahkan",
+        "menggerakkan",
+        "menggulir",
+        "mengisarkan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-1dd7d36aca6536efdbdd",
+            "word": "move",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01091728-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "functional",
+        "operative",
+        "running",
+        "working"
+      ],
+      "definition_en": "(of e.g. a machine) performing or capable of performing",
+      "gloss_en": "(of e.g. a machine) performing or capable of performing; \"in running (or working) order\"; \"a functional set of brakes\"",
+      "examples_en": [
+        "in running (or working) order",
+        "a functional set of brakes"
+      ],
+      "indonesian_terms": [
+        "berfungsi",
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-cbc0b219f0facde43a4f",
+            "word": "working",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-d59c94cb58b60f1c91c7",
+            "word": "functional",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01192773-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.consumption",
+      "english_lemmas": [
+        "go",
+        "run low",
+        "run short"
+      ],
+      "definition_en": "to be spent or finished",
+      "gloss_en": "to be spent or finished; \"The money had gone after a few days\"; \"Gas is running low at the gas stations in the Midwest\"",
+      "examples_en": [
+        "The money had gone after a few days",
+        "Gas is running low at the gas stations in the Midwest"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "hidup",
+        "lagi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01318849-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "go",
+        "rifle"
+      ],
+      "definition_en": "go through in search of something; search through someone's belongings in an unauthorized way",
+      "gloss_en": "go through in search of something; search through someone's belongings in an unauthorized way; \"Who rifled through my desk drawers?\"",
+      "examples_en": [
+        "Who rifled through my desk drawers?"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "hidup",
+        "membalik-balik",
+        "mencari-cari",
+        "merampok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01525666-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "function",
+        "go",
+        "operate",
+        "run",
+        "work"
+      ],
+      "definition_en": "perform as expected when applied",
+      "gloss_en": "perform as expected when applied; \"The washing machine won't go unless it's plugged in\"; \"Does this old car still run well?\"; \"This old radio doesn't work anymore\"",
+      "examples_en": [
+        "The washing machine won't go unless it's plugged in",
+        "Does this old car still run well?",
+        "This old radio doesn't work anymore"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "beralih",
+        "berangkat",
+        "berbunyi",
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "berjaya",
+        "beroperasi",
+        "buyar",
+        "hidup",
+        "jalan",
+        "kerja",
+        "lari",
+        "memasang",
+        "membedel",
+        "membuyarkan",
+        "mengakok",
+        "mengalir",
+        "mengendalikan",
+        "mengerjakan",
+        "mengoperasikan",
+        "menjalankan",
+        "menyelenggarakan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-8402fe8bd7e00da37d27",
+            "word": "function",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e2dfc38f43df7bb17dc4",
+            "word": "operate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01526139-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "roll"
+      ],
+      "definition_en": "begin operating or running",
+      "gloss_en": "begin operating or running; \"The cameras were rolling\"; \"The presses are already rolling\"",
+      "examples_en": [
+        "The cameras were rolling",
+        "The presses are already rolling"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-90549e4135fe5b320267",
+            "word": "roll",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01526290-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "run"
+      ],
+      "definition_en": "be operating, running or functioning",
+      "gloss_en": "be operating, running or functioning; \"The car is still running--turn it off!\"",
+      "examples_en": [
+        "The car is still running--turn it off!"
+      ],
+      "indonesian_terms": [
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "berlari"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01668603-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.creation",
+      "english_lemmas": [
+        "process",
+        "work",
+        "work on"
+      ],
+      "definition_en": "shape, form, or improve a material",
+      "gloss_en": "shape, form, or improve a material; \"work stone into tools\"; \"process iron\"; \"work the metal\"",
+      "examples_en": [
+        "work stone into tools",
+        "process iron",
+        "work the metal"
+      ],
+      "indonesian_terms": [
+        "berakhir",
+        "bergerak",
+        "berjalan",
+        "membentuk",
+        "memproses",
+        "mengakok",
+        "mengerjakan",
+        "mengilang",
+        "mengolah"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-bc5a26a9e7cda642c298",
+            "word": "process",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01741446-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.creation",
+      "english_lemmas": [
+        "crop",
+        "cultivate",
+        "work"
+      ],
+      "definition_en": "prepare for crops",
+      "gloss_en": "prepare for crops; \"Work the soil\"; \"cultivate the land\"",
+      "examples_en": [
+        "Work the soil",
+        "cultivate the land"
+      ],
+      "indonesian_terms": [
+        "berakhir",
+        "bergerak",
+        "berjalan",
+        "membina",
+        "memupuk",
+        "mengakok",
+        "mengerjakan",
+        "menggarap",
+        "mengusahakan",
+        "menyediakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-391397a4c73a30e61ded",
+            "word": "cultivate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01835496-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "go",
+        "locomote",
+        "move",
+        "travel"
+      ],
+      "definition_en": "change location; move, travel, or proceed, also metaphorically",
+      "gloss_en": "change location; move, travel, or proceed, also metaphorically; \"How fast does your new car go?\"; \"We travelled from Rome to Naples by bus\"; \"The policemen went from door to door looking for the suspect\"; \"The soldiers moved towards the city in an attempt to take it before night fell\"; \"news travelled fast\"",
+      "examples_en": [
+        "How fast does your new car go?",
+        "We travelled from Rome to Naples by bus",
+        "The policemen went from door to door looking for the suspect",
+        "The soldiers moved towards the city in an attempt to take it before night fell",
+        "news travelled fast"
+      ],
+      "indonesian_terms": [
+        "angkat kaki",
+        "bepergian",
+        "beralih",
+        "beranjak",
+        "berganjak",
+        "bergeming",
+        "bergerak",
+        "bergeser",
+        "bergulir",
+        "berjalan",
+        "berpindah",
+        "gerak",
+        "hidup",
+        "memindahkan",
+        "menggarit",
+        "menggerakkan",
+        "menggulir",
+        "mengisarkan",
+        "menjalani",
+        "pergi",
+        "pindah"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b93afdfd2e490fbe52de",
+            "word": "travel",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-1dd7d36aca6536efdbdd",
+            "word": "move",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01841079-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "travel"
+      ],
+      "definition_en": "undergo transportation as in a vehicle",
+      "gloss_en": "undergo transportation as in a vehicle; \"We travelled North on Rte. 508\"",
+      "examples_en": [
+        "We travelled North on Rte. 508"
+      ],
+      "indonesian_terms": [
+        "bepergian",
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "bertolak",
+        "mengangkut",
+        "menjalani"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-b93afdfd2e490fbe52de",
+            "word": "travel",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01843055-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "jaunt",
+        "travel",
+        "trip"
+      ],
+      "definition_en": "make a trip for pleasure",
+      "gloss_en": "make a trip for pleasure",
+      "examples_en": [],
+      "indonesian_terms": [
+        "bepergian",
+        "berjalan",
+        "berjalan-jalan",
+        "berpesiar",
+        "bersiar",
+        "kembara",
+        "makan angin",
+        "melancong",
+        "mengembara",
+        "menjalani",
+        "menyandung",
+        "pergi",
+        "terbang",
+        "terjerembat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-b93afdfd2e490fbe52de",
+            "word": "travel",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-467b813ffbfca3e78d53",
+            "word": "trip",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01845720-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "journey",
+        "travel"
+      ],
+      "definition_en": "undertake a journey or trip",
+      "gloss_en": "undertake a journey or trip",
+      "examples_en": [],
+      "indonesian_terms": [
+        "bepergian",
+        "berjalan",
+        "berjalan-jalan",
+        "berpesiar",
+        "kembara",
+        "mengembara",
+        "menjalani",
+        "pergi",
+        "pesiar",
+        "terbang",
+        "trip"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-b93afdfd2e490fbe52de",
+            "word": "travel",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01846916-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "journey",
+        "travel"
+      ],
+      "definition_en": "travel upon or across",
+      "gloss_en": "travel upon or across; \"travel the oceans\"",
+      "examples_en": [
+        "travel the oceans"
+      ],
+      "indonesian_terms": [
+        "bepergian",
+        "berjalan",
+        "berpesiar",
+        "kembara",
+        "mengembara",
+        "trip"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-b93afdfd2e490fbe52de",
+            "word": "travel",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01848718-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "depart",
+        "go",
+        "go away"
+      ],
+      "definition_en": "move away from a place into another direction",
+      "gloss_en": "move away from a place into another direction; \"Go away before I start to cry\"; \"The train departs at noon\"",
+      "examples_en": [
+        "Go away before I start to cry",
+        "The train departs at noon"
+      ],
+      "indonesian_terms": [
+        "balik",
+        "berangkat",
+        "berjalan",
+        "berlepas",
+        "bertolak",
+        "bertolak punggung",
+        "hidup",
+        "pergi",
+        "pulang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-08af1d362a403c5a683d",
+            "word": "depart",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01864038-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "ply",
+        "run"
+      ],
+      "definition_en": "travel a route regularly",
+      "gloss_en": "travel a route regularly; \"Ships ply the waters near the coast\"",
+      "examples_en": [
+        "Ships ply the waters near the coast"
+      ],
+      "indonesian_terms": [
+        "alik",
+        "berjalan",
+        "bertolak",
+        "berulang-alik",
+        "buyar",
+        "hidup",
+        "memasang",
+        "membuyarkan",
+        "mengalir",
+        "ulang-alik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01864230-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "get going",
+        "go",
+        "start"
+      ],
+      "definition_en": "begin or set in motion",
+      "gloss_en": "begin or set in motion; \"I start at eight in the morning\"; \"Ready, set, go!\"",
+      "examples_en": [
+        "I start at eight in the morning",
+        "Ready, set, go!"
+      ],
+      "indonesian_terms": [
+        "balik",
+        "berangkat",
+        "berawal",
+        "bergerak",
+        "berjalan",
+        "berlepas",
+        "bermula",
+        "bertolak",
+        "hidup",
+        "membuka",
+        "memulakan",
+        "mengawali",
+        "mula",
+        "mulai",
+        "pergi",
+        "pulang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-bc5931e74a1bcdd570ca",
+            "word": "start",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01881180-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "cast",
+        "drift",
+        "ramble",
+        "range",
+        "roam",
+        "roll",
+        "rove",
+        "stray",
+        "swan",
+        "tramp",
+        "vagabond",
+        "wander"
+      ],
+      "definition_en": "move about aimlessly or without any destination, often in search of food or employment",
+      "gloss_en": "move about aimlessly or without any destination, often in search of food or employment; \"The gypsies roamed the woods\"; \"roving vagabonds\"; \"the wandering Jew\"; \"The cattle roam across the prairie\"; \"the laborers drift from one town to the next\"; \"They rolled from town to town\"",
+      "examples_en": [
+        "The gypsies roamed the woods",
+        "roving vagabonds",
+        "the wandering Jew",
+        "The cattle roam across the prairie",
+        "the laborers drift from one town to the next",
+        "They rolled from town to town"
+      ],
+      "indonesian_terms": [
+        "beralun",
+        "berangguk-angguk",
+        "bergelayangan",
+        "berjalan",
+        "berjalan-jalan",
+        "berkalih",
+        "berkelana",
+        "berkeliaran",
+        "berkisar",
+        "berlanglang",
+        "bersiar-siar",
+        "bertualang",
+        "hanyut",
+        "kembara",
+        "labang",
+        "lepas",
+        "melabang",
+        "melanglang",
+        "melayang",
+        "melayang-layang",
+        "melayapi",
+        "melimbang",
+        "membelar",
+        "membuang",
+        "menebar",
+        "menebarkan",
+        "mengalun",
+        "mengecor",
+        "mengelana",
+        "mengeluyur",
+        "mengembara",
+        "menggulung",
+        "mengimbak-imbak",
+        "menjelajahi",
+        "merayau-rayau",
+        "merumbu",
+        "rayau",
+        "terguling",
+        "terguling-guling",
+        "umbara"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-9afebb4af80e10ed981b",
+            "word": "wander",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-467a93a69ec913f3ce9f",
+            "word": "range",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-90549e4135fe5b320267",
+            "word": "roll",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [
+          {
+            "entry_id": "vocab-fc381189ad1f73385bd3",
+            "word": "stray",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [
+        {
+          "entry_id": "vocab-c2d0f98e3b0f800d127c",
+          "word": "cast",
+          "level_scope": "source_headword_pos_not_verified_sense",
+          "sense_level_verified": false,
+          "levels_claimed": [
+            "B2",
+            "C1"
+          ],
+          "quality_flags": [
+            "conflicting_wordlist_levels"
+          ]
+        }
+      ],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01882170-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "take the air",
+        "walk"
+      ],
+      "definition_en": "take a walk; go for a walk; walk for pleasure",
+      "gloss_en": "take a walk; go for a walk; walk for pleasure; \"The lovers held hands while walking\"; \"We like to walk every Sunday\"",
+      "examples_en": [
+        "The lovers held hands while walking",
+        "We like to walk every Sunday"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "berjalan-jalan",
+        "jalan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01904930-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "walk"
+      ],
+      "definition_en": "use one's feet to advance; advance by steps",
+      "gloss_en": "use one's feet to advance; advance by steps; \"Walk, don't run!\"; \"We walked instead of driving\"; \"She walks with a slight limp\"; \"The patient cannot walk yet\"; \"Walk over to the cabinet\"",
+      "examples_en": [
+        "Walk, don't run!",
+        "We walked instead of driving",
+        "She walks with a slight limp",
+        "The patient cannot walk yet",
+        "Walk over to the cabinet"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "berjalan kaki",
+        "jalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01906823-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "walk"
+      ],
+      "definition_en": "make walk",
+      "gloss_en": "make walk; \"He walks the horse up the mountain\"; \"Walk the dog twice a day\"",
+      "examples_en": [
+        "He walks the horse up the mountain",
+        "Walk the dog twice a day"
+      ],
+      "indonesian_terms": [
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01907076-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "walk"
+      ],
+      "definition_en": "accompany or escort",
+      "gloss_en": "accompany or escort; \"I'll walk you to your car\"",
+      "examples_en": [
+        "I'll walk you to your car"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "melihat-lihat",
+        "mengiring",
+        "menyentuh-nyentuh"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01912893-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "walk"
+      ],
+      "definition_en": "traverse or cover by walking",
+      "gloss_en": "traverse or cover by walking; \"Walk the tightrope\"; \"Paul walked the streets of Damascus\"; \"She walks 3 miles every day\"",
+      "examples_en": [
+        "Walk the tightrope",
+        "Paul walked the streets of Damascus",
+        "She walks 3 miles every day"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01955984-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "ride"
+      ],
+      "definition_en": "be carried or travel on or in a vehicle",
+      "gloss_en": "be carried or travel on or in a vehicle; \"I ride to work in a bus\"; \"He rides the subway downtown every day\"",
+      "examples_en": [
+        "I ride to work in a bus",
+        "He rides the subway downtown every day"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "menaiki",
+        "mengendarai",
+        "menunggang",
+        "naik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-7a057ce2f4507bd73b31",
+            "word": "ride",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01959776-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "walk"
+      ],
+      "definition_en": "walk at a pace",
+      "gloss_en": "walk at a pace; \"The horses walked across the meadow\"",
+      "examples_en": [
+        "The horses walked across the meadow"
+      ],
+      "indonesian_terms": [
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-0efbb95493357e262deb",
+            "word": "walk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01996735-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "march",
+        "process"
+      ],
+      "definition_en": "march in a procession",
+      "gloss_en": "march in a procession; \"They processed into the dining room\"",
+      "examples_en": [
+        "They processed into the dining room"
+      ],
+      "indonesian_terms": [
+        "berarak",
+        "berbaris",
+        "bergerak",
+        "berjalan",
+        "mengilang",
+        "mengolah",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-8e749cb75b5469ff04e1",
+            "word": "march",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-bc5a26a9e7cda642c298",
+            "word": "process",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02042237-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "circulate"
+      ],
+      "definition_en": "move around freely",
+      "gloss_en": "move around freely; \"She circulates among royalty\"",
+      "examples_en": [
+        "She circulates among royalty"
+      ],
+      "indonesian_terms": [
+        "beredar",
+        "berjalan",
+        "berputar",
+        "memperedarkan",
+        "memutar",
+        "mengedarkan"
+      ],
+      "definitions_id": [
+        "berkeliling dan menegur sapa"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-6a8cfcd3a893973cbebe",
+            "word": "circulate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02091410-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.motion",
+      "english_lemmas": [
+        "step",
+        "tread"
+      ],
+      "definition_en": "put down or press the foot, place the foot",
+      "gloss_en": "put down or press the foot, place the foot; \"For fools rush in where angels fear to tread\"; \"step on the brake\"",
+      "examples_en": [
+        "For fools rush in where angels fear to tread",
+        "step on the brake"
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "berpijak",
+        "bertapak",
+        "enjak",
+        "jejak",
+        "langkah",
+        "melangkah",
+        "memijak",
+        "mengencang",
+        "mengirik",
+        "menjejak",
+        "menjejaki",
+        "pijak",
+        "tinjak"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-dcb13b13754234bfb73e",
+            "word": "step",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-58969e9236ca8369da5b",
+            "word": "tread",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02124253-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "functional",
+        "operable",
+        "operational",
+        "usable",
+        "useable"
+      ],
+      "definition_en": "fit or ready for use or service",
+      "gloss_en": "fit or ready for use or service; \"the toaster was still functional even after being dropped\"; \"the lawnmower is a bit rusty but still usable\"; \"an operational aircraft\"; \"the dishwasher is now in working order\"",
+      "examples_en": [
+        "the toaster was still functional even after being dropped",
+        "the lawnmower is a bit rusty but still usable",
+        "an operational aircraft",
+        "the dishwasher is now in working order"
+      ],
+      "indonesian_terms": [
+        "berfungsi",
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-d59c94cb58b60f1c91c7",
+            "word": "functional",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02176268-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "go",
+        "sound"
+      ],
+      "definition_en": "make a certain noise or sound",
+      "gloss_en": "make a certain noise or sound; \"She went `Mmmmm'\"; \"The gun went `bang'\"",
+      "examples_en": [
+        "She went `Mmmmm'",
+        "The gun went `bang'"
+      ],
+      "indonesian_terms": [
+        "berbahaya",
+        "berbunyi",
+        "berjalan",
+        "hidup",
+        "membahana"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-a80c6cd2dd7dd96ff78a",
+            "word": "sound",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02372605-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "go",
+        "move",
+        "proceed"
+      ],
+      "definition_en": "follow a procedure or take a course",
+      "gloss_en": "follow a procedure or take a course; \"We should go farther in this matter\"; \"She went through a lot of trouble\"; \"go about the world in a certain manner\"; \"Messages must go through diplomatic channels\"",
+      "examples_en": [
+        "We should go farther in this matter",
+        "She went through a lot of trouble",
+        "go about the world in a certain manner",
+        "Messages must go through diplomatic channels"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berganjak",
+        "bergerak",
+        "bergeser",
+        "bergulir",
+        "berjalan",
+        "berpindah",
+        "hidup",
+        "melakukan",
+        "melalui",
+        "memindahkan",
+        "menggerakkan",
+        "menggulir",
+        "mengisarkan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-1dd7d36aca6536efdbdd",
+            "word": "move",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-8144d4b37de602d3d0ce",
+            "word": "proceed",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02373015-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "proceed towards a goal or along a path or through an activity",
+      "gloss_en": "proceed towards a goal or along a path or through an activity; \"work your way through every problem or task\"; \"She was working on her second martini when the guests arrived\"; \"Start from the bottom and work towards the top\"",
+      "examples_en": [
+        "work your way through every problem or task",
+        "She was working on her second martini when the guests arrived",
+        "Start from the bottom and work towards the top"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "bergerak",
+        "berjalan",
+        "berkesan",
+        "mengerjakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02413480-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "exert oneself by doing mental or physical work for a purpose or out of necessity",
+      "gloss_en": "exert oneself by doing mental or physical work for a purpose or out of necessity; \"I will work hard to improve my grades\"; \"she worked hard for better living conditions for the poor\"",
+      "examples_en": [
+        "I will work hard to improve my grades",
+        "she worked hard for better living conditions for the poor"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "bergerak",
+        "berjalan",
+        "berkarya",
+        "mengakok",
+        "mengerjakan"
+      ],
+      "definitions_id": [
+        "menggerakkan tulang yang delapan karat"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02443849-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "operate",
+        "run"
+      ],
+      "definition_en": "direct or control; projects, businesses, etc.",
+      "gloss_en": "direct or control; projects, businesses, etc.; \"She is running a relief operation in the Sudan\"",
+      "examples_en": [
+        "She is running a relief operation in the Sudan"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "beroperasi",
+        "buyar",
+        "hidup",
+        "kelola",
+        "memasang",
+        "membedel",
+        "membuyarkan",
+        "mengalir",
+        "mengendalikan",
+        "mengoperasikan",
+        "mengurus",
+        "mengusahakan",
+        "menjalankan",
+        "menyelenggarakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-e2dfc38f43df7bb17dc4",
+            "word": "operate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02525447-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "act",
+        "work"
+      ],
+      "definition_en": "have an effect or outcome; often the one desired or expected",
+      "gloss_en": "have an effect or outcome; often the one desired or expected; \"The voting process doesn't work as well as people thought\"; \"How does your idea work in practice?\"; \"This method doesn't work\"; \"The breaks of my new car act quickly\"; \"The medicine works only if you take it with a lot of water\"",
+      "examples_en": [
+        "The voting process doesn't work as well as people thought",
+        "How does your idea work in practice?",
+        "This method doesn't work",
+        "The breaks of my new car act quickly",
+        "The medicine works only if you take it with a lot of water"
+      ],
+      "indonesian_terms": [
+        "bekerja",
+        "berakhir",
+        "berbuat",
+        "berfungsi",
+        "bergerak",
+        "berjalan",
+        "berkesan",
+        "beroperasi",
+        "bertindak",
+        "bertingkah",
+        "berulah",
+        "kerja",
+        "mengakok",
+        "terjadi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-ff6f088ffe097ba1f4b5",
+            "word": "act",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02594979-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.social",
+      "english_lemmas": [
+        "work"
+      ],
+      "definition_en": "operate in a certain place, area, or specialty",
+      "gloss_en": "operate in a certain place, area, or specialty; \"She works the night clubs\"; \"The salesman works the Midwest\"; \"This artist works mostly in acrylics\"",
+      "examples_en": [
+        "She works the night clubs",
+        "The salesman works the Midwest",
+        "This artist works mostly in acrylics"
+      ],
+      "indonesian_terms": [
+        "bergerak",
+        "berjalan",
+        "kerja",
+        "mengerjakan",
+        "mengoperasikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3744032bd4cf4f015eec",
+            "word": "work",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02618001-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "go"
+      ],
+      "definition_en": "be or continue to be in a certain condition",
+      "gloss_en": "be or continue to be in a certain condition; \"The children went hungry that day\"",
+      "examples_en": [
+        "The children went hungry that day"
+      ],
+      "indonesian_terms": [
+        "berjalan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02618149-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "endure",
+        "go",
+        "hold out",
+        "hold up",
+        "last",
+        "live",
+        "live on",
+        "survive"
+      ],
+      "definition_en": "continue to live through hardship or adversity",
+      "gloss_en": "continue to live through hardship or adversity; \"We went without water and food for 3 days\"; \"These superstitions survive in the backwaters of America\"; \"The race car driver lived through several very serious accidents\"; \"how long can a person last without food and water?\"",
+      "examples_en": [
+        "We went without water and food for 3 days",
+        "These superstitions survive in the backwaters of America",
+        "The race car driver lived through several very serious accidents",
+        "how long can a person last without food and water?"
+      ],
+      "indonesian_terms": [
+        "berdiam",
+        "berjalan",
+        "bermukim",
+        "bersemayam",
+        "berumah",
+        "hidup",
+        "kekal",
+        "mandiri",
+        "membetahkan",
+        "menahan",
+        "menganjungkan",
+        "mengarihkan",
+        "menyembulkan",
+        "tahan uji",
+        "tinggal",
+        "wujud"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-b7ccb41ba53fba3c05e8",
+            "word": "live",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-2d3bf6ab99cf45550a39",
+            "word": "survive",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-75f536bce45fb88147dc",
+            "word": "endure",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-325e4f23c7e4eced4fdd",
+            "word": "last",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02653862-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "go"
+      ],
+      "definition_en": "be awarded; be allotted",
+      "gloss_en": "be awarded; be allotted; \"The first prize goes to Mary\"; \"Her money went on clothes\"",
+      "examples_en": [
+        "The first prize goes to Mary",
+        "Her money went on clothes"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berjalan",
+        "hidup",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02659763-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "fit",
+        "go"
+      ],
+      "definition_en": "be the right size or shape; fit correctly or as desired",
+      "gloss_en": "be the right size or shape; fit correctly or as desired; \"This piece won't fit into the puzzle\"",
+      "examples_en": [
+        "This piece won't fit into the puzzle"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berjalan",
+        "bersua alurnya",
+        "hidup",
+        "memasang",
+        "mematutkan",
+        "menyesuaikan",
+        "padan",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-a9c004e68370566a9e92",
+            "word": "fit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02685951-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "extend",
+        "go",
+        "lead",
+        "pass",
+        "run"
+      ],
+      "definition_en": "stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point",
+      "gloss_en": "stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point; \"Service runs all the way to Cranbury\"; \"His knowledge doesn't go very far\"; \"My memory extends back to my fourth year of life\"; \"The facts extend beyond a consideration of her personal assets\"",
+      "examples_en": [
+        "Service runs all the way to Cranbury",
+        "His knowledge doesn't go very far",
+        "My memory extends back to my fourth year of life",
+        "The facts extend beyond a consideration of her personal assets"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "beredar",
+        "berjalan",
+        "berlalu",
+        "buyar",
+        "hidup",
+        "ke",
+        "lalu",
+        "larikan",
+        "melampaui",
+        "melintasi",
+        "meluas",
+        "memampangkan",
+        "memandu",
+        "memanjangkan",
+        "memasang",
+        "membabarkan",
+        "membarui",
+        "membawa",
+        "membidangkan",
+        "membimbing",
+        "membuyarkan",
+        "mementang",
+        "memimpin",
+        "memperbarui",
+        "memperpanjang",
+        "mengalir",
+        "mengangsurkan",
+        "menganjur",
+        "mengemudikan",
+        "menghabiskan",
+        "menghantar",
+        "mengiring",
+        "mengisi",
+        "mengoper",
+        "mengoperkan",
+        "mengulurkan",
+        "menuju",
+        "menuntun",
+        "menyalip",
+        "menyeberangi",
+        "merentangkan",
+        "terbentang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-ba78d2d5d4953a78376d",
+            "word": "pass",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-efed10a8af1c16ed4352",
+            "word": "extend",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-9ea37bb340dab767df0a",
+            "word": "lead",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02686471-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "go",
+        "lead"
+      ],
+      "definition_en": "lead, extend, or afford access",
+      "gloss_en": "lead, extend, or afford access; \"This door goes to the basement\"; \"The road runs South\"",
+      "examples_en": [
+        "This door goes to the basement",
+        "The road runs South"
+      ],
+      "indonesian_terms": [
+        "beralih",
+        "berangkat",
+        "berjalan",
+        "hidup",
+        "ke",
+        "memandu",
+        "membawa",
+        "membimbing",
+        "memimpin",
+        "mengajak",
+        "mengemudikan",
+        "menghantar",
+        "mengiring",
+        "menuju",
+        "menuntun",
+        "menyeret",
+        "pergi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-9ea37bb340dab767df0a",
+            "word": "lead",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02700455-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "blend",
+        "blend in",
+        "go"
+      ],
+      "definition_en": "blend or harmonize",
+      "gloss_en": "blend or harmonize; \"This flavor will blend with those in your dish\"; \"This sofa won't go with the chairs\"",
+      "examples_en": [
+        "This flavor will blend with those in your dish",
+        "This sofa won't go with the chairs"
+      ],
+      "indonesian_terms": [
+        "bercampur",
+        "berjalan",
+        "berpadanan",
+        "berpadu",
+        "cocok",
+        "hidup",
+        "mencampur",
+        "mencampurkan",
+        "mengarun",
+        "mengopyok",
+        "padan",
+        "sesuai"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-a2a356d49a485be0bc58",
+            "word": "blend",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02721284-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.stative",
+      "english_lemmas": [
+        "go",
+        "run"
+      ],
+      "definition_en": "have a particular form",
+      "gloss_en": "have a particular form; \"the story or argument runs as follows\"; \"as the saying goes...\"",
+      "examples_en": [
+        "the story or argument runs as follows",
+        "as the saying goes..."
+      ],
+      "indonesian_terms": [
+        "berjalan",
+        "buyar",
+        "hidup",
+        "memasang",
+        "membuyarkan",
+        "mengalir"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-3e2c6a9ae31708b635d0",
+            "word": "go",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c6ae0645a9af04155464",
+            "word": "run",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

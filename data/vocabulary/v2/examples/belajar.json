@@ -1,0 +1,66 @@
+{
+  "query_id": "belajar",
+  "levels": {
+    "A1": [
+      {
+        "word": "learn",
+        "pos": "verb",
+        "sense_key": "gain-knowledge-skill",
+        "cefr_level": "A1",
+        "meaning_id": "belajar untuk memperoleh pengetahuan atau keterampilan",
+        "register": "general",
+        "pattern": "learn to do something; learn about something",
+        "example_en": "I am learning to describe my opinions more clearly.",
+        "sense_id": "cambridge-254cf89b032d0a629e7b-gain-knowledge-skill",
+        "reference_url": "https://dictionary.cambridge.org/us/dictionary/english/learn",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "belajar"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-254cf89b032d0a629e7b"
+      },
+      {
+        "word": "study",
+        "pos": "verb",
+        "sense_key": "learn-subject",
+        "cefr_level": "A1",
+        "meaning_id": "mempelajari suatu bidang melalui pendidikan, membaca, atau latihan",
+        "register": "general",
+        "pattern": "study + subject; study for a test",
+        "example_en": "I study English for twenty minutes before bed.",
+        "sense_id": "cambridge-c2eba9f2f3033126d9df-learn-subject",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/study?q=%2Bstudy%2B%2B",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "belajar",
+          "mempelajari"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-c2eba9f2f3033126d9df"
+      }
+    ],
+    "A2": [],
+    "B1": [],
+    "B2": [],
+    "C1": [],
+    "C2": []
+  },
+  "relation": "shared_Indonesian_lookup_term_preserve_individual_senses",
+  "empty_slot": "No reviewed candidate in this version; not proof that none exists",
+  "production_approved": false
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "changes": [
+    {
+      "word": "batter",
+      "source_pos": null,
+      "corrected_pos": "noun",
+      "url": "https://dictionary.cambridge.org/dictionary/english/batter",
+      "scope": "player sense; original source note says one who bats",
+      "old_entry_id": "vocab-db960655848e59577ebe",
+      "new_entry_id": "vocab-69c6f30e2f073ae5596a",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-606"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "remonstrate",
+      "source_pos": "vern",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/dictionary/english/remonstrate",
+      "scope": "invalid POS spelling; formal complaining verb",
+      "old_entry_id": "vocab-23864af4819c9634bacf",
+      "new_entry_id": "vocab-ff16d4841d638977d9c2",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-2129"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "enviable",
+      "source_pos": "adverb",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/dictionary/english/enviable",
+      "scope": "desirable situation or advantage",
+      "old_entry_id": "vocab-9f0fda856e014c1684b3",
+      "new_entry_id": "vocab-8932c520c57632a08877",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-11"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "automatic",
+      "source_pos": "verb",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/automatic",
+      "scope": "listed adjective senses; no inferred Cambridge level transfer",
+      "old_entry_id": "vocab-f6de11e0a128046c72f8",
+      "new_entry_id": "vocab-a9b3bfc41aa0ba5b20ad",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-297"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "anticancer",
+      "source_pos": "noun",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/dictionary/english/anti-cancer",
+      "scope": "anti-cancer adjective, also spelled anticancer",
+      "old_entry_id": "vocab-e02e42b04f5df8eda1ac",
+      "new_entry_id": "vocab-2f2af5e7220d925bbe44",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-297"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "blurt",
+      "source_pos": "noun",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/dictionary/learner-english/blurt",
+      "scope": "sudden unplanned utterance",
+      "old_entry_id": "vocab-ef1cffe4291f198d9ae8",
+      "new_entry_id": "vocab-11191cfab3c90c36f9e0",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-732"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "exaggerate",
+      "source_pos": "noun",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/dictionary/english/exaggerate",
+      "scope": "make something seem greater than it is",
+      "old_entry_id": "vocab-30f8262bb6c7bc8af903",
+      "new_entry_id": "vocab-474aed1621cd6899ee5d",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-2359"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "extracurricular",
+      "source_pos": "noun",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/dictionary/english/extracurricular",
+      "scope": "activities outside the regular school course",
+      "old_entry_id": "vocab-5cb7fc3e8b327927e3e9",
+      "new_entry_id": "vocab-3c91c901cc0a090b2d7b",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-1421"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "quirky",
+      "source_pos": "noun",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/dictionary/english/quirky",
+      "scope": "unusual in an interesting or appealing way",
+      "old_entry_id": "vocab-50b99b5df48e0b8f5b5f",
+      "new_entry_id": "vocab-6fa25afbd305a68d4985",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-1052"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "minster",
+      "source_pos": "verb",
+      "corrected_pos": "noun",
+      "url": "https://dictionary.cambridge.org/dictionary/english/minster",
+      "scope": "church name; retain spelling minster, do not silently change to minister",
+      "old_entry_id": "vocab-62cd8ff112f7ea8fafa0",
+      "new_entry_id": "vocab-c08951b06f4d1204f8e7",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-1172"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "overdraft",
+      "source_pos": "verb",
+      "corrected_pos": "noun",
+      "url": "https://dictionary.cambridge.org/dictionary/english/overdraft",
+      "scope": "bank borrowing amount",
+      "old_entry_id": "vocab-ddb5e5e34e69040eac9b",
+      "new_entry_id": "vocab-a34234b31f4da7fdea2e",
+      "claim_ids": [
+        "octanove-c1c2-1-0:row-881"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "repaint",
+      "source_pos": "noun",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/dictionary/english/repaint",
+      "scope": "paint again",
+      "old_entry_id": "vocab-887197aa6f8b50268a9a",
+      "new_entry_id": "vocab-7d1f899f42cba8ac92ed",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-5653"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "roam",
+      "source_pos": "noun",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/dictionary/english/roam",
+      "scope": "move around without a fixed route",
+      "old_entry_id": "vocab-c679d7db356730c0cf07",
+      "new_entry_id": "vocab-604963e0de093bd8b714",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-5799"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "latter",
+      "source_pos": "adverb",
+      "corrected_pos": "adjective",
+      "url": "https://dictionary.cambridge.org/dictionary/english/latter",
+      "scope": "later or second of two; separately retain noun-like the latter in reference data",
+      "old_entry_id": "vocab-5e896ce359dbaebef996",
+      "new_entry_id": "vocab-d0c68e571c38afca0f73",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-3809"
+      ],
+      "reviewer_type": "AI_editor"
+    },
+    {
+      "word": "quit",
+      "source_pos": "adjective",
+      "corrected_pos": "verb",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/quit",
+      "scope": "leave or stop an activity; no word spelling alteration",
+      "old_entry_id": "vocab-b0a7140066a720b2b50a",
+      "new_entry_id": "vocab-613c2bd5f6d3c8ec4a82",
+      "claim_ids": [
+        "cefrj-wordlist-1-5:row-5429"
+      ],
+      "reviewer_type": "AI_editor"
+    }
+  ],
+  "cleared_false_positive_POS_flags": [
+    {
+      "word": "ad lib",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "am",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "audio",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "bookmark",
+      "pos": "verb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "broadband",
+      "pos": "noun",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "centigrade",
+      "pos": "noun",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "cream",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "curate",
+      "pos": "verb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "depressive",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "designer",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "fellow",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "freezing",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "gourmet",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "half-price",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "luxury",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "micro",
+      "pos": "noun",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "neither",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "online",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "overall",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "preschool",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "procedural",
+      "pos": "noun",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "refresh",
+      "pos": "noun",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "soaking",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "tabloid",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "text",
+      "pos": "verb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "underwater",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "upside down",
+      "pos": "adjective",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "why",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "worldwide",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    },
+    {
+      "word": "yes",
+      "pos": "adverb",
+      "reason": "Cambridge positive POS evidence; WordNet coverage gap is not a source error"
+    }
+  ],
+  "policy_corrections": [
+    "WordNet absence is a coverage note, not an invalid POS decision.",
+    "Only source quality Y Indonesian links enter default lookup; I-specific annotations override shared B annotations.",
+    "Cambridge levels are attached to reviewed senses; not overwritten across all headword meanings."
+  ],
+  "remaining": {
+    "multi_level_lexemes": 127,
+    "note": "Multiple source profiles remain preserved; use reviewed senses when selecting a meaning."
+  }
+}

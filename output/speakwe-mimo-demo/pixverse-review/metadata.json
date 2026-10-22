@@ -1,0 +1,48 @@
+{
+  "frames": 121,
+  "fps": 24.0,
+  "duration_seconds": 5.041666666666667,
+  "resolution": [
+    960,
+    960
+  ],
+  "sample_count": 25,
+  "mean_frame_difference": 2.7289951171875,
+  "max_frame_difference": 7.980716145833334,
+  "largest_changes_seconds": [
+    [
+      2.917,
+      7.981
+    ],
+    [
+      2.958,
+      7.433
+    ],
+    [
+      2.875,
+      7.016
+    ],
+    [
+      3.0,
+      6.388
+    ],
+    [
+      2.833,
+      5.97
+    ],
+    [
+      2.75,
+      5.902
+    ],
+    [
+      2.708,
+      5.827
+    ],
+    [
+      2.792,
+      5.724
+    ]
+  ],
+  "identical_adjacent_frames": 0,
+  "first_last_difference": 15.1382421875
+}

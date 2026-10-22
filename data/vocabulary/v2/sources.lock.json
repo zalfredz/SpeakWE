@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "acquired_on": "2026-10-22",
+  "sources": [
+    {
+      "file": "cefrj-vocabulary-profile-1.5.csv",
+      "url": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/cefrj-vocabulary-profile-1.5.csv",
+      "source_id": "cefrj-wordlist-1-5",
+      "license": "custom-attribution",
+      "revision": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+      "sha256": "b0dd3c635f1c9a4fdf1490c7e5b7c48e8bbe55b652ad0c9860a95f98e10ae498",
+      "bytes": 233214
+    },
+    {
+      "file": "octanove-vocabulary-profile-c1c2-1.0.csv",
+      "url": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/octanove-vocabulary-profile-c1c2-1.0.csv",
+      "source_id": "octanove-c1c2-1-0",
+      "license": "CC-BY-SA-4.0",
+      "revision": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+      "sha256": "18c33a407f2f89f7b8de9671c6d45fe3ea0bce45e7d2d7dcaab48d73e0f7b380",
+      "bytes": 46462
+    },
+    {
+      "file": "openlanguageprofiles-README.md",
+      "url": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/README.md",
+      "source_id": "cefrj-and-octanove-terms",
+      "license": "mixed-see-readme",
+      "revision": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+      "sha256": "8b69f7366fa3c7be328cb9ba02ceb7b3725697f36125bb75b85131d664b5e359",
+      "bytes": 1956
+    },
+    {
+      "file": "wn-data-ind.tab",
+      "url": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/msa/wn-data-ind.tab",
+      "source_id": "wordnet-bahasa-ind",
+      "license": "MIT",
+      "revision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+      "sha256": "aa4fffad11f83199a7a0ffe062aad65eb72216b47f3b2944b86cb806b4c1175a",
+      "bytes": 4186595
+    },
+    {
+      "file": "wordnet-bahasa-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/msa/LICENSE",
+      "source_id": "wordnet-bahasa-license",
+      "license": "MIT",
+      "revision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+      "sha256": "d16fe95c087c732e06758795c95dabc2a18a9b141881005d85b051bf85d587b7",
+      "bytes": 1724
+    },
+    {
+      "file": "wordnet-bahasa-README.txt",
+      "url": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/msa/README",
+      "source_id": "wordnet-bahasa-readme",
+      "license": "MIT",
+      "revision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+      "sha256": "29b9548d0374b8473d3dffb6c2218075438fdc747b80d70d7faeb1e649ec5eb3",
+      "bytes": 1212
+    },
+    {
+      "file": "wordnet-bahasa-citation.bib",
+      "url": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/msa/citation.bib",
+      "source_id": "wordnet-bahasa-citation",
+      "license": "MIT",
+      "revision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+      "sha256": "82437e63b33d3ce3abb66a79c54e098cc75e1f31b8124889a0d2c9efa246101d",
+      "bytes": 451
+    },
+    {
+      "file": "wordnet.zip",
+      "url": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/wordnet.zip",
+      "source_id": "princeton-wordnet-3-0",
+      "license": "WordNet-3.0",
+      "revision": "550b6625bcef1f2abff2ff770a5a0d272c9c6b2a",
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+      "bytes": 10775600
+    },
+    {
+      "file": "wn-msa-all-quality.tab",
+      "url": "https://svn.code.sf.net/p/wn-msa/tab/trunk/wn-msa-all.tab",
+      "source_id": "wordnet-bahasa-quality",
+      "license": "MIT",
+      "revision": "SVN trunk retrieved 2026-10-22; exact content pinned by SHA-256",
+      "sha256": "f66698eb836bd3289db2271eb6499587d52f9066f1e7d47d2b653e5f64e0894b",
+      "bytes": 17028012
+    }
+  ]
+}

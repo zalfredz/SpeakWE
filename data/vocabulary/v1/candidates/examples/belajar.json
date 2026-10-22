@@ -1,0 +1,770 @@
+{
+  "query_id": "belajar",
+  "concepts": [
+    {
+      "concept_id": "00597915-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "acquire",
+        "larn",
+        "learn"
+      ],
+      "definition_en": "gain knowledge or skills",
+      "gloss_en": "gain knowledge or skills; \"She learned dancing from her sister\"; \"I learned Sanskrit\"; \"Children acquire language at an amazing rate\"",
+      "examples_en": [
+        "She learned dancing from her sister",
+        "I learned Sanskrit",
+        "Children acquire language at an amazing rate"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "memahirkan",
+        "mempelajari",
+        "mengaji"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-952554743a632c78ea8c",
+            "word": "acquire",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00598954-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "discover",
+        "find out",
+        "get a line",
+        "get wind",
+        "get word",
+        "hear",
+        "learn",
+        "pick up",
+        "see"
+      ],
+      "definition_en": "get to know or become aware of, usually accidentally",
+      "gloss_en": "get to know or become aware of, usually accidentally; \"I learned that she has two grown-up children\"; \"I see that you have been promoted\"",
+      "examples_en": [
+        "I learned that she has two grown-up children",
+        "I see that you have been promoted"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "melihat",
+        "mempelajari",
+        "mendapati",
+        "mendengar",
+        "menemukan",
+        "mengarik",
+        "mengetahui",
+        "menyaba"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-471f2814c1c78f2bc443",
+            "word": "hear",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-136611a937838afbe3fc",
+            "word": "discover",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00599992-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "learn",
+        "read",
+        "study",
+        "take"
+      ],
+      "definition_en": "be a student of a certain subject",
+      "gloss_en": "be a student of a certain subject; \"She is reading for the bar exam\"",
+      "examples_en": [
+        "She is reading for the bar exam"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "makan",
+        "meluwengkan",
+        "memasuki",
+        "memasukkan",
+        "membaca",
+        "membawa",
+        "membutuhkan",
+        "memeriksa",
+        "mempelajari",
+        "menelaah",
+        "meneliti",
+        "mengambil",
+        "menganalisis",
+        "mengarik",
+        "menghafal",
+        "mengkaji",
+        "menyelidik"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e403cd5c6b344c09e928",
+            "word": "read",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-7fb9a2b1121c02d3946d",
+            "word": "take",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00604576-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "con",
+        "learn",
+        "memorise",
+        "memorize"
+      ],
+      "definition_en": "commit to memory; learn by heart",
+      "gloss_en": "commit to memory; learn by heart; \"Have you memorized your lines for the play yet?\"",
+      "examples_en": [
+        "Have you memorized your lines for the play yet?"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "hafal",
+        "mempelajari",
+        "menghafal",
+        "mengingati",
+        "mengingatkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-5f19cce59522ceb46bdf",
+            "word": "memorise",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-e901b2c2546a41c68673",
+            "word": "memorize",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-f04ba6be28413ec6b10b",
+            "word": "con",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00607114-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "hit the books",
+        "study"
+      ],
+      "definition_en": "learn by reading books",
+      "gloss_en": "learn by reading books; \"He is studying geology in his room\"; \"I have an exam next week; I must hit the books now\"",
+      "examples_en": [
+        "He is studying geology in his room",
+        "I have an exam next week; I must hit the books now"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "kaji",
+        "mempelajari",
+        "memutalaah",
+        "menelaah",
+        "mengkaji",
+        "periksa",
+        "studi"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00607405-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "study"
+      ],
+      "definition_en": "be a student; follow a course of study; be enrolled at an institute of learning",
+      "gloss_en": "be a student; follow a course of study; be enrolled at an institute of learning",
+      "examples_en": [],
+      "indonesian_terms": [
+        "belajar",
+        "mempelajari",
+        "menelaah",
+        "mengkaji"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00644583-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "analyse",
+        "analyze",
+        "canvas",
+        "canvass",
+        "examine",
+        "study"
+      ],
+      "definition_en": "consider in detail and subject to an analysis in order to discover essential features or meaning",
+      "gloss_en": "consider in detail and subject to an analysis in order to discover essential features or meaning; \"analyze a sonnet by Shakespeare\"; \"analyze the evidence in a criminal trial\"; \"analyze your real motives\"",
+      "examples_en": [
+        "analyze a sonnet by Shakespeare",
+        "analyze the evidence in a criminal trial",
+        "analyze your real motives"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "memasuki",
+        "membelek",
+        "memerikan",
+        "memeriksa",
+        "mempelajari",
+        "menelaah",
+        "meneliti",
+        "menganalisis",
+        "mengekol",
+        "menghafal",
+        "mengkaji",
+        "menguji",
+        "mengulas",
+        "mengupas",
+        "menguraikan",
+        "menyelidik",
+        "menyiasat",
+        "psikoanalisis"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-16c3c77f5b8c0601f031",
+            "word": "analyse",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-81ad3e3515e9bd45d435",
+            "word": "analyze",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-6aaba2c48f4467c9096b",
+            "word": "examine",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00704388-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.cognition",
+      "english_lemmas": [
+        "contemplate",
+        "meditate",
+        "study"
+      ],
+      "definition_en": "think intently and at length, as for spiritual purposes",
+      "gloss_en": "think intently and at length, as for spiritual purposes; \"He is meditating in his study\"",
+      "examples_en": [
+        "He is meditating in his study"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "bermeditasi",
+        "bersemadi",
+        "bertafakur",
+        "bertarak",
+        "mempelajari",
+        "menelaah",
+        "mengkaji",
+        "menimbang",
+        "merenung"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-a62e295a9c3f82e85bb3",
+            "word": "meditate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00729285-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.act",
+      "english_lemmas": [
+        "lesson"
+      ],
+      "definition_en": "a task assigned for individual study",
+      "gloss_en": "a task assigned for individual study; \"he did the lesson for today\"",
+      "examples_en": [
+        "he did the lesson for today"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "kelas",
+        "pelajaran"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-46074e8a512e0b260333",
+            "word": "lesson",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00829107-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "instruct",
+        "learn",
+        "teach"
+      ],
+      "definition_en": "impart skills or knowledge to",
+      "gloss_en": "impart skills or knowledge to; \"I taught them French\"; \"He instructed me in building a boat\"",
+      "examples_en": [
+        "I taught them French",
+        "He instructed me in building a boat"
+      ],
+      "indonesian_terms": [
+        "ajar",
+        "belajar",
+        "beramanat",
+        "berpesan",
+        "membaban",
+        "memesani",
+        "mempelajari",
+        "mendidik",
+        "mengajar",
+        "mengajari",
+        "mengajarkan",
+        "mengamanatkan",
+        "menggurui",
+        "menginstruksikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-cce17ef69d3b5cf57557",
+            "word": "teach",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-8a9b5dcff911bced221b",
+            "word": "instruct",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00920336-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "ascertain",
+        "check",
+        "determine",
+        "find out",
+        "learn",
+        "see",
+        "watch"
+      ],
+      "definition_en": "find out, learn, or determine with certainty, usually by making an inquiry or other effort",
+      "gloss_en": "find out, learn, or determine with certainty, usually by making an inquiry or other effort; \"I want to see whether she speaks French\"; \"See whether it works\"; \"find out if he speaks Russian\"; \"Check whether the train leaves on time\"",
+      "examples_en": [
+        "I want to see whether she speaks French",
+        "See whether it works",
+        "find out if he speaks Russian",
+        "Check whether the train leaves on time"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "berjumpa",
+        "bertemu",
+        "melihat",
+        "memastikan",
+        "membaca",
+        "memeriksa",
+        "mempelajari",
+        "mencocokkan",
+        "mendapati",
+        "menemukan",
+        "menengok",
+        "menentukan",
+        "menetak",
+        "menetakkan",
+        "menetapkan",
+        "mengawasi",
+        "mengekol",
+        "mengetahui",
+        "mengintai",
+        "menonton",
+        "menyaba",
+        "menyelidik",
+        "menyemak",
+        "menyiasat",
+        "tengok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-254cf89b032d0a629e7b",
+            "word": "learn",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-683979e7cb70ca63cd03",
+            "word": "see",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-1a16f1b163f2bacd23f3",
+            "word": "watch",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-b2d6d7a818827140086b",
+            "word": "check",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-5142283860828a6100f1",
+            "word": "determine",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02166460-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "consider",
+        "study"
+      ],
+      "definition_en": "give careful consideration to",
+      "gloss_en": "give careful consideration to; \"consider the possibility of moving\"",
+      "examples_en": [
+        "consider the possibility of moving"
+      ],
+      "indonesian_terms": [
+        "belajar",
+        "berpikir-pikir",
+        "bertafakur",
+        "melihat",
+        "memandang",
+        "membayangkan",
+        "membilang",
+        "membilangkan",
+        "memikirkan",
+        "mempelajari",
+        "mempertimbangkan",
+        "menelaah",
+        "meneliti",
+        "mengamati",
+        "menganggap",
+        "menghinap-hinap",
+        "mengira",
+        "mengkaji",
+        "menimbang",
+        "menimbangkan",
+        "menjangkakan",
+        "menyangkakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-c2eba9f2f3033126d9df",
+            "word": "study",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-04bfb3a0757073a3bfea",
+            "word": "consider",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

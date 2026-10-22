@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+__pycache__/
+data/vocabulary/v1/*.sqlite
+data/vocabulary/v1/*.sqlite.building
+data/vocabulary/v2/*.sqlite
+data/vocabulary/v2/*.sqlite.building
+.env
+.env.*
+!.env.example
+research/
+output/**/video-review-tools/
+data/private/
+*.tar
+*.tar.gz
+.DS_Store
+Thumbs.db

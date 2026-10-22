@@ -1,0 +1,680 @@
+{
+  "query_id": "senang",
+  "concepts": [
+    {
+      "concept_id": "00105341-r",
+      "pos": "adverb",
+      "wordnet_pos": "r",
+      "lexical_domain": "adv.all",
+      "english_lemmas": [
+        "promptly",
+        "pronto",
+        "readily"
+      ],
+      "definition_en": "in a punctual manner",
+      "gloss_en": "in a punctual manner; \"he did his homework promptly\"",
+      "examples_en": [
+        "he did his homework promptly"
+      ],
+      "indonesian_terms": [
+        "mudah",
+        "senang",
+        "tepat"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-8307c168da9ec1405775",
+            "word": "promptly",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-01d055fc39e54c93e44c",
+            "word": "readily",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00147876-r",
+      "pos": "adverb",
+      "wordnet_pos": "r",
+      "lexical_domain": "adv.all",
+      "english_lemmas": [
+        "easily",
+        "easy"
+      ],
+      "definition_en": "with ease (`easy' is sometimes used informally for `easily')",
+      "gloss_en": "with ease (`easy' is sometimes used informally for `easily'); \"she was easily excited\"; \"was easily confused\"; \"he won easily\"; \"this china breaks very easily\"; \"success came too easy\"",
+      "examples_en": [
+        "she was easily excited",
+        "was easily confused",
+        "he won easily",
+        "this china breaks very easily",
+        "success came too easy"
+      ],
+      "indonesian_terms": [
+        "mudah",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-6a9c19d4e68a538d1c7b",
+            "word": "easily",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00362892-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "beaming",
+        "glad"
+      ],
+      "definition_en": "cheerful and bright",
+      "gloss_en": "cheerful and bright; \"a beaming smile\"; \"a glad May morning\"",
+      "examples_en": [
+        "a beaming smile",
+        "a glad May morning"
+      ],
+      "indonesian_terms": [
+        "riang",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-785546cc341331461483",
+            "word": "glad",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00476819-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "comfortable",
+        "comfy"
+      ],
+      "definition_en": "providing or experiencing physical well-being or relief (`comfy' is informal)",
+      "gloss_en": "providing or experiencing physical well-being or relief (`comfy' is informal); \"comfortable clothes\"; \"comfortable suburban houses\"; \"made himself comfortable in an armchair\"; \"the antihistamine made her feel more comfortable\"; \"are you comfortable?\"; \"feeling comfy now?\"",
+      "examples_en": [
+        "comfortable clothes",
+        "comfortable suburban houses",
+        "made himself comfortable in an armchair",
+        "the antihistamine made her feel more comfortable",
+        "are you comfortable?",
+        "feeling comfy now?"
+      ],
+      "indonesian_terms": [
+        "lumayan",
+        "selesa",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-0fb7ecd1536fde2ddd7d",
+            "word": "comfortable",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00477553-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "easy"
+      ],
+      "definition_en": "affording comfort",
+      "gloss_en": "affording comfort; \"soft light that was easy on the eyes\"",
+      "examples_en": [
+        "soft light that was easy on the eyes"
+      ],
+      "indonesian_terms": [
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f3872478eac40a600f5c",
+            "word": "easy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00588797-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "content",
+        "contented"
+      ],
+      "definition_en": "satisfied or showing satisfaction with things as they are",
+      "gloss_en": "satisfied or showing satisfaction with things as they are; \"a contented smile\"",
+      "examples_en": [
+        "a contented smile"
+      ],
+      "indonesian_terms": [
+        "ayem",
+        "bahagia",
+        "marem",
+        "puas",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-e42a72c17ec8f1f6dcd1",
+            "word": "content",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00749230-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "easy"
+      ],
+      "definition_en": "posing no difficulty; requiring little effort",
+      "gloss_en": "posing no difficulty; requiring little effort; \"an easy job\"; \"an easy problem\"; \"an easy victory\"; \"the house is easy to heat\"; \"satisfied with easy answers\"; \"took the easy way out of his dilemma\"",
+      "examples_en": [
+        "an easy job",
+        "an easy problem",
+        "an easy victory",
+        "the house is easy to heat",
+        "satisfied with easy answers",
+        "took the easy way out of his dilemma"
+      ],
+      "indonesian_terms": [
+        "ampang",
+        "enteng",
+        "gampang",
+        "gampangan",
+        "mudah",
+        "senang",
+        "suang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f3872478eac40a600f5c",
+            "word": "easy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00749749-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "casual",
+        "effortless"
+      ],
+      "definition_en": "not showing effort or strain",
+      "gloss_en": "not showing effort or strain; \"a difficult feat performed with casual mastery\"; \"careless grace\"",
+      "examples_en": [
+        "a difficult feat performed with casual mastery",
+        "careless grace"
+      ],
+      "indonesian_terms": [
+        "mudah",
+        "sambil lalu",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-0b618e07c88582c7b463",
+            "word": "casual",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-3149d348a6f6e030b27c",
+            "word": "effortless",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00750054-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "cushy",
+        "easygoing",
+        "soft"
+      ],
+      "definition_en": "not burdensome or demanding; borne or done easily and without hardship",
+      "gloss_en": "not burdensome or demanding; borne or done easily and without hardship; \"what a cushy job!\"; \"the easygoing life of a parttime consultant\"; \"a soft job\"",
+      "examples_en": [
+        "what a cushy job!",
+        "the easygoing life of a parttime consultant",
+        "a soft job"
+      ],
+      "indonesian_terms": [
+        "ringan",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-026eba7143e7ae6080d0",
+            "word": "soft",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-d9c8cd62d07fc774a111",
+            "word": "easygoing",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00838296-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "effortless"
+      ],
+      "definition_en": "requiring or apparently requiring no effort",
+      "gloss_en": "requiring or apparently requiring no effort; \"the swallows glided in an effortless way through the busy air\"",
+      "examples_en": [
+        "the swallows glided in an effortless way through the busy air"
+      ],
+      "indonesian_terms": [
+        "mudah",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [
+          {
+            "entry_id": "vocab-3149d348a6f6e030b27c",
+            "word": "effortless",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01148283-a",
+      "pos": "adjective",
+      "wordnet_pos": "a",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "happy"
+      ],
+      "definition_en": "enjoying or showing or marked by joy or pleasure",
+      "gloss_en": "enjoying or showing or marked by joy or pleasure; \"a happy smile\"; \"spent many happy days on the beach\"; \"a happy marriage\"",
+      "examples_en": [
+        "a happy smile",
+        "spent many happy days on the beach",
+        "a happy marriage"
+      ],
+      "indonesian_terms": [
+        "bahagia",
+        "bakh",
+        "berbahagia",
+        "berdaulat",
+        "bersukaria",
+        "besar hati",
+        "cerah",
+        "ceria",
+        "gembira",
+        "gemirang",
+        "girang",
+        "jigrah",
+        "meriah",
+        "ria",
+        "riang",
+        "senang",
+        "seronok",
+        "suka",
+        "sukacita",
+        "sukaria"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-045629f1ac418fb2b30d",
+            "word": "happy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02022556-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "comfortable",
+        "easy",
+        "prosperous",
+        "well-fixed",
+        "well-heeled",
+        "well-off",
+        "well-situated",
+        "well-to-do"
+      ],
+      "definition_en": "in fortunate circumstances financially; moderately rich",
+      "gloss_en": "in fortunate circumstances financially; moderately rich; \"they were comfortable or even wealthy by some standards\"; \"easy living\"; \"a prosperous family\"; \"his family is well-situated financially\"; \"well-to-do members of the community\"",
+      "examples_en": [
+        "they were comfortable or even wealthy by some standards",
+        "easy living",
+        "a prosperous family",
+        "his family is well-situated financially",
+        "well-to-do members of the community"
+      ],
+      "indonesian_terms": [
+        "berada",
+        "berharta",
+        "berjaya",
+        "kaya",
+        "maju",
+        "makmur",
+        "mewah",
+        "mudah",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-f3872478eac40a600f5c",
+            "word": "easy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-0fb7ecd1536fde2ddd7d",
+            "word": "comfortable",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-7c5b9b987fd7a265e233",
+            "word": "prosperous",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02396720-a",
+      "pos": "adjective",
+      "wordnet_pos": "s",
+      "lexical_domain": "adj.all",
+      "english_lemmas": [
+        "delectable",
+        "delicious",
+        "luscious",
+        "pleasant-tasting",
+        "scrumptious",
+        "toothsome",
+        "yummy"
+      ],
+      "definition_en": "extremely pleasing to the sense of taste",
+      "gloss_en": "extremely pleasing to the sense of taste",
+      "examples_en": [],
+      "indonesian_terms": [
+        "enak",
+        "kelezatan",
+        "lazat",
+        "lezat",
+        "sedap",
+        "senang",
+        "seronok"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-195d4c3f64c982238c88",
+            "word": "delicious",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-1d588d6b5f3c227e127d",
+            "word": "yummy",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "04786994-n",
+      "pos": "noun",
+      "wordnet_pos": "n",
+      "lexical_domain": "noun.attribute",
+      "english_lemmas": [
+        "ease",
+        "informality"
+      ],
+      "definition_en": "freedom from constraint or embarrassment",
+      "gloss_en": "freedom from constraint or embarrassment; \"I am never at ease with strangers\"",
+      "examples_en": [
+        "I am never at ease with strangers"
+      ],
+      "indonesian_terms": [
+        "fasih",
+        "lancar",
+        "mahir",
+        "senang"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-61cef78bee85ff57bfbb",
+            "word": "ease",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

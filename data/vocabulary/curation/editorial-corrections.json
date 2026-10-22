@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-22",
+  "reviewer_type": "AI_editor_against_primary_reference",
+  "notes": [
+    "Only the listed source POS is changed; original source records and claims are preserved.",
+    "A POS change does not certify the old source CEFR level for every sense.",
+    "Missing coverage in WordNet alone is not proof of an incorrect POS.",
+    "Indexed Cambridge excerpts were inspected; direct pages returned HTTP 403."
+  ],
+  "pos_corrections": [
+    {"word":"batter","source_pos":null,"corrected_pos":"noun","url":"https://dictionary.cambridge.org/dictionary/english/batter","scope":"player sense; original source note says one who bats"},
+    {"word":"remonstrate","source_pos":"vern","corrected_pos":"verb","url":"https://dictionary.cambridge.org/dictionary/english/remonstrate","scope":"invalid POS spelling; formal complaining verb"},
+    {"word":"enviable","source_pos":"adverb","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/dictionary/english/enviable","scope":"desirable situation or advantage"},
+    {"word":"automatic","source_pos":"verb","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/us/dictionary/english/automatic","scope":"listed adjective senses; no inferred Cambridge level transfer"},
+    {"word":"anticancer","source_pos":"noun","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/dictionary/english/anti-cancer","scope":"anti-cancer adjective, also spelled anticancer"},
+    {"word":"blurt","source_pos":"noun","corrected_pos":"verb","url":"https://dictionary.cambridge.org/dictionary/learner-english/blurt","scope":"sudden unplanned utterance"},
+    {"word":"exaggerate","source_pos":"noun","corrected_pos":"verb","url":"https://dictionary.cambridge.org/dictionary/english/exaggerate","scope":"make something seem greater than it is"},
+    {"word":"extracurricular","source_pos":"noun","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/dictionary/english/extracurricular","scope":"activities outside the regular school course"},
+    {"word":"quirky","source_pos":"noun","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/dictionary/english/quirky","scope":"unusual in an interesting or appealing way"},
+    {"word":"minster","source_pos":"verb","corrected_pos":"noun","url":"https://dictionary.cambridge.org/dictionary/english/minster","scope":"church name; retain spelling minster, do not silently change to minister"},
+    {"word":"overdraft","source_pos":"verb","corrected_pos":"noun","url":"https://dictionary.cambridge.org/dictionary/english/overdraft","scope":"bank borrowing amount"},
+    {"word":"repaint","source_pos":"noun","corrected_pos":"verb","url":"https://dictionary.cambridge.org/dictionary/english/repaint","scope":"paint again"},
+    {"word":"roam","source_pos":"noun","corrected_pos":"verb","url":"https://dictionary.cambridge.org/dictionary/english/roam","scope":"move around without a fixed route"},
+    {"word":"latter","source_pos":"adverb","corrected_pos":"adjective","url":"https://dictionary.cambridge.org/dictionary/english/latter","scope":"later or second of two; separately retain noun-like the latter in reference data"},
+    {"word":"quit","source_pos":"adjective","corrected_pos":"verb","url":"https://dictionary.cambridge.org/us/dictionary/english/quit","scope":"leave or stop an activity; no word spelling alteration"}
+  ]
+}

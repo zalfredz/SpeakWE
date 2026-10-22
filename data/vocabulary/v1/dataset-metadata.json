@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "vocabulary_fields": [
+    "entry_id",
+    "word",
+    "forms",
+    "pos",
+    "cefr_level",
+    "cefr_levels_claimed",
+    "level_scope",
+    "claims",
+    "sense_ids",
+    "quality_flags",
+    "review_status",
+    "recommendation_approved",
+    "sense_link_status",
+    "primary_reference",
+    "cambridge_review_status",
+    "cambridge_lookup_url",
+    "cambridge_url_status"
+  ],
+  "null_semantics": {
+    "cefr_level": "Unresolved conflicting or invalid source data; not A1 or C2 by default",
+    "pos": "Missing in original source"
+  },
+  "empty_level_array": "No supported candidate from the selected sources for this concept and level",
+  "recommendation_gate": "All imported candidates are unapproved; review sense, translation, register and context before live recommendations."
+}

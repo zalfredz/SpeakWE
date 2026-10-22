@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "core_vocabulary": [
+    {
+      "word": "a",
+      "url": null,
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "no_exact_indexed_entry",
+      "levels_visible": [],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "the",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/the",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "and",
+      "url": "https://dictionary.cambridge.org/dictionary/english/and",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "an",
+      "url": "https://dictionary.cambridge.org/dictionary/english/an",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "walk",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/walk",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "drink",
+      "url": "https://dictionary.cambridge.org/dictionary/english/drink",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "because",
+      "url": "https://dictionary.cambridge.org/dictionary/english/because",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "talk",
+      "url": "https://dictionary.cambridge.org/dictionary/english/talk?topic=showing-and-demonstrating",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B1",
+        "B2",
+        "C2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "study",
+      "url": "https://dictionary.cambridge.org/dictionary/english/study?q=%2Bstudy%2B%2B",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "learn",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/learn",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "speak",
+      "url": "https://dictionary.cambridge.org/dictionary/english/speak?topic=showing-and-demonstrating",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "work",
+      "url": "https://dictionary.cambridge.org/dictionary/english/work",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "A2",
+        "B2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "sad",
+      "url": "https://dictionary.cambridge.org/dictionary/english/sad",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "happy",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/happy",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "important",
+      "url": "https://dictionary.cambridge.org/dictionary/english/important",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "good",
+      "url": "https://dictionary.cambridge.org/dictionary/english/good?q=good_2",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "think",
+      "url": "https://dictionary.cambridge.org/dictionary/english/think",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B2",
+        "A2",
+        "B1",
+        "C1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "bad",
+      "url": "https://dictionary.cambridge.org/dictionary/english/bad?q=bad_1",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "want",
+      "url": "https://dictionary.cambridge.org/dictionary/english/want?q=want_3",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "know",
+      "url": "https://dictionary.cambridge.org/dictionary/english/know",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "help",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/help?topic=giving-providing-and-supplying",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "need",
+      "url": "https://dictionary.cambridge.org/dictionary/english/need",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B1",
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "do",
+      "url": "https://dictionary.cambridge.org/dictionary/english/do",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "make",
+      "url": "https://dictionary.cambridge.org/dictionary/english/make",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "B1",
+        "A2",
+        "C2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "explain",
+      "url": "https://dictionary.cambridge.org/dictionary/english/explain",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "understand",
+      "url": "https://dictionary.cambridge.org/dictionary/english/understand",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1",
+        "A2",
+        "B1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "improve",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/improve",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "use",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/use",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "agree",
+      "url": "https://dictionary.cambridge.org/dictionary/english/agree",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "A2"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    },
+    {
+      "word": "disagree",
+      "url": "https://dictionary.cambridge.org/dictionary/english/disagree?topic=being-and-appearing-different",
+      "checked_on": "2026-10-22",
+      "check_scope": "indexed_excerpt_only",
+      "status": "indexed_excerpt_available",
+      "levels_visible": [
+        "B1"
+      ],
+      "caveat": "Levels are sense-specific; absence in this excerpt is not proof of no CEFR label."
+    }
+  ],
+  "extra_targeted_lookups": [
+    {
+      "word": "a",
+      "url": "https://dictionary.cambridge.org/dictionary/english/a",
+      "observed_facts": [
+        "A1 determiner: indefinite singular reference"
+      ],
+      "check_scope": "indexed_excerpt_only"
+    },
+    {
+      "word": "speak",
+      "url": "https://dictionary.cambridge.org/dictionary/english/speak",
+      "observed_facts": [
+        "A1 verb: utterance",
+        "A1 verb: language ability"
+      ],
+      "check_scope": "indexed_excerpt_only"
+    },
+    {
+      "word": "drink",
+      "url": "https://dictionary.cambridge.org/dictionary/english/drink",
+      "observed_facts": [
+        "A1 noun: liquid",
+        "A1 verb: take liquid",
+        "A2 verb: alcohol"
+      ],
+      "check_scope": "indexed_excerpt_only"
+    },
+    {
+      "word": "do",
+      "url": "https://dictionary.cambridge.org/dictionary/english/do",
+      "observed_facts": [
+        "A1 auxiliary: questions and negatives",
+        "A2 auxiliary: checking tag questions"
+      ],
+      "check_scope": "indexed_excerpt_only"
+    }
+  ]
+}

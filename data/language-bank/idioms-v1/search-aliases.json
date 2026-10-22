@@ -1,0 +1,17 @@
+{
+  "hubungan": "relationships",
+  "kerja": "work",
+  "pekerjaan": "work",
+  "pendidikan": "education",
+  "sekolah": "education",
+  "uang": "money",
+  "kesehatan": "health",
+  "keluarga": "family",
+  "perjalanan": "travel",
+  "liburan": "travel",
+  "cuaca": "weather",
+  "hobi": "hobbies",
+  "teknologi": "technology",
+  "lingkungan": "environment",
+  "perasaan": "emotions"
+}

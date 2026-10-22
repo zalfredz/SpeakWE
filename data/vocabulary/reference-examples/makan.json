@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "concept_key": "makan-makanan",
+  "meaning_id": "makan atau mengonsumsi makanan",
+  "pos": "verb",
+  "levels": {
+    "A1": [{"word": "eat", "register": "general", "reference_id": "cambridge-eat-food"}],
+    "A2": [],
+    "B1": [],
+    "B2": [{"word": "consume", "register": "formal", "reference_id": "cambridge-consume-food-drink"}],
+    "C1": [],
+    "C2": []
+  },
+  "references": [
+    {
+      "reference_id": "cambridge-eat-food",
+      "url": "https://dictionary.cambridge.org/dictionary/english/eat",
+      "observed_level": "A1",
+      "scope": "food sense",
+      "checked_on": "2026-10-22",
+      "access_method": "indexed_excerpt; direct page returned HTTP 403"
+    },
+    {
+      "reference_id": "cambridge-consume-food-drink",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/consume",
+      "observed_level": "B2",
+      "scope": "food/drink sense; formal",
+      "checked_on": "2026-10-22",
+      "access_method": "indexed_excerpt; direct page returned HTTP 403"
+    }
+  ],
+  "primary_reference": "Cambridge Dictionary",
+  "reference_check_scope": "indexed_excerpt_only",
+  "production_approved": false,
+  "notes_id": [
+    "Slot kosong berarti belum ada kandidat yang didukung pemeriksaan contoh ini, bukan berarti tidak ada kata pada level itu.",
+    "Consume pada makna memakai sumber daya berlabel C1 dalam bagian entri yang teramati, tetapi bukan padanan makan pada konsep ini.",
+    "Label headword/POS B1 dari CEFR-J untuk consume tetap disimpan terpisah dalam dataset impor; tidak digunakan untuk menimpa observasi sense ini.",
+    "Ringkasan makna Indonesia ditulis untuk contoh ini; definisi dan contoh Cambridge tidak disalin massal.",
+    "Ini contoh referensi terbatas; bukan bukti seluruh vocabulary sudah diverifikasi Cambridge."
+  ]
+}

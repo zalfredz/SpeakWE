@@ -1,0 +1,40 @@
+{
+  "query_id": "betis",
+  "levels": {
+    "A1": [],
+    "A2": [],
+    "B1": [],
+    "B2": [],
+    "C1": [],
+    "C2": [
+      {
+        "word": "calf",
+        "pos": "noun",
+        "sense_key": "lower-leg",
+        "cefr_level": "C2",
+        "meaning_id": "betis, bagian belakang tungkai bawah",
+        "register": "general",
+        "pattern": "calf muscle; calves",
+        "example_en": "My calf muscles felt tight after the hike.",
+        "sense_id": "cambridge-eb8805a6b4d395c8ab37-lower-leg",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/calf",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "betis"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-eb8805a6b4d395c8ab37"
+      }
+    ]
+  },
+  "relation": "shared_Indonesian_lookup_term_preserve_individual_senses",
+  "empty_slot": "No reviewed candidate in this version; not proof that none exists",
+  "production_approved": false
+}

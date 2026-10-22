@@ -1,0 +1,65 @@
+{
+  "dataset_version": "2.0.0",
+  "built_on": "2026-10-22",
+  "source_rows_preserved": 9935,
+  "lexeme_count": 9977,
+  "original_lexeme_count": 9984,
+  "pos_corrections_applied": 15,
+  "wordnet_gap_POS_confirmed_by_cambridge": 30,
+  "cambridge_conflict_headwords_looked_up": 119,
+  "cambridge_POS_headwords_looked_up": 72,
+  "cambridge_core_headwords_looked_up": 30,
+  "cambridge_unique_headwords_with_lookup_attempts": 221,
+  "reviewed_senses_with_original_indonesian_and_examples": 132,
+  "reviewed_indonesian_lookup_groups": 90,
+  "reviewed_sense_level_counts": {
+    "A1": 34,
+    "B2": 18,
+    "C1": 14,
+    "C2": 32,
+    "B1": 20,
+    "A2": 14
+  },
+  "source_wordlist_level_counts": {
+    "A1": 1185,
+    "B1": 2457,
+    "B2": 2785,
+    "C2": 954,
+    "A2": 1431,
+    "C1": 1038
+  },
+  "remaining_multi_level_lexemes": 127,
+  "invalid_pos_remaining": 0,
+  "entries_with_source_Y_indonesian": 4452,
+  "raw_translation_pairs_v1": 106688,
+  "default_translation_pairs_v2": 12265,
+  "makan_source_concepts_before": 69,
+  "makan_source_concepts_after": 4,
+  "makan_verb_concepts_after": 3,
+  "source_translation_quality": {
+    "source_quality_row_counts": {
+      "B/L": 398874,
+      "B/O": 81460,
+      "I/X": 19345,
+      "I/O": 13901,
+      "B/X": 99241,
+      "B/Y": 12233,
+      "B/M": 15945,
+      "I/Y": 32
+    },
+    "excluded_selected_override_pairs": {
+      "X": 19345,
+      "O": 13901
+    },
+    "source_Y_concepts": 5168,
+    "source_Y_pairs": 12265
+  },
+  "human_reviewed_by_SpeakWE": 0,
+  "limitations": [
+    "Cambridge checks use indexed excerpts, not every dictionary sense or every word.",
+    "Source quality Y means checked by the source project, not certified infallible.",
+    "Unknown levels and translations remain unknown; no blanket guessing or auto-approval.",
+    "Unreviewed wordlist levels do not become sense labels.",
+    "Pilot senses were checked by an AI editor; production_approved remains false."
+  ]
+}

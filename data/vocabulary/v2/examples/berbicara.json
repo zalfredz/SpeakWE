@@ -1,0 +1,67 @@
+{
+  "query_id": "berbicara",
+  "levels": {
+    "A1": [
+      {
+        "word": "talk",
+        "pos": "verb",
+        "sense_key": "say-words",
+        "cefr_level": "A1",
+        "meaning_id": "berbicara dengan mengucapkan kata atau bercakap-cakap",
+        "register": "general",
+        "pattern": "talk to/with someone about something",
+        "example_en": "I talk to my sister on the phone most evenings.",
+        "sense_id": "cambridge-70a8d0bc74620a931613-say-words",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/talk?topic=showing-and-demonstrating",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "bicara",
+          "berbicara"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-70a8d0bc74620a931613"
+      },
+      {
+        "word": "speak",
+        "pos": "verb",
+        "sense_key": "utterance",
+        "cefr_level": "A1",
+        "meaning_id": "berbicara atau mengeluarkan ucapan dengan suara",
+        "register": "general",
+        "pattern": "speak to/with someone",
+        "example_en": "Could you speak a little more slowly during the explanation?",
+        "sense_id": "cambridge-68104143a243865b19b9-utterance",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/speak",
+        "primary_reference": "Cambridge Dictionary",
+        "reference_check_scope": "CEFR_POS_and_specific_meaning_in_indexed_excerpt",
+        "checked_on": "2026-10-22",
+        "reviewer_type": "AI_editor",
+        "text_origin": "SpeakWE_original_paraphrase_and_example",
+        "register_status": "editorial_guidance",
+        "case_sensitive": false,
+        "indonesian_lookup_terms": [
+          "bicara",
+          "berbicara"
+        ],
+        "pilot_ready": true,
+        "production_approved": false,
+        "wordlist_entry_id": "vocab-68104143a243865b19b9"
+      }
+    ],
+    "A2": [],
+    "B1": [],
+    "B2": [],
+    "C1": [],
+    "C2": []
+  },
+  "relation": "shared_Indonesian_lookup_term_preserve_individual_senses",
+  "empty_slot": "No reviewed candidate in this version; not proof that none exists",
+  "production_approved": false
+}

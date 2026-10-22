@@ -1,0 +1,13 @@
+{
+  "CATALOG.md": "9218d440397deef496b4458b4869199b95d043e926532406b6b55331b9e22d42",
+  "curation-checksums.json": "c15a02f7d467a965907455de72db60c22d77c0ee3b13320090291a2a06189673",
+  "expressions.jsonl": "07f5d772aaebb8e37ac3b03162c4520fc7a6f44b8440ec4ef7b7381ad1df6b2c",
+  "idioms.jsonl": "3e210ce50ad10d3c342d92c574f26c50c5d77db4f34123092a86a2b243fc1e9c",
+  "recommendation-policy.json": "088cff3b6b0dcdd44129c06e10e4e8605d3d748bfcc7efea5a75b3b99dadd0f4",
+  "related-expressions.jsonl": "d9599e14f451d349ce3eedb20ddf20e6d5d36a09fc2bd08ee536b8f7805bbda2",
+  "search-aliases.json": "7b4b9e4569b744abe4875ffa40eb95f062eed7dea5ce39b962a6f3f096e8a7d6",
+  "sources.json": "10b473da70a0010124ce412d660ded39736b2808e507314f555ec6e24eed94cb",
+  "starter-pack.jsonl": "516fca7a464f18fd23f77f7757ff031bde0bb23f452bcb2213adb07a8c3426f7",
+  "summary.json": "ce943e999827eebc4105323e7e7e48d028dca08532658c91a0aa48bf54bb7b82",
+  "topics.json": "17018d370e0fac3c96f0573a964e51ffa2227f2140c4c6d1cfbc5bc0422c72cd"
+}

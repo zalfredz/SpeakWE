@@ -1,0 +1,1118 @@
+{
+  "query_id": "berbicara",
+  "concepts": [
+    {
+      "concept_id": "00740577-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "communicate",
+        "intercommunicate"
+      ],
+      "definition_en": "transmit thoughts or feelings",
+      "gloss_en": "transmit thoughts or feelings; \"He communicated his anxieties to the psychiatrist\"",
+      "examples_en": [
+        "He communicated his anxieties to the psychiatrist"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berhubung",
+        "berhubungan",
+        "berkomunikasi",
+        "bersambungan",
+        "menghubungi",
+        "menyampaikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-718abba52349891e90f7",
+            "word": "communicate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00742320-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "communicate",
+        "pass",
+        "pass along",
+        "pass on",
+        "put across"
+      ],
+      "definition_en": "transmit information ",
+      "gloss_en": "transmit information ; \"Please communicate this message to all employees\"; \"pass along the good news\"",
+      "examples_en": [
+        "Please communicate this message to all employees",
+        "pass along the good news"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berhubungan",
+        "berpulang",
+        "bersambungan",
+        "melampaui",
+        "memberitahukan",
+        "mengangsurkan",
+        "menghubungi",
+        "mengoper",
+        "mengoperkan",
+        "menyalip",
+        "menyampaikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-718abba52349891e90f7",
+            "word": "communicate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-ba78d2d5d4953a78376d",
+            "word": "pass",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00760402-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "commune",
+        "communicate"
+      ],
+      "definition_en": "receive Communion, in the Catholic church",
+      "gloss_en": "receive Communion, in the Catholic church",
+      "examples_en": [],
+      "indonesian_terms": [
+        "berbicara"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-718abba52349891e90f7",
+            "word": "communicate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00813978-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "discuss",
+        "hash out",
+        "talk over"
+      ],
+      "definition_en": "speak with others about (something); talk (something) over in detail; have a discussion",
+      "gloss_en": "speak with others about (something); talk (something) over in detail; have a discussion; \"We discussed our household budget\"",
+      "examples_en": [
+        "We discussed our household budget"
+      ],
+      "indonesian_terms": [
+        "berbeka",
+        "berbeka-beka",
+        "berbicara",
+        "berbincang",
+        "berbincang-bincang",
+        "bercakap",
+        "bercikun-cikun",
+        "berdiskusi",
+        "berembuk",
+        "beria-ia",
+        "bersawala",
+        "bertukar pikiran",
+        "berunding",
+        "berwawanrembuk",
+        "bicara",
+        "membahas",
+        "membicarakan",
+        "membincangkan",
+        "mempercakapkan",
+        "mempersoalkan",
+        "memusyawarahkan",
+        "mendiskusikan",
+        "menggodok",
+        "mengomongkan",
+        "merembukkan",
+        "merundingkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d929a28debd9b2c3e274",
+            "word": "discuss",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00830761-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "lecture",
+        "talk"
+      ],
+      "definition_en": "deliver a lecture or talk",
+      "gloss_en": "deliver a lecture or talk; \"She will talk at Rutgers next week\"; \"Did you ever lecture at Harvard?\"",
+      "examples_en": [
+        "She will talk at Rutgers next week",
+        "Did you ever lecture at Harvard?"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "berkuliah",
+        "beromong-omong",
+        "bertutur",
+        "mempercakapkan",
+        "menceramahkan",
+        "menggurui",
+        "mengomong",
+        "mensyarahkan",
+        "syarahan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00876665-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "confab",
+        "confabulate",
+        "confer",
+        "consult"
+      ],
+      "definition_en": "have a conference in order to talk something over",
+      "gloss_en": "have a conference in order to talk something over; \"We conferred about a plan of action\"",
+      "examples_en": [
+        "We conferred about a plan of action"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berbincang",
+        "berembuk",
+        "beria berbukan",
+        "berkonsultasi",
+        "berunding",
+        "menyelidik",
+        "merujuk",
+        "merundingkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-026fef606ebbdd522215",
+            "word": "consult",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": [
+          {
+            "entry_id": "vocab-517eb2337742abfc07ce",
+            "word": "confabulate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00937208-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "babble",
+        "babble out",
+        "blab",
+        "blab out",
+        "let the cat out of the bag",
+        "peach",
+        "sing",
+        "spill the beans",
+        "talk",
+        "tattle"
+      ],
+      "definition_en": "divulge confidential information or secrets",
+      "gloss_en": "divulge confidential information or secrets; \"Be careful--his secretary talks\"",
+      "examples_en": [
+        "Be careful--his secretary talks"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "beromong-omong",
+        "bertutur",
+        "melaporkan",
+        "membocorkan",
+        "membuka",
+        "mempercakapkan",
+        "menceritakan",
+        "mengomong",
+        "meronyeh"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-5baf3fb7ba0f4944841e",
+            "word": "sing",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": [
+          {
+            "entry_id": "vocab-9f92fb32fb36a4693b65",
+            "word": "babble",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ]
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00941990-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "mouth",
+        "speak",
+        "talk",
+        "utter",
+        "verbalise",
+        "verbalize"
+      ],
+      "definition_en": "express in speech",
+      "gloss_en": "express in speech; \"She talks a lot of nonsense\"; \"This depressed patient does not verbalize\"",
+      "examples_en": [
+        "She talks a lot of nonsense",
+        "This depressed patient does not verbalize"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berbincang-bincang",
+        "berbual",
+        "bercakap",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "berkira-kira",
+        "beromong-omong",
+        "berpidato",
+        "bersabda",
+        "bersyarah",
+        "bertitah",
+        "bertutur",
+        "berucap",
+        "berujar",
+        "berunding",
+        "melisankan",
+        "mempercakapkan",
+        "mengangkat suara",
+        "mengatakan",
+        "mengomong",
+        "mengujarkan",
+        "mengungkapkan",
+        "menyebut"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-68104143a243865b19b9",
+            "word": "speak",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [
+        {
+          "entry_id": "vocab-d87641f284631e2d60f7",
+          "word": "utter",
+          "level_scope": "source_headword_pos_not_verified_sense",
+          "sense_level_verified": false,
+          "levels_claimed": [
+            "B2",
+            "C2"
+          ],
+          "quality_flags": [
+            "conflicting_wordlist_levels"
+          ]
+        }
+      ],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00952841-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "spill",
+        "talk"
+      ],
+      "definition_en": "reveal information",
+      "gloss_en": "reveal information; \"If you don't oblige me, I'll talk!\"; \"The former employee spilled all the details\"",
+      "examples_en": [
+        "If you don't oblige me, I'll talk!",
+        "The former employee spilled all the details"
+      ],
+      "indonesian_terms": [
+        "barbur",
+        "berbicara",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "beromong-omong",
+        "bertutur",
+        "mempercakapkan",
+        "menginformasikan",
+        "mengomong"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-8e53c2384a2dde0c7345",
+            "word": "spill",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00962447-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "speak",
+        "talk"
+      ],
+      "definition_en": "exchange thoughts; talk with",
+      "gloss_en": "exchange thoughts; talk with; \"We often talk business\"; \"Actions talk louder than words\"",
+      "examples_en": [
+        "We often talk business",
+        "Actions talk louder than words"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berbincang",
+        "berbincang-bincang",
+        "bercakap",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "beromong-omong",
+        "bersabda",
+        "bersyarah",
+        "bertitah",
+        "bertutur",
+        "berucap",
+        "berunding",
+        "membincangkan",
+        "memburas",
+        "mempercakapkan",
+        "memperkatakan",
+        "mengobrol",
+        "mengomong",
+        "perundingan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-68104143a243865b19b9",
+            "word": "speak",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00963570-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "speak",
+        "talk"
+      ],
+      "definition_en": "use language",
+      "gloss_en": "use language; \"the baby talks already\"; \"the prisoner won't speak\"; \"they speak a strange dialect\"",
+      "examples_en": [
+        "the baby talks already",
+        "the prisoner won't speak",
+        "they speak a strange dialect"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "bercakap",
+        "bercakap-cakap",
+        "berceramah",
+        "berkata",
+        "berkata-kata",
+        "bermulut",
+        "beromong-omong",
+        "berperi",
+        "bersabda",
+        "bertitah",
+        "bertutur",
+        "berujar",
+        "bicara",
+        "bual",
+        "cakap",
+        "kata",
+        "mempercakapkan",
+        "mengomong",
+        "menuturkan",
+        "menyatakan",
+        "omong",
+        "tutur"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-68104143a243865b19b9",
+            "word": "speak",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          },
+          {
+            "entry_id": "vocab-70a8d0bc74620a931613",
+            "word": "talk",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00978549-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "articulate",
+        "enounce",
+        "enunciate",
+        "pronounce",
+        "say",
+        "sound out"
+      ],
+      "definition_en": "speak, pronounce, or utter in a certain way",
+      "gloss_en": "speak, pronounce, or utter in a certain way; \"She pronounces French words in a funny way\"; \"I cannot say `zip wire'\"; \"Can the child sound out this complicated word?\"",
+      "examples_en": [
+        "She pronounces French words in a funny way",
+        "I cannot say `zip wire'",
+        "Can the child sound out this complicated word?"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "bercakap",
+        "berkata",
+        "bersabda",
+        "berucap",
+        "berujar",
+        "kata",
+        "melafalkan",
+        "membunyikan",
+        "memutuskan",
+        "mengabarkan",
+        "mengatakan",
+        "mengucapkan",
+        "mengujarkan",
+        "mengumumkan",
+        "mengungkapkan",
+        "mengutarakan",
+        "menyabdakan",
+        "menyebut",
+        "merisik",
+        "sebut"
+      ],
+      "definitions_id": [
+        "menyebut kata-kata dengan jelas"
+      ],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-70a2f8c66bf7c5dd6a28",
+            "word": "say",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [
+          {
+            "entry_id": "vocab-3d348a9cf68e254d1789",
+            "word": "pronounce",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-671ac9e50f63a708cbeb",
+            "word": "articulate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00989201-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "address",
+        "speak"
+      ],
+      "definition_en": "give a speech to",
+      "gloss_en": "give a speech to; \"The chairman addressed the board of trustees\"",
+      "examples_en": [
+        "The chairman addressed the board of trustees"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berkata",
+        "berpidato",
+        "bersabda",
+        "bertitah",
+        "bertutur",
+        "berucap",
+        "membahasakan",
+        "mengarahkan",
+        "menyapa"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-68104143a243865b19b9",
+            "word": "speak",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-e12e66ecd45bd4436f97",
+            "word": "address",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "00990655-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "accost",
+        "address",
+        "come up to"
+      ],
+      "definition_en": "speak to someone",
+      "gloss_en": "speak to someone",
+      "examples_en": [],
+      "indonesian_terms": [
+        "berbicara",
+        "bercakap-cakap",
+        "membahasakan",
+        "mencakapi",
+        "mengarahkan",
+        "mengobrol",
+        "menyapa"
+      ],
+      "definitions_id": [
+        "menujukan kata-kata kepada"
+      ],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [
+          {
+            "entry_id": "vocab-e12e66ecd45bd4436f97",
+            "word": "address",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01034312-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.communication",
+      "english_lemmas": [
+        "discourse",
+        "discuss",
+        "talk about"
+      ],
+      "definition_en": "to consider or examine in speech or writing",
+      "gloss_en": "to consider or examine in speech or writing; \"The author talks about the different aspects of this question\"; \"The class discussed Dante's `Inferno'\"",
+      "examples_en": [
+        "The author talks about the different aspects of this question",
+        "The class discussed Dante's `Inferno'"
+      ],
+      "indonesian_terms": [
+        "berbeka",
+        "berbeka-beka",
+        "berbicara",
+        "berbincang",
+        "berbincang-bincang",
+        "bercikun-cikun",
+        "berembuk",
+        "beria-ia",
+        "bermufakat",
+        "bersawala",
+        "bertukar pikiran",
+        "berunding",
+        "berwawanrembuk",
+        "membahas",
+        "membicarakan",
+        "membincangkan",
+        "mempercakapkan",
+        "mempersoalkan",
+        "memusyawarahkan",
+        "mendiskusikan",
+        "menggodok",
+        "mengomongkan",
+        "merembukkan",
+        "merundingkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-d929a28debd9b2c3e274",
+            "word": "discuss",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "01355518-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.contact",
+      "english_lemmas": [
+        "communicate"
+      ],
+      "definition_en": "join or connect",
+      "gloss_en": "join or connect; \"The rooms communicated\"",
+      "examples_en": [
+        "The rooms communicated"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berhubungan",
+        "bersambung",
+        "bersambungan",
+        "menghubungi",
+        "menyampaikan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-718abba52349891e90f7",
+            "word": "communicate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02135607-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.perception",
+      "english_lemmas": [
+        "speak"
+      ],
+      "definition_en": "make a characteristic or natural sound",
+      "gloss_en": "make a characteristic or natural sound; \"The drums spoke\"",
+      "examples_en": [
+        "The drums spoke"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berkata",
+        "bersabda",
+        "bertitah",
+        "bertutur",
+        "mengatakan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [
+          {
+            "entry_id": "vocab-68104143a243865b19b9",
+            "word": "speak",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "A2": [],
+        "B1": [],
+        "B2": [],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02231661-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "communicate",
+        "convey",
+        "transmit"
+      ],
+      "definition_en": "transfer to another",
+      "gloss_en": "transfer to another; \"communicate a disease\"",
+      "examples_en": [
+        "communicate a disease"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berhubungan",
+        "bersambungan",
+        "memancarkan",
+        "memberitahukan",
+        "memindahkan",
+        "mengirimkan",
+        "menugaskan",
+        "menyampaikan",
+        "menyebarluaskan",
+        "menyiarkan",
+        "merelai",
+        "mewariskan",
+        "pancar"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [
+          {
+            "entry_id": "vocab-718abba52349891e90f7",
+            "word": "communicate",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B1": [
+          {
+            "entry_id": "vocab-05c9001de4d82ca92ffb",
+            "word": "convey",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "B2": [
+          {
+            "entry_id": "vocab-bbdde599bb3bcf1926ae",
+            "word": "transmit",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    },
+    {
+      "concept_id": "02263346-v",
+      "pos": "verb",
+      "wordnet_pos": "v",
+      "lexical_domain": "verb.possession",
+      "english_lemmas": [
+        "bestow",
+        "confer"
+      ],
+      "definition_en": "present",
+      "gloss_en": "present; \"The university conferred a degree on its most famous former student, who never graduated\"; \"bestow an honor on someone\"",
+      "examples_en": [
+        "The university conferred a degree on its most famous former student, who never graduated",
+        "bestow an honor on someone"
+      ],
+      "indonesian_terms": [
+        "berbicara",
+        "berembuk",
+        "berunding",
+        "membenarkan",
+        "menganugerahkan",
+        "menyetujui",
+        "merelakan",
+        "merundingkan"
+      ],
+      "definitions_id": [],
+      "levels": {
+        "A1": [],
+        "A2": [],
+        "B1": [],
+        "B2": [
+          {
+            "entry_id": "vocab-0b04372ae998b61d76c9",
+            "word": "bestow",
+            "level_scope": "source_headword_pos_not_verified_sense",
+            "sense_level_verified": false
+          }
+        ],
+        "C1": [],
+        "C2": []
+      },
+      "unresolved_level_candidates": [],
+      "relation": "same_wordnet_synset_not_universal_substitutes",
+      "level_scope": "candidate_headword_pos_levels_not_verified_for_this_sense",
+      "translation_status": "source_aligned_not_human_reviewed",
+      "recommendation_approved": false
+    }
+  ],
+  "note_id": "Pisahkan arti menurut concept_id. Level milik headword/POS sumber, bukan level sense yang diverifikasi. Slot kosong berarti sumber belum mendukung padanan pada level itu."
+}

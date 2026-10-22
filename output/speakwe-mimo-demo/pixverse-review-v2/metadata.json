@@ -1,0 +1,13 @@
+{
+  "frames": 145,
+  "fps": 24.0,
+  "duration_seconds": 6.041666666666667,
+  "resolution": [
+    960,
+    960
+  ],
+  "mean_frame_difference": 1.3764766890914353,
+  "max_frame_difference": 6.2291796875,
+  "identical_adjacent_frames": 0,
+  "first_last_difference": 3.7906901041666665
+}

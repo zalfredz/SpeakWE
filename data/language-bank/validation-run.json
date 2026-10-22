@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-22T08:23:36.546444+00:00",
+  "dataset_version": "1.0.0",
+  "unit_and_integration_tests_passed": 8,
+  "test_command": "python -m unittest discover -s tests -p test_idiom_bank.py -v",
+  "jsonl_row_counts": {
+    "expressions.jsonl": 68,
+    "idioms.jsonl": 60,
+    "related-expressions.jsonl": 8,
+    "starter-pack.jsonl": 15
+  },
+  "output_hashes_verified": 11,
+  "curation_hashes_verified": 2,
+  "checks": [
+    "Unique IDs and complete source references",
+    "CEFR nullable and broader sense label not propagated",
+    "No automatic band bonus or human approval inferred",
+    "Eight related expressions kept separate from 60 idioms",
+    "Search excludes irrelevant warning mentions",
+    "Indonesian topic alias, IELTS part and starter filters",
+    "Invalid arguments rejected",
+    "Generated files and curation hashes match"
+  ],
+  "summary": {
+    "dataset_version": "1.0.0",
+    "built_on": "2026-10-22",
+    "entries": 68,
+    "types": {
+      "idiom": 60,
+      "idiomatic_phrase": 5,
+      "collocation": 1,
+      "figurative_noun": 1,
+      "adjective": 1
+    },
+    "idioms": 60,
+    "related_expressions": 8,
+    "starter_pack": 15,
+    "topics": 33,
+    "entries_with_observed_expression_CEFR": 28,
+    "CEFR_counts": {
+      "B2": 5,
+      "C2": 18,
+      "unknown": 40,
+      "C1": 5
+    },
+    "original_example_pairs": 68,
+    "human_reviewed": 0,
+    "production_approved": 0,
+    "automatic_band_bonus": false
+  },
+  "limitations": [
+    "Technical checks do not guarantee every linguistic judgement.",
+    "Examples are original written examples, not learner recordings.",
+    "Cambridge references use indexed excerpts; no human production approval."
+  ]
+}

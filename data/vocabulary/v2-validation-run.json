@@ -1,0 +1,76 @@
+{
+  "dataset_version": "2.0.0",
+  "checked_at_utc": "2026-10-22T08:03:02.952228+00:00",
+  "status": "passed",
+  "unit_and_integration_tests_passed": 14,
+  "test_output": "test_database_preserves_source_rows_and_uncertainty (test_vocabulary.BuiltDatasetTests.test_database_preserves_source_rows_and_uncertainty) ... ok\ntest_conflicting_sources_do_not_choose_a_level (test_vocabulary.VocabularyImportTests.test_conflicting_sources_do_not_choose_a_level) ... ok\ntest_missing_pos_and_suspicious_pos_are_held (test_vocabulary.VocabularyImportTests.test_missing_pos_and_suspicious_pos_are_held) ... ok\ntest_no_cefr_propagation_between_synonyms (test_vocabulary.VocabularyImportTests.test_no_cefr_propagation_between_synonyms) ... ok\ntest_source_aliases_do_not_duplicate_a_claim (test_vocabulary.VocabularyImportTests.test_source_aliases_do_not_duplicate_a_claim) ... ok\ntest_source_tampering_is_detected (test_vocabulary.VocabularyImportTests.test_source_tampering_is_detected) ... ok\ntest_checked_export_does_not_expose_raw_translation_candidates (test_vocabulary_v2.TranslationQualityTests.test_checked_export_does_not_expose_raw_translation_candidates) ... ok\ntest_indonesian_specific_bad_label_overrides_shared_good (test_vocabulary_v2.TranslationQualityTests.test_indonesian_specific_bad_label_overrides_shared_good) ... ok\ntest_cli_makan_uses_reviewed_levels_without_raw_drafts (test_vocabulary_v2.V2IntegrationTests.test_cli_makan_uses_reviewed_levels_without_raw_drafts) ... ok\ntest_dictionary_coverage_is_not_a_pos_error (test_vocabulary_v2.V2IntegrationTests.test_dictionary_coverage_is_not_a_pos_error) ... ok\ntest_makan_default_index_excludes_unrelated_study (test_vocabulary_v2.V2IntegrationTests.test_makan_default_index_excludes_unrelated_study) ... ok\ntest_pos_corrections_keep_original_source_claims (test_vocabulary_v2.V2IntegrationTests.test_pos_corrections_keep_original_source_claims) ... ok\ntest_raw_sources_and_foreign_keys_preserved (test_vocabulary_v2.V2IntegrationTests.test_raw_sources_and_foreign_keys_preserved) ... ok\ntest_sense_specific_levels_do_not_leak (test_vocabulary_v2.V2IntegrationTests.test_sense_specific_levels_do_not_leak) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 7.282s\n\nOK\n",
+  "jsonl_file_count": 22,
+  "jsonl_row_counts": {
+    "audit-original-196.jsonl": 196,
+    "drafts/source-translation-candidates.jsonl": 38085,
+    "indonesian-level-matrices.jsonl": 90,
+    "lexemes.jsonl": 9977,
+    "pos-corrections.jsonl": 15,
+    "remaining-level-review.jsonl": 127,
+    "reviewed-senses.jsonl": 132,
+    "sense-levels/A1.jsonl": 34,
+    "sense-levels/A2.jsonl": 14,
+    "sense-levels/B1.jsonl": 20,
+    "sense-levels/B2.jsonl": 18,
+    "sense-levels/C1.jsonl": 14,
+    "sense-levels/C2.jsonl": 32,
+    "source-checked-concept-matrices.jsonl": 4466,
+    "source-checked-translation-senses.jsonl": 5168,
+    "source-claims.jsonl": 9935,
+    "wordlist-levels/A1.jsonl": 1185,
+    "wordlist-levels/A2.jsonl": 1431,
+    "wordlist-levels/B1.jsonl": 2457,
+    "wordlist-levels/B2.jsonl": 2785,
+    "wordlist-levels/C1.jsonl": 1038,
+    "wordlist-levels/C2.jsonl": 954
+  },
+  "output_hashes_verified": 34,
+  "source_hashes_verified": 9,
+  "curation_hashes_verified": 4,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "checked_translation_pairs_Y_B_or_I": 12265,
+  "cli_smoke_cases_passed": [
+    [
+      "--id",
+      "makan",
+      "--pos",
+      "verb"
+    ],
+    [
+      "--id",
+      "penting"
+    ],
+    [
+      "--en",
+      "consume"
+    ],
+    [
+      "--en",
+      "calf"
+    ],
+    [
+      "--level",
+      "A1"
+    ],
+    [
+      "--wordlist",
+      "--level",
+      "C2"
+    ],
+    [
+      "--en",
+      "no_such_word_speakwe"
+    ]
+  ],
+  "limitations": [
+    "Technical QA and concrete regressions do not establish linguistic accuracy of every source claim.",
+    "132 sense records were checked by an AI editor, not a SpeakWE human reviewer.",
+    "127 multi-level source profiles remain preserved; not silently resolved."
+  ]
+}

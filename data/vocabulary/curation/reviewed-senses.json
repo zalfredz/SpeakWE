@@ -1,0 +1,1340 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-22",
+  "reviewer_type": "AI_editor",
+  "reference_scope": "Cambridge indexed excerpts: observed POS, CEFR label and matching sense; not full-bank verification",
+  "text_origin": "Indonesian explanations and English examples written for SpeakWE; dictionary definitions/examples not copied",
+  "columns": [
+    "word",
+    "pos",
+    "sense_key",
+    "cefr_level",
+    "meaning_id",
+    "register",
+    "pattern",
+    "example_en"
+  ],
+  "register_scope": "Editorial usage guidance; not a claim every register tag was explicitly labelled by Cambridge",
+  "rows": [
+    [
+      "eat",
+      "verb",
+      "food",
+      "A1",
+      "makan atau menyantap makanan",
+      "general",
+      "eat + food; eat breakfast/lunch/dinner",
+      "We eat dinner together after work."
+    ],
+    [
+      "consume",
+      "verb",
+      "food-drink",
+      "B2",
+      "mengonsumsi makanan atau minuman",
+      "formal",
+      "consume + food/drink",
+      "I try to consume less sugar during the week."
+    ],
+    [
+      "consume",
+      "verb",
+      "use-resources",
+      "C1",
+      "menggunakan atau menghabiskan sumber daya",
+      "general",
+      "consume + energy/time/resources",
+      "Older appliances can consume a lot of electricity."
+    ],
+    [
+      "automatic",
+      "adjective",
+      "machine",
+      "B2",
+      "bekerja otomatis tanpa dikendalikan terus-menerus oleh manusia",
+      "general",
+      "automatic + device/system",
+      "The hotel has automatic doors at the entrance."
+    ],
+    [
+      "automatic",
+      "adjective",
+      "unconscious-action",
+      "C2",
+      "terjadi sebagai respons tanpa dipikirkan secara sadar",
+      "general",
+      "automatic response/reaction",
+      "Checking my phone has become an automatic response to boredom."
+    ],
+    [
+      "automatic",
+      "adjective",
+      "certain-result",
+      "C2",
+      "berlaku atau terjadi dengan sendirinya menurut aturan atau proses",
+      "general",
+      "automatic + entitlement/result",
+      "Membership renewal is automatic unless you cancel it."
+    ],
+    [
+      "exaggerate",
+      "verb",
+      "overstate",
+      "C1",
+      "melebih-lebihkan keadaan dibandingkan kenyataannya",
+      "general",
+      "exaggerate + amount/problem; exaggerate how...",
+      "People sometimes exaggerate how busy they are."
+    ],
+    [
+      "overdraft",
+      "noun",
+      "bank-borrowing",
+      "C1",
+      "fasilitas atau jumlah pinjaman saat saldo rekening tidak mencukupi",
+      "general",
+      "have/use an overdraft",
+      "I used my overdraft to cover an unexpected bill."
+    ],
+    [
+      "edit",
+      "verb",
+      "revise-content",
+      "B2",
+      "mengubah dan memperbaiki isi tulisan atau rekaman",
+      "general",
+      "edit + document/video",
+      "I edit my presentation before I share it with the team."
+    ],
+    [
+      "abolish",
+      "verb",
+      "end-officially",
+      "B2",
+      "menghapus aturan, kebiasaan, atau sistem secara resmi",
+      "general",
+      "abolish + rule/system",
+      "The school decided to abolish the old uniform rule."
+    ],
+    [
+      "adverse",
+      "adjective",
+      "harmful-effect",
+      "C2",
+      "berdampak merugikan atau tidak menguntungkan",
+      "formal",
+      "adverse effect/conditions",
+      "Lack of sleep can have an adverse effect on my concentration."
+    ],
+    [
+      "allegation",
+      "noun",
+      "unproven-accusation",
+      "C1",
+      "tuduhan mengenai perbuatan salah yang belum dibuktikan",
+      "formal",
+      "an allegation against someone; allegation that...",
+      "The company denied the allegation that it had misled customers."
+    ],
+    [
+      "agency",
+      "noun",
+      "business-representative",
+      "B1",
+      "badan usaha yang mengurus kepentingan klien atau mempertemukan pihak",
+      "general",
+      "travel/employment/advertising agency",
+      "We booked the trip through a small travel agency."
+    ],
+    [
+      "agency",
+      "noun",
+      "government-organization",
+      "C1",
+      "lembaga pemerintahan yang menangani tugas tertentu",
+      "general",
+      "government/aid agency",
+      "A government agency inspected the water supply."
+    ],
+    [
+      "automatically",
+      "adverb",
+      "machine-independently",
+      "B2",
+      "secara otomatis melalui kerja alat atau sistem",
+      "general",
+      "verb + automatically",
+      "The app automatically saves my notes."
+    ],
+    [
+      "automatically",
+      "adverb",
+      "without-thinking",
+      "B2",
+      "tanpa sengaja memikirkan atau merencanakan tindakannya",
+      "general",
+      "automatically + verb",
+      "I automatically reached for my phone when it rang."
+    ],
+    [
+      "battery",
+      "noun",
+      "electrical-device",
+      "A2",
+      "baterai sebagai sumber tenaga listrik",
+      "general",
+      "charge/change a battery",
+      "My phone battery lasts all day."
+    ],
+    [
+      "behind",
+      "preposition",
+      "back-position",
+      "A1",
+      "di belakang suatu benda atau orang",
+      "general",
+      "behind + noun",
+      "There is a small garden behind our house."
+    ],
+    [
+      "behind",
+      "adverb",
+      "remaining-place",
+      "B1",
+      "tetap atau tertinggal di tempat sebelumnya",
+      "general",
+      "stay behind; leave something behind",
+      "I stayed behind to help clean the room."
+    ],
+    [
+      "calf",
+      "noun",
+      "young-animal",
+      "B1",
+      "anak sapi atau anak beberapa mamalia besar lainnya",
+      "general",
+      "a calf; calves",
+      "We saw a calf standing beside its mother."
+    ],
+    [
+      "calf",
+      "noun",
+      "lower-leg",
+      "C2",
+      "betis, bagian belakang tungkai bawah",
+      "general",
+      "calf muscle; calves",
+      "My calf muscles felt tight after the hike."
+    ],
+    [
+      "circuit",
+      "noun",
+      "series-of-visits",
+      "C2",
+      "rangkaian tempat atau kegiatan yang dikunjungi secara teratur",
+      "general",
+      "the lecture/tennis circuit",
+      "She spent several months travelling on the lecture circuit."
+    ],
+    [
+      "circuit",
+      "noun",
+      "loop-route",
+      "C2",
+      "jalur melingkar yang kembali ke tempat awal",
+      "general",
+      "a racing circuit; a circuit of...",
+      "We completed a circuit of the lake before breakfast."
+    ],
+    [
+      "circuit",
+      "noun",
+      "closed-system",
+      "C2",
+      "rangkaian tertutup untuk aliran listrik atau cairan",
+      "technical",
+      "electrical circuit; cooling circuit",
+      "The electrician checked the circuit before replacing the switch."
+    ],
+    [
+      "cast",
+      "noun",
+      "actors",
+      "B2",
+      "para pemeran dalam film atau pertunjukan",
+      "general",
+      "the cast of a film; supporting cast",
+      "The cast worked together for three months before filming."
+    ],
+    [
+      "cast",
+      "verb",
+      "choose-actors",
+      "C2",
+      "memilih pemeran untuk suatu peran",
+      "general",
+      "cast someone as a character",
+      "The director cast a new actor as the lead character."
+    ],
+    [
+      "complexity",
+      "noun",
+      "complicated-state",
+      "C2",
+      "kerumitan karena banyak bagian atau hubungan yang perlu dipahami",
+      "general",
+      "the complexity of something",
+      "I underestimated the complexity of planning the event."
+    ],
+    [
+      "conceive",
+      "verb",
+      "imagine",
+      "C2",
+      "membayangkan atau memahami kemungkinan suatu keadaan",
+      "formal",
+      "conceive of something; conceive how...",
+      "I cannot conceive of living somewhere without public transport."
+    ],
+    [
+      "conceive",
+      "verb",
+      "create-plan",
+      "C2",
+      "mencetuskan atau merancang ide dan rencana",
+      "formal",
+      "conceive + idea/plan",
+      "She conceived the idea during a long train journey."
+    ],
+    [
+      "conceive",
+      "verb",
+      "pregnancy",
+      "C2",
+      "menjadi hamil atau memulai terbentuknya kehamilan",
+      "general",
+      "conceive; conceive a child",
+      "The couple hoped to conceive a child the following year."
+    ],
+    [
+      "curriculum",
+      "noun",
+      "course-content",
+      "B1",
+      "kurikulum atau isi mata pelajaran dalam program pendidikan",
+      "general",
+      "school curriculum; curriculum includes...",
+      "The school curriculum includes music and drama."
+    ],
+    [
+      "deprivation",
+      "noun",
+      "lack-of-necessities",
+      "C2",
+      "keadaan kekurangan sesuatu yang diperlukan untuk hidup dengan baik",
+      "formal",
+      "sleep/social deprivation",
+      "Long periods of sleep deprivation affect my mood."
+    ],
+    [
+      "deficit",
+      "noun",
+      "financial-shortfall",
+      "C1",
+      "kekurangan ketika pengeluaran melebihi pemasukan",
+      "general",
+      "budget deficit; a deficit of...",
+      "The club ended the year with a small budget deficit."
+    ],
+    [
+      "dive",
+      "verb",
+      "enter-water",
+      "B1",
+      "melompat atau bergerak masuk ke dalam air",
+      "general",
+      "dive into water; dive for something",
+      "He dived into the pool to retrieve his goggles."
+    ],
+    [
+      "dive",
+      "verb",
+      "swim-underwater",
+      "B1",
+      "menyelam di bawah permukaan air",
+      "general",
+      "dive; go diving",
+      "I learned to dive during a holiday near the coast."
+    ],
+    [
+      "drive",
+      "verb",
+      "operate-vehicle",
+      "A1",
+      "mengemudikan kendaraan atau bepergian dengan mengemudi",
+      "general",
+      "drive a car; drive to work",
+      "I drive to work when it rains."
+    ],
+    [
+      "drive",
+      "verb",
+      "provide-power",
+      "C2",
+      "menyediakan tenaga atau menjadi penggerak suatu mesin atau proses",
+      "general",
+      "drive + machine/process",
+      "A small electric motor drives the pump."
+    ],
+    [
+      "drive",
+      "noun",
+      "computer-storage",
+      "B1",
+      "perangkat penyimpanan data komputer",
+      "technical",
+      "hard drive; external drive",
+      "I keep a backup of my photos on an external drive."
+    ],
+    [
+      "drive",
+      "noun",
+      "determination",
+      "C1",
+      "dorongan dan tekad kuat untuk mencapai tujuan",
+      "general",
+      "the drive to succeed; drive and ambition",
+      "Her drive to improve helped her practise every day."
+    ],
+    [
+      "envisage",
+      "verb",
+      "imagine-future",
+      "C1",
+      "membayangkan atau memperkirakan suatu keadaan pada masa depan",
+      "formal",
+      "envisage something; envisage doing something",
+      "I envisage working abroad for a few years."
+    ],
+    [
+      "exotic",
+      "adjective",
+      "unfamiliar-origin",
+      "B2",
+      "terasa asing atau tidak biasa karena berasal dari tempat jauh",
+      "general",
+      "exotic + food/plant/design",
+      "The market sells exotic fruit that I rarely see at home."
+    ],
+    [
+      "expedition",
+      "noun",
+      "organized-journey",
+      "B1",
+      "perjalanan terencana untuk tujuan tertentu",
+      "general",
+      "go on an expedition; expedition to...",
+      "Our group joined an expedition to study coastal wildlife."
+    ],
+    [
+      "exploit",
+      "verb",
+      "use-opportunity",
+      "B2",
+      "memanfaatkan sesuatu untuk memperoleh manfaat",
+      "general",
+      "exploit an opportunity/resource",
+      "Small businesses can exploit new technology to reach more customers."
+    ],
+    [
+      "exploit",
+      "verb",
+      "use-unfairly",
+      "B2",
+      "memanfaatkan orang atau keadaan secara tidak adil demi keuntungan sendiri",
+      "general",
+      "exploit workers; exploit a weakness",
+      "Some employers exploit workers who do not know their rights."
+    ],
+    [
+      "formidable",
+      "adjective",
+      "inspiring-fear-respect",
+      "C2",
+      "sangat kuat atau sulit sehingga menimbulkan rasa gentar atau hormat",
+      "general",
+      "formidable opponent/challenge",
+      "Speaking to a large audience once seemed a formidable challenge."
+    ],
+    [
+      "fit",
+      "verb",
+      "correct-size",
+      "B1",
+      "berukuran dan berbentuk pas untuk tubuh atau benda",
+      "general",
+      "fit someone; fit perfectly",
+      "These shoes fit me better than the other pair."
+    ],
+    [
+      "fit",
+      "verb",
+      "be-suitable",
+      "C1",
+      "sesuai dengan tuntutan, kebutuhan, atau keadaan",
+      "general",
+      "fit + role/description/need",
+      "Her experience fits the role we are offering."
+    ],
+    [
+      "indispensable",
+      "adjective",
+      "cannot-manage-without",
+      "C2",
+      "begitu penting sehingga sulit menjalankan sesuatu tanpanya",
+      "general",
+      "indispensable to/for someone",
+      "Reliable internet has become indispensable to my work."
+    ],
+    [
+      "indulge",
+      "verb",
+      "allow-pleasure",
+      "C2",
+      "membiarkan diri sendiri atau orang lain menikmati sesuatu, kadang berlebihan",
+      "general",
+      "indulge in something; indulge someone",
+      "I occasionally indulge in dessert after a stressful week."
+    ],
+    [
+      "imperative",
+      "adjective",
+      "urgent-essential",
+      "C2",
+      "sangat penting atau mendesak untuk dilakukan",
+      "formal",
+      "it is imperative to do something",
+      "It is imperative to protect everyone's personal data."
+    ],
+    [
+      "humble",
+      "adjective",
+      "modest",
+      "C2",
+      "rendah hati dan tidak merasa diri sangat penting",
+      "general",
+      "humble about something",
+      "He remained humble about his achievements."
+    ],
+    [
+      "humble",
+      "adjective",
+      "low-social-status",
+      "C2",
+      "berasal dari keadaan ekonomi atau kedudukan sosial yang sederhana",
+      "general",
+      "humble background/origins",
+      "She grew up in a humble home and valued every opportunity."
+    ],
+    [
+      "innovative",
+      "adjective",
+      "new-methods",
+      "C1",
+      "menggunakan cara atau gagasan baru",
+      "general",
+      "innovative approach/solution",
+      "The team proposed an innovative way to reduce waste."
+    ],
+    [
+      "innovation",
+      "noun",
+      "new-idea-method",
+      "C1",
+      "gagasan, metode, atau produk baru yang diperkenalkan",
+      "general",
+      "an innovation in something",
+      "This simple innovation made the service easier to use."
+    ],
+    [
+      "jog",
+      "verb",
+      "slow-run",
+      "B1",
+      "berlari perlahan dan teratur untuk olahraga",
+      "general",
+      "jog; jog around a place",
+      "I jog around the park before work."
+    ],
+    [
+      "lap",
+      "noun",
+      "seated-upper-legs",
+      "B2",
+      "pangkuan ketika seseorang duduk",
+      "general",
+      "on someone's lap",
+      "The child fell asleep on her father's lap."
+    ],
+    [
+      "lap",
+      "noun",
+      "one-track-round",
+      "B2",
+      "satu putaran penuh pada lintasan",
+      "general",
+      "run/swim a lap; final lap",
+      "I usually swim ten laps before taking a break."
+    ],
+    [
+      "merger",
+      "noun",
+      "combining-organizations",
+      "C2",
+      "penggabungan dua atau lebih perusahaan atau organisasi",
+      "general",
+      "a merger between companies",
+      "The merger created a larger company with offices in three cities."
+    ],
+    [
+      "mere",
+      "adjective",
+      "small-unimportant",
+      "B2",
+      "sekadar atau hanya, untuk menekankan kecilnya jumlah atau kepentingan",
+      "general",
+      "a mere + amount; mere + noun",
+      "The repair took a mere ten minutes."
+    ],
+    [
+      "nature",
+      "noun",
+      "natural-world",
+      "A2",
+      "alam dan unsur kehidupan yang ada tanpa dibuat manusia",
+      "general",
+      "nature; close to nature",
+      "Spending time in nature helps me relax."
+    ],
+    [
+      "March",
+      "noun",
+      "calendar-month",
+      "A1",
+      "bulan Maret",
+      "general",
+      "in March; on a date in March",
+      "My sister starts her new job in March."
+    ],
+    [
+      "notorious",
+      "adjective",
+      "famous-for-bad-reason",
+      "C1",
+      "terkenal karena sesuatu yang buruk",
+      "general",
+      "notorious for something",
+      "The road is notorious for heavy traffic at weekends."
+    ],
+    [
+      "plane",
+      "noun",
+      "aircraft",
+      "A1",
+      "pesawat terbang",
+      "general",
+      "take/catch a plane; by plane",
+      "We travelled by plane because the island was far away."
+    ],
+    [
+      "phase",
+      "noun",
+      "development-stage",
+      "B2",
+      "tahap dalam rangkaian kegiatan atau perkembangan",
+      "general",
+      "a phase of something; initial phase",
+      "The project has entered its final phase."
+    ],
+    [
+      "phase",
+      "noun",
+      "temporary-behaviour",
+      "B2",
+      "masa sementara dengan perilaku atau kesukaan tertentu",
+      "general",
+      "go through a phase",
+      "I went through a phase of listening only to jazz."
+    ],
+    [
+      "predecessor",
+      "noun",
+      "previous-holder",
+      "C2",
+      "orang atau sesuatu yang mendahului dalam jabatan atau urutan",
+      "general",
+      "someone's predecessor; predecessor of...",
+      "My predecessor left detailed notes about the role."
+    ],
+    [
+      "pupil",
+      "noun",
+      "student",
+      "A2",
+      "murid, terutama anak yang belajar di sekolah",
+      "general",
+      "a school pupil; primary pupils",
+      "Each pupil prepared a short presentation about their family."
+    ],
+    [
+      "recollection",
+      "noun",
+      "memory-event",
+      "C2",
+      "ingatan mengenai suatu peristiwa atau pengalaman",
+      "formal",
+      "a recollection of something",
+      "I have a clear recollection of my first day at school."
+    ],
+    [
+      "recollection",
+      "noun",
+      "ability-to-remember",
+      "C2",
+      "kemampuan mengingat sesuatu",
+      "formal",
+      "powers of recollection",
+      "His powers of recollection helped him describe the event precisely."
+    ],
+    [
+      "redundant",
+      "adjective",
+      "unnecessary",
+      "C2",
+      "tidak diperlukan karena sudah berlebihan atau berulang",
+      "general",
+      "redundant information/words",
+      "I removed redundant information from my presentation."
+    ],
+    [
+      "redundant",
+      "adjective",
+      "lost-job",
+      "B2",
+      "kehilangan pekerjaan karena perusahaan tidak lagi membutuhkan perannya",
+      "UK",
+      "be made redundant",
+      "Several employees were made redundant when the branch closed."
+    ],
+    [
+      "resort",
+      "noun",
+      "holiday-place",
+      "B1",
+      "tempat yang dikunjungi untuk berlibur atau kegiatan rekreasi",
+      "general",
+      "holiday/ski resort",
+      "We stayed at a quiet resort near the beach."
+    ],
+    [
+      "rich",
+      "adjective",
+      "wealthy",
+      "A2",
+      "kaya atau memiliki banyak uang dan harta",
+      "general",
+      "a rich person; become rich",
+      "She wants a comfortable life rather than becoming rich."
+    ],
+    [
+      "in retrospect",
+      "phrase",
+      "looking-back",
+      "C2",
+      "jika dipikirkan kembali sekarang mengenai kejadian masa lalu",
+      "general",
+      "in retrospect, clause",
+      "In retrospect, I should have prepared more carefully."
+    ],
+    [
+      "succeed",
+      "verb",
+      "achieve-goal",
+      "B1",
+      "berhasil mencapai tujuan atau hasil yang diinginkan",
+      "general",
+      "succeed in doing something",
+      "I succeeded in finishing the course while working full-time."
+    ],
+    [
+      "talkative",
+      "adjective",
+      "talks-a-lot",
+      "C1",
+      "suka atau banyak berbicara",
+      "general",
+      "a talkative person; talkative with someone",
+      "I become more talkative when I feel comfortable with people."
+    ],
+    [
+      "surge",
+      "noun",
+      "sudden-increase",
+      "C1",
+      "lonjakan yang besar dan mendadak",
+      "general",
+      "a surge in demand/prices",
+      "There was a surge in demand for online classes."
+    ],
+    [
+      "tomb",
+      "noun",
+      "burial-structure",
+      "B2",
+      "makam berupa bangunan atau ruang tempat jenazah dikuburkan",
+      "general",
+      "an ancient/family tomb",
+      "We visited an ancient tomb during the history tour."
+    ],
+    [
+      "utter",
+      "verb",
+      "say-sound",
+      "C2",
+      "mengucapkan kata atau mengeluarkan suara",
+      "formal",
+      "utter a word/sound",
+      "He was too surprised to utter a word."
+    ],
+    [
+      "utter",
+      "adjective",
+      "complete-extreme",
+      "C2",
+      "benar-benar atau sangat, untuk menegaskan keadaan ekstrem",
+      "general",
+      "utter confusion/disbelief",
+      "The sudden announcement left us in utter confusion."
+    ],
+    [
+      "venture",
+      "noun",
+      "risky-project",
+      "C2",
+      "usaha atau kegiatan baru yang mengandung risiko",
+      "general",
+      "a business venture; joint venture",
+      "Opening a cafe was their first business venture."
+    ],
+    [
+      "venture",
+      "verb",
+      "risk-going-doing",
+      "C2",
+      "memberanikan diri melakukan atau memasuki sesuatu yang berisiko",
+      "general",
+      "venture into a place; venture to do something",
+      "We ventured beyond the city centre to explore the quieter streets."
+    ],
+    [
+      "withdrawal",
+      "noun",
+      "bank-money",
+      "C2",
+      "penarikan uang dari rekening bank",
+      "general",
+      "a cash withdrawal; withdrawal from an account",
+      "The bank charges a fee for each cash withdrawal abroad."
+    ],
+    [
+      "wing",
+      "noun",
+      "animal-flight-part",
+      "B1",
+      "sayap pada burung, serangga, atau hewan lain",
+      "general",
+      "a bird's wing; flap its wings",
+      "The bird spread its wings and flew away."
+    ],
+    [
+      "wing",
+      "noun",
+      "aircraft-part",
+      "B1",
+      "sayap pesawat yang membantu menopangnya saat terbang",
+      "general",
+      "the wing of a plane",
+      "I could see the aircraft's wing from my seat."
+    ],
+    [
+      "a",
+      "determiner",
+      "indefinite-singular",
+      "A1",
+      "sebuah atau seorang untuk benda/orang tunggal yang belum ditentukan",
+      "general",
+      "a + singular countable noun",
+      "I bought a notebook for my English class."
+    ],
+    [
+      "an",
+      "determiner",
+      "before-vowel-sound",
+      "A1",
+      "bentuk a sebelum kata yang dimulai dengan bunyi vokal",
+      "general",
+      "an + vowel sound",
+      "She gave me an excellent suggestion."
+    ],
+    [
+      "the",
+      "determiner",
+      "particular-reference",
+      "A1",
+      "penanda benda atau orang tertentu yang dapat dikenali dari konteks",
+      "general",
+      "the + identifiable noun",
+      "Please put the keys beside my laptop."
+    ],
+    [
+      "and",
+      "conjunction",
+      "addition",
+      "A1",
+      "dan; menghubungkan unsur atau gagasan yang berkaitan",
+      "general",
+      "word/phrase/clause + and + word/phrase/clause",
+      "I enjoy cooking and trying new recipes."
+    ],
+    [
+      "because",
+      "conjunction",
+      "reason",
+      "A1",
+      "karena; memperkenalkan alasan",
+      "general",
+      "main clause + because + reason clause",
+      "I walk to work because my office is nearby."
+    ],
+    [
+      "walk",
+      "verb",
+      "move-on-foot",
+      "A1",
+      "berjalan kaki",
+      "general",
+      "walk to a place; walk for a period",
+      "I walk to the station every morning."
+    ],
+    [
+      "drink",
+      "noun",
+      "beverage",
+      "A1",
+      "minuman atau sejumlah cairan untuk diminum",
+      "general",
+      "a drink; a drink of water",
+      "A cold drink would be lovely after the walk."
+    ],
+    [
+      "drink",
+      "verb",
+      "take-liquid",
+      "A1",
+      "minum atau memasukkan cairan ke dalam tubuh melalui mulut",
+      "general",
+      "drink + liquid",
+      "I drink water regularly during the day."
+    ],
+    [
+      "drink",
+      "verb",
+      "alcohol",
+      "A2",
+      "minum minuman beralkohol",
+      "general",
+      "drink; drink socially",
+      "I rarely drink when I have work the next morning."
+    ],
+    [
+      "talk",
+      "verb",
+      "say-words",
+      "A1",
+      "berbicara dengan mengucapkan kata atau bercakap-cakap",
+      "general",
+      "talk to/with someone about something",
+      "I talk to my sister on the phone most evenings."
+    ],
+    [
+      "talk",
+      "noun",
+      "conversation",
+      "B1",
+      "percakapan mengenai suatu hal",
+      "general",
+      "have a talk with someone about something",
+      "We had a useful talk about our plans for next year."
+    ],
+    [
+      "talk",
+      "noun",
+      "informative-speech",
+      "B2",
+      "ceramah atau presentasi singkat untuk memberi informasi",
+      "general",
+      "give a talk on/about something",
+      "Our teacher gave a short talk on managing stress."
+    ],
+    [
+      "talks",
+      "noun",
+      "negotiations",
+      "C2",
+      "pembicaraan atau perundingan antara pihak-pihak",
+      "general",
+      "hold talks with someone; peace talks",
+      "The two organizations held talks about a possible partnership."
+    ],
+    [
+      "speak",
+      "verb",
+      "utterance",
+      "A1",
+      "berbicara atau mengeluarkan ucapan dengan suara",
+      "general",
+      "speak to/with someone",
+      "Could you speak a little more slowly during the explanation?"
+    ],
+    [
+      "speak",
+      "verb",
+      "language-ability",
+      "A1",
+      "mampu menggunakan suatu bahasa untuk berbicara",
+      "general",
+      "speak + language",
+      "My cousin speaks Indonesian and English."
+    ],
+    [
+      "learn",
+      "verb",
+      "gain-knowledge-skill",
+      "A1",
+      "belajar untuk memperoleh pengetahuan atau keterampilan",
+      "general",
+      "learn to do something; learn about something",
+      "I am learning to describe my opinions more clearly."
+    ],
+    [
+      "study",
+      "verb",
+      "learn-subject",
+      "A1",
+      "mempelajari suatu bidang melalui pendidikan, membaca, atau latihan",
+      "general",
+      "study + subject; study for a test",
+      "I study English for twenty minutes before bed."
+    ],
+    [
+      "work",
+      "noun",
+      "job-activity",
+      "A1",
+      "pekerjaan atau kegiatan yang membutuhkan usaha",
+      "general",
+      "do work; hard work",
+      "My work involves helping customers solve problems."
+    ],
+    [
+      "work",
+      "noun",
+      "workplace",
+      "A1",
+      "tempat seseorang menjalankan pekerjaannya",
+      "general",
+      "at work; go to work",
+      "I usually arrive at work before eight."
+    ],
+    [
+      "work",
+      "noun",
+      "produced-material",
+      "A2",
+      "hasil pekerjaan atau bahan yang sedang dikerjakan",
+      "general",
+      "finish/check/show some work",
+      "I checked my work before sending it to my manager."
+    ],
+    [
+      "happy",
+      "adjective",
+      "pleased",
+      "A1",
+      "senang atau merasa puas",
+      "general",
+      "happy about/with something",
+      "I feel happy when I spend time with close friends."
+    ],
+    [
+      "sad",
+      "adjective",
+      "unhappy",
+      "A1",
+      "sedih atau merasa tidak bahagia",
+      "general",
+      "sad about something; sad that...",
+      "I felt sad when my best friend moved away."
+    ],
+    [
+      "important",
+      "adjective",
+      "necessary-valuable",
+      "A1",
+      "penting karena diperlukan atau bernilai",
+      "general",
+      "important to/for someone; important to do something",
+      "It is important to make time for rest."
+    ],
+    [
+      "important",
+      "adjective",
+      "influential",
+      "B1",
+      "penting karena mempunyai pengaruh atau dampak besar",
+      "general",
+      "an important person/decision/event",
+      "Moving abroad was an important decision in my life."
+    ],
+    [
+      "good",
+      "adjective",
+      "satisfactory-enjoyable",
+      "A1",
+      "baik, memuaskan, atau menyenangkan",
+      "general",
+      "a good + noun; have a good time",
+      "We had a good meal at a small local restaurant."
+    ],
+    [
+      "bad",
+      "adjective",
+      "unpleasant-problematic",
+      "A1",
+      "buruk atau menimbulkan kesulitan dan rasa tidak nyaman",
+      "general",
+      "bad weather/news; a bad experience",
+      "Bad weather made the journey longer than usual."
+    ],
+    [
+      "think",
+      "verb",
+      "opinion-belief",
+      "A1",
+      "berpikir atau mempunyai pendapat dan keyakinan",
+      "general",
+      "think that...; think about something",
+      "I think regular practice is more useful than cramming."
+    ],
+    [
+      "think",
+      "verb",
+      "consider-decision",
+      "A2",
+      "memikirkan atau mempertimbangkan suatu tindakan",
+      "general",
+      "think of/about doing something",
+      "I am thinking of taking an evening course."
+    ],
+    [
+      "know",
+      "verb",
+      "have-information",
+      "A1",
+      "mengetahui informasi tentang sesuatu",
+      "general",
+      "know something; know where/why/how...",
+      "I know where the nearest bus stop is."
+    ],
+    [
+      "know",
+      "verb",
+      "be-certain",
+      "A2",
+      "yakin mengenai kebenaran atau terjadinya sesuatu",
+      "general",
+      "know that...; know whether...",
+      "I know that learning a language takes patience."
+    ],
+    [
+      "want",
+      "verb",
+      "wish-for",
+      "A1",
+      "menginginkan suatu benda, keadaan, atau tindakan",
+      "general",
+      "want something; want to do something",
+      "I want to feel more confident when I meet new people."
+    ],
+    [
+      "need",
+      "verb",
+      "necessity",
+      "A1",
+      "membutuhkan sesuatu atau perlu melakukan tindakan",
+      "general",
+      "need something; need to do something",
+      "I need to practise answering unexpected questions."
+    ],
+    [
+      "need",
+      "verb",
+      "beneficial-recommendation",
+      "B1",
+      "memerlukan sesuatu yang akan bermanfaat atau memperbaiki keadaan",
+      "general",
+      "need + beneficial thing",
+      "After such a busy week, you need a proper break."
+    ],
+    [
+      "help",
+      "verb",
+      "make-easier",
+      "A1",
+      "membantu sehingga sesuatu menjadi lebih mudah dilakukan",
+      "general",
+      "help someone with something; help someone do something",
+      "My friend helped me prepare for the interview."
+    ],
+    [
+      "make",
+      "verb",
+      "produce-create",
+      "A1",
+      "membuat atau menghasilkan sesuatu",
+      "general",
+      "make + product/food/object",
+      "I make simple meals when I am busy."
+    ],
+    [
+      "make",
+      "verb",
+      "force",
+      "B1",
+      "membuat atau memaksa seseorang melakukan sesuatu",
+      "general",
+      "make someone do something",
+      "The new rules made everyone change their usual routine."
+    ],
+    [
+      "make",
+      "verb",
+      "perform-action",
+      "A2",
+      "melakukan suatu tindakan dalam pasangan kata tertentu",
+      "general",
+      "make a call/appointment/donation",
+      "I need to make an appointment with the dentist."
+    ],
+    [
+      "do",
+      "auxiliary verb",
+      "questions-negatives",
+      "A1",
+      "kata kerja bantu untuk membentuk pertanyaan dan kalimat negatif",
+      "general",
+      "do/does/did + subject + base verb; do not + base verb",
+      "Do you practise speaking on your way to work?"
+    ],
+    [
+      "do",
+      "auxiliary verb",
+      "checking-tag-question",
+      "A2",
+      "kata kerja bantu pada pertanyaan tambahan untuk memeriksa informasi",
+      "general",
+      "clause, do/does/did + pronoun?",
+      "You finished the report yesterday, didn't you?"
+    ],
+    [
+      "use",
+      "verb",
+      "put-to-purpose",
+      "A1",
+      "menggunakan alat, keterampilan, tempat, atau sumber lain untuk tujuan tertentu",
+      "general",
+      "use something to do something; use something for something",
+      "I use a notebook to record useful expressions."
+    ],
+    [
+      "understand",
+      "verb",
+      "comprehend-meaning",
+      "A1",
+      "memahami makna ucapan atau informasi",
+      "general",
+      "understand something; understand what...",
+      "I understand the question, but I need a moment to answer."
+    ],
+    [
+      "understand",
+      "verb",
+      "know-how-why",
+      "A2",
+      "memahami bagaimana atau mengapa sesuatu terjadi atau bekerja",
+      "general",
+      "understand how/why something happens",
+      "I understand why regular sleep improves concentration."
+    ],
+    [
+      "understand",
+      "verb",
+      "empathize",
+      "B1",
+      "memahami perasaan atau alasan perilaku seseorang",
+      "general",
+      "understand someone; understand how someone feels",
+      "I understand how you feel about starting a new job."
+    ],
+    [
+      "explain",
+      "verb",
+      "make-clear",
+      "A2",
+      "menjelaskan agar sesuatu lebih mudah dipahami",
+      "general",
+      "explain something to someone; explain how/why...",
+      "Could you explain the difference to me?"
+    ],
+    [
+      "improve",
+      "verb",
+      "get-better",
+      "A2",
+      "meningkatkan atau menjadi lebih baik",
+      "general",
+      "improve something; improve at something",
+      "I want to improve my ability to speak without long pauses."
+    ],
+    [
+      "agree",
+      "verb",
+      "same-opinion",
+      "A2",
+      "setuju atau mempunyai pendapat yang sama",
+      "general",
+      "agree with someone about/on something",
+      "I agree with you about the value of daily practice."
+    ],
+    [
+      "disagree",
+      "verb",
+      "different-opinion",
+      "B1",
+      "tidak setuju atau mempunyai pendapat yang berbeda",
+      "general",
+      "disagree with someone about/on something",
+      "I disagree with that idea, although I understand your reason."
+    ]
+  ]
+}
