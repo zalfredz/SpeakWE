@@ -1,0 +1,77 @@
+## CRITERIA PACK: speakwe-criteria-v1
+
+### Official band descriptors
+{{OFFICIAL_DESCRIPTORS}}   <- full public IELTS Speaking band descriptors text
+
+### SpeakWE key distinctions (paraphrased; official text above prevails)
+FC
+ 9 fluent; only rare repetition or self-correction; hesitation is about ideas,
+   not words; fully coherent, cohesion fully appropriate; topics fully developed.
+ 8 fluent; occasional repetition/self-correction; hesitation usually about
+   content, rarely about finding words; develops topics coherently.
+ 7 speaks at length without noticeable effort or loss of coherence; some
+   language-related hesitation, repetition or self-correction; uses a range
+   of connectives and discourse markers with some flexibility.
+ 6 willing to speak at length but loses coherence at times through repetition,
+   self-correction or hesitation; uses a range of connectives, not always
+   appropriately.
+ 5 usually keeps going but relies on repetition, self-correction or slow speech;
+   over-uses some connectives; simple speech is fluent, complex ideas cause
+   fluency problems.
+ 4 cannot respond without noticeable pauses; slow, frequent repetition and
+   self-correction; basic, repetitive linking; coherence sometimes breaks down.
+LR
+ 9 full flexibility and precision on all topics; idiomatic language natural
+   and accurate.
+ 8 wide resource used readily and flexibly for precise meaning; less common
+   and idiomatic items used skilfully with occasional inaccuracy; paraphrases
+   effectively.
+ 7 flexible across topics; some less common and idiomatic items; awareness of
+   style and collocation with some inappropriate choices; paraphrases well.
+ 6 wide enough to speak at length and make meaning clear despite
+   inappropriacies; generally paraphrases successfully.
+ 5 manages familiar and unfamiliar topics with limited flexibility; paraphrase
+   attempts have mixed success.
+ 4 basic meaning on familiar topics only; frequent inappropriate word choice;
+   rarely paraphrases.
+GRA
+ 9 full range used naturally; consistently accurate apart from native-like slips.
+ 8 wide range used flexibly; most sentences error-free; occasional
+   inappropriacy or non-systematic error.
+ 7 range of complex structures with some flexibility; frequently error-free
+   sentences, though some errors persist.
+ 6 mix of simple and complex structures with limited flexibility; frequent
+   errors in complex structures that rarely block understanding.
+ 5 basic forms reasonably accurate; few complex structures and these usually
+   contain errors that may cause some misunderstanding.
+ 4 basic forms only, subordinate clauses rare; frequent errors that can cause
+   misunderstanding.
+P
+ 9 full range of features with precision and subtlety; effortless to understand.
+ 8 wide range of features, flexible use with occasional lapses; easy to
+   understand throughout; accent has minimal effect.
+ 7 all positive features of 6 and some, not all, of 8.
+ 6 range of features with mixed control; some effective stress and intonation
+   not sustained; generally understood, though some words or sounds reduce
+   clarity at times.
+ 5 all positive features of 4 and some, not all, of 6.
+ 4 limited range of features; frequent lapses; mispronunciations cause some
+   difficulty for the listener.
+
+### SCORING RULES (from SpeakWE design and observed examiner feedback)
+- Memorised or rehearsed-sounding answers: do not use them as evidence of LR or
+  GRA range; note them as a limitation under FC (unnatural delivery) and LR.
+- Very short answers that do not develop the topic limit FC to 6 or lower,
+  even when the language is accurate.
+- Monotone delivery or flat intonation throughout limits P to 6 or lower.
+- Accent alone is never a reason to lower P; intelligibility and control are.
+- Band 9 requires near-flawless performance on that criterion across all
+  parts. It is rare; do not award it by default to strong candidates.
+- Minimum candidate speech to score a criterion: at least {{MIN_TOTAL_SPEECH_S}}
+  seconds in total and at least {{MIN_TURNS}} answered turns. Below this,
+  band = null.
+- Part-only sessions: score from that part only and set scope accordingly.
+  Do not assume performance in parts that were not taken.
+
+### REFERENCE ANCHORS (from rated mock tests, candidate speech only)
+{{ANCHORS}}

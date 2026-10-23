@@ -7,7 +7,7 @@ Aplikasi web untuk latihan **speaking bahasa Inggris** bersama **Mimo**, maskot 
 
 Fokus utamanya **fluency**. Koreksi grammar, saran vocabulary, dan idiom diberikan setelah sesi, berdasarkan bukti dari jawaban pengguna. SpeakWE tidak memberi pujian atau band tinggi tanpa bukti. Hasilnya adalah estimasi latihan, bukan nilai resmi IELTS.
 
-> **Status (Oktober 2026): tahap fondasi.** Dokumen rancangan dan data bahasa sudah tersedia. Aplikasi web, suara Mimo, backend, dan penilai belum dibangun.
+> **Status (Oktober 2026): MVP IELTS berjalan lokal.** Latihan Part 1/2/3 dan full test sudah bisa dijalankan di browser. Suara Mimo masih memakai suara bawaan browser, dan penilai otomatis (Whisper + Gemini) sudah jalan tetapi belum dikalibrasi.
 
 ## Status
 
@@ -20,20 +20,23 @@ Fokus utamanya **fluency**. Koreksi grammar, saran vocabulary, dan idiom diberik
 | Bank idiom IELTS | ✅ [60 idiom + 8 ungkapan terkait](data/language-bank/README.md); pilot |
 | Riset sumber grammar, paraphrase, dan soal | ✅ [docs/grammar-paraphrase-and-question-sources.md](docs/grammar-paraphrase-and-question-sources.md) |
 | Dataset audio mock test band 5–9 | ✅ 172 video + transkrip; **lokal saja**, tidak ikut repo |
-| Bank cue card Part 2 dan pertanyaan Part 3 | ⏳ Belum ada |
-| Web UI, mikrofon, dan suara Mimo | ⏳ Belum ada |
-| Backend, akun, check-in, dan riwayat | ⏳ Belum ada |
-| Penilai IELTS (API dulu, lalu ML sendiri) | ⏳ Belum ada |
+| Bank soal awal: 10 topik Part 1 + 10 cue card dengan Part 3 | ✅ [data/question-bank/](data/question-bank/ielts-v1.json) (draft, perlu di-approve) |
+| Web app IELTS: beranda, cek mic, ruang latihan dengan Mimo animasi, hasil sesi | ✅ [frontend/](frontend/) (suara Mimo sementara memakai suara browser) |
+| Backend sesi, timer, upload jawaban, dan check-in | ✅ [backend/](backend/) (belum ada akun dan riwayat) |
+| Penilai IELTS: Whisper + Gemini (ML sendiri menyusul) | ✅ [backend/ielts/assessment/](backend/ielts/assessment/) (kalibrasi dengan dataset band belum selesai) |
 
 ## Struktur repositori
 
 ```text
 SpeakWE/
+├── backend/              Django: bank soal, alur sesi, upload jawaban, check-in
+├── frontend/             React + Vite: layar latihan dan Mimo animasi
 ├── docs/                 rancangan produk, strategi data, riset sumber
 ├── data/
 │   ├── vocabulary/       dataset vocabulary CEFR A1–C2 (v2 aktif, v1 arsip)
 │   ├── language-bank/    bank idiom dan ungkapan
 │   ├── catalog/          registry sumber data dan lisensinya
+│   ├── question-bank/    bank soal IELTS original (draft)
 │   └── private/          data berhak cipta/pribadi — diabaikan Git
 ├── scripts/              build, query, dan validasi data
 ├── tests/                unit test dataset
@@ -42,7 +45,33 @@ SpeakWE/
 └── .openai/hosting.json  manifest hosting statis (belum dipublikasikan)
 ```
 
-## Mulai cepat
+## Menjalankan aplikasi (lokal)
+
+Butuh Python 3.11+ dan Node.js 18+.
+
+```powershell
+# 1. Backend Django (port 8010)
+cd backend
+python -m venv ..\.venv
+..\.venv\Scripts\python.exe -m pip install -r requirements.txt
+..\.venv\Scripts\python.exe manage.py migrate
+..\.venv\Scripts\python.exe manage.py seed_bank          # bank soal masuk sebagai draft
+..\.venv\Scripts\python.exe manage.py createsuperuser    # untuk approve soal di /admin/
+..\.venv\Scripts\python.exe manage.py runserver 127.0.0.1:8010
+
+# 2. Frontend React (terminal lain)
+cd frontend
+npm install
+npm run dev        # buka http://localhost:5173
+```
+
+Pindah laptop: lihat [docs/setup-laptop-baru.md](docs/setup-laptop-baru.md).
+
+Penilaian otomatis (Whisper + Gemini) berjalan di terminal ketiga. Isi `backend/.env` dengan `GEMINI_API_KEY=...` (file ini diabaikan Git), lalu jalankan `..\.venv\Scripts\python.exe manage.py run_assessments` dari folder `backend`. Transkripsi memakai GPU; tanpa GPU set `WHISPER_DEVICE=cpu` (lebih lambat). Paket gratis Gemini hanya untuk rekaman uji, bukan rekaman pengguna asli.
+
+Sesi IELTS baru bisa dimulai setelah minimal 3 topik Part 1 dan 1 cue card di-approve di `http://127.0.0.1:8010/admin/`. Mikrofon hanya jalan di `localhost` atau HTTPS. Tes: `npx vitest run` (frontend) dan `manage.py test ielts` (backend).
+
+## Mulai cepat (data bahasa)
 
 Butuh Python 3.11+. Script data hanya memakai library bawaan Python.
 

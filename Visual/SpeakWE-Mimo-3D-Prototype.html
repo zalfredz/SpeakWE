@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mimo 3D · prototipe</title>
+<style>
+  :root { --ground: #FBF8F4; --ink: #1F1B2E; --muted: #5E5873; --lilac: #6B4FC4; --line: #E7E2EC; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--ground); color: var(--ink);
+         font-family: "DM Sans", system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; }
+  #stage { width: min(560px, 100vw); aspect-ratio: 1 / 1; display: block; }
+  #caption { min-height: 64px; max-width: 420px; margin: 0 16px; text-align: center; }
+  #caption p { margin: 0; padding: 10px 16px; border-radius: 14px; background: rgba(31,27,46,.82); color: #fff;
+               font-size: 17px; line-height: 1.45; transition: opacity .25s ease; }
+  .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 16px; }
+  .controls button { min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid #CFC8DA; background: #fff;
+                     color: var(--ink); font: inherit; font-size: 15px; cursor: pointer; }
+  .controls button[aria-pressed="true"] { background: var(--lilac); border-color: var(--lilac); color: #fff; font-weight: 700; }
+  .note { color: var(--muted); font-size: 13px; padding: 0 16px 24px; text-align: center; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="stage" role="img" aria-label="Mimo, axolotl lilac 3D"></canvas>
+<div id="caption" aria-live="polite"></div>
+<div class="controls" role="group" aria-label="Status Mimo (kontrol prototipe)">
+  <button type="button" data-state="ready">Siap</button>
+  <button type="button" data-state="speaking">Berbicara</button>
+  <button type="button" data-state="listening">Mendengarkan</button>
+  <button type="button" data-state="thinking">Berpikir</button>
+  <button type="button" data-state="encourage">Menyemangati</button>
+  <button type="button" data-state="success">Berhasil</button>
+</div>
+<p class="note">Prototipe uji coba. Tombol di atas hanya untuk mencoba status; di aplikasi, status mengikuti percakapan.</p>
+
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const COLORS = { skin: 0xB291E6, skinDeep: 0xA889D8, belly: 0xF8D9BF, eye: 0x2A1734, gillBase: 0xF2705F, gillTip: 0xFFB59A,
+                 blush: 'rgba(245,120,115,', fin: 0xC7A8F0, mouth: 0x5A2238 };
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// ---------- renderer, scene, camera ----------
+const canvas = document.getElementById('stage');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 0.92;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+const scene = new THREE.Scene();
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.55;
+
+const camera = new THREE.PerspectiveCamera(28, 1, 0.1, 50);
+camera.position.set(0, 1.35, 6.4);
+camera.lookAt(0, 1.05, 0);
+
+scene.add(new THREE.HemisphereLight(0xFFF6EE, 0xC9B6E4, 0.7));
+const key = new THREE.DirectionalLight(0xFFF1E4, 1.5); key.position.set(2.5, 4, 3.5); scene.add(key);
+const fill = new THREE.DirectionalLight(0xE6DBFF, 0.5); fill.position.set(-3, 2, 2); scene.add(fill);
+const rim = new THREE.DirectionalLight(0xFFFFFF, 0.7); rim.position.set(0, 3, -4); scene.add(rim);
+
+function resize() {
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize); resize();
+
+// ---------- helpers ----------
+const skinMat = new THREE.MeshPhysicalMaterial({ color: COLORS.skin, roughness: 0.55, sheen: 0.6, sheenColor: new THREE.Color(0xFFD9F0), sheenRoughness: 0.6, clearcoat: 0.15, clearcoatRoughness: 0.6 });
+const bellyMat = new THREE.MeshPhysicalMaterial({ color: COLORS.belly, roughness: 0.6, sheen: 0.4, sheenColor: new THREE.Color(0xFFF2E6) });
+const eyeMat = new THREE.MeshPhysicalMaterial({ color: COLORS.eye, roughness: 0.08, clearcoat: 1, clearcoatRoughness: 0.05 });
+const whiteMat = new THREE.MeshBasicMaterial({ color: 0xFFFFFF });
+const mouthMat = new THREE.MeshStandardMaterial({ color: COLORS.mouth, roughness: 0.7 });
+const browMat = new THREE.MeshStandardMaterial({ color: 0x8E6CC0, roughness: 0.7 });
+
+function ellipsoid(sx, sy, sz, mat, seg = 48) {
+  const m = new THREE.Mesh(new THREE.SphereGeometry(1, seg, Math.round(seg * 0.75)), mat);
+  m.scale.set(sx, sy, sz); return m;
+}
+function radialTexture(stops) {
+  const c = document.createElement('canvas'); c.width = c.height = 128;
+  const g = c.getContext('2d'), grad = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  stops.forEach(([o, col]) => grad.addColorStop(o, col));
+  g.fillStyle = grad; g.fillRect(0, 0, 128, 128);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+}
+// point on the head ellipsoid surface (a,b,c radii) facing +z, used to seat face parts
+function onHead(x, y, a, b, c, inset = 0) {
+  const z = c * Math.sqrt(Math.max(0, 1 - (x / a) ** 2 - (y / b) ** 2));
+  return new THREE.Vector3(x, y, z - inset);
+}
+
+// ---------- build Mimo ----------
+const mimo = new THREE.Group(); scene.add(mimo);
+mimo.rotation.y = 0.22;
+
+// soft contact shadow
+const shadow = new THREE.Mesh(new THREE.PlaneGeometry(2.4, 1.2),
+  new THREE.MeshBasicMaterial({ map: radialTexture([[0, 'rgba(70,50,90,0.28)'], [1, 'rgba(70,50,90,0)']]), transparent: true, depthWrite: false }));
+shadow.rotation.x = -Math.PI / 2; shadow.position.y = 0.005; scene.add(shadow);
+
+const bodyRoot = new THREE.Group(); mimo.add(bodyRoot);          // bounces / breathes
+const body = ellipsoid(0.56, 0.62, 0.48, skinMat); body.position.y = 0.78; bodyRoot.add(body);
+const belly = ellipsoid(0.40, 0.50, 0.22, bellyMat); belly.position.set(0, 0.72, 0.30); bodyRoot.add(belly);
+
+for (const side of [-1, 1]) {                                       // legs + toes
+  const leg = ellipsoid(0.2, 0.17, 0.25, skinMat); leg.position.set(0.25 * side, 0.14, 0.08); bodyRoot.add(leg);
+  for (let i = -1; i <= 1; i++) {
+    const toe = ellipsoid(0.055, 0.045, 0.06, skinMat, 16); toe.position.set(0.25 * side + i * 0.08, 0.05, 0.3); bodyRoot.add(toe);
+  }
+}
+
+function makeArm(side) {                                            // pivot at shoulder
+  const pivot = new THREE.Group(); pivot.position.set(0.46 * side, 1.0, 0.1);
+  const upper = new THREE.Mesh(new THREE.CapsuleGeometry(0.09, 0.26, 8, 16), skinMat); upper.position.y = -0.2; pivot.add(upper);
+  const hand = ellipsoid(0.11, 0.1, 0.09, skinMat, 24); hand.position.y = -0.4; pivot.add(hand);
+  bodyRoot.add(pivot); return pivot;
+}
+const armL = makeArm(-1), armR = makeArm(1);
+
+// tail: three tapering segments + translucent fin, swinging from the base
+const tail = new THREE.Group(); tail.position.set(-0.32, 0.42, -0.32); tail.rotation.y = 2.4; bodyRoot.add(tail);
+const tailSegs = [];
+let parent = tail;
+[[0.26, 0.24], [0.2, 0.18], [0.14, 0.12]].forEach(([r, len]) => {
+  const seg = new THREE.Group(); seg.position.x = parent === tail ? 0 : len * 1.5; parent.add(seg);
+  const m = ellipsoid(r * 1.4, r, r * 0.9, skinMat, 32); m.position.x = r; seg.add(m);
+  tailSegs.push(seg); parent = seg;
+});
+const finShape = new THREE.Shape();
+finShape.moveTo(0, -0.05); finShape.bezierCurveTo(0.3, 0.75, 1.05, 0.95, 1.45, 0.45); finShape.bezierCurveTo(1.15, 0.05, 0.55, -0.2, 0, -0.05);
+const fin = new THREE.Mesh(new THREE.ShapeGeometry(finShape, 24),
+  new THREE.MeshPhysicalMaterial({ color: COLORS.fin, roughness: 0.35, sheen: 0.8, sheenColor: new THREE.Color(0xF3D8FF), transparent: true, opacity: 0.88, side: THREE.DoubleSide }));
+fin.position.set(0.05, 0.05, 0); tailSegs[0].add(fin);
+
+// head group: tilts / nods independently
+const head = new THREE.Group(); head.position.y = 1.62; bodyRoot.add(head);
+const HA = 0.92, HB = 0.72, HC = 0.78;
+head.add(ellipsoid(HA, HB, HC, skinMat, 64));
+
+// gills: 3 per side, vertex-colored from deep peach base to light tip
+function gillGeometry() {
+  const g = new THREE.CapsuleGeometry(0.12, 0.2, 10, 24); g.translate(0, 0.2, 0);
+  const pos = g.attributes.position, cols = [], a = new THREE.Color(COLORS.gillBase), b = new THREE.Color(COLORS.gillTip), c = new THREE.Color();
+  for (let i = 0; i < pos.count; i++) { c.copy(a).lerp(b, THREE.MathUtils.clamp(pos.getY(i) / 0.44, 0, 1)); cols.push(c.r, c.g, c.b); }
+  g.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3)); return g;
+}
+const gillMat = new THREE.MeshPhysicalMaterial({ vertexColors: true, roughness: 0.45, sheen: 0.8, sheenColor: new THREE.Color(0xFFE6DA), clearcoat: 0.2 });
+const gills = [];
+for (const side of [-1, 1]) {
+  [[0.30, 1.05], [0.08, 1.45], [-0.14, 1.85]].forEach(([y, ang], i) => {
+    const pivot = new THREE.Group(); pivot.position.set(0.76 * side, y, -0.16 - i * 0.04);
+    pivot.rotation.z = -side * ang * 0.85 + side * 0.1; pivot.rotation.y = side * 0.35;
+    const m = new THREE.Mesh(gillGeometry(), gillMat); m.scale.set(1.05, 1 - i * 0.06, 0.62); pivot.add(m);
+    pivot.userData = { base: pivot.rotation.z, side, i }; head.add(pivot); gills.push(pivot);
+  });
+}
+
+// face: eyes with catchlights, brows, blush, mouth
+const eyes = [];
+for (const side of [-1, 1]) {
+  const p = onHead(0.32 * side, -0.02, HA, HB, HC, 0.06);
+  const eye = new THREE.Group(); eye.position.copy(p); head.add(eye);
+  const ball = ellipsoid(0.14, 0.155, 0.08, eyeMat, 32); eye.add(ball);
+  const hl1 = new THREE.Mesh(new THREE.SphereGeometry(0.038, 16, 12), whiteMat); hl1.position.set(-0.04, 0.055, 0.075); eye.add(hl1);
+  const hl2 = new THREE.Mesh(new THREE.SphereGeometry(0.016, 12, 8), whiteMat); hl2.position.set(0.045, -0.04, 0.075); eye.add(hl2);
+  eye.userData = { base: p.clone() }; eyes.push(eye);
+
+  const brow = new THREE.Mesh(new THREE.TorusGeometry(0.075, 0.011, 8, 24, Math.PI * 0.7), browMat);
+  brow.position.copy(onHead(0.33 * side, 0.22, HA, HB, HC, 0.005)); brow.rotation.z = Math.PI * 0.15; head.add(brow);
+  eye.userData.brow = brow; eye.userData.browY = brow.position.y;
+
+  const blush = new THREE.Mesh(new THREE.CircleGeometry(0.17, 32),
+    new THREE.MeshBasicMaterial({ map: radialTexture([[0, COLORS.blush + '0.55)'], [1, COLORS.blush + '0)']]), transparent: true, depthWrite: false }));
+  const bp = onHead(0.52 * side, -0.2, HA, HB, HC, -0.01); blush.position.copy(bp);
+  const normal = bp.clone().multiply(new THREE.Vector3(1 / HA ** 2, 1 / HB ** 2, 1 / HC ** 2)).normalize();
+  blush.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), normal); head.add(blush);
+}
+const mouthPos = onHead(0, -0.22, HA, HB, HC, 0.02);
+const smile = new THREE.Mesh(new THREE.TorusGeometry(0.08, 0.013, 8, 24, Math.PI), mouthMat);
+smile.position.copy(mouthPos); smile.rotation.z = Math.PI; head.add(smile);
+const mouthOpen = ellipsoid(0.085, 0.06, 0.03, mouthMat, 24); mouthOpen.position.copy(mouthPos).add(new THREE.Vector3(0, -0.02, 0)); head.add(mouthOpen);
+
+// ---------- motion ----------
+// Everything follows ONE breathing rhythm (period BREATH_S). Head, gills and tail use the same
+// rhythm with a phase lag (follow-through), so the body moves as one piece instead of fighting itself.
+// States only change targets; a critically damped spring blends every value, so changes ease in and out.
+const TARGETS = {
+  ready:     { tilt: 0.04, nod: 0,    lean: 0,    armR: 1.95, armL: 0.35, wave: 0.18, mouth: 0,   smile: 1,   squint: 0,   gazeX: 0,     gazeY: 0,    gill: 0.06, tail: 0.10, hop: 0,    brow: 0 },
+  speaking:  { tilt: 0,    nod: 0.02, lean: 0,    armR: 0.9, armL: 0.35, wave: 0.10, mouth: 1,   smile: 0.6, squint: 0,   gazeX: 0,     gazeY: 0,    gill: 0.08, tail: 0.10, hop: 0,    brow: 0.02 },
+  listening: { tilt: -0.16, nod: 0.07, lean: 0.05, armR: 0.3, armL: 0.35, wave: 0,    mouth: 0,   smile: 0.8, squint: 0,   gazeX: 0.02,  gazeY: 0,    gill: 0.10, tail: 0.06, hop: 0,    brow: 0.03 },
+  thinking:  { tilt: 0.12, nod: -0.04, lean: -0.02, armR: 0.3, armL: -2.0, wave: 0,  mouth: 0,   smile: 0.3, squint: 0,   gazeX: -0.035, gazeY: 0.05, gill: 0.04, tail: 0.05, hop: 0,    brow: 0.05 },
+  encourage: { tilt: 0.06, nod: 0.05, lean: 0.03, armR: 1.2, armL: 0.35, wave: 0.06, mouth: 0.25, smile: 1, squint: 0.45, gazeX: 0,   gazeY: 0,    gill: 0.07, tail: 0.10, hop: 0,    brow: 0.02 },
+  success:   { tilt: 0,    nod: 0,    lean: 0,    armR: 2.6, armL: 2.6, wave: 0.12, mouth: 0.6, smile: 1,   squint: 0.7, gazeX: 0,     gazeY: 0,    gill: 0.14, tail: 0.16, hop: 1,    brow: 0 },
+};
+const BREATH_S = 3.6;
+const SPRING = { default: 6, mouth: 22, hop: 5 };                 // natural frequency per parameter
+const cur = { ...TARGETS.ready }, vel = Object.fromEntries(Object.keys(cur).map((k) => [k, 0]));
+let state = 'ready', mouthLevel = null, t = 0, last = performance.now();
+let talk = 0, talkVel = 0, blinkT = -1, nextBlink = 2.8;
+const ease = (x) => x * x * (3 - 2 * x);
+
+function springTo(k, target, dt) {                                  // critically damped, frame-rate independent
+  const w = SPRING[k] ?? SPRING.default;
+  const a = w * w * (target - cur[k]) - 2 * w * vel[k];
+  vel[k] += a * dt; cur[k] += vel[k] * dt;
+}
+
+// Calm syllable envelope (~4 syllables/s) used until real TTS loudness drives setMouthLevel().
+function syllables(time) {
+  const s = Math.max(0, Math.sin(time * Math.PI * 4));
+  const phrase = 0.65 + 0.35 * Math.sin(time * 0.9);                // gentle phrase-level variation
+  return s * s * phrase;
+}
+
+function blinkAmount(dt) {
+  if (reduceMotion || cur.squint > 0.25) { blinkT = -1; return 0; }
+  nextBlink -= dt;
+  if (blinkT < 0 && nextBlink <= 0) { blinkT = 0; nextBlink = 3.4 + 1.4 * (0.5 + 0.5 * Math.sin(t * 1.3)); }
+  if (blinkT < 0) return 0;
+  blinkT += dt;
+  const CLOSE = 0.07, OPEN = 0.12;                                  // close fast, open a little slower
+  if (blinkT < CLOSE) return ease(blinkT / CLOSE);
+  if (blinkT < CLOSE + OPEN) return 1 - ease((blinkT - CLOSE) / OPEN);
+  blinkT = -1; return 0;
+}
+
+function frame(now) {
+  requestAnimationFrame(frame);
+  // rAF timestamps can be earlier than the last performance.now(); a negative dt would make springs diverge
+  const dt = THREE.MathUtils.clamp((now - last) / 1000, 0, 0.05); last = now;
+  if (!reduceMotion) t += dt;
+  const target = TARGETS[state], amp = reduceMotion ? 0 : 1;
+  for (const k in cur) springTo(k, target[k], dt);
+
+  const phase = (t / BREATH_S) * Math.PI * 2;
+  const breath = Math.sin(phase) * amp;                              // -1..1, the master rhythm
+  const lag = (d) => Math.sin(phase - d) * amp;                      // same rhythm, delayed
+
+  // speaking: smoothed syllable envelope, shared by mouth and a tiny head nod
+  const talkTarget = state === 'speaking' ? (mouthLevel ?? (reduceMotion ? 0.4 : syllables(t))) : 0;
+  const tw = 18, ta = tw * tw * (talkTarget - talk) - 2 * tw * talkVel;
+  talkVel += ta * dt; talk = THREE.MathUtils.clamp(talk + talkVel * dt, 0, 1);
+
+  // success hop: smooth (1 - cos) bounce with a little squash on landing
+  const hopWave = (1 - Math.cos(phase * 2)) / 2;                     // two hops per breath, no hard cusp
+  const hop = cur.hop * hopWave * 0.1 * amp;
+  const squash = cur.hop * (1 - hopWave) * 0.035 * amp;
+
+  bodyRoot.position.y = hop;
+  bodyRoot.scale.set(1 + breath * 0.006 + squash, 1 + breath * 0.012 - squash, 1 + breath * 0.006 + squash);
+  bodyRoot.rotation.x = cur.lean;
+  bodyRoot.rotation.z = lag(0.3) * 0.012;
+
+  head.rotation.z = cur.tilt + lag(0.6) * 0.018;
+  head.rotation.x = cur.nod + lag(0.6) * 0.01 + talk * 0.03
+                  + (state === 'encourage' ? (1 - Math.cos(phase * 2)) * 0.02 * amp : 0);
+  head.rotation.y = -0.18 + lag(0.9) * 0.02;
+
+  // arm wave runs at twice the breath rate so it lands on the same beat
+  const wave = Math.sin(phase * 2) * cur.wave * amp;
+  armR.rotation.z = cur.armR + wave;
+  armL.rotation.z = -cur.armL - (state === 'success' ? wave : lag(0.4) * 0.02);
+  armL.rotation.x = cur.armL < 0 ? cur.armL * 0.3 : 0;              // reach forward when the hand goes to the chin
+
+  tailSegs.forEach((sg, i) => { sg.rotation.y = lag(1.0 + i * 0.5) * cur.tail; sg.rotation.z = 0.25 + i * 0.12; });
+  gills.forEach((g) => { g.rotation.z = g.userData.base + g.userData.side * lag(0.8 + g.userData.i * 0.35) * cur.gill; });
+
+  const blink = blinkAmount(dt);
+  const open = THREE.MathUtils.clamp(1 - Math.max(blink, cur.squint), 0.08, 1);
+  eyes.forEach((e) => {
+    e.scale.set(1, open, 1);
+    e.position.set(e.userData.base.x + cur.gazeX, e.userData.base.y + cur.gazeY * 0.5, e.userData.base.z);
+    e.userData.brow.position.y = e.userData.browY + cur.brow;
+  });
+
+  // mouth: closed smile blends into an open mouth
+  const openAmt = Math.max(0, cur.mouth) * (state === 'speaking' ? talk : 1);
+  mouthOpen.scale.set(0.085 * (0.8 + openAmt * 0.3), 0.012 + openAmt * 0.065, 0.03);
+  mouthOpen.visible = openAmt > 0.03;
+  smile.scale.setScalar(THREE.MathUtils.clamp(1 - openAmt * 1.6, 0, 1) * (0.6 + 0.4 * cur.smile));
+  smile.visible = smile.scale.x > 0.02;
+
+  shadow.scale.setScalar(1 - hop * 1.5);
+  renderer.render(scene, camera);
+}
+requestAnimationFrame(frame);
+
+// ---------- prototype controls + integration hook ----------
+const CAPTIONS = { speaking: "Let's talk about your hometown. What do you like most about living there?" };
+const captionEl = document.getElementById('caption');
+function setState(s) {
+  state = s;
+  document.querySelectorAll('[data-state]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.state === s)));
+  captionEl.innerHTML = CAPTIONS[s] ? `<p lang="en">${CAPTIONS[s]}</p>` : '';
+}
+document.querySelectorAll('[data-state]').forEach((b) => b.addEventListener('click', () => setState(b.dataset.state)));
+setState(new URLSearchParams(location.search).get('state') || 'ready');
+// The app will call these: state from the session flow, mouth level from the TTS audio analyser (0..1, or null).
+window.mimo3d = { setState, setMouthLevel: (v) => { mouthLevel = v; } };
+</script>
+</body>
+</html>

@@ -13,5 +13,12 @@ output/**/video-review-tools/
 data/private/
 *.tar
 *.tar.gz
+*.zip
 .DS_Store
 Thumbs.db
+.superpowers/
+backend/media/
+backend/db.sqlite3
+frontend/node_modules/
+frontend/dist/
+.venv-ml/

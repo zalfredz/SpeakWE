@@ -1,0 +1,5 @@
+# ML / dataset tools (separate venv: .venv-ml). Install torch first from the CUDA index:
+#   .venv-ml\Scripts\python.exe -m pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+#   .venv-ml\Scripts\python.exe -m pip install -r requirements-ml.txt
+pyannote.audio==3.3.2
+scikit-learn>=1.5

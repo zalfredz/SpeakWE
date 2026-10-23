@@ -10,27 +10,41 @@
     success: ['Berhasil', 'Yeay! Satu langkah lagi makin percaya diri.']
   };
   const clamp = (x,a=0,b=1) => Math.max(a,Math.min(b,x));
+  const smoothstep = x => { x=clamp(x); return x*x*(3-2*x); };
+  // ONE rhythm drives everything: a 3.6 s breath. Gestures run at 2× (1.8 s) so they land on the same beat;
+  // head, gills and tail use the same rhythm with a small delay (follow-through) instead of their own speeds.
+  const BREATH_S = 3.6;
+  const beat = (t,mult=1,delay=0) => Math.sin(t/BREATH_S*Math.PI*2*mult-delay);
+  // calm syllable envelope (~3.6 syllables/s), shaped by a slow phrase swell
+  const syllable = t => (.5-.5*Math.cos(t*Math.PI*2*3.6))*(.7+.3*beat(t,.5));
   function pose(state,t) {
-    const p = { lift:Math.sin(t*1.7)*1.5, lean:Math.sin(t*.85)*.012, head:Math.sin(t*1.1)*.014, breath:Math.sin(t*1.7)*.012,
-      right:-.28+Math.sin(t*1.3)*.035, left:-.27+Math.sin(t*1.3+.7)*.03, tail:Math.sin(t*1.45)*.065,
-      mouth:.08, smile:1, round:0, joy:0, wink:0, gazeX:0, gazeY:0, brows:0, gills:.035,
+    const p = { lift:beat(t)*1.5, lean:beat(t,1,.4)*.01, head:beat(t,1,.7)*.014, breath:beat(t)*.012,
+      right:-.28+beat(t,1,.5)*.05, left:-.27+beat(t,1,.6)*.05, tail:beat(t,1,1.1)*.06,
+      mouth:.08, smile:1, round:0, joy:0, gazeX:0, gazeY:0, brows:0, gills:.035,
       listen:0, speak:0, think:0, celebrate:0 };
-    if(state==='ready'){p.right=-2.34+Math.sin(t*3.4)*.19;p.head=Math.sin(t*1.2)*.022;p.mouth=.18;}
-    if(state==='listening'){p.head=-.105+Math.sin(t*1.8)*.022;p.lean=-.015;p.gazeX=-2;p.brows=.18;p.listen=1;p.gills=.055;p.right=-.43;}
+    if(state==='ready'){p.right=-1.9+beat(t,2)*.28+beat(t,4,.4)*.05;p.head=beat(t,1,.7)*.02;p.mouth=.18;}
+    if(state==='listening'){p.head=-.105+beat(t,1,.7)*.015;p.lean=-.015;p.gazeX=-2;p.brows=.18;p.listen=1;p.gills=.05;p.right=-.43+beat(t,1,.5)*.05;p.left=-.3+beat(t,1,.6)*.05;}
     if(state==='speaking'){
-      const syllable=(Math.sin(t*12)+.43*Math.sin(t*19+.8)+.22*Math.sin(t*7+1.3))/1.65;
-      p.mouth=.22+.65*(syllable*.5+.5);p.round=.45+.32*Math.sin(t*6.5);p.speak=1;
-      p.right=-1.03+Math.sin(t*2.2)*.22;p.left=-.48+Math.sin(t*1.8+.4)*.10;p.head=Math.sin(t*2)*.025;p.gills=.06;
+      p.mouth=.22+.6*syllable(t);p.round=.45+.18*beat(t,2);p.speak=1;
+      p.right=-1.05+beat(t,2)*.32;p.left=-.55+beat(t,2,Math.PI)*.16;p.head=beat(t,2,.6)*.02;p.gills=.055;
     }
-    if(state==='thinking'){p.head=.07;p.right=-2.78+Math.sin(t*1.1)*.025;p.left=-.32;p.gazeX=4;p.gazeY=-5;p.brows=.65;p.think=1;p.tail=Math.sin(t*.9)*.035;}
-    if(state==='encourage'){p.head=-.035+Math.sin(t*2)*.028;p.right=-1.45+Math.sin(t*2.1)*.12;p.left=-.8;p.wink=.85*Math.exp(-Math.pow((t%5-1.6)/.22,2));p.mouth=.15;}
-    if(state==='success'){const b=.5-.5*Math.cos(t*3.7);p.lift=-b*12;p.breath=.018*Math.sin(t*3.7);p.right=-2.45+Math.sin(t*3.7)*.12;p.left=-2.40+Math.sin(t*3.7+.3)*.12;p.joy=1;p.mouth=.72;p.celebrate=1;p.gills=.08;p.tail=Math.sin(t*2.2)*.10;}
+    if(state==='thinking'){p.head=.07;p.right=-2.78+beat(t,2)*.05;p.left=-.32;p.gazeX=4;p.gazeY=-5;p.brows=.65;p.think=1;p.tail=beat(t,1,1.1)*.035;}
+    // eyes stay fully open (no wink, no squint); lifted brows + smile carry the encouragement
+    if(state==='encourage'){p.head=-.035+beat(t,2,.6)*.025;p.right=-1.45+beat(t,2)*.24;p.left=-.8+beat(t,2,.5)*.08;p.brows=.1;p.mouth=.15;}
+    if(state==='success'){const b=.5-.5*Math.cos(t/BREATH_S*Math.PI*4);p.lift=-b*11;p.breath=.015*beat(t,2);p.right=-2.15+beat(t,2)*.18;p.left=-2.15+beat(t,2,Math.PI)*.18;p.joy=1;p.mouth=.72;p.celebrate=1;p.gills=.07;p.tail=beat(t,2,1)*.08;}
     return p;
+  }
+  // Blink: both eyes, regular rhythm, closes fast and opens a little slower.
+  function blinkAt(t) {
+    const period=4.6,close=.08,open=.14,x=(t+1.2)%period;
+    if(x<close)return smoothstep(x/close);
+    if(x<close+open)return 1-smoothstep((x-close)/open);
+    return 0;
   }
   function create(canvas, options={}) {
     const c=canvas.getContext('2d');
     if(!c)throw new Error('Canvas 2D is unavailable');
-    let current=null;
+    let current=null,velocity=null;
     function oval(x,y,rx,ry,fill) { c.fillStyle=fill;c.beginPath();c.ellipse(x,y,rx,ry,0,0,Math.PI*2);c.fill(); }
     function path(fill,draw) { c.beginPath();draw();c.fillStyle=fill;c.fill(); }
     function line(color,width,draw) { c.beginPath();draw();c.strokeStyle=color;c.lineWidth=width;c.lineCap='round';c.lineJoin='round';c.stroke(); }
@@ -68,23 +82,23 @@
     }
     function gill(side,i,t,p) {
       const y=[-35,3,40][i],angle=[-.70,-.02,.52][i],length=[55,69,54][i];
-      c.save();c.translate(side*95,y);c.scale(side,1);c.rotate(angle+Math.sin(t*2.25-i*.65+side*.22)*p.gills);
+      c.save();c.translate(side*95,y);c.scale(side,1);c.rotate(angle+beat(t,2,.8+i*.4)*p.gills);
       path(linear(3,17,length,-15,[[0,'#DD807C'],[.32,P.peach],[1,P.peachLight]]),()=>{c.moveTo(-10,-12);c.bezierCurveTo(13,-13,length-19,-30,length-3,-17);c.bezierCurveTo(length+15,-3,length+6,18,length-12,19);c.bezierCurveTo(25,21,13,8,-10,13);c.closePath();});
       glowOval(length-12,-7,19,11,'rgba(255,236,213,.34)');c.restore();
     }
     function eye(x,y,side,p,blink) {
-      const joy=clamp(p.joy),closed=clamp(Math.max(blink,side===1?p.wink:0,joy));
+      const joy=clamp(p.joy),closed=clamp(Math.max(blink,joy));
       const openness=1-closed;
       c.save();c.translate(x,y);c.scale(1,Math.max(.035,openness));
       c.globalAlpha=clamp(openness*6);
       oval(0,0,20,25,'#FFF8F5');
       c.save();c.beginPath();c.ellipse(0,0,20,25,0,0,Math.PI*2);c.clip();
-      const eyeX=p.gazeX+side*1.5,eyeY=p.gazeY+2;
+      // cornea centred (the old side offset pushed it toward one edge of the white)
+      const eyeX=p.gazeX,eyeY=p.gazeY+2;
       oval(eyeX,eyeY,15.7,22,linear(-3,-18,13,23,[[0,'#24152F'],[.5,'#41234B'],[1,'#75446E']]));
       oval(eyeX+1,eyeY-1,10,17,P.iris);
       oval(eyeX-5,eyeY-9,5.8,7,'rgba(255,255,255,.95)');
       oval(eyeX+7,eyeY+8,2.5,3,'rgba(255,236,245,.65)');c.restore();
-      c.globalAlpha=openness*.35;line('#775293',1.5,()=>{c.moveTo(-17,-12);c.quadraticCurveTo(-1,-29,16,-13);});
       c.restore();
       c.save();c.globalAlpha=clamp((closed-.45)/.5);line(P.plum,4.8,()=>{c.moveTo(x-13,y+2);c.quadraticCurveTo(x,y-(joy*8+2),x+13,y+2);});c.restore();
     }
@@ -99,14 +113,15 @@
       line(P.plum,3.8,()=>{c.moveTo(-13,1);c.quadraticCurveTo(0,14,13,1);});c.restore();
     }
     function head(p,t) {
-      c.save();c.translate(-2,-144);c.rotate(p.head);c.scale(1.08,.88);
+      const [hx,hy]=options.headScale||[1.0,.93];
+      c.save();c.translate(-2,-144);c.rotate(p.head);c.scale(hx,hy);
       for(const side of [-1,1])for(let i=0;i<3;i++)gill(side,i,t,p);
       path(linear(-65,-86,80,91,[[0,'#E1CEF4'],[.32,'#CDB2EB'],[.75,'#B798DE'],[1,'#A886D1']]),()=>{c.moveTo(-2,-101);c.bezierCurveTo(71,-104,109,-59,114,9);c.bezierCurveTo(126,61,113,83,76,89);c.bezierCurveTo(29,99,-34,97,-79,86);c.bezierCurveTo(-118,77,-123,58,-113,9);c.bezierCurveTo(-108,-56,-73,-99,-2,-101);});
       glowOval(-34,-62,69,42,'rgba(255,255,255,.20)');
       glowOval(0,67,108,48,'rgba(255,234,219,.54)');
       glowOval(-73,45,27,20,'rgba(242,152,145,.46)');
       glowOval(73,45,27,20,'rgba(242,152,145,.46)');
-      const phase=t%5.25,blink=Math.exp(-Math.pow((phase-4.0)/.073,2));
+      const blink=p.joy>.3?0:blinkAt(t);
       eye(-45,13,-1,p,blink);eye(45,13,1,p,blink);
       line('#8C669F',3.8,()=>{c.moveTo(-57,-26-p.brows*8);c.quadraticCurveTo(-47,-34-p.brows*7,-37,-28-p.brows*2);});
       line('#8C669F',3.8,()=>{c.moveTo(35,-28+p.brows*3);c.quadraticCurveTo(46,-34+p.brows*3,56,-26);});
@@ -115,17 +130,20 @@
     function star(x,y,r,a,rot=0) {c.save();c.translate(x,y);c.rotate(rot);c.globalAlpha=clamp(a);path(P.peach,()=>{c.moveTo(0,-r);c.quadraticCurveTo(r*.2,-r*.2,r,0);c.quadraticCurveTo(r*.2,r*.2,0,r);c.quadraticCurveTo(-r*.2,r*.2,-r,0);c.quadraticCurveTo(-r*.2,-r*.2,0,-r);});c.restore();}
     function render(t,state='ready',dt=1/60,immediate=false) {
       if(!STATES[state])state='ready';
-      const target=pose(state,t),alpha=1-Math.exp(-Math.max(0,dt)/.16);
-      if(!current||immediate)current={...target};else for(const k of Object.keys(target))current[k]+=(target[k]-current[k])*alpha;
+      const target=pose(state,t),step=clamp(dt,0,.05),w=9;
+      if(!current||immediate){current={...target};velocity=Object.fromEntries(Object.keys(target).map(k=>[k,0]));}
+      else for(const k of Object.keys(target)){velocity[k]+=(w*w*(target[k]-current[k])-2*w*velocity[k])*step;current[k]+=velocity[k]*step;}
       const p=current;
       const sx=canvas.width/600,sy=canvas.height/500;c.setTransform(sx,0,0,sy,0,0);c.clearRect(0,0,600,500);
       if(options.background){c.fillStyle=options.background;c.fillRect(0,0,600,500);}
       c.save();c.translate(300,449);c.scale(1+p.lift*.005,.16);oval(0,0,106,106,radial(0,0,106,[[0,'rgba(67,36,87,.16)'],[.6,'rgba(67,36,87,.06)'],[1,'rgba(67,36,87,0)']]));c.restore();
       c.save();c.translate(300,340+p.lift);c.rotate(p.lean);
-      tail(t,p);foot(-1,p);foot(1,p);body(p,t);arm(-1,p.left);arm(1,p.right);head(p,t);c.restore();
-      if(p.listen>.005){c.save();c.globalAlpha=p.listen*(.45+.18*Math.sin(t*2));line(P.peach,3.5,()=>{c.moveTo(112,173);c.quadraticCurveTo(100,186,112,199);});line(P.peach,3.5,()=>{c.moveTo(99,165);c.quadraticCurveTo(79,186,99,207);});c.restore();}
-      if(p.speak>.005){c.save();c.globalAlpha=p.speak;for(let i=0;i<4;i++){const h=8+(Math.sin(t*9-i*.8)*.5+.5)*21;line(P.peach,4,()=>{c.moveTo(483+i*10,211-h/2);c.lineTo(483+i*10,211+h/2);});}c.restore();}
-      if(p.think>.005){c.save();for(let i=0;i<3;i++){c.globalAlpha=p.think*(.25+.55*(Math.sin(t*2.7-i*.75)*.5+.5));oval(414+i*16,99,3.5,3.5,P.lilac);}c.restore();}
+      tail(t,p);foot(-1,p);foot(1,p);body(p,t);arm(-1,p.left);
+      // a hand at the chin must sit in front of the face, otherwise the head hides it
+      if(p.think>.5){head(p,t);arm(1,p.right);}else{arm(1,p.right);head(p,t);}c.restore();
+      if(p.listen>.005){c.save();c.globalAlpha=p.listen*(.45+.18*beat(t,2));line(P.peach,3.5,()=>{c.moveTo(112,173);c.quadraticCurveTo(100,186,112,199);});line(P.peach,3.5,()=>{c.moveTo(99,165);c.quadraticCurveTo(79,186,99,207);});c.restore();}
+      if(p.speak>.005){c.save();c.globalAlpha=p.speak;for(let i=0;i<4;i++){const h=8+syllable(t-i*.07)*21;line(P.peach,4,()=>{c.moveTo(491+i*10,211-h/2);c.lineTo(491+i*10,211+h/2);});}c.restore();}
+      if(p.think>.005){c.save();for(let i=0;i<3;i++){c.globalAlpha=p.think*(.25+.55*(beat(t,2,i*.75)*.5+.5));oval(414+i*16,99,3.5,3.5,P.lilac);}c.restore();}
       if(p.celebrate>.005){star(121,110,9+Math.sin(t*2)*2,p.celebrate*.8,t*.14);star(469,86,12+Math.sin(t*2+.7)*2,p.celebrate*.9,-t*.2);star(451,343,8+Math.sin(t*2+1.4)*2,p.celebrate*.7,t*.1);}
       return {...p};
     }

@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');
 const {createCanvas}=require('./render-tools/node_modules/@napi-rs/canvas');
-const Mimo=require('./mimo-fullbody-engine.js');
+require('../../frontend/src/mimo/mimo-fullbody-engine.js');const Mimo=globalThis.MimoFullBody; // engine installs a global (frontend/ is ESM)
 const base=__dirname,states=Object.keys(Mimo.states);
 const sheet=createCanvas(1200,760),s=sheet.getContext('2d');s.fillStyle='#FAF7F1';s.fillRect(0,0,1200,760);
 const samples={ready:1,listening:1.2,speaking:.7,thinking:1,encourage:1.6,success:1.2};
