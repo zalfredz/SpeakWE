@@ -1,9 +1,13 @@
+import json
 import shutil
 import tempfile
+from pathlib import Path
+from unittest import mock
 
 from django.core.files.base import ContentFile
 from django.test import TestCase, override_settings
 
+from ielts.assessment import calibration
 from ielts.assessment.errors import GeminiError, GeminiOutputError
 from ielts.assessment.pipeline import assess
 from ielts.models import Assessment, AssessmentJob, PracticeSession, Turn
@@ -92,11 +96,31 @@ class PipelineTests(TestCase):
         job = self.run_job(job, client)
         self.assertEqual(job.status, "ready")
         a = Assessment.objects.get(job=job)
-        self.assertEqual(float(a.overall), 6.5)
+        self.assertEqual(a.features["ml"]["gemini_overall"], 6.5)   # the shown overall depends on calibration.json
+        self.assertEqual(float(a.overall), a.features["ml"].get("a", 6.5))
         self.assertEqual(a.provenance["prompt_version"], "ielts-eval-v2")
         self.assertEqual(a.provenance["model"], "fake-model")
         self.assertIn("pause_ratio", a.features["session"])
         self.assertIsNotNone(Turn.objects.get(session=job.session, index=0).transcript)
+
+    def test_full_test_overall_comes_from_calibration_model_a(self):
+        # a fake model whose only input is Gemini's gra band: overall = 2 * gra - 4.75 -> 7.25, shown as 7.5
+        fake = {"a": {"features": ["gra"], "mean": [0], "scale": [1], "coef": [2], "intercept": -4.75, "trained": "t"},
+                "b": {"features": ["speech_rate_wpm"], "mean": [0], "scale": [1], "coef": [0], "intercept": 5.0, "trained": "t"}}
+        path = Path(self.media) / "calibration.json"
+        path.write_text(json.dumps(fake))
+        with mock.patch.object(calibration, "MODELS_PATH", path):
+            job = self.run_job(self.make_session("full", self.FULL), FakeClient(lambda body: valid_output("full_test", ["t0-1", "t4-1"])))
+        a = Assessment.objects.get(job=job)
+        self.assertEqual(float(a.overall), 7.5)
+        self.assertEqual(a.features["ml"], {"a": 7.5, "b": 5.0, "gemini_overall": 6.5})
+        self.assertEqual(a.provenance["calibration"], "ridge-a-t")
+
+    def test_without_calibration_models_the_gemini_overall_is_shown(self):
+        with mock.patch.object(calibration, "MODELS_PATH", Path(self.media) / "missing.json"):
+            job = self.run_job(self.make_session("full", self.FULL), FakeClient(lambda body: valid_output("full_test", ["t0-1", "t4-1"])))
+        a = Assessment.objects.get(job=job)
+        self.assertEqual((float(a.overall), a.provenance["calibration"]), (6.5, "none"))
 
     def test_part_only_has_no_overall(self):
         job = self.make_session("part1", [(1, "question", 25000)] * 3)

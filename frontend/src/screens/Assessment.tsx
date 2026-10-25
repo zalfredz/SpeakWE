@@ -56,6 +56,7 @@ function ReportView({ sessionId, plan, scope, overall, report, provenance }: { s
           ))}
         </dl>
         {overall === null && <p className="muted" style={{ margin: 0, fontSize: 13 }}>Overall hanya dihitung untuk full test dengan keempat kriteria terisi.</p>}
+        {overall !== null && provenance.calibration !== 'none' && <p className="muted" style={{ margin: 0, fontSize: 13 }}>Overall sudah dikalibrasi dengan nilai examiner asli. Nilai per kriteria masih penilaian AI dan cenderung lebih rendah untuk band tinggi.</p>}
       </section>
 
       {fb?.summary_id && (

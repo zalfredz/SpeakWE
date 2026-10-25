@@ -1,7 +1,7 @@
 """Calibrate the app's Gemini evaluator on the rated YouTube mock tests (roadmap A4).
 
 Uses the backend's own request builder, validator and overall rule, so the numbers describe the app.
-Each video: candidate speech (from diarize.py) is split into answers at the examiner's turns; every answer
+Each video: candidate speech (diarize.py, then clean_diarization.py) is split into answers at the examiner's turns; every answer
 becomes one turn (audio clip + transcript segments), exactly like an app session.
 
 Run from the repo root: .venv/Scripts/python.exe scripts/band-dataset/calibrate.py [--limit N] [--sleep S]
@@ -99,21 +99,56 @@ def build_session(vid: str, dia: dict, words_all: list[dict]):
     return turns
 
 
+def label_band(text):
+    """'7', '7.5' or a range like '7-7.5' (midpoint) -> float; '' -> None."""
+    parts = [float(p) for p in (text or "").split("-") if p]
+    return sum(parts) / len(parts) if parts else None
+
+
+def summarize():
+    rows = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(OUT.glob("*.json")) if p.name != "summary.json"]
+    pairs = [(r["label_group"], label_band(r["label_exact"]), r["gemini_overall"]) for r in rows
+             if r["valid"] and label_band(r["label_exact"]) is not None]
+
+    def stats(ps):
+        errs = [g - lab for _, lab, g in ps]
+        return {"n": len(ps), "mae": round(sum(map(abs, errs)) / len(errs), 2), "bias": round(sum(errs) / len(errs), 2),
+                "within_0_5": round(sum(abs(e) <= 0.5 for e in errs) / len(errs), 2)}
+
+    summary = {"videos": len(rows), "invalid": sum(not r["valid"] for r in rows), "all": stats(pairs),
+               "by_group": {g: stats([p for p in pairs if p[0] == g]) for g in sorted({p[0] for p in pairs})}}
+    (OUT / "summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
+    lines = ["# Gemini calibration", "", f"{summary['videos']} videos, {summary['invalid']} invalid. "
+             "Error = Gemini overall - examiner label (range labels use the midpoint).", "",
+             "| Band | n | MAE | bias | within 0.5 |", "| --- | --- | --- | --- | --- |"]
+    for g, s in [*summary["by_group"].items(), ("all", summary["all"])]:
+        lines.append(f"| {g} | {s['n']} | {s['mae']} | {s['bias']:+} | {s['within_0_5']:.0%} |")
+    (ROOT / "calibration_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("\n".join(lines))
+
+
 def main():
+    assert label_band("7-7.5") == 7.25 and label_band("5.5") == 5.5 and label_band("") is None
     ap = argparse.ArgumentParser()
+    ap.add_argument("--summary", action="store_true", help="only write calibration/summary.json + calibration_report.md")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--sleep", type=float, default=4.0, help="pause between Gemini calls (free-tier rate limits)")
+    ap.add_argument("--include-merged", action="store_true", help="also rate videos whose speakers pyannote merged")
     args = ap.parse_args()
+    if args.summary:
+        return summarize()
     client = GeminiClient(settings.GEMINI_API_KEY, settings.GEMINI_MODEL)
     labels = {r["id"]: r for r in csv.DictReader((ROOT / "labels.csv").open(encoding="utf-8"))}
     OUT.mkdir(exist_ok=True)
     done = 0
-    for dpath in sorted((ROOT / "diarization").glob("*.json")):
+    for dpath in sorted((ROOT / "diarization_clean").glob("*.json")):
         vid = dpath.stem
         out = OUT / f"{vid}.json"
         if out.exists() or (args.limit and done >= args.limit):
             continue
         dia = json.loads(dpath.read_text(encoding="utf-8"))
+        if dia["quality"] != "ok" and not args.include_merged:
+            continue   # examiner speech mixed into the candidate's would inflate low bands
         tr = json.loads((ROOT / "transcripts" / f"{vid}.json").read_text(encoding="utf-8"))
         cand = {(w["s"], w["e"]) for w in dia["candidate_words"]}
         words_all = [{**w, "speaker": dia["candidate"] if (w["s"], w["e"]) in cand else "other"}

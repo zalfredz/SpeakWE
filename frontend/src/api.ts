@@ -30,6 +30,7 @@ export interface Session {
   created_at: string
   started_at: string | null
   completed_at: string | null
+  part_limits: Record<string, { limit_s: number; min_questions: number }>   // time-boxed parts (1 and 3), keyed by part
 }
 
 export interface CompleteResult {
@@ -60,7 +61,8 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
 const postJson = <T>(url: string, body: unknown = {}) =>
   request<T>(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
 
-export const createSession = (mode: Mode) => postJson<Session>('/api/sessions', { mode })
+export const createSession = (mode: Mode, trainingConsent = false) =>
+  postJson<Session>('/api/sessions', { mode, training_consent: trainingConsent })
 export const getSession = (id: string) => request<Session>(`/api/sessions/${id}`)
 export const setState = (id: string, to: string) => postJson<Session>(`/api/sessions/${id}/state`, { to })
 export const beginTurn = (id: string, index: number) => postJson<{ index: number; begun_at: string }>(`/api/sessions/${id}/turns/${index}/begin`)

@@ -23,6 +23,7 @@ export default function MicCheck() {
   const [recording, setRecording] = useState(false)
   const [starting, setStarting] = useState(false)
   const [calibrating, setCalibrating] = useState(false)
+  const [consent, setConsent] = useState(false)
   const [browser, setBrowser] = useState<'chrome' | 'safari'>(/^((?!chrome|android).)*safari/i.test(navigator.userAgent) ? 'safari' : 'chrome')
   const noise = useRef<number[]>([])
   const handedOver = useRef(false)
@@ -78,7 +79,7 @@ export default function MicCheck() {
       // 20th percentile: robust even if the learner spoke during part of the calibration second
       const sorted = [...noise.current].sort((a, b) => a - b)
       micSession.threshold = thresholdFromNoise(sorted[Math.floor(sorted.length * 0.2)] ?? 0.005)
-      const s = await createSession(mode)
+      const s = await createSession(mode, consent)
       await setState(s.id, 'mic_check')
       await setState(s.id, 'active')
       handedOver.current = true
@@ -163,7 +164,12 @@ export default function MicCheck() {
           </span>
         </section>
 
-        <button type="button" className="btn" style={{ marginTop: 'auto' }} disabled={!mic || starting || calibrating} onClick={start}>
+        <label style={{ display: 'flex', alignItems: 'flex-start', gap: 10, fontSize: 14, lineHeight: 1.45, marginTop: 'auto', cursor: 'pointer' }}>
+          <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} style={{ width: 20, height: 20, marginTop: 1, accentColor: 'var(--lilac)', flexShrink: 0 }} />
+          <span>Boleh pakai rekaman dan hasil sesi ini untuk melatih penilai SpeakWE. <span className="muted">Opsional, tidak memengaruhi nilaimu.</span></span>
+        </label>
+
+        <button type="button" className="btn" disabled={!mic || starting || calibrating} onClick={start}>
           {starting ? 'Menyiapkan sesi…' : 'Mikrofon oke, mulai tes'}
         </button>
       </main>

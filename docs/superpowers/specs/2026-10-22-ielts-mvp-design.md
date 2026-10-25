@@ -56,7 +56,7 @@ Ukuran keberhasilan tahap ini:
 
 - **Isi:**
   - Part 1: topik, masing-masing berisi 3–5 pertanyaan.
-  - Part 2: cue card (judul, 3–4 poin "You should say", dan satu kalimat penutup "and explain…"), ditambah 1–2 pertanyaan penutup singkat.
+  - Part 2: cue card (judul, 3–4 poin "You should say", dan satu kalimat penutup "and explain…"). Pertanyaan penutup (rounding-off) boleh ada di bank, tetapi tidak ditanyakan (`ROUNDING_OFF_MAX` 0).
   - Part 3: 4–6 pertanyaan diskusi yang terikat ke tema satu cue card.
 - **Status per item:** `draft` → `approved`. **Hanya item `approved` yang boleh dipakai sesi.** Review dan approve dilakukan pengguna di Django admin.
 - **Provenance per item:** `original`, atau `inspired_by` dengan ID video sumber.
@@ -77,20 +77,20 @@ Status sesi: `created → mic_check → active → finalizing → completed`. Da
 
 | Mode | Isi |
 | --- | --- |
-| Part 1 | 2–3 topik, 3–5 pertanyaan per topik |
-| Part 2 | Cue card tampil sebagai kartu tugas → 1 menit persiapan (boleh lebih cepat) → bicara maksimal 2 menit → Mimo menghentikan di menit ke-2 → 1–2 pertanyaan penutup |
-| Part 3 | Pertanyaan diskusi dari tema cue card |
+| Part 1 | 3 topik berbeda dengan 3 + 3 + 4 pertanyaan (maks. 10), minimal 8, total ±4–5 menit (`PART_LIMIT_S[1]` 300). Pertanyaan berikutnya tidak diajukan kalau jawabannya bisa melewati 5 menit. 30 detik sebelum batas, Mimo tampak mengantuk sebagai tanda waktu hampir habis |
+| Part 2 | Cue card tampil sebagai kartu tugas → 1 menit persiapan (boleh lebih cepat) → bicara maksimal 2 menit. Kalau pengguna berhenti sebelum 1 menit, Mimo sekali bertanya "Can you tell me a little more?" (rekaman dijeda selama Mimo bicara). 15 detik sebelum batas, Mimo memberi gestur "sebentar lagi". Di menit ke-2 rekaman berhenti dan Mimo berkata "Thank you." Catatan persiapan tetap tampil di bawah cue card selama bicara, tidak direkam dan tidak dikirim ke server |
+| Part 3 | Pertanyaan diskusi dari tema cue card, minimal 4, total ±5 menit (`PART_LIMIT_S[3]` 300) dengan aturan pemotongan dan Mimo mengantuk yang sama seperti Part 1 |
 | Full test | Part 1 → Part 2 → Part 3 berurutan; Part 3 memakai tema cue card yang sama; tidak boleh melompati bagian |
 
 - **Satu giliran = satu pertanyaan Mimo + satu rekaman jawaban.**
 - **Akhir jawaban dideteksi dari hening** (keputusan pengguna, 22 Okt 2026):
-  - Jawaban selesai setelah **3 detik hening**. Angka ini ada di konfigurasi.
+  - Jawaban selesai setelah **3 detik hening** (Part 3: **4 detik**, karena pertanyaannya abstrak dan butuh waktu berpikir).
   - Hening baru dihitung **setelah pengguna mulai bicara**.
   - Berlaku untuk Part 1, Part 3, dan Daily Conversation.
   - **Part 2 long turn tidak diakhiri oleh hening.** Jawaban berjalan sampai batas 2 menit, atau sampai pengguna mengakhirinya.
   - Risikonya, jeda mencari kata yang lebih dari 3 detik akan memotong jawaban. Angkanya dievaluasi saat uji coba.
   - Deteksi dilakukan di browser dari level suara mikrofon (Web Audio), di Chrome dan Safari.
-- Ada batas aman durasi per jawaban Part 1/3 supaya rekaman tidak jalan terus kalau tombol terlupa. Angkanya diserahkan ke builder dan ditaruh di konfigurasi.
+- Ada batas durasi per jawaban: Part 1 maksimal 25 detik, Part 3 maksimal 45 detik (`MAX_ANSWER_S` di konfigurasi).
 - Timer dijalankan di browser, tapi server mencatat waktu mulai dan selesai setiap giliran, lalu memvalidasinya.
 - Ruang latihan **hanya berisi Mimo**: tanpa teks, timer, atau progres. Pengecualiannya:
   - **subtitle** ucapan Mimo, yang muncul hanya saat Mimo bicara dan hilang setelahnya;

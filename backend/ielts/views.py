@@ -14,7 +14,7 @@ from django.views.decorators.http import require_GET, require_POST
 from .assessment.audio import to_mp3
 from .bank import load_bank
 from .checkins import current_streak, local_date
-from .flow import MODES, BankTooSmall, build_plan
+from .flow import MODES, BankTooSmall, build_plan, time_skipped
 from .models import Assessment, AssessmentJob, CheckIn, PracticeSession, Turn
 from .states import InvalidTransition
 
@@ -37,9 +37,19 @@ def turn_json(turn):
 
 
 def session_json(s):
-    return {"id": str(s.id), "mode": s.mode, "status": s.status, "plan": s.plan,
+    return {"id": str(s.id), "mode": s.mode, "status": s.status, "plan": s.plan, "training_consent": s.training_consent,
             "turns": [turn_json(t) for t in s.turns.order_by("index")],
-            "created_at": iso(s.created_at), "started_at": iso(s.started_at), "completed_at": iso(s.completed_at)}
+            "created_at": iso(s.created_at), "started_at": iso(s.started_at), "completed_at": iso(s.completed_at),
+            "part_limits": {str(p): {"limit_s": limit, "min_questions": settings.SPEAKWE["PART_MIN_QUESTIONS"][p]}
+                            for p, limit in settings.SPEAKWE["PART_LIMIT_S"].items()}}
+
+
+def unanswered(s, upto=None):
+    """Answer steps before `upto` that still need an answer; questions cut by a part's time limit do not count."""
+    turns = {t.index: (t.begun_at, t.answered_at) for t in s.turns.all()}
+    skipped = time_skipped(s.plan, turns, settings.SPEAKWE)
+    return [st["index"] for st in s.plan[:upto] if st["kind"] in ANSWER_KINDS
+            and not turns.get(st["index"], (None, None))[1] and st["index"] not in skipped]
 
 
 def body(request):
@@ -66,7 +76,8 @@ def answer_step(session, index):
 @csrf_exempt
 @require_POST
 def create_session(request):
-    mode = body(request).get("mode")
+    data = body(request)
+    mode = data.get("mode")
     if mode not in MODES:
         return error(400, "bad_mode", f"mode must be one of {', '.join(MODES)}")
     seed = secrets.randbelow(2**31)
@@ -74,7 +85,8 @@ def create_session(request):
         plan = build_plan(mode, load_bank(), seed, settings.SPEAKWE)
     except BankTooSmall as e:
         return error(409, "bank_too_small", str(e))
-    s = PracticeSession.objects.create(mode=mode, seed=seed, plan=plan, practice_tz=settings.SPEAKWE["PRACTICE_TZ"])
+    s = PracticeSession.objects.create(mode=mode, seed=seed, plan=plan, practice_tz=settings.SPEAKWE["PRACTICE_TZ"],
+                                         training_consent=data.get("training_consent") is True)
     return JsonResponse(session_json(s), status=201)
 
 
@@ -111,8 +123,7 @@ def begin_turn(request, session_id, index):
     step, err = answer_step(s, index)
     if err:
         return err
-    answered = set(s.turns.filter(answered_at__isnull=False).values_list("index", flat=True))
-    missing = [st["index"] for st in s.plan[:index] if st["kind"] in ANSWER_KINDS and st["index"] not in answered]
+    missing = unanswered(s, index)
     if missing:
         return error(409, "out_of_order", f"Answer step {missing[0]} first.")
     turn, _ = Turn.objects.get_or_create(session=s, index=index)
@@ -190,8 +201,7 @@ def complete_session(request, session_id):
         if s.status != "completed":
             if s.status != "active":
                 return error(409, "invalid_transition", f"Cannot complete a {s.status} session.")
-            answered = set(s.turns.filter(answered_at__isnull=False).values_list("index", flat=True))
-            missing = [st["index"] for st in s.plan if st["kind"] in ANSWER_KINDS and st["index"] not in answered]
+            missing = unanswered(s)
             if missing:
                 return error(409, "unanswered_turns", "Unanswered steps: " + ", ".join(map(str, missing)))
             s.transition("finalizing")

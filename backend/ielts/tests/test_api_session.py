@@ -21,6 +21,12 @@ class CreateSessionTests(ApiTestCase):
         self.assertEqual(body["mode"], "full")
         self.assertEqual(body["plan"][0]["kind"], "instruction")
         self.assertEqual(body["turns"], [])
+        self.assertIs(body["training_consent"], False)   # opt-in only
+
+    def test_training_consent_needs_an_explicit_true(self):
+        given = [self.post_json("/api/sessions", {"mode": "part1", "training_consent": v}).json()["training_consent"]
+                 for v in (True, "yes", 1)]
+        self.assertEqual(given, [True, False, False])
 
     def test_create_session_bad_mode_400(self):
         r = self.post_json("/api/sessions", {"mode": "daily"})
@@ -122,9 +128,9 @@ class TurnTests(ApiTestCase):
         sid = self.new_active_session()
         self.post_json(f"/api/sessions/{sid}/turns/1/begin")
         Turn.objects.filter(session_id=sid, index=1).update(begun_at=timezone.now() - timedelta(seconds=70))
-        r = self.client.post(f"/api/sessions/{sid}/turns/1/answer", {"audio": audio(), "duration_ms": 63000})
+        r = self.client.post(f"/api/sessions/{sid}/turns/1/answer", {"audio": audio(), "duration_ms": 28000})
         self.assertEqual((r.status_code, r.json()["error"]), (400, "over_limit"))
-        r = self.client.post(f"/api/sessions/{sid}/turns/1/answer", {"audio": audio(), "duration_ms": 61000})
+        r = self.client.post(f"/api/sessions/{sid}/turns/1/answer", {"audio": audio(), "duration_ms": 26000})
         self.assertEqual(r.status_code, 201)
 
     def test_answer_rejected_longer_than_elapsed(self):

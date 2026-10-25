@@ -29,3 +29,19 @@ export function buildQueue(plan: Step[], answered: Set<number>): Action[] {
   actions.push({ type: 'complete' })
   return actions
 }
+
+// Part 3 questions are abstract: allow a longer thinking pause before the answer counts as finished.
+export const silenceMsFor = (s: Step) => (s.part === 3 ? 4000 : 3000)
+
+// Mimo starts looking sleepy this long before a time-boxed part's limit, a gentle "time is nearly up".
+export const SLEEPY_BEFORE_S = 30
+
+// Part 2 long turn: ending before a minute gets one "tell me more"; a wrap-up gesture shows near the 2-minute stop.
+export const LONG_TURN_MIN_S = 60
+export const WRAP_UP_BEFORE_S = 15
+export const TELL_ME_MORE = 'Can you tell me a little more?'
+
+// Ask no further question in a time-boxed part once its answer could run past the limit (mirrors backend flow.time_skipped).
+export function partOver(elapsedS: number, answered: number, nextMaxAnswerS: number, limitS: number, minQuestions: number) {
+  return answered >= minQuestions && elapsedS >= limitS - nextMaxAnswerS
+}

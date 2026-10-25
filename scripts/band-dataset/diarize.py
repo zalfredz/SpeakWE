@@ -77,6 +77,9 @@ def main():
     args = ap.parse_args()
     import torch
     from pyannote.audio import Pipeline
+    from pyannote.audio.core.task import Problem, Resolution, Specifications
+    # torch>=2.6 loads weights_only; allowlist the few classes the official pyannote checkpoints pickle
+    torch.serialization.add_safe_globals([torch.torch_version.TorchVersion, Problem, Resolution, Specifications])
     pipe = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=env_token())
     pipe.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     OUT.mkdir(exist_ok=True)

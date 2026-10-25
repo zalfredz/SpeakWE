@@ -2,7 +2,9 @@ from unittest import TestCase
 
 from django.conf import settings
 
-from ielts.flow import INSTRUCTIONS, Bank, BankTooSmall, Card, Item, Topic, build_plan
+from datetime import datetime, timedelta
+
+from ielts.flow import INSTRUCTIONS, Bank, BankTooSmall, Card, Item, Topic, build_plan, time_skipped
 
 CFG = settings.SPEAKWE
 
@@ -24,8 +26,8 @@ def kinds(plan):
 class FlowTests(TestCase):
     def test_full_plan_shape(self):
         plan = build_plan("full", make_bank(), seed=1, cfg=CFG)
-        expected = (["instruction"] + ["question"] * 12 + ["instruction", "prep", "instruction", "long_turn"]
-                    + ["question"] * 2 + ["instruction"] + ["question"] * 5 + ["instruction"])
+        expected = (["instruction"] + ["question"] * 10 + ["instruction", "prep", "instruction", "long_turn", "instruction"]
+                    + ["instruction"] + ["question"] * 5 + ["instruction"])   # no rounding-off questions
         self.assertEqual(kinds(plan), expected)
         self.assertEqual([s["index"] for s in plan], list(range(len(plan))))
 
@@ -48,7 +50,7 @@ class FlowTests(TestCase):
     def test_limits_from_cfg(self):
         plan = build_plan("full", make_bank(), seed=1, cfg=CFG)
         p1 = [s for s in plan if s["part"] == 1 and s["kind"] == "question"]
-        self.assertTrue(all(s["max_answer_s"] == 60 for s in p1))
+        self.assertTrue(all(s["max_answer_s"] == CFG["MAX_ANSWER_S"][1] for s in p1))
         self.assertEqual(next(s for s in plan if s["kind"] == "long_turn")["max_answer_s"], 120)
         self.assertEqual(next(s for s in plan if s["kind"] == "prep")["prep_s"], 60)
 
@@ -87,3 +89,50 @@ class FlowTests(TestCase):
     def test_unknown_mode_raises_value_error(self):
         with self.assertRaises(ValueError):
             build_plan("daily", make_bank(), 1, CFG)
+
+
+T0 = datetime(2026, 10, 23, 9, 0)
+
+
+def answered(indexes, last_end_s, each_s=25):
+    """turns for `indexes`, each answer `each_s` long, the last one ending `last_end_s` after Part 1 began"""
+    out = {}
+    for n, i in enumerate(indexes):
+        end = T0 + timedelta(seconds=last_end_s - (len(indexes) - 1 - n) * each_s)
+        out[i] = (end - timedelta(seconds=each_s), end)
+    out[indexes[0]] = (T0, out[indexes[0]][1])
+    return out
+
+
+class Part1LimitTests(TestCase):
+    plan = build_plan("part1", make_bank(), seed=1, cfg=CFG)   # index 0 = intro, 1..10 = questions
+
+    def test_after_the_limit_the_remaining_questions_are_skipped(self):
+        self.assertEqual(time_skipped(self.plan, answered(list(range(1, 9)), 280), CFG), {9, 10})
+
+    def test_not_skipped_before_the_final_answer_window(self):
+        self.assertEqual(time_skipped(self.plan, answered(list(range(1, 10)), 200), CFG), set())
+
+    def test_never_fewer_than_the_minimum_questions(self):
+        self.assertEqual(time_skipped(self.plan, answered(list(range(1, 8)), 299), CFG), set())
+
+    def test_part1_answers_fit_the_limit(self):
+        q = [s for s in self.plan if s["kind"] == "question"]
+        self.assertEqual({s["max_answer_s"] for s in q}, {25})
+        self.assertEqual(len(q), 10)
+        self.assertEqual([len({s["item_id"].split("-")[0] for s in q[a:b]}) for a, b in ((0, 3), (3, 6), (6, 10))], [1, 1, 1])
+        self.assertEqual(len({s["item_id"].split("-")[0] for s in q}), 3)   # 3 + 3 + 4 from three different topics
+        self.assertLessEqual(CFG["PART_MIN_QUESTIONS"][1] * 30, CFG["PART_LIMIT_S"][1] - 25)   # 8 x (25 s + asking) fits
+
+    def test_part3_is_time_boxed_too(self):
+        plan = build_plan("part3", make_bank(part3=6), seed=1, cfg=CFG)
+        q = [s["index"] for s in plan if s["kind"] == "question"]
+        self.assertEqual({s["max_answer_s"] for s in plan if s["kind"] == "question"}, {45})
+        self.assertEqual(time_skipped(plan, answered(q[:4], 260, each_s=45), CFG), set(q[4:]))
+        self.assertEqual(time_skipped(plan, answered(q[:4], 200, each_s=45), CFG), set())
+        self.assertEqual(time_skipped(plan, answered(q[:3], 299, each_s=45), CFG), set())   # minimum 4 questions
+
+    def test_long_turn_is_followed_by_thank_you(self):
+        plan = build_plan("part2", make_bank(), seed=1, cfg=CFG)
+        lt = next(s["index"] for s in plan if s["kind"] == "long_turn")
+        self.assertEqual(plan[lt + 1]["text"], INSTRUCTIONS["part2_end"])

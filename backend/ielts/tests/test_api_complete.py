@@ -85,3 +85,14 @@ class CompleteTests(ApiTestCase):
         self.assertEqual(body["streak"], 2)
         self.assertEqual(body["today"], today.isoformat())
         self.assertEqual(body["dates"], [today.isoformat(), (today - timedelta(days=1)).isoformat()])
+
+    def test_part1_time_limit_lets_the_session_complete_early(self):
+        sid = self.new_active_session()
+        for i in range(1, 9):
+            self.answer(sid, i)
+        turns = PracticeSession.objects.get(pk=sid).turns
+        self.assertEqual(self.complete(sid).status_code, 409)   # 8 answers, but the 5 minutes are not used up
+        turns.filter(index=1).update(begun_at=datetime.now(timezone.utc) - timedelta(seconds=290))
+        r = self.complete(sid)
+        self.assertEqual(r.status_code, 200, r.content)
+        self.assertEqual(PracticeSession.objects.get(pk=sid).status, "completed")

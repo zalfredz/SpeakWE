@@ -69,6 +69,8 @@ export async function openMic(deviceId?: string): Promise<Mic> {
 
 export interface Recording {
   stop(): Promise<{ blob: Blob; durationMs: number }>
+  pause(): void    // e.g. while Mimo speaks mid-answer, so her voice is not recorded
+  resume(): void
 }
 
 export function startRecording(stream: MediaStream): Recording {
@@ -77,10 +79,13 @@ export function startRecording(stream: MediaStream): Recording {
   const chunks: Blob[] = []
   rec.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data) }
   const started = performance.now()
+  let pausedAt: number | null = null, pausedMs = 0
   rec.start()
   return {
+    pause: () => { if (rec.state === 'recording') { rec.pause(); pausedAt = performance.now() } },
+    resume: () => { if (rec.state === 'paused') { rec.resume(); pausedMs += performance.now() - pausedAt!; pausedAt = null } },
     stop: () => new Promise((resolve) => {
-      const durationMs = performance.now() - started
+      const durationMs = performance.now() - started - pausedMs - (pausedAt === null ? 0 : performance.now() - pausedAt)
       rec.onstop = () => resolve({ blob: new Blob(chunks, { type: rec.mimeType || mime || 'audio/webm' }), durationMs })
       rec.state === 'inactive' ? rec.onstop(new Event('stop')) : rec.stop()
     }),

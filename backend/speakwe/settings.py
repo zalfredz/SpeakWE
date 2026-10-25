@@ -132,12 +132,14 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 SPEAKWE = {
     "PRACTICE_TZ": "Asia/Jakarta",
-    "PART1_TOPICS": 3,
-    "PART1_QUESTIONS_PER_TOPIC": 4,
+    "PART1_QUESTIONS_PER_TOPIC": (3, 3, 4),   # one entry per distinct topic: 10 questions at most
     "PART2_PREP_S": 60,
     "PART2_TALK_S": 120,
-    "MAX_ANSWER_S": {1: 60, 3: 60},
-    "ROUNDING_OFF_MAX": 2,
+    "MAX_ANSWER_S": {1: 25, 3: 45},   # Part 1 answers are short, Part 3 answers argue a point
+    # Parts 1 and 3 are time-boxed like the real test (4-5 min each): no new question once its answer could pass the limit
+    "PART_LIMIT_S": {1: 300, 3: 300},
+    "PART_MIN_QUESTIONS": {1: 8, 3: 4},
+    "ROUNDING_OFF_MAX": 0,   # Part 2 is the cue card only; set 1-2 to add the optional rounding-off questions
     "DURATION_TOLERANCE_S": 2,
     "CHECKIN_MIN_SPEECH_S": 60,
     "UPLOAD_MAX_BYTES": 10_000_000,

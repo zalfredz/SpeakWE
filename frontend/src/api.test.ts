@@ -17,7 +17,7 @@ describe('api', () => {
     const [url, init] = fn.mock.calls[0] as unknown as [string, RequestInit]
     expect(url).toBe('/api/sessions')
     expect(init.method).toBe('POST')
-    expect(JSON.parse(init.body as string)).toEqual({ mode: 'full' })
+    expect(JSON.parse(init.body as string)).toEqual({ mode: 'full', training_consent: false })
   })
 
   it('uploads an answer as multipart with audio and duration_ms', async () => {

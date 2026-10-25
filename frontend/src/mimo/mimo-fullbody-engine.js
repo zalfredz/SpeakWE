@@ -7,7 +7,9 @@
     speaking: ['Berbicara', 'Giliran Mimo mencontohkan pengucapannya.'],
     thinking: ['Berpikir', 'Sebentar, aku siapkan masukan untukmu.'],
     encourage: ['Coba lagi', 'Pelan-pelan saja. Aku temani kamu mencoba lagi.'],
-    success: ['Berhasil', 'Yeay! Satu langkah lagi makin percaya diri.']
+    success: ['Berhasil', 'Yeay! Satu langkah lagi makin percaya diri.'],
+    sleepy: ['Mengantuk', 'Hoaam… waktunya hampir habis.'],
+    wrapup: ['Sebentar lagi', 'Waktunya hampir habis, yuk disimpulkan.']
   };
   const clamp = (x,a=0,b=1) => Math.max(a,Math.min(b,x));
   const smoothstep = x => { x=clamp(x); return x*x*(3-2*x); };
@@ -21,7 +23,7 @@
     const p = { lift:beat(t)*1.5, lean:beat(t,1,.4)*.01, head:beat(t,1,.7)*.014, breath:beat(t)*.012,
       right:-.28+beat(t,1,.5)*.05, left:-.27+beat(t,1,.6)*.05, tail:beat(t,1,1.1)*.06,
       mouth:.08, smile:1, round:0, joy:0, gazeX:0, gazeY:0, brows:0, gills:.035,
-      listen:0, speak:0, think:0, celebrate:0 };
+      listen:0, speak:0, think:0, celebrate:0, drowsy:0, yawn:0 };
     if(state==='ready'){p.right=-1.9+beat(t,2)*.28+beat(t,4,.4)*.05;p.head=beat(t,1,.7)*.02;p.mouth=.18;}
     if(state==='listening'){p.head=-.105+beat(t,1,.7)*.015;p.lean=-.015;p.gazeX=-2;p.brows=.18;p.listen=1;p.gills=.05;p.right=-.43+beat(t,1,.5)*.05;p.left=-.3+beat(t,1,.6)*.05;}
     if(state==='speaking'){
@@ -32,6 +34,13 @@
     // eyes stay fully open (no wink, no squint); lifted brows + smile carry the encouragement
     if(state==='encourage'){p.head=-.035+beat(t,2,.6)*.025;p.right=-1.45+beat(t,2)*.24;p.left=-.8+beat(t,2,.5)*.08;p.brows=.1;p.mouth=.15;}
     if(state==='success'){const b=.5-.5*Math.cos(t/BREATH_S*Math.PI*4);p.lift=-b*11;p.breath=.015*beat(t,2);p.right=-2.15+beat(t,2)*.18;p.left=-2.15+beat(t,2,Math.PI)*.18;p.joy=1;p.mouth=.72;p.celebrate=1;p.gills=.07;p.tail=beat(t,2,1)*.08;}
+    // still listening (faint ear arcs), but heavy lids, a slow nod and a yawn every two breaths
+    if(state==='sleepy'){const y=Math.max(0,beat(t,.5))**6;
+      p.head=.06+beat(t,.5,.8)*.035-y*.05;p.lean=.012;p.drowsy=.5+.1*beat(t,.5,1.4)+y*.6;p.yawn=y;p.brows=-.15+y*.25;
+      p.mouth=.06+y*.94;p.round=y*1.7;p.right=-.28-y*.5;p.left=-.27-y*.5;p.listen=.6;p.gills=.02;p.tail=beat(t,.5,1.1)*.04;}
+    // still listening, one hand raised in a slow "wrap it up" wave on the breath rhythm
+    if(state==='wrapup'){p.head=-.07+beat(t,1,.7)*.015;p.lean=-.01;p.gazeX=-2;p.brows=.3;p.mouth=.12;p.listen=.8;p.gills=.045;
+      p.right=-2.0+beat(t,1)*.06;p.left=-.3+beat(t,1,.6)*.05;p.lift=beat(t)*1.5+beat(t,1,.3)*1.2;}
     return p;
   }
   // Blink: both eyes, regular rhythm, closes fast and opens a little slower.
@@ -87,7 +96,8 @@
       glowOval(length-12,-7,19,11,'rgba(255,236,213,.34)');c.restore();
     }
     function eye(x,y,side,p,blink) {
-      const joy=clamp(p.joy),closed=clamp(Math.max(blink,joy));
+      // drowsy lowers a lid over the eye; only a deep yawn (drowsy > .75) closes it fully
+      const joy=clamp(p.joy),closed=clamp(Math.max(blink,joy,(p.drowsy-.75)/.25)),lid=clamp(p.drowsy)*.55;
       const openness=1-closed;
       c.save();c.translate(x,y);c.scale(1,Math.max(.035,openness));
       c.globalAlpha=clamp(openness*6);
@@ -98,12 +108,14 @@
       oval(eyeX,eyeY,15.7,22,linear(-3,-18,13,23,[[0,'#24152F'],[.5,'#41234B'],[1,'#75446E']]));
       oval(eyeX+1,eyeY-1,10,17,P.iris);
       oval(eyeX-5,eyeY-9,5.8,7,'rgba(255,255,255,.95)');
-      oval(eyeX+7,eyeY+8,2.5,3,'rgba(255,236,245,.65)');c.restore();
+      oval(eyeX+7,eyeY+8,2.5,3,'rgba(255,236,245,.65)');
+      if(lid>.01){c.fillStyle='#C6AAE6';c.fillRect(-22,-27,44,52*lid);line(P.plum,3.2,()=>{c.moveTo(-20,-25+52*lid);c.quadraticCurveTo(0,-23+52*lid,20,-25+52*lid);});}
       c.restore();
-      c.save();c.globalAlpha=clamp((closed-.45)/.5);line(P.plum,4.8,()=>{c.moveTo(x-13,y+2);c.quadraticCurveTo(x,y-(joy*8+2),x+13,y+2);});c.restore();
+      c.restore();
+      c.save();c.globalAlpha=clamp((closed-.45)/.5);line(P.plum,4.8,()=>{c.moveTo(x-13,y+2);c.quadraticCurveTo(x,y-(joy*8+2)+p.drowsy*7,x+13,y+2);});c.restore();
     }
     function mouth(p) {
-      const v=clamp(p.mouth),w=14+v*7-p.round*3,h=2+v*26,openAlpha=clamp((v-.06)/.18);
+      const v=clamp(p.mouth),w=14+v*7-p.round*3,h=2+v*26+p.yawn*16,openAlpha=clamp((v-.06)/.18);
       c.save();c.translate(0,43);
       c.globalAlpha=openAlpha;
       path(P.plum,()=>{c.moveTo(-w,0);c.quadraticCurveTo(0,10-v*10, w,0);c.bezierCurveTo(w+3,h*.65,w*.4,h+5,0,h+5);c.bezierCurveTo(-w*.4,h+5,-w-3,h*.65,-w,0);});

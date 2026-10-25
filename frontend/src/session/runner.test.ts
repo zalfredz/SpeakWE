@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Step } from '../api'
-import { buildQueue, silenceEnabled } from './runner'
+import { buildQueue, partOver, silenceEnabled, silenceMsFor } from './runner'
 
 let i = 0
 const step = (part: number, kind: Step['kind'], text = kind): Step =>
@@ -37,5 +37,27 @@ describe('session runner', () => {
     const plan = fullPlan()
     expect(silenceEnabled(plan[1])).toBe(true)
     expect(silenceEnabled(plan[5])).toBe(false)
+  })
+})
+
+describe('Part 1 time limit', () => {
+  it('stops asking once the next 25 s answer would pass 5 minutes', () => {
+    expect(partOver(274, 9, 25, 300, 8)).toBe(false)
+    expect(partOver(275, 9, 25, 300, 8)).toBe(true)
+  })
+  it('always asks at least the minimum number of questions', () => {
+    expect(partOver(299, 7, 25, 300, 8)).toBe(false)
+  })
+})
+
+describe('Part 3', () => {
+  it('waits 4 s of silence instead of 3 (abstract questions need thinking time)', () => {
+    i = 0
+    expect([silenceMsFor(step(1, 'question')), silenceMsFor(step(3, 'question'))]).toEqual([3000, 4000])
+  })
+  it('stops asking once the next 45 s answer would pass 5 minutes, but asks at least 4', () => {
+    expect(partOver(255, 4, 45, 300, 4)).toBe(true)
+    expect(partOver(254, 4, 45, 300, 4)).toBe(false)
+    expect(partOver(290, 3, 45, 300, 4)).toBe(false)
   })
 })

@@ -42,6 +42,7 @@ INSTRUCTIONS = {
     "part2_intro": "Now let's move on to Part 2. I'm going to give you a topic. You'll have one minute to prepare, "
                    "and then I'd like you to talk about it for one to two minutes.",
     "part2_start": "Your preparation time is over. Please start speaking now.",
+    "part2_end": "Thank you.",
     "part3_intro": "We've been talking about {theme}. Now I'd like to ask you some more general questions related to this.",
     "end": "Thank you. That is the end of the speaking test.",
 }
@@ -70,14 +71,14 @@ def _card_text(card: Card) -> str:
 
 
 def _part1(bank, rng, cfg):
-    n = cfg["PART1_TOPICS"]
+    per_topic = cfg["PART1_QUESTIONS_PER_TOPIC"]
+    n = len(per_topic)
     topics = [t for t in bank.part1_topics if t.questions]
     if len(topics) < n:
         raise BankTooSmall(f"Part 1 needs {n} approved topics with questions, found {len(topics)}.")
     steps = [_step(1, "instruction", INSTRUCTIONS["part1_intro"])]
-    for topic in rng.sample(topics, n):
-        steps += [_step(1, "question", q.text, q.id, cfg["MAX_ANSWER_S"][1])
-                  for q in topic.questions[:cfg["PART1_QUESTIONS_PER_TOPIC"]]]
+    for topic, count in zip(rng.sample(topics, n), per_topic):
+        steps += [_step(1, "question", q.text, q.id, cfg["MAX_ANSWER_S"][1]) for q in topic.questions[:count]]
     return steps
 
 
@@ -93,13 +94,34 @@ def _part2(card, cfg):
     return ([_step(2, "instruction", INSTRUCTIONS["part2_intro"]),
              _step(2, "prep", text, card.id, prep_s=cfg["PART2_PREP_S"]),
              _step(2, "instruction", INSTRUCTIONS["part2_start"]),
-             _step(2, "long_turn", text, card.id, cfg["PART2_TALK_S"])]
+             _step(2, "long_turn", text, card.id, cfg["PART2_TALK_S"]),
+             _step(2, "instruction", INSTRUCTIONS["part2_end"])]
             + [_step(2, "question", q.text, q.id, cfg["MAX_ANSWER_S"][1]) for q in card.rounding_off[:cfg["ROUNDING_OFF_MAX"]]])
 
 
 def _part3(card, cfg):
     return ([_step(3, "instruction", INSTRUCTIONS["part3_intro"].format(theme=card.theme))]
             + [_step(3, "question", q.text, q.id, cfg["MAX_ANSWER_S"][3]) for q in card.part3])
+
+
+CLOCK_SLACK_S = 10   # browser and server clocks measure a part's window slightly differently
+
+
+def time_skipped(plan: list[Step], turns: dict, cfg: dict) -> set[int]:
+    """Parts in PART_LIMIT_S are time-boxed: once PART_MIN_QUESTIONS are answered and the last answer ended inside
+    the final answer window of the limit, that part's later questions are skipped (not missing).
+    `turns` maps step index -> (begun_at, answered_at)."""
+    skipped = set()
+    for part, limit in cfg["PART_LIMIT_S"].items():
+        questions = [s["index"] for s in plan if s["part"] == part and s["kind"] == "question"]
+        answered = [i for i in questions if i in turns and turns[i][1]]
+        if not answered or len(answered) < cfg["PART_MIN_QUESTIONS"][part]:
+            continue
+        started = min(turns[i][0] for i in questions if i in turns and turns[i][0])
+        ended = max(turns[i][1] for i in answered)
+        if (ended - started).total_seconds() >= limit - cfg["MAX_ANSWER_S"][part] - CLOCK_SLACK_S:
+            skipped |= {i for i in questions if i > max(answered)}
+    return skipped
 
 
 def build_plan(mode: str, bank: Bank, seed: int, cfg: dict) -> list[Step]:

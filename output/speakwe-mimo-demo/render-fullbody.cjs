@@ -2,13 +2,13 @@ const fs=require('fs'),path=require('path');
 const {createCanvas}=require('./render-tools/node_modules/@napi-rs/canvas');
 require('../../frontend/src/mimo/mimo-fullbody-engine.js');const Mimo=globalThis.MimoFullBody; // engine installs a global (frontend/ is ESM)
 const base=__dirname,states=Object.keys(Mimo.states);
-const sheet=createCanvas(1200,760),s=sheet.getContext('2d');s.fillStyle='#FAF7F1';s.fillRect(0,0,1200,760);
-const samples={ready:1,listening:1.2,speaking:.7,thinking:1,encourage:1.6,success:1.2};
+const sheet=createCanvas(1200,1140),s=sheet.getContext('2d');s.fillStyle='#FAF7F1';s.fillRect(0,0,1200,1140);
+const samples={ready:1,listening:1.2,speaking:.7,thinking:1,encourage:1.6,success:1.2,sleepy:5.4,wrapup:.9};
 for(let i=0;i<states.length;i++){
  const state=states[i],tile=createCanvas(400,334),r=Mimo.create(tile,{background:'#FAF7F1'});r.render(samples[state],state,0,true);
  const x=(i%3)*400,y=Math.floor(i/3)*380;s.drawImage(tile,x,y);s.fillStyle='#422B4E';s.textAlign='center';s.font='19px sans-serif';s.fillText(Mimo.states[state][0],x+200,y+354);
 }
-fs.writeFileSync(path.join(base,'mimo-fullbody-contact.png'),sheet.toBuffer('image/png'));console.log('Rendered six-expression contact sheet');
+fs.writeFileSync(path.join(base,'mimo-fullbody-contact.png'),sheet.toBuffer('image/png'));console.log('Rendered contact sheet of every expression');
 if(process.argv.includes('--gif')){
  const {GIFEncoder,quantize,applyPalette}=require('./render-tools/node_modules/gifenc');
  const palette=quantize(s.getImageData(0,0,sheet.width,sheet.height).data,256);

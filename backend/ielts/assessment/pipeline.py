@@ -6,6 +6,7 @@ from collections import defaultdict
 from django.db import transaction
 
 from ..models import Assessment
+from . import calibration
 from .errors import AudioError, GeminiError, GeminiOutputError, TranscribeError
 from .features import session_features, turn_features
 from .request import CRITERIA_PACK_VERSION, PROMPT_VERSION, build, segment_map
@@ -119,10 +120,19 @@ def assess(job, *, transcribe, convert, client) -> None:
             return
 
         bands = {k: output["criteria"][k]["band"] for k in CRITERIA}
+        shown = None if excluded else overall(bands, scope)
+        if shown is not None:
+            # Gemini compresses bands toward 6; the learner sees the examiner-calibrated model "a", "b" runs in shadow
+            values = calibration.inputs(sess_features, [w for t in used for s in t.transcript for w in s["words"]], bands)
+            models = calibration.load()
+            features["ml"] = {k: calibration.predict(m, values) for k, m in models.items()} | {"gemini_overall": shown}
+            if "a" in models:
+                shown = features["ml"]["a"]
+                provenance["calibration"] = f"ridge-a-{models['a']['trained']}"
         status = "partial" if excluded and output["status"] == "ready" else output["status"]
         with transaction.atomic():
             Assessment.objects.create(job=job, status=status, scope=scope, report=output, features=features, provenance=provenance,
-                                      overall=None if excluded else overall(bands, scope))
+                                      overall=shown)
             job.status = "partial" if status == "partial" else "ready"
             job.save(update_fields=["status", "updated_at"])
     except Exception as e:   # anything must end in 'failed' so the learner gets a retry, never an endless spinner

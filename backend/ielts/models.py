@@ -84,6 +84,8 @@ class PracticeSession(models.Model):
     seed = models.IntegerField()
     plan = models.JSONField()
     practice_tz = models.CharField(max_length=64, default="Asia/Jakarta")
+    # opt-in: the learner allows this session's recordings and results to be used to train SpeakWE's own scorer
+    training_consent = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     started_at = models.DateTimeField(null=True, blank=True)
     completed_at = models.DateTimeField(null=True, blank=True)
