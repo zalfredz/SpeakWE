@@ -109,8 +109,9 @@ OVERRIDES = {
     "vLPJ2WPCX0I": {"band_exact": "9", "note": "listed under BAND 8 but title says Band 9"},
     "WAVTPzCdLbA": {"band_exact": "8", "note": "band set by user (title only says 'To Get Band 8')"},
     "u5zmVCfCb7o": {"band_exact": "9", "note": "band set by user (no band in title/description)"},
+    "6bWIFRq25ZA": {"band_exact": "4", "note": "title says 'feedback (4.0)' without the word band (added 2026-10-27)"},
 }
-RANGE_RE = re.compile(r"band(?: score)?(?: of)?\s*([4-9](?:\.[05])?)(?:\s*[-–]\s*([4-9](?:\.[05])?))?", re.I)
+RANGE_RE = re.compile(r"band(?: score)?(?: of)?\s*-?\s*([4-9](?:\.[05])?)(?:\s*[-–]\s*([4-9](?:\.[05])?))?", re.I)
 
 
 def step_labels(rows):

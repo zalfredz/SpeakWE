@@ -114,7 +114,7 @@ class PipelineTests(TestCase):
         a = Assessment.objects.get(job=job)
         self.assertEqual(float(a.overall), 7.5)
         self.assertEqual(a.features["ml"], {"a": 7.5, "b": 5.0, "gemini_overall": 6.5})
-        self.assertEqual(a.provenance["calibration"], "ridge-a-t")
+        self.assertEqual(a.provenance["calibration"], "ridge-a-t")   # no "model" key: older calibration.json
 
     def test_without_calibration_models_the_gemini_overall_is_shown(self):
         with mock.patch.object(calibration, "MODELS_PATH", Path(self.media) / "missing.json"):

@@ -128,7 +128,7 @@ def assess(job, *, transcribe, convert, client) -> None:
             features["ml"] = {k: calibration.predict(m, values) for k, m in models.items()} | {"gemini_overall": shown}
             if "a" in models:
                 shown = features["ml"]["a"]
-                provenance["calibration"] = f"ridge-a-{models['a']['trained']}"
+                provenance["calibration"] = f"{models['a'].get('model', 'ridge')}-a-{models['a']['trained']}"
         status = "partial" if excluded and output["status"] == "ready" else output["status"]
         with transaction.atomic():
             Assessment.objects.create(job=job, status=status, scope=scope, report=output, features=features, provenance=provenance,

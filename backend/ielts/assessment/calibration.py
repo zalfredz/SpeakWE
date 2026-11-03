@@ -21,11 +21,19 @@ def lexical(words: list[dict]) -> dict:
             "long_word_ratio": sum(len(t) >= 7 for t in toks) / len(toks)}
 
 
+def confidence(words: list[dict]) -> dict:
+    """Whisper's word probabilities: unclear speech gets lower ones (rises steadily from band 4 to 9)."""
+    p = [w.get("p", 1.0) for w in words]
+    if not p:
+        return {"mean_p": 0.0, "low_p_ratio": 0.0}
+    return {"mean_p": sum(p) / len(p), "low_p_ratio": sum(x < 0.5 for x in p) / len(p)}
+
+
 def inputs(sess: dict, words: list[dict], bands: dict | None) -> dict:
     """Model inputs: session_features() output, the candidate's words, Gemini's criterion bands (or None)."""
     per_min = lambda k: sess[k] / max(sess["speech_s"], 1) * 60   # counts scale with test length
     values = {k: sess[k] for k in ("pause_ratio", "mean_length_of_run", "speech_rate_wpm", "fillers_per_min")}
-    values |= {"repetitions": per_min("repetitions"), "self_corrections": per_min("self_corrections")} | lexical(words)
+    values |= {"repetitions": per_min("repetitions"), "self_corrections": per_min("self_corrections")} | lexical(words) | confidence(words)
     return values | (bands or {})
 
 

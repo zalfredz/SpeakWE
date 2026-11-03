@@ -8,7 +8,8 @@ learn Gemini's habit of pulling every band toward 6.
 
 Run from the repo root: .venv-ml/Scripts/python.exe scripts/band-dataset/baseline.py
 Writes baseline_report.md (private dataset folder) and backend/ielts/assessment/calibration.json: ridge model "a"
-(with Gemini, shown to learners) and "b" (local features only, shadow), both fitted on every video.
+(with Gemini, shown to learners) and "b" (local features only, shadow), both fitted on every video. Each is the
+linear model (ridge or Huber, which shrugs off a few mislabelled videos) with the lower cross-validated MAE.
 """
 import csv
 import json
@@ -18,7 +19,7 @@ from pathlib import Path
 
 import numpy as np
 from sklearn.ensemble import HistGradientBoostingRegressor
-from sklearn.linear_model import Ridge
+from sklearn.linear_model import HuberRegressor, Ridge
 from sklearn.model_selection import GridSearchCV, GroupKFold, LeaveOneGroupOut
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
@@ -30,7 +31,8 @@ from ielts.assessment.calibration import MODELS_PATH, half_band, inputs, predict
 
 CRITERIA = ["fc", "lr", "gra", "p"]
 LOCAL = ["pause_ratio", "mean_length_of_run", "speech_rate_wpm", "fillers_per_min", "repetitions", "self_corrections",
-         "guiraud", "mean_word_len", "long_word_ratio"]
+         "guiraud", "mean_word_len", "long_word_ratio", "mean_p", "low_p_ratio"]
+# words per answer would help too, but app answers are capped (Part 1: 25 s) and YouTube ones are not
 FEATURES = {"a": CRITERIA + LOCAL, "b": LOCAL}
 
 
@@ -59,17 +61,27 @@ def load():
 ielts_round = np.vectorize(half_band)
 
 MODELS = {
-    "ridge": (lambda: make_pipeline(StandardScaler(), Ridge()), {"ridge__alpha": [0.1, 1, 3, 10, 30, 100]}),
+    "ridge": (lambda: make_pipeline(StandardScaler(), Ridge()), {"ridge__alpha": [0.3, 1, 3, 10, 30, 100, 300]}),
+    "huber": (lambda: make_pipeline(StandardScaler(), HuberRegressor(max_iter=2000)),
+              {"huberregressor__alpha": [0.01, 0.1, 1, 10, 100], "huberregressor__epsilon": [1.35, 2.0]}),
     "gbm": (lambda: HistGradientBoostingRegressor(loss="absolute_error", random_state=0),
             {"max_depth": [2, 3], "learning_rate": [0.03, 0.1], "max_iter": [100, 300], "min_samples_leaf": [5, 10]}),
 }
+
+
+def balanced(y):
+    """Every whole band weighs the same in training, so the many band 6-7 videos do not pull band 4 and 9 to the middle."""
+    b = np.floor(y)
+    counts = {k: (b == k).sum() for k in set(b)}
+    return np.array([len(y) / (len(counts) * counts[k]) for k in b])
 
 
 def tuned(name, X, y, groups):
     make, grid = MODELS[name]
     # inner CV is grouped by channel too; fewer channels in a fold -> fewer splits
     inner = GroupKFold(n_splits=min(3, len(set(groups))))
-    return GridSearchCV(make(), grid, cv=inner, scoring="neg_mean_absolute_error").fit(X, y, groups=groups)
+    weight = {{"ridge": "ridge__", "huber": "huberregressor__"}.get(name, "") + "sample_weight": balanced(y)}
+    return GridSearchCV(make(), grid, cv=inner, scoring="neg_mean_absolute_error").fit(X, y, groups=groups, **weight)
 
 
 def report(name, pred, rows):
@@ -83,37 +95,40 @@ def report(name, pred, rows):
 
 
 def export(search, features):
-    """Ridge pipeline -> plain numbers the backend evaluates without sklearn."""
-    scaler, ridge = search.best_estimator_
+    """Linear pipeline -> plain numbers the backend evaluates without sklearn."""
+    scaler, linear = search.best_estimator_
     return {"features": features, "mean": scaler.mean_.tolist(), "scale": scaler.scale_.tolist(),
-            "coef": ridge.coef_.tolist(), "intercept": float(ridge.intercept_), "alpha": search.best_params_["ridge__alpha"]}
+            "coef": linear.coef_.tolist(), "intercept": float(linear.intercept_),
+            "params": {k.split("__")[1]: v for k, v in search.best_params_.items()}}
 
 
 def main():
     assert list(ielts_round([6.24, 6.25, 9.7, 0.2])) == [6.0, 6.5, 9.0, 1.0]
+    assert np.allclose(balanced(np.array([4, 4.5, 6, 6, 6, 6])), [1.5, 1.5, 0.75, 0.75, 0.75, 0.75])
     rows = load()
     y = np.array([r["y"] for r in rows])
     groups = np.array([r["channel"] for r in rows])
     X = {k: np.array([[r["values"][f] for f in feats] for r in rows]) for k, feats in FEATURES.items()}
     exported = {}
     results = [report("Gemini (as is)", np.array([r["gemini"] for r in rows]), rows)]
-    for key, name in [("a", "ridge"), ("a", "gbm"), ("b", "ridge")]:
+    for key, name in [("a", "ridge"), ("a", "huber"), ("a", "gbm"), ("b", "ridge"), ("b", "huber")]:
         pred = np.zeros(len(y))
         for tr, te in LeaveOneGroupOut().split(X[key], y, groups):
             pred[te] = tuned(name, X[key][tr], y[tr], groups[tr]).predict(X[key][te])
         label = "with Gemini" if key == "a" else "without Gemini"
         results.append(report(f"{name} {label} (leave-one-channel-out)", pred, rows))
-        if name == "ridge":
-            search = tuned("ridge", X[key], y, groups)
+        cv_mae = round(float(np.abs(ielts_round(pred) - y).mean()), 3)
+        if name != "gbm" and cv_mae < exported.get(key, {}).get("cv_mae", 9):
+            search = tuned(name, X[key], y, groups)
             exported[key] = export(search, FEATURES[key]) | {
-                "cv_mae": round(float(np.abs(ielts_round(pred) - y).mean()), 3), "videos": len(rows),
-                "channels": len(set(groups)), "trained": str(date.today())}
+                "model": name, "cv_mae": cv_mae, "videos": len(rows), "channels": len(set(groups)), "trained": str(date.today())}
             # the exported numbers must reproduce sklearn's predictions
             assert all(predict(exported[key], r["values"]) == half_band(v) for r, v in zip(rows, search.predict(X[key])))
     MODELS_PATH.write_text(json.dumps(exported, indent=1), encoding="utf-8")
 
     lines = ["# ML baseline", "", f"{len(rows)} videos from {len(set(groups))} channels. "
-             "Each channel is predicted by a model that never saw it; hyperparameters tuned inside training folds only. "
+             "Each channel is predicted by a model that never saw it; hyperparameters tuned inside training folds only; "
+             "every band weighs the same in training. "
              "Predictions rounded to half bands.", ""]
     for name, (n, mae, bias, w), by in results:
         lines += [f"## {name}", "", "| Band | n | MAE | bias | within 0.5 |", "| --- | --- | --- | --- | --- |"]
@@ -121,7 +136,7 @@ def main():
             lines.append(f"| {g} | {gn} | {gm:.2f} | {gb:+.2f} | {gw:.0%} |")
         lines += [f"| all | {n} | {mae:.2f} | {bias:+.2f} | {w:.0%} |", ""]
     for key, m in exported.items():
-        lines.append(f"Exported model {key}: alpha {m['alpha']}, standardised weights " + ", ".join(
+        lines.append(f"Exported model {key}: {m['model']} {m['params']}, CV MAE {m['cv_mae']}, standardised weights " + ", ".join(
             f"{k} {c:+.2f}" for k, c in sorted(zip(m["features"], m["coef"]), key=lambda t: -abs(t[1]))))
     (ROOT / "baseline_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))

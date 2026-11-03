@@ -2,6 +2,8 @@
 
 Run from the repo root: .venv-ml/Scripts/python.exe scripts/band-dataset/diarize.py [--limit N]
 Resumable: videos with an existing diarization/<id>.json are skipped.
+--redo-merged: re-run the videos clean_diarization.py flagged "merged" with exactly two speakers; the first
+output is kept in diarization_auto/<id>.json.
 Output per video: diarization/<id>.json = {turns: [{start, end, speaker}], test_end, candidate, examiner, candidate_words: [...]}
 """
 import argparse
@@ -74,6 +76,7 @@ def assign(words, turns):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--redo-merged", action="store_true")
     args = ap.parse_args()
     import torch
     from pyannote.audio import Pipeline
@@ -84,18 +87,29 @@ def main():
     pipe.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     OUT.mkdir(exist_ok=True)
     ids = [p.stem for p in sorted((ROOT / "transcripts").glob("*.json"))]
+    if args.redo_merged:
+        merged = [p.stem for p in sorted((ROOT / "diarization_clean").glob("*.json"))
+                  if json.loads(p.read_text(encoding="utf-8"))["quality"] == "merged"]
+        (ROOT / "diarization_auto").mkdir(exist_ok=True)
+        ids = []
+        for vid in merged:
+            out = OUT / f"{vid}.json"
+            if json.loads(out.read_text(encoding="utf-8")).get("num_speakers") == 2:
+                continue   # already re-run; two speakers did not fix it
+            ids.append(vid)
     done = 0
     for vid in ids:
         if args.limit and done >= args.limit:
             break
         out = OUT / f"{vid}.json"
-        if out.exists():
+        if out.exists() and not args.redo_merged:
             continue
         t0 = time.time()
         try:
             audio_path = next((ROOT / "audio").glob(f"*/{vid}.m4a"))
             wav = load_audio(audio_path)
-            dia = pipe({"waveform": torch.from_numpy(wav)[None], "sample_rate": 16000}, min_speakers=2, max_speakers=3)
+            speakers = {"num_speakers": 2} if args.redo_merged else {"min_speakers": 2, "max_speakers": 3}
+            dia = pipe({"waveform": torch.from_numpy(wav)[None], "sample_rate": 16000}, **speakers)
             turns = [{"start": round(seg.start, 2), "end": round(seg.end, 2), "speaker": spk}
                      for seg, _, spk in dia.itertracks(yield_label=True)]
             tr = json.loads((ROOT / "transcripts" / f"{vid}.json").read_text(encoding="utf-8"))
@@ -111,8 +125,10 @@ def main():
                         questions[w["speaker"]] = questions.get(w["speaker"], 0) + 1
             candidate = max(talk, key=talk.get) if talk else None
             examiner = max(questions, key=questions.get) if questions else None
+            if args.redo_merged:   # keep the first run; moved only now so a failed re-run loses nothing
+                out.replace(ROOT / "diarization_auto" / out.name)
             out.write_text(json.dumps({
-                "id": vid, "turns": turns, "test_end": end, "candidate": candidate, "examiner": examiner,
+                "id": vid, "num_speakers": speakers.get("num_speakers"), "turns": turns, "test_end": end, "candidate": candidate, "examiner": examiner,
                 "speaker_talk_s": {k: round(v, 1) for k, v in talk.items()},
                 "candidate_words": [w for w in in_test if w["speaker"] == candidate],
             }, ensure_ascii=False), encoding="utf-8")
